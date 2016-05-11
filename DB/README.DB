@@ -1,0 +1,51 @@
+# This directory is currently empty
+# To be able to run the program 'proteus' finally, it should contain the following files:
+
+uniref90.fasta
+uniref90.fasta.00.psq
+uniref90.fasta.00.pin
+uniref90.fasta.00.phr
+uniref90.fasta.01.psq
+uniref90.fasta.01.pin
+uniref90.fasta.01.phr
+uniref90.fasta.02.psq
+uniref90.fasta.02.pin
+uniref90.fasta.02.phr
+uniref90.fasta.03.psq
+uniref90.fasta.03.pin
+uniref90.fasta.03.phr
+uniref90.fasta.04.psq
+uniref90.fasta.04.pin
+uniref90.fasta.04.phr
+uniref90.fasta.05.psq
+uniref90.fasta.05.pin
+uniref90.fasta.05.phr
+uniref90.fasta.06.psq
+uniref90.fasta.06.pin
+uniref90.fasta.06.phr
+uniref90.fasta.07.psq
+uniref90.fasta.07.pin
+uniref90.fasta.07.phr
+uniref90.fasta.08.psq
+uniref90.fasta.08.pin
+uniref90.fasta.08.phr
+uniref90.fasta.09.psq
+uniref90.fasta.09.pin
+uniref90.fasta.09.phr
+uniref90.fasta.pal
+uniref90.fasta.10.psq
+uniref90.fasta.10.pin
+uniref90.fasta.10.phr
+formatdb.log
+
+#One needs to download the updated-most version of 'uniref90.fasta' file (sequence database) from the web (http://www.ebi.ac.uk/uniprot/database/download.html)
+#and then do a format database on it (formatdb) to generate the above listing
+
+
+
+
+
+
+
+
+
