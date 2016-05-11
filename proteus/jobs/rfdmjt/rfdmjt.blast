@@ -1,0 +1,1652 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= rfdmjt <unknown description>
+         (262 letters)
+
+Database: uniref90.fasta 
+           31,420,390 sequences; 10,480,658,066 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_E1B8Z7 Uncharacterized protein n=20 Tax=Theria RepID=E1...   359   7e-97
+UniRef90_Q05195 Max dimerization protein 1 n=73 Tax=Theria RepID...   341   2e-91
+UniRef90_P50538 Max dimerization protein 1 n=17 Tax=Muroidea Rep...   336   7e-90
+UniRef90_UPI00035A276E PREDICTED: max dimerization protein 1 iso...   325   2e-86
+UniRef90_J9P471 Uncharacterized protein n=2 Tax=Canis familiaris...   319   1e-84
+UniRef90_Q05195-2 Isoform 2 of Max dimerization protein 1 n=33 T...   312   9e-83
+UniRef90_J3S4M7 Max dimerization protein 1-like n=2 Tax=Colubroi...   309   1e-81
+UniRef90_UPI0003D0EDC3 PREDICTED: max dimerization protein 1 n=3...   307   3e-81
+UniRef90_W5NDZ3 Uncharacterized protein n=1 Tax=Lepisosteus ocul...   305   1e-80
+UniRef90_UPI00057B9203 PREDICTED: LOW QUALITY PROTEIN: max dimer...   296   9e-78
+UniRef90_H3BD61 Uncharacterized protein n=4 Tax=Latimeria chalum...   293   7e-77
+UniRef90_UPI00053FD939 PREDICTED: max dimerization protein 1 n=5...   292   1e-76
+UniRef90_UPI00042BFD7E PREDICTED: uncharacterized protein LOC102...   291   3e-76
+UniRef90_A2BFZ1 Uncharacterized protein n=1 Tax=Danio rerio RepI...   290   4e-76
+UniRef90_H9GAU3 Uncharacterized protein n=2 Tax=Anolis carolinen...   290   5e-76
+UniRef90_Q0VH34 Max dimerization protein 1 n=4 Tax=Xenopus RepID...   286   9e-75
+UniRef90_L9KM97 Max dimerization protein 1 n=1 Tax=Tupaia chinen...   284   2e-74
+UniRef90_M7B4R9 Max dimerization protein 1 n=2 Tax=Chelonia myda...   277   3e-72
+UniRef90_G3SPE8 Uncharacterized protein n=1 Tax=Loxodonta africa...   270   5e-70
+UniRef90_H3C0W3 Uncharacterized protein (Fragment) n=1 Tax=Tetra...   262   1e-67
+UniRef90_UPI00053CDD0A PREDICTED: max dimerization protein 1 n=1...   256   7e-66
+UniRef90_F7E6J6 Max dimerization protein 1 n=1 Tax=Xenopus tropi...   253   5e-65
+UniRef90_A0A091CT70 Max dimerization protein 1 n=1 Tax=Fukomys d...   253   6e-65
+UniRef90_K7G942 Uncharacterized protein n=3 Tax=Amniota RepID=K7...   253   7e-65
+UniRef90_UPI000441964B PREDICTED: max dimerization protein 1 n=1...   249   1e-63
+UniRef90_A0A060XEN0 Oncorhynchus mykiss genomic scaffold, scaffo...   246   1e-62
+UniRef90_I3KFU3 Uncharacterized protein (Fragment) n=19 Tax=Perc...   241   3e-61
+UniRef90_UPI0002234B54 PREDICTED: max dimerization protein 1 n=1...   234   2e-59
+UniRef90_UPI000523C76C PREDICTED: max dimerization protein 1-lik...   233   9e-59
+UniRef90_V9KZY9 Max dimerization protein 1 n=1 Tax=Callorhynchus...   233   1e-58
+UniRef90_G9KBY4 MAX dimerization protein 1 (Fragment) n=2 Tax=Ca...   231   3e-58
+UniRef90_UPI0003956F9B PREDICTED: max dimerization protein 1 n=1...   230   4e-58
+UniRef90_UPI0003C28882 PREDICTED: max dimerization protein 1 iso...   230   6e-58
+UniRef90_UPI0005206723 PREDICTED: max dimerization protein 1, pa...   228   2e-57
+UniRef90_UPI0005116F5A PREDICTED: max dimerization protein 1 n=1...   228   3e-57
+UniRef90_H2ULU8 Uncharacterized protein n=1 Tax=Takifugu rubripe...   228   3e-57
+UniRef90_UPI0003941A3C PREDICTED: max-interacting protein 1-like...   227   6e-57
+UniRef90_H2ULU6 Uncharacterized protein n=1 Tax=Takifugu rubripe...   226   6e-57
+UniRef90_UPI00051E3613 PREDICTED: max dimerization protein 1 n=1...   225   2e-56
+UniRef90_R4GCZ6 Uncharacterized protein n=3 Tax=Sauria RepID=R4G...   224   2e-56
+UniRef90_W5N3L9 Uncharacterized protein n=3 Tax=Lepisosteus ocul...   223   6e-56
+UniRef90_U3I9F8 Uncharacterized protein (Fragment) n=16 Tax=Amni...   223   8e-56
+UniRef90_UPI00039904C5 PREDICTED: LOW QUALITY PROTEIN: MAX dimer...   223   9e-56
+UniRef90_UPI0005305C21 PREDICTED: LOW QUALITY PROTEIN: max dimer...   223   9e-56
+UniRef90_U3JHZ8 Uncharacterized protein n=21 Tax=Aves RepID=U3JH...   221   2e-55
+UniRef90_UPI0004543A6C PREDICTED: max dimerization protein 1 iso...   221   2e-55
+UniRef90_P50540 Max-interacting protein 1 n=31 Tax=Amniota RepID...   221   3e-55
+UniRef90_UPI00051EF073 PREDICTED: max dimerization protein 1, pa...   220   5e-55
+UniRef90_A0A091JGR1 Max-interacting protein 1 (Fragment) n=8 Tax...   219   1e-54
+UniRef90_UPI00053262A6 PREDICTED: max dimerization protein 1, pa...   218   3e-54
+UniRef90_H2ULU3 Uncharacterized protein (Fragment) n=4 Tax=Takif...   217   4e-54
+UniRef90_P50539 Max-interacting protein 1 n=58 Tax=Amniota RepID...   217   4e-54
+UniRef90_UPI0004421720 PREDICTED: max-interacting protein 1 isof...   214   5e-53
+UniRef90_U3IQX9 Uncharacterized protein (Fragment) n=4 Tax=Neogn...   213   9e-53
+UniRef90_A0A091M9I3 Max dimerization protein 1 (Fragment) n=3 Ta...   211   2e-52
+UniRef90_UPI00051B0BB5 PREDICTED: max dimerization protein 1 n=1...   211   3e-52
+UniRef90_G1KEY6 Uncharacterized protein n=2 Tax=Anolis carolinen...   211   3e-52
+UniRef90_UPI00052174A6 PREDICTED: max dimerization protein 1 n=1...   211   4e-52
+UniRef90_UPI000577EA7E PREDICTED: max-interacting protein 1-like...   211   4e-52
+UniRef90_UPI0003D0DAA7 PREDICTED: max-interacting protein 1 n=1 ...   209   8e-52
+UniRef90_H9H0K3 Uncharacterized protein (Fragment) n=2 Tax=Melea...   208   2e-51
+UniRef90_UPI0004571943 PREDICTED: max dimerization protein 1-lik...   207   3e-51
+UniRef90_I3KHD5 Uncharacterized protein (Fragment) n=5 Tax=Perco...   207   3e-51
+UniRef90_A0A093DHM8 Max dimerization protein 1 (Fragment) n=1 Ta...   207   3e-51
+UniRef90_P50539-3 Isoform 3 of Max-interacting protein 1 n=70 Ta...   207   5e-51
+UniRef90_A0A091TCX5 Max dimerization protein 1 (Fragment) n=1 Ta...   207   5e-51
+UniRef90_A0A091FN96 Max dimerization protein 1 (Fragment) n=1 Ta...   207   5e-51
+UniRef90_S4R7M3 Uncharacterized protein n=1 Tax=Petromyzon marin...   205   2e-50
+UniRef90_Q5ZJ78 Uncharacterized protein n=2 Tax=Gallus gallus Re...   204   3e-50
+UniRef90_UPI0004BFC8AD PREDICTED: LOW QUALITY PROTEIN: max dimer...   202   9e-50
+UniRef90_G3PIQ6 Uncharacterized protein (Fragment) n=1 Tax=Gaste...   202   1e-49
+UniRef90_M3ZXX7 Uncharacterized protein n=15 Tax=Percomorphaceae...   201   2e-49
+UniRef90_UPI000496097C PREDICTED: max-interacting protein 1-like...   200   7e-49
+UniRef90_H3D729 Uncharacterized protein n=4 Tax=Tetraodontidae R...   199   8e-49
+UniRef90_UPI0004F06DBD PREDICTED: max-interacting protein 1 isof...   199   1e-48
+UniRef90_H2MK07 Uncharacterized protein (Fragment) n=3 Tax=Oryzi...   197   6e-48
+UniRef90_M4AE90 Uncharacterized protein n=7 Tax=Poeciliinae RepI...   196   1e-47
+UniRef90_W5KAD3 Uncharacterized protein n=1 Tax=Astyanax mexican...   196   1e-47
+UniRef90_H0ZK05 Uncharacterized protein (Fragment) n=5 Tax=Neogn...   195   1e-47
+UniRef90_UPI0005773D7D PREDICTED: max-interacting protein 1-like...   194   2e-47
+UniRef90_UPI0004431FBB PREDICTED: max-interacting protein 1 isof...   194   4e-47
+UniRef90_P50541 Max-interacting protein 1 n=4 Tax=Danio rerio Re...   194   5e-47
+UniRef90_UPI0004BD525C PREDICTED: max-interacting protein 1 n=1 ...   193   7e-47
+UniRef90_UPI00039929B9 PREDICTED: max-interacting protein 1 n=1 ...   193   7e-47
+UniRef90_F1QI91 Uncharacterized protein (Fragment) n=2 Tax=Danio...   193   8e-47
+UniRef90_W5UF31 Max-interacting protein 1 n=1 Tax=Ictalurus punc...   193   9e-47
+UniRef90_H2LN68 Uncharacterized protein (Fragment) n=4 Tax=Ovale...   192   1e-46
+UniRef90_A0A087QZF5 Max-interacting protein 1 (Fragment) n=11 Ta...   192   1e-46
+UniRef90_I3IVA8 Uncharacterized protein n=2 Tax=Percomorphaceae ...   192   2e-46
+UniRef90_A0A060VTK8 Oncorhynchus mykiss genomic scaffold, scaffo...   191   2e-46
+UniRef90_UPI0003D715C0 PREDICTED: max-interacting protein 1 isof...   191   3e-46
+UniRef90_A0A091HSH5 Max-interacting protein 1 (Fragment) n=2 Tax...   190   7e-46
+UniRef90_W5M2U7 Uncharacterized protein n=2 Tax=Euteleostomi Rep...   189   1e-45
+UniRef90_Q28CB7 MAX interactor 1 n=2 Tax=Xenopus tropicalis RepI...   189   2e-45
+UniRef90_L5LUH6 Max-interacting protein 1 n=1 Tax=Myotis davidii...   187   4e-45
+UniRef90_UPI0002A4C846 PREDICTED: max dimerization protein 1-lik...   187   4e-45
+UniRef90_Q1L2N4 Mxi1 n=2 Tax=Xenopus laevis RepID=Q1L2N4_XENLA        187   4e-45
+UniRef90_UPI0003C17B38 PREDICTED: max dimerization protein 3 n=1...   187   5e-45
+UniRef90_W5KAC8 Uncharacterized protein n=2 Tax=Astyanax mexican...   186   8e-45
+UniRef90_Q5ZLB9 Uncharacterized protein n=34 Tax=Sarcopterygii R...   186   1e-44
+UniRef90_UPI0003EC63AB PREDICTED: max-interacting protein 1-like...   185   2e-44
+UniRef90_H2R7E4 Uncharacterized protein n=1 Tax=Pan troglodytes ...   184   4e-44
+UniRef90_A0A096MJ49 Max interacting protein 1, isoform CRA_e n=8...   183   6e-44
+UniRef90_H9GD31 Uncharacterized protein n=2 Tax=Anolis carolinen...   182   1e-43
+UniRef90_H9H0K4 Uncharacterized protein (Fragment) n=1 Tax=Melea...   182   1e-43
+UniRef90_W5M2T1 Uncharacterized protein n=1 Tax=Lepisosteus ocul...   182   1e-43
+UniRef90_UPI000577432C PREDICTED: max-interacting protein 1-like...   182   2e-43
+UniRef90_M3ZTE0 Uncharacterized protein n=10 Tax=Percomorphaceae...   182   2e-43
+UniRef90_H3DL10 Uncharacterized protein n=5 Tax=Euteleosteomorph...   181   2e-43
+UniRef90_G3ICI8 MAX-interacting protein 1 n=3 Tax=Muroidea RepID...   181   3e-43
+UniRef90_I3N2H7 Uncharacterized protein n=8 Tax=Amniota RepID=I3...   180   5e-43
+UniRef90_UPI0005121272 PREDICTED: max-interacting protein 1 n=1 ...   180   5e-43
+UniRef90_W5KWH3 Uncharacterized protein n=1 Tax=Astyanax mexican...   179   1e-42
+UniRef90_UPI0004F4553B PREDICTED: max-interacting protein 1 n=1 ...   178   2e-42
+UniRef90_A0A093J711 Max dimerization protein 1 (Fragment) n=5 Ta...   178   2e-42
+UniRef90_UPI00033154CD PREDICTED: max dimerization protein 4 n=1...   178   2e-42
+UniRef90_H0X4J3 Uncharacterized protein (Fragment) n=8 Tax=Prima...   177   5e-42
+UniRef90_UPI000523D497 PREDICTED: max-interacting protein 1, par...   176   7e-42
+UniRef90_Q14582 Max dimerization protein 4 n=4 Tax=Homininae Rep...   176   8e-42
+UniRef90_UPI0000D8CFC2 PREDICTED: max dimerization protein 4 iso...   176   1e-41
+UniRef90_U3JBG9 Uncharacterized protein (Fragment) n=3 Tax=Passe...   175   2e-41
+UniRef90_I3KMT1 Uncharacterized protein n=4 Tax=Pseudocrenilabri...   175   2e-41
+UniRef90_G3UQ51 Uncharacterized protein n=1 Tax=Meleagris gallop...   174   3e-41
+UniRef90_Q5HZZ5 Xmad4 protein n=1 Tax=Xenopus laevis RepID=Q5HZZ...   174   5e-41
+UniRef90_F6VYX9 Uncharacterized protein (Fragment) n=1 Tax=Ornit...   173   8e-41
+UniRef90_UPI000510AD1B PREDICTED: LOW QUALITY PROTEIN: max-inter...   172   1e-40
+UniRef90_G3P4F9 Uncharacterized protein (Fragment) n=1 Tax=Gaste...   172   1e-40
+UniRef90_F6UUZ2 Uncharacterized protein (Fragment) n=1 Tax=Xenop...   172   1e-40
+UniRef90_Q9W6H2 Basic helix-loop-helix transcription factor XMad...   172   1e-40
+UniRef90_H2S3Z7 Uncharacterized protein n=1 Tax=Takifugu rubripe...   172   2e-40
+UniRef90_UPI00045483C7 PREDICTED: max dimerization protein 1, pa...   172   2e-40
+UniRef90_Q7SX95 Max dimerization protein 3 n=3 Tax=Danio rerio R...   171   2e-40
+UniRef90_W5UCW5 Max dimerization protein 4 n=1 Tax=Ictalurus pun...   171   5e-40
+UniRef90_W5UHP3 Max dimerization protein 3 n=1 Tax=Ictalurus pun...   170   6e-40
+UniRef90_H2S3Z8 Uncharacterized protein n=1 Tax=Takifugu rubripe...   170   6e-40
+UniRef90_UPI000556ED68 PREDICTED: max dimerization protein 4 n=1...   170   8e-40
+UniRef90_H3BXC7 Uncharacterized protein (Fragment) n=2 Tax=Tetra...   169   9e-40
+UniRef90_R7TJD7 Uncharacterized protein n=1 Tax=Capitella teleta...   166   8e-39
+UniRef90_G3Q060 Uncharacterized protein (Fragment) n=1 Tax=Gaste...   166   8e-39
+UniRef90_V9L0I1 Max dimerization protein 4 n=2 Tax=Callorhynchus...   166   1e-38
+UniRef90_H2MKY4 Uncharacterized protein (Fragment) n=1 Tax=Oryzi...   165   2e-38
+UniRef90_H2LQK1 Uncharacterized protein n=2 Tax=Oryzias latipes ...   164   3e-38
+UniRef90_UPI0001CBB2F0 PREDICTED: max dimerization protein 1-lik...   164   3e-38
+UniRef90_R0LTV5 Max-interacting transcriptional repressor MAD4 (...   164   3e-38
+UniRef90_G1T9C5 Uncharacterized protein n=1 Tax=Oryctolagus cuni...   164   4e-38
+UniRef90_UPI00052F0ADF PREDICTED: max dimerization protein 4 n=1...   164   4e-38
+UniRef90_UPI000496D606 PREDICTED: max dimerization protein 3 n=1...   164   6e-38
+UniRef90_A0A091TN04 Max dimerization protein 4 (Fragment) n=19 T...   164   6e-38
+UniRef90_E7F6Q1 Uncharacterized protein n=1 Tax=Danio rerio RepI...   163   7e-38
+UniRef90_Q91VN7 Max dimerization protein 4 n=14 Tax=Boreoeutheri...   163   9e-38
+UniRef90_Q60948 Max dimerization protein 4 n=21 Tax=Eutheria Rep...   162   1e-37
+UniRef90_UPI00045DF220 PREDICTED: max dimerization protein 4 n=1...   162   1e-37
+UniRef90_V9L6V5 Max-interacting protein 1 (Fragment) n=2 Tax=Cal...   162   1e-37
+UniRef90_A0A096MIW8 Protein Mxd4 n=2 Tax=Rattus norvegicus RepID...   162   2e-37
+UniRef90_G1SN45 Uncharacterized protein n=2 Tax=Oryctolagus cuni...   161   3e-37
+UniRef90_M7C5M5 Max-interacting protein 1 n=4 Tax=Archelosauria ...   161   3e-37
+UniRef90_G1KEI5 Uncharacterized protein n=3 Tax=Anolis carolinen...   160   4e-37
+UniRef90_I3LDS9 Uncharacterized protein n=1 Tax=Sus scrofa RepID...   160   5e-37
+UniRef90_UPI000441D57E PREDICTED: max dimerization protein 4-lik...   160   6e-37
+UniRef90_G1PTL7 Uncharacterized protein (Fragment) n=8 Tax=Amnio...   160   6e-37
+UniRef90_UPI00053CEE0B PREDICTED: max-interacting protein 1 isof...   160   8e-37
+UniRef90_Q14VH3 MAX dimerization protein n=11 Tax=Apocrita RepID...   159   1e-36
+UniRef90_UPI000443F25B PREDICTED: max dimerization protein 3 n=1...   159   2e-36
+UniRef90_M4A5M4 Uncharacterized protein n=2 Tax=Poeciliinae RepI...   158   3e-36
+UniRef90_Q4S2T3 Chromosome 17 SCAF14760, whole genome shotgun se...   157   4e-36
+UniRef90_A0A099ZI42 Max-interacting protein 1 (Fragment) n=8 Tax...   157   7e-36
+UniRef90_UPI0004CCDEF4 PREDICTED: max dimerization protein 1-lik...   156   1e-35
+UniRef90_F6U3F6 Max-interacting protein 1 (Fragment) n=1 Tax=Hom...   155   2e-35
+UniRef90_L9KNL3 Max dimerization protein 4 n=1 Tax=Tupaia chinen...   155   3e-35
+UniRef90_UPI0002C59C06 PREDICTED: max dimerization protein 3 n=2...   153   7e-35
+UniRef90_A0A093G6K6 Max dimerization protein 1 (Fragment) n=2 Ta...   153   8e-35
+UniRef90_A0A0A9Z1J8 Max dimerization protein 1 n=4 Tax=Cimicomor...   152   2e-34
+UniRef90_C3Y472 Putative uncharacterized protein n=1 Tax=Branchi...   151   2e-34
+UniRef90_H0ZYE6 Uncharacterized protein (Fragment) n=2 Tax=Taeni...   150   5e-34
+UniRef90_UPI0003316416 PREDICTED: max dimerization protein 3 n=1...   149   9e-34
+UniRef90_V5HRL2 Putative nucleus (Fragment) n=1 Tax=Ixodes ricin...   149   1e-33
+UniRef90_UPI000441A0F0 PREDICTED: max dimerization protein 3 iso...   149   2e-33
+UniRef90_T1KE75 Uncharacterized protein n=1 Tax=Tetranychus urti...   149   2e-33
+UniRef90_V9LB60 Max-interacting protein 1 (Fragment) n=2 Tax=Cal...   148   3e-33
+UniRef90_E9FXP6 Putative uncharacterized protein n=1 Tax=Daphnia...   148   3e-33
+UniRef90_H2SHR6 Uncharacterized protein n=4 Tax=Tetraodontidae R...   147   4e-33
+UniRef90_UPI000359C93E PREDICTED: max-interacting protein 1-like...   147   7e-33
+UniRef90_UPI0002C2E55E PREDICTED: LOW QUALITY PROTEIN: MAX dimer...   147   7e-33
+UniRef90_Q0VH33 Max dimerization protein 3 n=3 Tax=Xenopus RepID...   145   3e-32
+UniRef90_Q9BW11 Max dimerization protein 3 n=18 Tax=Boreoeutheri...   144   3e-32
+UniRef90_V3Z6W0 Uncharacterized protein n=1 Tax=Lottia gigantea ...   144   4e-32
+UniRef90_UPI0004A2951D PREDICTED: max dimerization protein 3 iso...   144   6e-32
+UniRef90_A0A023FHU8 Uncharacterized protein n=1 Tax=Amblyomma ca...   144   6e-32
+UniRef90_F1S3C4 Uncharacterized protein n=5 Tax=Laurasiatheria R...   143   8e-32
+UniRef90_A0A091LM96 Max dimerization protein 1 (Fragment) n=1 Ta...   143   8e-32
+UniRef90_W5P281 Uncharacterized protein n=3 Tax=Boreoeutheria Re...   143   1e-31
+UniRef90_I3M0W7 Uncharacterized protein n=1 Tax=Spermophilus tri...   142   2e-31
+UniRef90_Q561K6 Uncharacterized protein (Fragment) n=3 Tax=Tetra...   142   2e-31
+UniRef90_E2R8L9 Uncharacterized protein n=11 Tax=Laurasiatheria ...   141   4e-31
+UniRef90_UPI000522A2D3 PREDICTED: max dimerization protein 4 n=1...   140   7e-31
+UniRef90_UPI000444324B PREDICTED: max dimerization protein 4 n=1...   140   7e-31
+UniRef90_UPI000332F2CE PREDICTED: max dimerization protein 3 n=1...   140   7e-31
+UniRef90_G3Q2Y6 Uncharacterized protein n=5 Tax=Percomorphaceae ...   140   8e-31
+UniRef90_W4XT34 Uncharacterized protein n=1 Tax=Strongylocentrot...   139   1e-30
+UniRef90_UPI00035010E3 PREDICTED: max dimerization protein 4 n=1...   139   1e-30
+UniRef90_G3WK09 Uncharacterized protein n=2 Tax=Metatheria RepID...   139   2e-30
+UniRef90_UPI00046B4BD0 PREDICTED: max dimerization protein 4 n=1...   139   2e-30
+UniRef90_V8PCF1 Max dimerization protein 4 (Fragment) n=1 Tax=Op...   138   2e-30
+UniRef90_UPI00052F17EB PREDICTED: max dimerization protein 1 n=1...   138   2e-30
+UniRef90_G5BCH8 Max-interacting transcriptional repressor MAD4 n...   138   2e-30
+UniRef90_UPI0004F4A124 PREDICTED: LOW QUALITY PROTEIN: max dimer...   138   3e-30
+UniRef90_UPI0002C66C8A PREDICTED: max dimerization protein 4 n=1...   138   3e-30
+UniRef90_UPI00042CD68A PREDICTED: max-binding protein MNT-like n...   137   4e-30
+UniRef90_UPI000333D8ED PREDICTED: max dimerization protein 4 n=1...   137   4e-30
+UniRef90_J9JXQ7 Uncharacterized protein n=2 Tax=Acyrthosiphon pi...   137   4e-30
+UniRef90_G1U5V9 Uncharacterized protein n=1 Tax=Oryctolagus cuni...   137   5e-30
+UniRef90_M3YHU3 Uncharacterized protein n=7 Tax=Laurasiatheria R...   136   8e-30
+UniRef90_G3Q4D7 Uncharacterized protein n=1 Tax=Gasterosteus acu...   136   8e-30
+UniRef90_I3MYV4 Uncharacterized protein (Fragment) n=2 Tax=Sperm...   136   1e-29
+UniRef90_UPI000441BDA9 PREDICTED: max dimerization protein 4 n=1...   135   1e-29
+UniRef90_UPI0004402E48 PREDICTED: max dimerization protein 4 n=1...   135   2e-29
+UniRef90_UPI0003BBB220 PREDICTED: max dimerization protein 4 n=1...   135   2e-29
+UniRef90_H2PCQ5 Uncharacterized protein (Fragment) n=1 Tax=Pongo...   135   2e-29
+UniRef90_UPI00053F30ED PREDICTED: max dimerization protein 4 n=1...   135   2e-29
+UniRef90_F4WLA2 MAD protein n=4 Tax=Formicidae RepID=F4WLA2_ACREC     135   3e-29
+UniRef90_UPI00032AE78F PREDICTED: max dimerization protein 3 n=1...   135   3e-29
+UniRef90_UPI0004D05AA0 PREDICTED: max dimerization protein 4 n=1...   135   3e-29
+UniRef90_UPI0004EFD334 PREDICTED: U4/U6.U5 small nuclear ribonuc...   134   3e-29
+UniRef90_UPI0003EBD0B2 PREDICTED: max dimerization protein 4, pa...   134   3e-29
+UniRef90_F7DZQ7 Uncharacterized protein (Fragment) n=2 Tax=Boreo...   134   3e-29
+UniRef90_UPI0003C8A820 PREDICTED: LOW QUALITY PROTEIN: MAX dimer...   134   4e-29
+UniRef90_UPI000532FEE1 PREDICTED: max dimerization protein 4 n=1...   134   4e-29
+UniRef90_A0A091D673 Lateral signaling target protein 2 like prot...   134   4e-29
+UniRef90_L7X1I6 Max dimerization-like protein n=9 Tax=Heliconiin...   134   4e-29
+UniRef90_A0A091SA35 Max dimerization protein 1 (Fragment) n=2 Ta...   134   4e-29
+UniRef90_G7MFT9 Max dimerization protein 4 (Fragment) n=2 Tax=Ce...   134   4e-29
+UniRef90_UPI0004F054C9 PREDICTED: max dimerization protein 4 n=1...   134   4e-29
+UniRef90_UPI000533F300 PREDICTED: max dimerization protein 4 iso...   134   5e-29
+UniRef90_UPI0003AE97CE PREDICTED: max dimerization protein 4 iso...   133   7e-29
+UniRef90_UPI0003F12E27 PREDICTED: max dimerization protein 3 iso...   133   7e-29
+UniRef90_UPI0003ABBF39 PREDICTED: max dimerization protein 4 iso...   133   8e-29
+UniRef90_A0A096MXW9 Uncharacterized protein n=3 Tax=Simiiformes ...   133   9e-29
+UniRef90_V5IAF4 Max dimerization protein n=1 Tax=Anoplophora gla...   132   1e-28
+UniRef90_UPI0003F1C05A PREDICTED: max dimerization protein 4 n=1...   132   1e-28
+UniRef90_W5P279 Uncharacterized protein n=1 Tax=Ovis aries RepID...   132   1e-28
+UniRef90_UPI0003F16C59 PREDICTED: max dimerization protein 4 n=1...   132   2e-28
+UniRef90_U5ES74 Putative max dimerization protein 4 (Fragment) n...   132   2e-28
+UniRef90_Q9BW11-4 Isoform 4 of Max dimerization protein 3 n=5 Ta...   132   2e-28
+UniRef90_UPI000522D14A PREDICTED: max dimerization protein 4, pa...   129   1e-27
+UniRef90_UPI00046BE953 PREDICTED: max dimerization protein 4 n=1...   129   1e-27
+UniRef90_UPI00053FB67E PREDICTED: max dimerization protein 3 iso...   129   1e-27
+UniRef90_UPI00049865B5 PREDICTED: max dimerization protein 4 iso...   129   1e-27
+UniRef90_UPI00057BA3C7 PREDICTED: LOW QUALITY PROTEIN: max dimer...   128   2e-27
+UniRef90_UPI0004571EFC PREDICTED: max dimerization protein 4 n=1...   128   3e-27
+UniRef90_UPI000533DD4C PREDICTED: max dimerization protein 3 iso...   128   3e-27
+UniRef90_UPI000533C112 PREDICTED: max dimerization protein 3 iso...   128   3e-27
+UniRef90_Q9BW11-3 Isoform 3 of Max dimerization protein 3 n=6 Ta...   128   3e-27
+UniRef90_Q9BW11-2 Isoform 2 of Max dimerization protein 3 n=10 T...   128   3e-27
+UniRef90_A0A091P5R9 Max dimerization protein 4 (Fragment) n=18 T...   127   4e-27
+UniRef90_UPI0003288F2F PREDICTED: max dimerization protein 4 n=1...   127   6e-27
+UniRef90_UPI000273C7B1 PREDICTED: uncharacterized protein LOC100...   127   6e-27
+UniRef90_A0A0A9Z4U1 Max dimerization protein 1 (Fragment) n=1 Ta...   127   6e-27
+UniRef90_I3KLY4 Uncharacterized protein (Fragment) n=1 Tax=Oreoc...   127   8e-27
+UniRef90_UPI00034F2BC0 PREDICTED: max dimerization protein 3 iso...   126   1e-26
+UniRef90_UPI0004DFD604 PREDICTED: LOW QUALITY PROTEIN: max dimer...   126   1e-26
+UniRef90_UPI0003D08727 PREDICTED: spidroin-2-like n=1 Tax=Alliga...   126   1e-26
+UniRef90_UPI00034F5370 PREDICTED: max dimerization protein 3 iso...   125   1e-26
+UniRef90_H0XVY4 Uncharacterized protein n=1 Tax=Otolemur garnett...   125   2e-26
+UniRef90_UPI00059ACD56 UPI00059ACD56 related cluster n=2 Tax=unk...   125   2e-26
+UniRef90_UPI00033465CC PREDICTED: max dimerization protein 3 n=1...   124   4e-26
+UniRef90_UPI0003339175 PREDICTED: max dimerization protein 3 n=3...   123   7e-26
+UniRef90_S9X0L2 Max-interacting protein 1 isoform a n=1 Tax=Came...   122   1e-25
+UniRef90_Q80US8 Max dimerization protein 3 n=4 Tax=Muroidea RepI...   122   2e-25
+UniRef90_W5N274 Uncharacterized protein n=1 Tax=Lepisosteus ocul...   122   2e-25
+UniRef90_K1RGW6 MAD protein n=1 Tax=Crassostrea gigas RepID=K1RG...   121   3e-25
+UniRef90_UPI0004549D4B PREDICTED: max dimerization protein 3 iso...   121   3e-25
+UniRef90_Q4TIQ8 Chromosome 12 SCAF1856, whole genome shotgun seq...   121   4e-25
+UniRef90_UPI0005216EB8 PREDICTED: max dimerization protein 3 n=1...   121   4e-25
+UniRef90_Q4RJC9 Chromosome 18 SCAF15038, whole genome shotgun se...   120   7e-25
+UniRef90_G1P8B9 Uncharacterized protein n=1 Tax=Myotis lucifugus...   120   9e-25
+UniRef90_F6TVR7 Uncharacterized protein n=2 Tax=Simiiformes RepI...   120   9e-25
+UniRef90_G3I0K0 Max-interacting transcriptional repressor MAD4 (...   119   1e-24
+UniRef90_I3NCE6 Uncharacterized protein (Fragment) n=1 Tax=Sperm...   119   1e-24
+UniRef90_F6RHV5 Uncharacterized protein (Fragment) n=2 Tax=Catar...   119   2e-24
+UniRef90_G3WEN3 Uncharacterized protein (Fragment) n=1 Tax=Sarco...   119   2e-24
+UniRef90_K9IRM4 Putative upstream transcription factor 2/l-myc-2...   118   2e-24
+UniRef90_UPI00046B9F07 PREDICTED: max dimerization protein 3 iso...   118   2e-24
+UniRef90_UPI0003F113DC PREDICTED: max dimerization protein 3 n=1...   118   2e-24
+UniRef90_H0UTP4 Uncharacterized protein (Fragment) n=1 Tax=Cavia...   118   3e-24
+UniRef90_UPI0004BD9863 PREDICTED: max dimerization protein 4 n=1...   118   4e-24
+UniRef90_UPI00039581F9 PREDICTED: max dimerization protein 3-lik...   118   4e-24
+UniRef90_F7G0Z6 Uncharacterized protein n=8 Tax=Cercopithecinae ...   118   4e-24
+UniRef90_L5K4V4 Max-interacting transcriptional repressor MAD4 n...   117   5e-24
+UniRef90_S9XFS6 Max dimerization protein 4 isoform 1 n=1 Tax=Cam...   116   1e-23
+UniRef90_UPI0003AE5ED4 PREDICTED: max dimerization protein 4 iso...   116   1e-23
+UniRef90_UPI000577DF90 PREDICTED: max dimerization protein 3 n=1...   115   2e-23
+UniRef90_A0A087QIH2 Max dimerization protein 1 (Fragment) n=2 Ta...   115   3e-23
+UniRef90_A0A099Z1V6 Max dimerization protein 1 (Fragment) n=1 Ta...   114   4e-23
+UniRef90_UPI00034FF1A4 PREDICTED: max dimerization protein 3 iso...   113   1e-22
+UniRef90_UPI000383545D PREDICTED: max dimerization protein 1-lik...   111   3e-22
+UniRef90_UPI0003EA9993 PREDICTED: max dimerization protein 3-lik...   111   4e-22
+UniRef90_UPI00053CE081 PREDICTED: max dimerization protein 3 n=1...   110   6e-22
+UniRef90_UPI0004ED301E PREDICTED: max dimerization protein 3 iso...   110   9e-22
+UniRef90_UPI0003833457 PREDICTED: max dimerization protein 1-lik...   109   1e-21
+UniRef90_UPI000529FBEF PREDICTED: LOW QUALITY PROTEIN: max dimer...   109   2e-21
+UniRef90_UPI0003291CA0 PREDICTED: max dimerization protein 3 n=1...   107   4e-21
+UniRef90_S7QAH9 Max dimerization protein 4 n=1 Tax=Myotis brandt...   105   2e-20
+UniRef90_A0A9R4 BHLH transcription factor MAD n=1 Tax=Molgula te...   105   2e-20
+UniRef90_UPI0004F4B569 PREDICTED: max dimerization protein 4 iso...   104   3e-20
+UniRef90_L5M2W4 Max dimerization protein 4 (Fragment) n=1 Tax=My...   104   3e-20
+UniRef90_UPI00034FE632 PREDICTED: max dimerization protein 3 iso...   103   1e-19
+UniRef90_UPI00052087EB PREDICTED: max dimerization protein 1-lik...   102   2e-19
+UniRef90_S4PQT4 Max dimerization-like protein (Fragment) n=1 Tax...   102   2e-19
+UniRef90_UPI0003955178 PREDICTED: max dimerization protein 3 n=1...   101   3e-19
+UniRef90_UPI0003C8E207 PREDICTED: max dimerization protein 3 n=1...   101   3e-19
+UniRef90_F7IDZ7 Uncharacterized protein n=1 Tax=Callithrix jacch...   101   4e-19
+UniRef90_UPI0001D55D33 PREDICTED: hypothetical protein LOC706346...   100   6e-19
+UniRef90_H2RBM2 Uncharacterized protein (Fragment) n=1 Tax=Pan t...   100   6e-19
+UniRef90_T1IW44 Uncharacterized protein n=1 Tax=Strigamia mariti...   100   9e-19
+UniRef90_UPI000440A344 PREDICTED: max dimerization protein 1 n=1...    99   1e-18
+UniRef90_UPI0005521440 PREDICTED: max dimerization protein 1-lik...    99   1e-18
+UniRef90_UPI00034FABD0 PREDICTED: max dimerization protein 3 iso...    99   2e-18
+UniRef90_UPI0005280612 PREDICTED: max dimerization protein 1-lik...    98   4e-18
+UniRef90_H2Y6W3 Uncharacterized protein n=1 Tax=Ciona savignyi R...    96   2e-17
+UniRef90_F7IGC8 Uncharacterized protein n=1 Tax=Callithrix jacch...    94   6e-17
+UniRef90_Q9NDP3 Not7 n=1 Tax=Ciona intestinalis RepID=Q9NDP3_CIOIN     94   8e-17
+UniRef90_T2MEL1 Max dimerization protein 1 n=1 Tax=Hydra vulgari...    93   1e-16
+UniRef90_L9JCC3 Max dimerization protein 3 n=1 Tax=Tupaia chinen...    92   2e-16
+UniRef90_UPI0003DF7480 PREDICTED: max-interacting protein 1-like...    92   2e-16
+UniRef90_UPI00046C1EBD PREDICTED: max-interacting protein 1-like...    92   3e-16
+UniRef90_A0A088A6X4 Uncharacterized protein n=1 Tax=Apis mellife...    92   3e-16
+UniRef90_V8PEK5 Max dimerization protein 3 (Fragment) n=1 Tax=Op...    91   4e-16
+UniRef90_E9J732 Putative uncharacterized protein (Fragment) n=1 ...    91   5e-16
+UniRef90_F8WBI0 Max dimerization protein 1 n=2 Tax=Homo sapiens ...    91   7e-16
+UniRef90_C3Y471 Putative uncharacterized protein n=1 Tax=Branchi...    89   2e-15
+UniRef90_E0VNE8 MAX-interacting protein, putative n=1 Tax=Pedicu...    89   2e-15
+UniRef90_UPI00034FD682 PREDICTED: max dimerization protein 4-lik...    88   5e-15
+UniRef90_A0A085N236 Uncharacterized protein n=2 Tax=Trichuris su...    87   6e-15
+UniRef90_UPI0004F3EFC2 PREDICTED: max dimerization protein 3 iso...    87   8e-15
+UniRef90_UPI0002659572 PREDICTED: max-interacting protein 1-like...    86   1e-14
+UniRef90_A0A077ZHP0 Max dimerization-like protein n=1 Tax=Trichu...    86   2e-14
+UniRef90_A7RZK1 Predicted protein n=1 Tax=Nematostella vectensis...    86   2e-14
+UniRef90_H0YQ84 Uncharacterized protein (Fragment) n=3 Tax=Passe...    84   8e-14
+UniRef90_UPI0003835484 PREDICTED: max dimerization protein 3-lik...    82   3e-13
+UniRef90_A0A096MJV4 Protein Mxd4 (Fragment) n=1 Tax=Rattus norve...    82   3e-13
+UniRef90_U6DID9 Max dimerization protein 3 (Fragment) n=1 Tax=Ne...    82   3e-13
+UniRef90_UPI00034476A4 PREDICTED: max dimerization protein 3 iso...    81   4e-13
+UniRef90_UPI0003AED751 PREDICTED: max dimerization protein 3 iso...    81   5e-13
+UniRef90_A0A0B1TPM4 Helix-loop-helix DNA-binding domain protein ...    80   8e-13
+UniRef90_A0A0B1S0R5 Helix-loop-helix DNA-binding domain protein ...    80   9e-13
+UniRef90_W5K7D2 Uncharacterized protein n=1 Tax=Astyanax mexican...    79   2e-12
+UniRef90_U6NWQ4 Basic helix-loop-helix dimerisation region bHLH ...    78   4e-12
+UniRef90_UPI0003C89223 PREDICTED: uncharacterized protein LOC102...    77   6e-12
+UniRef90_G1QGY8 Uncharacterized protein (Fragment) n=1 Tax=Nomas...    77   8e-12
+UniRef90_A0A016T3L4 Uncharacterized protein n=2 Tax=Ancylostoma ...    77   9e-12
+UniRef90_C7BVS0 Putative MAD-Like family member n=1 Tax=Angiostr...    77   9e-12
+UniRef90_A0A061IHI6 Max dimerization protein 3 n=1 Tax=Cricetulu...    77   1e-11
+UniRef90_C3PPE4 DNA sequence from clone AEHM-22C5 (Fragment) n=2...    77   1e-11
+UniRef90_G3TQP6 Uncharacterized protein (Fragment) n=2 Tax=Loxod...    75   2e-11
+UniRef90_G5EG44 MAD-like-1 homolog n=1 Tax=Caenorhabditis elegan...    74   5e-11
+UniRef90_UPI0002989382 PREDICTED: max-interacting protein 1-like...    72   2e-10
+UniRef90_W5JKJ3 Uncharacterized protein n=1 Tax=Anopheles darlin...    72   2e-10
+UniRef90_F5HKD4 AGAP013301-PA n=1 Tax=Anopheles gambiae RepID=F5...    72   2e-10
+UniRef90_L5KVG4 Coiled-coil domain-containing protein 90A, mitoc...    72   2e-10
+UniRef90_A8XC72 Protein CBR-MDL-1 n=1 Tax=Caenorhabditis briggsa...    72   3e-10
+UniRef90_E5RZQ3 Putative helix-loop-helix DNA-binding domain pro...    72   3e-10
+UniRef90_S9XI58 Annexin n=1 Tax=Camelus ferus RepID=S9XI58_9CETA       72   4e-10
+UniRef90_C1BIG1 MAX-interacting protein 1 n=2 Tax=Oncorhynchus m...    72   4e-10
+UniRef90_G3H178 Ras-related protein Rab-24 (Fragment) n=1 Tax=Cr...    71   5e-10
+UniRef90_G0MSI0 Putative uncharacterized protein n=1 Tax=Caenorh...    71   5e-10
+UniRef90_B0X7F7 Max binding protein n=1 Tax=Culex quinquefasciat...    71   7e-10
+UniRef90_F7IGD0 Uncharacterized protein (Fragment) n=1 Tax=Calli...    70   1e-09
+UniRef90_U5ESY6 Putative cell surface glycoprotein n=1 Tax=Coret...    70   1e-09
+UniRef90_A0A088A6X1 Uncharacterized protein n=1 Tax=Apis mellife...    70   1e-09
+UniRef90_W2SRA3 Helix-loop-helix DNA-binding domain protein n=1 ...    70   1e-09
+UniRef90_T1EL00 Uncharacterized protein (Fragment) n=1 Tax=Helob...    70   1e-09
+UniRef90_A0A067RH84 MAD protein n=1 Tax=Zootermopsis nevadensis ...    69   2e-09
+UniRef90_Q175Q6 AAEL006567-PA n=1 Tax=Aedes aegypti RepID=Q175Q6...    69   2e-09
+UniRef90_H2W1V6 Uncharacterized protein n=1 Tax=Caenorhabditis j...    69   3e-09
+UniRef90_UPI00045469AF PREDICTED: max dimerization protein 3 iso...    68   4e-09
+UniRef90_A0A068XRH1 Max dimerization protein 1 n=1 Tax=Hymenolep...    68   4e-09
+UniRef90_H2Y6W2 Uncharacterized protein n=1 Tax=Ciona savignyi R...    68   5e-09
+UniRef90_F6QTL8 Uncharacterized protein n=3 Tax=Equus caballus R...    68   5e-09
+UniRef90_U1MBN6 Helix-loop-helix dna-binding domain containing p...    67   1e-08
+UniRef90_B3SAY5 Putative uncharacterized protein n=1 Tax=Trichop...    66   2e-08
+UniRef90_A0A084VZA8 AGAP013301-PA-like protein n=1 Tax=Anopheles...    65   3e-08
+UniRef90_C3KIG5 Max-interacting transcriptional repressor MAD4 n...    65   4e-08
+UniRef90_UPI00021A3F22 PREDICTED: max-interacting protein 1-like...    64   5e-08
+UniRef90_A0A016T3P8 Uncharacterized protein n=2 Tax=Ancylostoma ...    64   5e-08
+UniRef90_I1GEJ1 Uncharacterized protein n=2 Tax=Amphimedon queen...    64   6e-08
+UniRef90_UPI0004ABB825 PREDICTED: max dimerization protein 1-lik...    63   1e-07
+UniRef90_A8PPR1 Protein BM-MDL-1, isoform b n=4 Tax=Onchocercida...    63   2e-07
+UniRef90_UPI000392E91E PREDICTED: lateral signaling target prote...    63   2e-07
+UniRef90_G6DE79 Uncharacterized protein n=1 Tax=Danaus plexippus...    62   3e-07
+UniRef90_B4L4V8 GI15838 n=1 Tax=Drosophila mojavensis RepID=B4L4...    62   4e-07
+UniRef90_W4WH56 Uncharacterized protein (Fragment) n=1 Tax=Atta ...    62   4e-07
+UniRef90_Q29GN1 GA12197 n=1 Tax=Drosophila pseudoobscura pseudoo...    62   4e-07
+UniRef90_A0A0B2VED8 Max dimerization protein 3 n=1 Tax=Toxocara ...    61   4e-07
+UniRef90_Q9W4Q7 Mnt, isoform D n=3 Tax=Drosophila melanogaster R...    61   4e-07
+UniRef90_A0A090N0S9 Myc-type, basic helix-loop-helix (BHLH) doma...    61   5e-07
+UniRef90_S9YCR4 MAX dimerization protein 3 (Fragment) n=1 Tax=Ca...    61   5e-07
+UniRef90_UPI0002ADA61D PREDICTED: uncharacterized protein LOC100...    61   5e-07
+UniRef90_A0A068YB28 Mxi neural development protein max dimerizat...    61   5e-07
+UniRef90_T1D607 Putative max binding protein (Fragment) n=1 Tax=...    61   5e-07
+UniRef90_A0A088AJU1 Uncharacterized protein n=1 Tax=Apis mellife...    61   6e-07
+UniRef90_G1Q1N9 Uncharacterized protein (Fragment) n=2 Tax=Myoti...    61   6e-07
+UniRef90_UPI0003DF7250 PREDICTED: uncharacterized protein LOC102...    60   7e-07
+UniRef90_Q9W6H3 Basic helix-loop-helix transcription factor XMad...    60   7e-07
+UniRef90_UPI0003F0A621 PREDICTED: max-binding protein MNT-like n...    60   1e-06
+UniRef90_UPI0004CDAA81 PREDICTED: uncharacterized protein LOC103...    59   2e-06
+UniRef90_B4M1L4 GJ19328 n=1 Tax=Drosophila virilis RepID=B4M1L4_...    59   2e-06
+UniRef90_UPI00046C0749 PREDICTED: max dimerization protein 1-lik...    58   4e-06
+UniRef90_W4ZDG6 Uncharacterized protein n=1 Tax=Strongylocentrot...    58   4e-06
+UniRef90_UPI00045418DF PREDICTED: actin cytoskeleton-regulatory ...    58   6e-06
+UniRef90_B3MW85 GF22645 n=1 Tax=Drosophila ananassae RepID=B3MW8...    57   6e-06
+UniRef90_B4Q0I6 GE16308 n=2 Tax=melanogaster subgroup RepID=B4Q0...    57   6e-06
+UniRef90_A0A091D5F7 Max-binding protein MNT n=2 Tax=Rodentia Rep...    56   2e-05
+UniRef90_R4GHV5 Uncharacterized protein n=1 Tax=Gallus gallus Re...    56   2e-05
+UniRef90_A0A024MCZ6 Protein BM-MDL-1, isoform a n=1 Tax=Brugia m...    55   3e-05
+UniRef90_T1JIH2 Uncharacterized protein n=1 Tax=Strigamia mariti...    55   4e-05
+UniRef90_T1IQ81 Uncharacterized protein n=1 Tax=Strigamia mariti...    55   4e-05
+UniRef90_UPI00035984CE PREDICTED: putative GPI-anchored protein ...    55   4e-05
+UniRef90_UPI0004432385 PREDICTED: max-binding protein MNT n=1 Ta...    55   5e-05
+UniRef90_S4NWZ2 Max binding protein mnt (Fragment) n=1 Tax=Parar...    54   5e-05
+UniRef90_UPI0001E46480 hypothetical protein LOAG_03219 n=1 Tax=L...    54   6e-05
+UniRef90_B4NDD5 GK10211 n=1 Tax=Drosophila willistoni RepID=B4ND...    54   1e-04
+UniRef90_W8BPL3 Max-binding protein MNT n=2 Tax=Ceratitis capita...    54   1e-04
+UniRef90_UPI0003DE96E5 PREDICTED: uncharacterized protein LOC550...    54   1e-04
+UniRef90_A0A0A1X5N7 Max-binding protein MNT n=1 Tax=Bactrocera c...    53   2e-04
+UniRef90_B4R468 GD16648 n=1 Tax=Drosophila simulans RepID=B4R468...    53   2e-04
+UniRef90_W8BBR4 Max-binding protein MNT n=2 Tax=Ceratitis capita...    53   2e-04
+UniRef90_O46042 EG:114E2.2 protein n=2 Tax=Drosophila melanogast...    53   2e-04
+UniRef90_A0A034WJ42 Max-binding protein MNT n=2 Tax=Bactrocera R...    52   2e-04
+UniRef90_UPI00059720A9 UPI00059720A9 related cluster n=1 Tax=unk...    52   2e-04
+UniRef90_K1QLP9 Max-binding protein MNT n=1 Tax=Crassostrea giga...    52   2e-04
+UniRef90_UPI00046CA761 PREDICTED: max-binding protein MNT-like i...    52   2e-04
+UniRef90_Q8SY46 GH28809p n=3 Tax=Drosophila melanogaster RepID=Q...    52   2e-04
+UniRef90_A0A034WMM9 Max-binding protein MNT n=4 Tax=Bactrocera R...    52   2e-04
+UniRef90_A0A091CTB3 Max-interacting protein 1 n=1 Tax=Fukomys da...    52   2e-04
+UniRef90_R7T9N9 Uncharacterized protein n=1 Tax=Capitella teleta...    52   3e-04
+UniRef90_UPI00059DD9AF UPI00059DD9AF related cluster n=1 Tax=unk...    52   3e-04
+UniRef90_A0A022T5H2 Phosphorylase b kinase gamma catalytic chain...    52   3e-04
+UniRef90_D6RGV1 Max dimerization protein 4 n=1 Tax=Homo sapiens ...    52   3e-04
+UniRef90_K7JRC0 Uncharacterized protein n=2 Tax=Nasonia vitripen...    52   3e-04
+UniRef90_UPI0004AB4EE7 PREDICTED: probable GPI-anchored adhesin-...    52   4e-04
+UniRef90_E0W3N1 Max-binding protein MNT, putative n=1 Tax=Pedicu...    52   4e-04
+UniRef90_E3LDC5 CRE-MDL-1 protein n=1 Tax=Caenorhabditis remanei...    52   4e-04
+UniRef90_UPI00034FAFCF PREDICTED: max-binding protein MNT-like n...    51   5e-04
+UniRef90_H9JUG0 Uncharacterized protein n=1 Tax=Bombyx mori RepI...    51   7e-04
+UniRef90_V4B9M2 Uncharacterized protein n=1 Tax=Lottia gigantea ...    50   7e-04
+UniRef90_W5KSN9 Uncharacterized protein n=1 Tax=Astyanax mexican...    50   9e-04
+UniRef90_V5HVZ6 Putative max-binding protein mnt (Fragment) n=2 ...    50   9e-04
+UniRef90_Q9BUD5 MXD4 protein n=1 Tax=Homo sapiens RepID=Q9BUD5_H...    50   0.001
+UniRef90_E9CIA9 Uncharacterized protein n=1 Tax=Capsaspora owcza...    50   0.001
+UniRef90_A7RVA5 Predicted protein n=1 Tax=Nematostella vectensis...    50   0.001
+UniRef90_B4JN36 GH24213 n=1 Tax=Drosophila grimshawi RepID=B4JN3...    50   0.001
+UniRef90_G3QB26 Uncharacterized protein n=1 Tax=Gasterosteus acu...    50   0.001
+UniRef90_H3DKT2 Uncharacterized protein n=2 Tax=Tetraodon nigrov...    50   0.001
+UniRef90_UPI000441D717 PREDICTED: LOW QUALITY PROTEIN: max-bindi...    50   0.001
+UniRef90_UPI000273BD3F PREDICTED: max-binding protein MNT n=1 Ta...    50   0.001
+UniRef90_UPI000495AE49 PREDICTED: max-binding protein MNT-like n...    49   0.002
+UniRef90_UPI000580B814 PREDICTED: AF4/FMR2 family member 4-like ...    49   0.002
+UniRef90_W5KN47 Uncharacterized protein n=1 Tax=Astyanax mexican...    49   0.002
+UniRef90_T1FWD7 Uncharacterized protein n=1 Tax=Helobdella robus...    49   0.003
+UniRef90_S4RI56 Uncharacterized protein n=1 Tax=Petromyzon marin...    49   0.003
+UniRef90_U3K241 Uncharacterized protein (Fragment) n=1 Tax=Ficed...    49   0.003
+UniRef90_V9L5I9 MAX-binding protein (Fragment) n=1 Tax=Callorhyn...    49   0.003
+UniRef90_A0A023FCM7 Uncharacterized protein (Fragment) n=1 Tax=A...    49   0.004
+UniRef90_J9K3D0 Uncharacterized protein n=3 Tax=Acyrthosiphon pi...    48   0.004
+UniRef90_UPI0003EADA86 PREDICTED: max-binding protein MNT-like n...    48   0.004
+UniRef90_UPI000350541E PREDICTED: max dimerization protein 3 n=1...    48   0.004
+UniRef90_G7Y5X4 Max dimerization protein 3 (Fragment) n=1 Tax=Cl...    48   0.004
+UniRef90_I3JQ33 Uncharacterized protein n=1 Tax=Oreochromis nilo...    48   0.004
+UniRef90_I3JQ32 Uncharacterized protein n=6 Tax=Pseudocrenilabri...    48   0.004
+UniRef90_K7JJZ3 Uncharacterized protein n=2 Tax=Nasonia vitripen...    48   0.005
+UniRef90_UPI0004F47126 PREDICTED: max-binding protein MNT n=1 Ta...    48   0.005
+UniRef90_UPI0002A48DB3 PREDICTED: max-binding protein MNT-like n...    48   0.005
+UniRef90_F4WE42 Phosphorylase b kinase gamma catalytic chain, sk...    48   0.006
+UniRef90_H2UTT8 Uncharacterized protein n=3 Tax=Takifugu rubripe...    48   0.006
+UniRef90_M4A9Z9 Uncharacterized protein n=3 Tax=Poeciliinae RepI...    48   0.006
+UniRef90_H2TUU4 Uncharacterized protein (Fragment) n=1 Tax=Takif...    48   0.006
+UniRef90_UPI00054B1604 PREDICTED: max-binding protein MNT-like n...    48   0.006
+UniRef90_G4VF66 Putative max binding protein, mnt n=1 Tax=Schist...    48   0.006
+UniRef90_A0A060Z0H8 Oncorhynchus mykiss genomic scaffold, scaffo...    47   0.006
+UniRef90_D3ZF98 Protein Mnt n=2 Tax=Rattus norvegicus RepID=D3ZF...    47   0.006
+UniRef90_W5LLC8 Uncharacterized protein n=1 Tax=Astyanax mexican...    47   0.007
+UniRef90_H2LBX6 Uncharacterized protein n=1 Tax=Oryzias latipes ...    47   0.007
+UniRef90_UPI0005215C3F PREDICTED: LOW QUALITY PROTEIN: max-bindi...    47   0.007
+UniRef90_G4VF67 Mxi neural development protein n=3 Tax=Schistoso...    47   0.007
+UniRef90_A0A026WE45 Max-binding protein MNT n=1 Tax=Cerapachys b...    47   0.007
+UniRef90_W5U920 Max-binding protein MNT n=1 Tax=Ictalurus puncta...    47   0.008
+UniRef90_K7G4F9 Uncharacterized protein n=9 Tax=Archelosauria Re...    47   0.008
+UniRef90_A0A093FYG5 Max-binding protein MNT (Fragment) n=1 Tax=P...    47   0.008
+UniRef90_UPI0004DFDEC8 PREDICTED: LOW QUALITY PROTEIN: max-bindi...    47   0.009
+UniRef90_M3ZNV9 Uncharacterized protein n=2 Tax=Xiphophorus macu...    47   0.010
+UniRef90_F7FZQ0 Uncharacterized protein n=1 Tax=Monodelphis dome...    47   0.010
+UniRef90_UPI000521714A PREDICTED: max-binding protein MNT, parti...    47   0.010
+UniRef90_E9C6F2 Uncharacterized protein n=1 Tax=Capsaspora owcza...    47   0.011
+UniRef90_UPI00038334A5 PREDICTED: max-binding protein MNT n=1 Ta...    47   0.011
+UniRef90_UPI00054C4375 PREDICTED: max-binding protein MNT n=1 Ta...    47   0.011
+UniRef90_UPI0003AF34ED PREDICTED: max-binding protein MNT n=1 Ta...    47   0.011
+UniRef90_UPI00057736CA PREDICTED: max-binding protein MNT-like n...    47   0.012
+UniRef90_T1I2X8 Uncharacterized protein n=2 Tax=Rhodnius prolixu...    46   0.014
+UniRef90_F1QBK5 Uncharacterized protein n=2 Tax=Danio rerio RepI...    46   0.016
+UniRef90_UPI00058C6080 UPI00058C6080 related cluster n=2 Tax=unk...    46   0.017
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_E1B8Z7 Uncharacterized protein n=20 Tax=Theria RepID=E1...   232   1e-58
+UniRef90_Q05195 Max dimerization protein 1 n=73 Tax=Theria RepID...   221   2e-55
+UniRef90_P50538 Max dimerization protein 1 n=17 Tax=Muroidea Rep...   215   2e-53
+UniRef90_UPI0003D0EDC3 PREDICTED: max dimerization protein 1 n=3...   215   2e-53
+UniRef90_UPI00035A276E PREDICTED: max dimerization protein 1 iso...   213   6e-53
+UniRef90_H3BD61 Uncharacterized protein n=4 Tax=Latimeria chalum...   208   2e-51
+UniRef90_J3S4M7 Max dimerization protein 1-like n=2 Tax=Colubroi...   205   2e-50
+UniRef90_Q05195-2 Isoform 2 of Max dimerization protein 1 n=33 T...   205   2e-50
+UniRef90_J9P471 Uncharacterized protein n=2 Tax=Canis familiaris...   204   4e-50
+UniRef90_W5NDZ3 Uncharacterized protein n=1 Tax=Lepisosteus ocul...   203   5e-50
+UniRef90_UPI00042BFD7E PREDICTED: uncharacterized protein LOC102...   201   2e-49
+UniRef90_Q0VH34 Max dimerization protein 1 n=4 Tax=Xenopus RepID...   200   5e-49
+UniRef90_W5N3L9 Uncharacterized protein n=3 Tax=Lepisosteus ocul...   199   9e-49
+UniRef90_UPI0003941A3C PREDICTED: max-interacting protein 1-like...   198   2e-48
+UniRef90_H9GAU3 Uncharacterized protein n=2 Tax=Anolis carolinen...   198   3e-48
+UniRef90_UPI00057B9203 PREDICTED: LOW QUALITY PROTEIN: max dimer...   197   4e-48
+UniRef90_G3SPE8 Uncharacterized protein n=1 Tax=Loxodonta africa...   195   2e-47
+UniRef90_A2BFZ1 Uncharacterized protein n=1 Tax=Danio rerio RepI...   193   8e-47
+UniRef90_UPI0003F12E27 PREDICTED: max dimerization protein 3 iso...   192   1e-46
+UniRef90_M7B4R9 Max dimerization protein 1 n=2 Tax=Chelonia myda...   191   2e-46
+UniRef90_A0A091JGR1 Max-interacting protein 1 (Fragment) n=8 Tax...   191   3e-46
+UniRef90_U3JHZ8 Uncharacterized protein n=21 Tax=Aves RepID=U3JH...   191   4e-46
+UniRef90_U3I9F8 Uncharacterized protein (Fragment) n=16 Tax=Amni...   190   7e-46
+UniRef90_R4GCZ6 Uncharacterized protein n=3 Tax=Sauria RepID=R4G...   190   7e-46
+UniRef90_H2ULU6 Uncharacterized protein n=1 Tax=Takifugu rubripe...   190   8e-46
+UniRef90_UPI00053FD939 PREDICTED: max dimerization protein 1 n=5...   188   2e-45
+UniRef90_UPI0004BD525C PREDICTED: max-interacting protein 1 n=1 ...   188   2e-45
+UniRef90_UPI0004421720 PREDICTED: max-interacting protein 1 isof...   188   3e-45
+UniRef90_P50539 Max-interacting protein 1 n=58 Tax=Amniota RepID...   186   1e-44
+UniRef90_A0A060XEN0 Oncorhynchus mykiss genomic scaffold, scaffo...   183   8e-44
+UniRef90_V9KZY9 Max dimerization protein 1 n=1 Tax=Callorhynchus...   183   8e-44
+UniRef90_P50539-3 Isoform 3 of Max-interacting protein 1 n=70 Ta...   183   8e-44
+UniRef90_H3C0W3 Uncharacterized protein (Fragment) n=1 Tax=Tetra...   183   1e-43
+UniRef90_F7E6J6 Max dimerization protein 1 n=1 Tax=Xenopus tropi...   182   2e-43
+UniRef90_I3KHD5 Uncharacterized protein (Fragment) n=5 Tax=Perco...   181   2e-43
+UniRef90_H2ULU8 Uncharacterized protein n=1 Tax=Takifugu rubripe...   181   3e-43
+UniRef90_P50540 Max-interacting protein 1 n=31 Tax=Amniota RepID...   181   3e-43
+UniRef90_H2LN68 Uncharacterized protein (Fragment) n=4 Tax=Ovale...   181   4e-43
+UniRef90_H2MK07 Uncharacterized protein (Fragment) n=3 Tax=Oryzi...   180   5e-43
+UniRef90_UPI0003D0DAA7 PREDICTED: max-interacting protein 1 n=1 ...   180   7e-43
+UniRef90_Q9BW11-4 Isoform 4 of Max dimerization protein 3 n=5 Ta...   179   1e-42
+UniRef90_G1KEY6 Uncharacterized protein n=2 Tax=Anolis carolinen...   179   1e-42
+UniRef90_I3IVA8 Uncharacterized protein n=2 Tax=Percomorphaceae ...   178   2e-42
+UniRef90_A0A060VTK8 Oncorhynchus mykiss genomic scaffold, scaffo...   178   2e-42
+UniRef90_H0ZK05 Uncharacterized protein (Fragment) n=5 Tax=Neogn...   178   2e-42
+UniRef90_L9KM97 Max dimerization protein 1 n=1 Tax=Tupaia chinen...   178   3e-42
+UniRef90_UPI00053CDD0A PREDICTED: max dimerization protein 1 n=1...   178   3e-42
+UniRef90_W5P279 Uncharacterized protein n=1 Tax=Ovis aries RepID...   177   4e-42
+UniRef90_M3ZXX7 Uncharacterized protein n=15 Tax=Percomorphaceae...   177   5e-42
+UniRef90_H3D729 Uncharacterized protein n=4 Tax=Tetraodontidae R...   176   7e-42
+UniRef90_UPI000496097C PREDICTED: max-interacting protein 1-like...   176   1e-41
+UniRef90_I3KFU3 Uncharacterized protein (Fragment) n=19 Tax=Perc...   176   1e-41
+UniRef90_UPI000577EA7E PREDICTED: max-interacting protein 1-like...   175   1e-41
+UniRef90_Q14582 Max dimerization protein 4 n=4 Tax=Homininae Rep...   175   2e-41
+UniRef90_UPI00051E3613 PREDICTED: max dimerization protein 1 n=1...   174   3e-41
+UniRef90_UPI00033154CD PREDICTED: max dimerization protein 4 n=1...   174   4e-41
+UniRef90_UPI00045DF220 PREDICTED: max dimerization protein 4 n=1...   174   4e-41
+UniRef90_UPI0004431FBB PREDICTED: max-interacting protein 1 isof...   174   4e-41
+UniRef90_W5KAD3 Uncharacterized protein n=1 Tax=Astyanax mexican...   173   9e-41
+UniRef90_UPI0003C17B38 PREDICTED: max dimerization protein 3 n=1...   172   1e-40
+UniRef90_W5M2U7 Uncharacterized protein n=2 Tax=Euteleostomi Rep...   172   2e-40
+UniRef90_G1P8B9 Uncharacterized protein n=1 Tax=Myotis lucifugus...   171   3e-40
+UniRef90_UPI000441964B PREDICTED: max dimerization protein 1 n=1...   171   3e-40
+UniRef90_Q5ZLB9 Uncharacterized protein n=34 Tax=Sarcopterygii R...   170   6e-40
+UniRef90_Q28CB7 MAX interactor 1 n=2 Tax=Xenopus tropicalis RepI...   169   9e-40
+UniRef90_H2ULU3 Uncharacterized protein (Fragment) n=4 Tax=Takif...   169   1e-39
+UniRef90_UPI0003956F9B PREDICTED: max dimerization protein 1 n=1...   169   1e-39
+UniRef90_UPI000577432C PREDICTED: max-interacting protein 1-like...   169   1e-39
+UniRef90_UPI0002234B54 PREDICTED: max dimerization protein 1 n=1...   169   1e-39
+UniRef90_UPI0005773D7D PREDICTED: max-interacting protein 1-like...   169   2e-39
+UniRef90_W5M2T1 Uncharacterized protein n=1 Tax=Lepisosteus ocul...   168   2e-39
+UniRef90_M4AE90 Uncharacterized protein n=7 Tax=Poeciliinae RepI...   168   2e-39
+UniRef90_W5KAC8 Uncharacterized protein n=2 Tax=Astyanax mexican...   168   3e-39
+UniRef90_H0X4J3 Uncharacterized protein (Fragment) n=8 Tax=Prima...   168   3e-39
+UniRef90_W5KWH3 Uncharacterized protein n=1 Tax=Astyanax mexican...   168   3e-39
+UniRef90_P50541 Max-interacting protein 1 n=4 Tax=Danio rerio Re...   167   4e-39
+UniRef90_M3ZTE0 Uncharacterized protein n=10 Tax=Percomorphaceae...   167   4e-39
+UniRef90_UPI00039929B9 PREDICTED: max-interacting protein 1 n=1 ...   167   5e-39
+UniRef90_UPI0004F06DBD PREDICTED: max-interacting protein 1 isof...   166   1e-38
+UniRef90_H9GD31 Uncharacterized protein n=2 Tax=Anolis carolinen...   166   1e-38
+UniRef90_K7G942 Uncharacterized protein n=3 Tax=Amniota RepID=K7...   165   2e-38
+UniRef90_H3DL10 Uncharacterized protein n=5 Tax=Euteleosteomorph...   164   3e-38
+UniRef90_Q5ZJ78 Uncharacterized protein n=2 Tax=Gallus gallus Re...   164   4e-38
+UniRef90_F7G0Z6 Uncharacterized protein n=8 Tax=Cercopithecinae ...   164   4e-38
+UniRef90_UPI000496D606 PREDICTED: max dimerization protein 3 n=1...   164   4e-38
+UniRef90_M4A5M4 Uncharacterized protein n=2 Tax=Poeciliinae RepI...   164   4e-38
+UniRef90_V9L0I1 Max dimerization protein 4 n=2 Tax=Callorhynchus...   164   5e-38
+UniRef90_UPI000523C76C PREDICTED: max dimerization protein 1-lik...   163   6e-38
+UniRef90_S4R7M3 Uncharacterized protein n=1 Tax=Petromyzon marin...   163   6e-38
+UniRef90_I3KMT1 Uncharacterized protein n=4 Tax=Pseudocrenilabri...   162   2e-37
+UniRef90_W5UHP3 Max dimerization protein 3 n=1 Tax=Ictalurus pun...   161   2e-37
+UniRef90_A0A087QZF5 Max-interacting protein 1 (Fragment) n=11 Ta...   161   2e-37
+UniRef90_UPI00034F5370 PREDICTED: max dimerization protein 3 iso...   161   2e-37
+UniRef90_G1SN45 Uncharacterized protein n=2 Tax=Oryctolagus cuni...   161   3e-37
+UniRef90_L9KNL3 Max dimerization protein 4 n=1 Tax=Tupaia chinen...   161   4e-37
+UniRef90_UPI000533C112 PREDICTED: max dimerization protein 3 iso...   160   5e-37
+UniRef90_L5LUH6 Max-interacting protein 1 n=1 Tax=Myotis davidii...   160   6e-37
+UniRef90_UPI0005206723 PREDICTED: max dimerization protein 1, pa...   160   6e-37
+UniRef90_C3Y472 Putative uncharacterized protein n=1 Tax=Branchi...   160   7e-37
+UniRef90_UPI0005116F5A PREDICTED: max dimerization protein 1 n=1...   159   8e-37
+UniRef90_H2R7E4 Uncharacterized protein n=1 Tax=Pan troglodytes ...   159   8e-37
+UniRef90_A0A091HSH5 Max-interacting protein 1 (Fragment) n=2 Tax...   159   9e-37
+UniRef90_W5UF31 Max-interacting protein 1 n=1 Tax=Ictalurus punc...   159   1e-36
+UniRef90_UPI00051EF073 PREDICTED: max dimerization protein 1, pa...   159   1e-36
+UniRef90_UPI00051B0BB5 PREDICTED: max dimerization protein 1 n=1...   158   3e-36
+UniRef90_W5UCW5 Max dimerization protein 4 n=1 Tax=Ictalurus pun...   158   3e-36
+UniRef90_Q7SX95 Max dimerization protein 3 n=3 Tax=Danio rerio R...   158   3e-36
+UniRef90_UPI0002C2E55E PREDICTED: LOW QUALITY PROTEIN: MAX dimer...   157   4e-36
+UniRef90_Q5HZZ5 Xmad4 protein n=1 Tax=Xenopus laevis RepID=Q5HZZ...   157   5e-36
+UniRef90_UPI0003C28882 PREDICTED: max dimerization protein 1 iso...   157   5e-36
+UniRef90_Q1L2N4 Mxi1 n=2 Tax=Xenopus laevis RepID=Q1L2N4_XENLA        157   5e-36
+UniRef90_A0A096MIW8 Protein Mxd4 n=2 Tax=Rattus norvegicus RepID...   157   5e-36
+UniRef90_UPI0005121272 PREDICTED: max-interacting protein 1 n=1 ...   157   6e-36
+UniRef90_UPI0003EC63AB PREDICTED: max-interacting protein 1-like...   156   1e-35
+UniRef90_G3P4F9 Uncharacterized protein (Fragment) n=1 Tax=Gaste...   156   1e-35
+UniRef90_Q91VN7 Max dimerization protein 4 n=14 Tax=Boreoeutheri...   156   1e-35
+UniRef90_UPI00059ACD56 UPI00059ACD56 related cluster n=2 Tax=unk...   156   1e-35
+UniRef90_H2S3Z7 Uncharacterized protein n=1 Tax=Takifugu rubripe...   156   1e-35
+UniRef90_G3Q060 Uncharacterized protein (Fragment) n=1 Tax=Gaste...   156   1e-35
+UniRef90_UPI000443F25B PREDICTED: max dimerization protein 3 n=1...   155   2e-35
+UniRef90_H3BXC7 Uncharacterized protein (Fragment) n=2 Tax=Tetra...   155   2e-35
+UniRef90_UPI00039904C5 PREDICTED: LOW QUALITY PROTEIN: MAX dimer...   154   3e-35
+UniRef90_H2S3Z8 Uncharacterized protein n=1 Tax=Takifugu rubripe...   154   3e-35
+UniRef90_UPI0004F4553B PREDICTED: max-interacting protein 1 n=1 ...   154   4e-35
+UniRef90_UPI0003D715C0 PREDICTED: max-interacting protein 1 isof...   154   5e-35
+UniRef90_Q60948 Max dimerization protein 4 n=21 Tax=Eutheria Rep...   154   5e-35
+UniRef90_H2LQK1 Uncharacterized protein n=2 Tax=Oryzias latipes ...   154   5e-35
+UniRef90_G1KEI5 Uncharacterized protein n=3 Tax=Anolis carolinen...   154   5e-35
+UniRef90_UPI0004571943 PREDICTED: max dimerization protein 1-lik...   154   5e-35
+UniRef90_A0A091CT70 Max dimerization protein 1 n=1 Tax=Fukomys d...   153   6e-35
+UniRef90_UPI0000D8CFC2 PREDICTED: max dimerization protein 4 iso...   153   7e-35
+UniRef90_UPI00053FB67E PREDICTED: max dimerization protein 3 iso...   152   1e-34
+UniRef90_UPI0001CBB2F0 PREDICTED: max dimerization protein 1-lik...   152   2e-34
+UniRef90_H2SHR6 Uncharacterized protein n=4 Tax=Tetraodontidae R...   152   2e-34
+UniRef90_UPI00052174A6 PREDICTED: max dimerization protein 1 n=1...   152   2e-34
+UniRef90_G3UQ51 Uncharacterized protein n=1 Tax=Meleagris gallop...   152   2e-34
+UniRef90_UPI000556ED68 PREDICTED: max dimerization protein 4 n=1...   151   2e-34
+UniRef90_UPI000441A0F0 PREDICTED: max dimerization protein 3 iso...   150   5e-34
+UniRef90_A0A091D673 Lateral signaling target protein 2 like prot...   150   5e-34
+UniRef90_G3PIQ6 Uncharacterized protein (Fragment) n=1 Tax=Gaste...   150   5e-34
+UniRef90_UPI0004F4A124 PREDICTED: LOW QUALITY PROTEIN: max dimer...   150   6e-34
+UniRef90_Q9W6H2 Basic helix-loop-helix transcription factor XMad...   150   8e-34
+UniRef90_UPI00053CEE0B PREDICTED: max-interacting protein 1 isof...   149   1e-33
+UniRef90_UPI0002C59C06 PREDICTED: max dimerization protein 3 n=2...   149   1e-33
+UniRef90_E7F6Q1 Uncharacterized protein n=1 Tax=Danio rerio RepI...   149   1e-33
+UniRef90_UPI0004A2951D PREDICTED: max dimerization protein 3 iso...   149   1e-33
+UniRef90_UPI00042CD68A PREDICTED: max-binding protein MNT-like n...   149   1e-33
+UniRef90_G3Q2Y6 Uncharacterized protein n=5 Tax=Percomorphaceae ...   149   2e-33
+UniRef90_W5P281 Uncharacterized protein n=3 Tax=Boreoeutheria Re...   148   3e-33
+UniRef90_UPI00046B4BD0 PREDICTED: max dimerization protein 4 n=1...   148   3e-33
+UniRef90_UPI00052F0ADF PREDICTED: max dimerization protein 4 n=1...   148   3e-33
+UniRef90_I3M0W7 Uncharacterized protein n=1 Tax=Spermophilus tri...   148   4e-33
+UniRef90_F1S3C4 Uncharacterized protein n=5 Tax=Laurasiatheria R...   148   4e-33
+UniRef90_UPI000510AD1B PREDICTED: LOW QUALITY PROTEIN: max-inter...   147   4e-33
+UniRef90_H9H0K3 Uncharacterized protein (Fragment) n=2 Tax=Melea...   147   4e-33
+UniRef90_UPI00053262A6 PREDICTED: max dimerization protein 1, pa...   147   4e-33
+UniRef90_I3LDS9 Uncharacterized protein n=1 Tax=Sus scrofa RepID...   147   5e-33
+UniRef90_UPI0004DFD604 PREDICTED: LOW QUALITY PROTEIN: max dimer...   147   6e-33
+UniRef90_UPI0003316416 PREDICTED: max dimerization protein 3 n=1...   147   6e-33
+UniRef90_Q9BW11 Max dimerization protein 3 n=18 Tax=Boreoeutheri...   147   6e-33
+UniRef90_A0A091TN04 Max dimerization protein 4 (Fragment) n=19 T...   146   1e-32
+UniRef90_UPI000523D497 PREDICTED: max-interacting protein 1, par...   146   1e-32
+UniRef90_UPI00053F30ED PREDICTED: max dimerization protein 4 n=1...   145   2e-32
+UniRef90_UPI000333D8ED PREDICTED: max dimerization protein 4 n=1...   145   2e-32
+UniRef90_F6U3F6 Max-interacting protein 1 (Fragment) n=1 Tax=Hom...   145   2e-32
+UniRef90_UPI000533DD4C PREDICTED: max dimerization protein 3 iso...   145   2e-32
+UniRef90_G3ICI8 MAX-interacting protein 1 n=3 Tax=Muroidea RepID...   145   2e-32
+UniRef90_R0LTV5 Max-interacting transcriptional repressor MAD4 (...   145   2e-32
+UniRef90_Q0VH33 Max dimerization protein 3 n=3 Tax=Xenopus RepID...   144   4e-32
+UniRef90_UPI0005305C21 PREDICTED: LOW QUALITY PROTEIN: max dimer...   144   5e-32
+UniRef90_F6UUZ2 Uncharacterized protein (Fragment) n=1 Tax=Xenop...   143   6e-32
+UniRef90_A0A096MJ49 Max interacting protein 1, isoform CRA_e n=8...   143   7e-32
+UniRef90_I3N2H7 Uncharacterized protein n=8 Tax=Amniota RepID=I3...   143   7e-32
+UniRef90_E2R8L9 Uncharacterized protein n=11 Tax=Laurasiatheria ...   143   9e-32
+UniRef90_G5BCH8 Max-interacting transcriptional repressor MAD4 n...   143   9e-32
+UniRef90_UPI0004F054C9 PREDICTED: max dimerization protein 4 n=1...   143   1e-31
+UniRef90_UPI00034F2BC0 PREDICTED: max dimerization protein 3 iso...   143   1e-31
+UniRef90_R7TJD7 Uncharacterized protein n=1 Tax=Capitella teleta...   143   1e-31
+UniRef90_A0A023FHU8 Uncharacterized protein n=1 Tax=Amblyomma ca...   142   1e-31
+UniRef90_UPI000332F2CE PREDICTED: max dimerization protein 3 n=1...   142   2e-31
+UniRef90_UPI0004402E48 PREDICTED: max dimerization protein 4 n=1...   141   2e-31
+UniRef90_E9FXP6 Putative uncharacterized protein n=1 Tax=Daphnia...   141   3e-31
+UniRef90_UPI0004D05AA0 PREDICTED: max dimerization protein 4 n=1...   141   3e-31
+UniRef90_V5HRL2 Putative nucleus (Fragment) n=1 Tax=Ixodes ricin...   141   3e-31
+UniRef90_UPI0004BFC8AD PREDICTED: LOW QUALITY PROTEIN: max dimer...   141   4e-31
+UniRef90_UPI0003AE97CE PREDICTED: max dimerization protein 4 iso...   140   6e-31
+UniRef90_UPI000532FEE1 PREDICTED: max dimerization protein 4 n=1...   140   6e-31
+UniRef90_G1U5V9 Uncharacterized protein n=1 Tax=Oryctolagus cuni...   140   7e-31
+UniRef90_V3Z6W0 Uncharacterized protein n=1 Tax=Lottia gigantea ...   140   8e-31
+UniRef90_F7IGC8 Uncharacterized protein n=1 Tax=Callithrix jacch...   139   1e-30
+UniRef90_UPI0004CCDEF4 PREDICTED: max dimerization protein 1-lik...   139   2e-30
+UniRef90_UPI0003288F2F PREDICTED: max dimerization protein 4 n=1...   139   2e-30
+UniRef90_Q14VH3 MAX dimerization protein n=11 Tax=Apocrita RepID...   139   2e-30
+UniRef90_Q9BW11-3 Isoform 3 of Max dimerization protein 3 n=6 Ta...   138   2e-30
+UniRef90_UPI0002A4C846 PREDICTED: max dimerization protein 1-lik...   138   3e-30
+UniRef90_UPI000441D57E PREDICTED: max dimerization protein 4-lik...   138   4e-30
+UniRef90_UPI00032AE78F PREDICTED: max dimerization protein 3 n=1...   137   5e-30
+UniRef90_UPI0001D55D33 PREDICTED: hypothetical protein LOC706346...   137   5e-30
+UniRef90_UPI000359C93E PREDICTED: max-interacting protein 1-like...   137   5e-30
+UniRef90_UPI000441BDA9 PREDICTED: max dimerization protein 4 n=1...   137   6e-30
+UniRef90_M7C5M5 Max-interacting protein 1 n=4 Tax=Archelosauria ...   136   7e-30
+UniRef90_UPI0003D08727 PREDICTED: spidroin-2-like n=1 Tax=Alliga...   136   7e-30
+UniRef90_UPI0003F16C59 PREDICTED: max dimerization protein 4 n=1...   136   7e-30
+UniRef90_UPI0003C8A820 PREDICTED: LOW QUALITY PROTEIN: MAX dimer...   136   8e-30
+UniRef90_A0A093DHM8 Max dimerization protein 1 (Fragment) n=1 Ta...   136   1e-29
+UniRef90_A0A0A9Z1J8 Max dimerization protein 1 n=4 Tax=Cimicomor...   136   1e-29
+UniRef90_Q9BW11-2 Isoform 2 of Max dimerization protein 3 n=10 T...   136   1e-29
+UniRef90_H0XVY4 Uncharacterized protein n=1 Tax=Otolemur garnett...   135   2e-29
+UniRef90_UPI0003ABBF39 PREDICTED: max dimerization protein 4 iso...   135   2e-29
+UniRef90_G9KBY4 MAX dimerization protein 1 (Fragment) n=2 Tax=Ca...   135   2e-29
+UniRef90_A0A091TCX5 Max dimerization protein 1 (Fragment) n=1 Ta...   135   2e-29
+UniRef90_UPI000533F300 PREDICTED: max dimerization protein 4 iso...   134   3e-29
+UniRef90_UPI0004549D4B PREDICTED: max dimerization protein 3 iso...   134   4e-29
+UniRef90_UPI0003F1C05A PREDICTED: max dimerization protein 4 n=1...   134   4e-29
+UniRef90_W4XT34 Uncharacterized protein n=1 Tax=Strongylocentrot...   134   4e-29
+UniRef90_G3WK09 Uncharacterized protein n=2 Tax=Metatheria RepID...   134   5e-29
+UniRef90_UPI0004543A6C PREDICTED: max dimerization protein 1 iso...   134   6e-29
+UniRef90_UPI000444324B PREDICTED: max dimerization protein 4 n=1...   133   6e-29
+UniRef90_G3Q4D7 Uncharacterized protein n=1 Tax=Gasterosteus acu...   133   8e-29
+UniRef90_UPI00033465CC PREDICTED: max dimerization protein 3 n=1...   133   8e-29
+UniRef90_UPI00035010E3 PREDICTED: max dimerization protein 4 n=1...   133   9e-29
+UniRef90_A0A091FN96 Max dimerization protein 1 (Fragment) n=1 Ta...   133   1e-28
+UniRef90_UPI0002C66C8A PREDICTED: max dimerization protein 4 n=1...   132   1e-28
+UniRef90_T1KE75 Uncharacterized protein n=1 Tax=Tetranychus urti...   132   1e-28
+UniRef90_J9JXQ7 Uncharacterized protein n=2 Tax=Acyrthosiphon pi...   132   1e-28
+UniRef90_UPI000577DF90 PREDICTED: max dimerization protein 3 n=1...   132   1e-28
+UniRef90_UPI0003339175 PREDICTED: max dimerization protein 3 n=3...   132   2e-28
+UniRef90_U3IQX9 Uncharacterized protein (Fragment) n=4 Tax=Neogn...   132   2e-28
+UniRef90_G1T9C5 Uncharacterized protein n=1 Tax=Oryctolagus cuni...   132   2e-28
+UniRef90_A0A091M9I3 Max dimerization protein 1 (Fragment) n=3 Ta...   131   2e-28
+UniRef90_UPI0003AE5ED4 PREDICTED: max dimerization protein 4 iso...   131   3e-28
+UniRef90_L5K4V4 Max-interacting transcriptional repressor MAD4 n...   131   3e-28
+UniRef90_Q80US8 Max dimerization protein 3 n=4 Tax=Muroidea RepI...   131   5e-28
+UniRef90_G1PTL7 Uncharacterized protein (Fragment) n=8 Tax=Amnio...   130   5e-28
+UniRef90_UPI00057BA3C7 PREDICTED: LOW QUALITY PROTEIN: max dimer...   130   5e-28
+UniRef90_UPI00046BE953 PREDICTED: max dimerization protein 4 n=1...   129   9e-28
+UniRef90_A0A099ZI42 Max-interacting protein 1 (Fragment) n=8 Tax...   129   1e-27
+UniRef90_H2PCQ5 Uncharacterized protein (Fragment) n=1 Tax=Pongo...   129   1e-27
+UniRef90_UPI000522A2D3 PREDICTED: max dimerization protein 4 n=1...   129   1e-27
+UniRef90_A0A096MXW9 Uncharacterized protein n=3 Tax=Simiiformes ...   129   1e-27
+UniRef90_F6TVR7 Uncharacterized protein n=2 Tax=Simiiformes RepI...   129   2e-27
+UniRef90_F1QI91 Uncharacterized protein (Fragment) n=2 Tax=Danio...   129   2e-27
+UniRef90_UPI00034FE632 PREDICTED: max dimerization protein 3 iso...   127   4e-27
+UniRef90_H0UTP4 Uncharacterized protein (Fragment) n=1 Tax=Cavia...   127   6e-27
+UniRef90_UPI00049865B5 PREDICTED: max dimerization protein 4 iso...   127   7e-27
+UniRef90_UPI0003BBB220 PREDICTED: max dimerization protein 4 n=1...   127   7e-27
+UniRef90_UPI00034FF1A4 PREDICTED: max dimerization protein 3 iso...   127   7e-27
+UniRef90_S9XFS6 Max dimerization protein 4 isoform 1 n=1 Tax=Cam...   126   9e-27
+UniRef90_UPI000273C7B1 PREDICTED: uncharacterized protein LOC100...   126   9e-27
+UniRef90_UPI0004ED301E PREDICTED: max dimerization protein 3 iso...   126   9e-27
+UniRef90_V9L6V5 Max-interacting protein 1 (Fragment) n=2 Tax=Cal...   126   1e-26
+UniRef90_H9H0K4 Uncharacterized protein (Fragment) n=1 Tax=Melea...   126   2e-26
+UniRef90_M3YHU3 Uncharacterized protein n=7 Tax=Laurasiatheria R...   125   2e-26
+UniRef90_F7IDZ7 Uncharacterized protein n=1 Tax=Callithrix jacch...   125   3e-26
+UniRef90_UPI0004571EFC PREDICTED: max dimerization protein 4 n=1...   124   3e-26
+UniRef90_UPI00046B9F07 PREDICTED: max dimerization protein 3 iso...   124   6e-26
+UniRef90_I3MYV4 Uncharacterized protein (Fragment) n=2 Tax=Sperm...   123   7e-26
+UniRef90_Q4S2T3 Chromosome 17 SCAF14760, whole genome shotgun se...   123   8e-26
+UniRef90_F6VYX9 Uncharacterized protein (Fragment) n=1 Tax=Ornit...   123   8e-26
+UniRef90_UPI0003F113DC PREDICTED: max dimerization protein 3 n=1...   123   8e-26
+UniRef90_V9LB60 Max-interacting protein 1 (Fragment) n=2 Tax=Cal...   123   9e-26
+UniRef90_UPI0003C8E207 PREDICTED: max dimerization protein 3 n=1...   123   1e-25
+UniRef90_W5N274 Uncharacterized protein n=1 Tax=Lepisosteus ocul...   122   1e-25
+UniRef90_H0ZYE6 Uncharacterized protein (Fragment) n=2 Tax=Taeni...   122   2e-25
+UniRef90_F7DZQ7 Uncharacterized protein (Fragment) n=2 Tax=Boreo...   122   2e-25
+UniRef90_F6RHV5 Uncharacterized protein (Fragment) n=2 Tax=Catar...   121   3e-25
+UniRef90_UPI0005216EB8 PREDICTED: max dimerization protein 3 n=1...   121   3e-25
+UniRef90_UPI0003EBD0B2 PREDICTED: max dimerization protein 4, pa...   121   3e-25
+UniRef90_Q561K6 Uncharacterized protein (Fragment) n=3 Tax=Tetra...   121   4e-25
+UniRef90_F4WLA2 MAD protein n=4 Tax=Formicidae RepID=F4WLA2_ACREC     121   4e-25
+UniRef90_UPI00045483C7 PREDICTED: max dimerization protein 1, pa...   121   5e-25
+UniRef90_UPI0003F0A621 PREDICTED: max-binding protein MNT-like n...   120   6e-25
+UniRef90_V5IAF4 Max dimerization protein n=1 Tax=Anoplophora gla...   120   6e-25
+UniRef90_UPI00034FABD0 PREDICTED: max dimerization protein 3 iso...   120   7e-25
+UniRef90_G7MFT9 Max dimerization protein 4 (Fragment) n=2 Tax=Ce...   120   8e-25
+UniRef90_U3JBG9 Uncharacterized protein (Fragment) n=3 Tax=Passe...   119   1e-24
+UniRef90_I3NCE6 Uncharacterized protein (Fragment) n=1 Tax=Sperm...   119   1e-24
+UniRef90_A0A091LM96 Max dimerization protein 1 (Fragment) n=1 Ta...   117   4e-24
+UniRef90_A0A0A9Z4U1 Max dimerization protein 1 (Fragment) n=1 Ta...   117   5e-24
+UniRef90_A0A093J711 Max dimerization protein 1 (Fragment) n=5 Ta...   117   7e-24
+UniRef90_K9IRM4 Putative upstream transcription factor 2/l-myc-2...   116   8e-24
+UniRef90_S9X0L2 Max-interacting protein 1 isoform a n=1 Tax=Came...   116   1e-23
+UniRef90_G3I0K0 Max-interacting transcriptional repressor MAD4 (...   116   1e-23
+UniRef90_Q9NDP3 Not7 n=1 Tax=Ciona intestinalis RepID=Q9NDP3_CIOIN    115   3e-23
+UniRef90_H2Y6W3 Uncharacterized protein n=1 Tax=Ciona savignyi R...   114   3e-23
+UniRef90_K1RGW6 MAD protein n=1 Tax=Crassostrea gigas RepID=K1RG...   114   4e-23
+UniRef90_Q4RJC9 Chromosome 18 SCAF15038, whole genome shotgun se...   114   4e-23
+UniRef90_I3KLY4 Uncharacterized protein (Fragment) n=1 Tax=Oreoc...   114   4e-23
+UniRef90_H2MKY4 Uncharacterized protein (Fragment) n=1 Tax=Oryzi...   113   7e-23
+UniRef90_UPI0004BD9863 PREDICTED: max dimerization protein 4 n=1...   113   8e-23
+UniRef90_U5ES74 Putative max dimerization protein 4 (Fragment) n...   113   9e-23
+UniRef90_UPI000522D14A PREDICTED: max dimerization protein 4, pa...   112   1e-22
+UniRef90_UPI00053CE081 PREDICTED: max dimerization protein 3 n=1...   112   1e-22
+UniRef90_A0A9R4 BHLH transcription factor MAD n=1 Tax=Molgula te...   112   1e-22
+UniRef90_A0A091P5R9 Max dimerization protein 4 (Fragment) n=18 T...   112   1e-22
+UniRef90_UPI0003EA9993 PREDICTED: max dimerization protein 3-lik...   111   2e-22
+UniRef90_L7X1I6 Max dimerization-like protein n=9 Tax=Heliconiin...   111   3e-22
+UniRef90_K1QLP9 Max-binding protein MNT n=1 Tax=Crassostrea giga...   111   4e-22
+UniRef90_UPI0003DF7250 PREDICTED: uncharacterized protein LOC102...   110   7e-22
+UniRef90_Q175Q6 AAEL006567-PA n=1 Tax=Aedes aegypti RepID=Q175Q6...   110   7e-22
+UniRef90_Q4TIQ8 Chromosome 12 SCAF1856, whole genome shotgun seq...   110   9e-22
+UniRef90_F5HKD4 AGAP013301-PA n=1 Tax=Anopheles gambiae RepID=F5...   109   1e-21
+UniRef90_A0A088AJU1 Uncharacterized protein n=1 Tax=Apis mellife...   109   1e-21
+UniRef90_B0X7F7 Max binding protein n=1 Tax=Culex quinquefasciat...   109   2e-21
+UniRef90_U5ESY6 Putative cell surface glycoprotein n=1 Tax=Coret...   109   2e-21
+UniRef90_W5JKJ3 Uncharacterized protein n=1 Tax=Anopheles darlin...   108   3e-21
+UniRef90_V8PEK5 Max dimerization protein 3 (Fragment) n=1 Tax=Op...   107   4e-21
+UniRef90_S7QAH9 Max dimerization protein 4 n=1 Tax=Myotis brandt...   107   4e-21
+UniRef90_UPI0003291CA0 PREDICTED: max dimerization protein 3 n=1...   107   4e-21
+UniRef90_UPI0004EFD334 PREDICTED: U4/U6.U5 small nuclear ribonuc...   107   7e-21
+UniRef90_V8PCF1 Max dimerization protein 4 (Fragment) n=1 Tax=Op...   105   2e-20
+UniRef90_UPI0003955178 PREDICTED: max dimerization protein 3 n=1...   104   3e-20
+UniRef90_K7JRC0 Uncharacterized protein n=2 Tax=Nasonia vitripen...   104   4e-20
+UniRef90_UPI00052F17EB PREDICTED: max dimerization protein 1 n=1...   104   4e-20
+UniRef90_A0A099Z1V6 Max dimerization protein 1 (Fragment) n=1 Ta...   104   5e-20
+UniRef90_UPI0004CDAA81 PREDICTED: uncharacterized protein LOC103...   103   7e-20
+UniRef90_UPI00034FAFCF PREDICTED: max-binding protein MNT-like n...   103   8e-20
+UniRef90_A0A093G6K6 Max dimerization protein 1 (Fragment) n=2 Ta...   103   1e-19
+UniRef90_UPI00034476A4 PREDICTED: max dimerization protein 3 iso...   102   1e-19
+UniRef90_I1GEJ1 Uncharacterized protein n=2 Tax=Amphimedon queen...   102   2e-19
+UniRef90_T1D607 Putative max binding protein (Fragment) n=1 Tax=...   102   2e-19
+UniRef90_A0A091SA35 Max dimerization protein 1 (Fragment) n=2 Ta...   101   3e-19
+UniRef90_U6NWQ4 Basic helix-loop-helix dimerisation region bHLH ...   101   3e-19
+UniRef90_L9JCC3 Max dimerization protein 3 n=1 Tax=Tupaia chinen...   101   3e-19
+UniRef90_UPI0004432385 PREDICTED: max-binding protein MNT n=1 Ta...   101   3e-19
+UniRef90_UPI0003C89223 PREDICTED: uncharacterized protein LOC102...   101   3e-19
+UniRef90_G1QGY8 Uncharacterized protein (Fragment) n=1 Tax=Nomas...   101   4e-19
+UniRef90_R7T9N9 Uncharacterized protein n=1 Tax=Capitella teleta...   100   7e-19
+UniRef90_UPI0003AED751 PREDICTED: max dimerization protein 3 iso...   100   8e-19
+UniRef90_T1IQ81 Uncharacterized protein n=1 Tax=Strigamia mariti...   100   8e-19
+UniRef90_H2RBM2 Uncharacterized protein (Fragment) n=1 Tax=Pan t...   100   9e-19
+UniRef90_T2MEL1 Max dimerization protein 1 n=1 Tax=Hydra vulgari...   100   1e-18
+UniRef90_A0A022T5H2 Phosphorylase b kinase gamma catalytic chain...    99   2e-18
+UniRef90_A0A084VZA8 AGAP013301-PA-like protein n=1 Tax=Anopheles...    99   2e-18
+UniRef90_UPI0003DE96E5 PREDICTED: uncharacterized protein LOC550...    98   3e-18
+UniRef90_T1IW44 Uncharacterized protein n=1 Tax=Strigamia mariti...    97   6e-18
+UniRef90_UPI00046CA761 PREDICTED: max-binding protein MNT-like i...    97   8e-18
+UniRef90_G3WEN3 Uncharacterized protein (Fragment) n=1 Tax=Sarco...    96   2e-17
+UniRef90_UPI00021A3F22 PREDICTED: max-interacting protein 1-like...    96   2e-17
+UniRef90_A0A091D5F7 Max-binding protein MNT n=2 Tax=Rodentia Rep...    96   2e-17
+UniRef90_B4Q0I6 GE16308 n=2 Tax=melanogaster subgroup RepID=B4Q0...    95   2e-17
+UniRef90_V4B9M2 Uncharacterized protein n=1 Tax=Lottia gigantea ...    95   3e-17
+UniRef90_C7BVS0 Putative MAD-Like family member n=1 Tax=Angiostr...    94   5e-17
+UniRef90_UPI0004F4B569 PREDICTED: max dimerization protein 4 iso...    94   5e-17
+UniRef90_A0A016T3L4 Uncharacterized protein n=2 Tax=Ancylostoma ...    94   5e-17
+UniRef90_E0W3N1 Max-binding protein MNT, putative n=1 Tax=Pedicu...    94   7e-17
+UniRef90_S4NWZ2 Max binding protein mnt (Fragment) n=1 Tax=Parar...    94   8e-17
+UniRef90_UPI000383545D PREDICTED: max dimerization protein 1-lik...    93   9e-17
+UniRef90_H9JUG0 Uncharacterized protein n=1 Tax=Bombyx mori RepI...    93   1e-16
+UniRef90_A0A0B1TPM4 Helix-loop-helix DNA-binding domain protein ...    93   1e-16
+UniRef90_V5HVZ6 Putative max-binding protein mnt (Fragment) n=2 ...    93   1e-16
+UniRef90_A8XC72 Protein CBR-MDL-1 n=1 Tax=Caenorhabditis briggsa...    93   2e-16
+UniRef90_F7IGD0 Uncharacterized protein (Fragment) n=1 Tax=Calli...    93   2e-16
+UniRef90_UPI00039581F9 PREDICTED: max dimerization protein 3-lik...    93   2e-16
+UniRef90_Q8SY46 GH28809p n=3 Tax=Drosophila melanogaster RepID=Q...    92   3e-16
+UniRef90_UPI00059DD9AF UPI00059DD9AF related cluster n=1 Tax=unk...    91   4e-16
+UniRef90_A7RZK1 Predicted protein n=1 Tax=Nematostella vectensis...    91   4e-16
+UniRef90_A8PPR1 Protein BM-MDL-1, isoform b n=4 Tax=Onchocercida...    91   4e-16
+UniRef90_Q9W4Q7 Mnt, isoform D n=3 Tax=Drosophila melanogaster R...    91   4e-16
+UniRef90_O46042 EG:114E2.2 protein n=2 Tax=Drosophila melanogast...    91   4e-16
+UniRef90_L5M2W4 Max dimerization protein 4 (Fragment) n=1 Tax=My...    91   5e-16
+UniRef90_G3H178 Ras-related protein Rab-24 (Fragment) n=1 Tax=Cr...    91   5e-16
+UniRef90_E9J732 Putative uncharacterized protein (Fragment) n=1 ...    90   8e-16
+UniRef90_C3Y471 Putative uncharacterized protein n=1 Tax=Branchi...    90   1e-15
+UniRef90_UPI000392E91E PREDICTED: lateral signaling target prote...    90   1e-15
+UniRef90_G5EG44 MAD-like-1 homolog n=1 Tax=Caenorhabditis elegan...    89   1e-15
+UniRef90_UPI0003835484 PREDICTED: max dimerization protein 3-lik...    89   2e-15
+UniRef90_B3MW85 GF22645 n=1 Tax=Drosophila ananassae RepID=B3MW8...    89   2e-15
+UniRef90_Q29GN1 GA12197 n=1 Tax=Drosophila pseudoobscura pseudoo...    89   2e-15
+UniRef90_A0A0B1S0R5 Helix-loop-helix DNA-binding domain protein ...    89   2e-15
+UniRef90_E5RZQ3 Putative helix-loop-helix DNA-binding domain pro...    89   2e-15
+UniRef90_A0A077ZHP0 Max dimerization-like protein n=1 Tax=Trichu...    88   3e-15
+UniRef90_A0A085N236 Uncharacterized protein n=2 Tax=Trichuris su...    88   4e-15
+UniRef90_B4M1L4 GJ19328 n=1 Tax=Drosophila virilis RepID=B4M1L4_...    87   7e-15
+UniRef90_B4L4V8 GI15838 n=1 Tax=Drosophila mojavensis RepID=B4L4...    87   8e-15
+UniRef90_H2W1V6 Uncharacterized protein n=1 Tax=Caenorhabditis j...    87   8e-15
+UniRef90_A0A096MJV4 Protein Mxd4 (Fragment) n=1 Tax=Rattus norve...    87   9e-15
+UniRef90_W2SRA3 Helix-loop-helix DNA-binding domain protein n=1 ...    87   1e-14
+UniRef90_G0MSI0 Putative uncharacterized protein n=1 Tax=Caenorh...    87   1e-14
+UniRef90_A0A090N0S9 Myc-type, basic helix-loop-helix (BHLH) doma...    86   1e-14
+UniRef90_UPI0003DF7480 PREDICTED: max-interacting protein 1-like...    86   2e-14
+UniRef90_UPI0004F3EFC2 PREDICTED: max dimerization protein 3 iso...    85   2e-14
+UniRef90_E0VNE8 MAX-interacting protein, putative n=1 Tax=Pedicu...    85   3e-14
+UniRef90_UPI00046C1EBD PREDICTED: max-interacting protein 1-like...    85   4e-14
+UniRef90_UPI000440A344 PREDICTED: max dimerization protein 1 n=1...    84   5e-14
+UniRef90_W8BPL3 Max-binding protein MNT n=2 Tax=Ceratitis capita...    84   5e-14
+UniRef90_H0YQ84 Uncharacterized protein (Fragment) n=3 Tax=Passe...    84   7e-14
+UniRef90_U6DID9 Max dimerization protein 3 (Fragment) n=1 Tax=Ne...    84   8e-14
+UniRef90_W8BBR4 Max-binding protein MNT n=2 Tax=Ceratitis capita...    84   8e-14
+UniRef90_UPI00034FD682 PREDICTED: max dimerization protein 4-lik...    83   1e-13
+UniRef90_A0A088A6X4 Uncharacterized protein n=1 Tax=Apis mellife...    83   2e-13
+UniRef90_S4PQT4 Max dimerization-like protein (Fragment) n=1 Tax...    82   2e-13
+UniRef90_UPI0002659572 PREDICTED: max-interacting protein 1-like...    82   3e-13
+UniRef90_H2Y6W2 Uncharacterized protein n=1 Tax=Ciona savignyi R...    81   4e-13
+UniRef90_W4ZDG6 Uncharacterized protein n=1 Tax=Strongylocentrot...    81   4e-13
+UniRef90_B4R468 GD16648 n=1 Tax=Drosophila simulans RepID=B4R468...    81   5e-13
+UniRef90_A0A0A1X5N7 Max-binding protein MNT n=1 Tax=Bactrocera c...    81   7e-13
+UniRef90_U1MBN6 Helix-loop-helix dna-binding domain containing p...    80   1e-12
+UniRef90_A0A034WJ42 Max-binding protein MNT n=2 Tax=Bactrocera R...    80   1e-12
+UniRef90_UPI0004AB4EE7 PREDICTED: probable GPI-anchored adhesin-...    80   1e-12
+UniRef90_A0A088A6X1 Uncharacterized protein n=1 Tax=Apis mellife...    80   1e-12
+UniRef90_UPI0002ADA61D PREDICTED: uncharacterized protein LOC100...    79   2e-12
+UniRef90_A0A034WMM9 Max-binding protein MNT n=4 Tax=Bactrocera R...    79   2e-12
+UniRef90_UPI00059720A9 UPI00059720A9 related cluster n=1 Tax=unk...    79   2e-12
+UniRef90_B4NDD5 GK10211 n=1 Tax=Drosophila willistoni RepID=B4ND...    79   2e-12
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A026WE45 Max-binding protein MNT n=1 Tax=Cerapachys b...   100   1e-18
+UniRef90_F7EQB6 Uncharacterized protein n=1 Tax=Xenopus tropical...    98   3e-18
+UniRef90_H0VRZ0 Uncharacterized protein n=1 Tax=Cavia porcellus ...    98   6e-18
+UniRef90_H2LUS4 Uncharacterized protein n=1 Tax=Oryzias latipes ...    98   6e-18
+UniRef90_B7PTG3 Max binding protein mnt, putative n=1 Tax=Ixodes...    97   8e-18
+UniRef90_F7IMJ3 Uncharacterized protein n=9 Tax=Eutheria RepID=F...    97   9e-18
+UniRef90_A0A023FCM7 Uncharacterized protein (Fragment) n=1 Tax=A...    97   1e-17
+UniRef90_UPI0003339B0C PREDICTED: max-binding protein MNT n=1 Ta...    96   1e-17
+UniRef90_UPI000328E5C1 PREDICTED: max-binding protein MNT n=1 Ta...    96   1e-17
+UniRef90_M4A9Z9 Uncharacterized protein n=3 Tax=Poeciliinae RepI...    96   1e-17
+UniRef90_L7MI91 Uncharacterized protein (Fragment) n=1 Tax=Rhipi...    96   2e-17
+UniRef90_E2QY39 Uncharacterized protein n=1 Tax=Canis familiaris...    96   2e-17
+UniRef90_L7LV39 Uncharacterized protein n=1 Tax=Rhipicephalus pu...    96   2e-17
+UniRef90_L7M5W1 Uncharacterized protein n=1 Tax=Rhipicephalus pu...    96   2e-17
+UniRef90_UPI0003ACB1C3 PREDICTED: max-binding protein MNT n=1 Ta...    96   2e-17
+UniRef90_G3QB26 Uncharacterized protein n=1 Tax=Gasterosteus acu...    95   2e-17
+UniRef90_H2LBX6 Uncharacterized protein n=1 Tax=Oryzias latipes ...    95   2e-17
+UniRef90_UPI00049533DD PREDICTED: max-binding protein MNT isofor...    95   3e-17
+UniRef90_G3RUA7 Uncharacterized protein n=1 Tax=Gorilla gorilla ...    95   3e-17
+UniRef90_G1U4P9 Uncharacterized protein n=1 Tax=Oryctolagus cuni...    95   4e-17
+UniRef90_A0A096P2C4 Uncharacterized protein n=6 Tax=Boreoeutheri...    95   4e-17
+UniRef90_Q99583 Max-binding protein MNT n=52 Tax=Eutheria RepID=...    95   4e-17
+UniRef90_UPI00054B1604 PREDICTED: max-binding protein MNT-like n...    94   4e-17
+UniRef90_I3JQ33 Uncharacterized protein n=1 Tax=Oreochromis nilo...    94   4e-17
+UniRef90_I3JQ32 Uncharacterized protein n=6 Tax=Pseudocrenilabri...    94   4e-17
+UniRef90_G3P1X4 Uncharacterized protein n=1 Tax=Gasterosteus acu...    94   5e-17
+UniRef90_UPI0004573B53 PREDICTED: max-binding protein MNT n=1 Ta...    94   5e-17
+UniRef90_Q0VH32 Max-binding protein MNT n=2 Tax=Xenopus RepID=MN...    94   5e-17
+UniRef90_UPI0002A48DB3 PREDICTED: max-binding protein MNT-like n...    94   6e-17
+UniRef90_UPI000521714A PREDICTED: max-binding protein MNT, parti...    94   6e-17
+UniRef90_UPI0004544642 PREDICTED: LOW QUALITY PROTEIN: max-bindi...    94   6e-17
+UniRef90_UPI0004F47126 PREDICTED: max-binding protein MNT n=1 Ta...    94   7e-17
+UniRef90_UPI00054C4375 PREDICTED: max-binding protein MNT n=1 Ta...    93   1e-16
+UniRef90_UPI000495AE49 PREDICTED: max-binding protein MNT-like n...    93   1e-16
+UniRef90_F1QBK5 Uncharacterized protein n=2 Tax=Danio rerio RepI...    93   1e-16
+UniRef90_K7G4F9 Uncharacterized protein n=9 Tax=Archelosauria Re...    93   1e-16
+UniRef90_UPI000441D717 PREDICTED: LOW QUALITY PROTEIN: max-bindi...    93   1e-16
+UniRef90_UPI00057BB903 PREDICTED: LOW QUALITY PROTEIN: max-bindi...    93   1e-16
+UniRef90_H2TUU4 Uncharacterized protein (Fragment) n=1 Tax=Takif...    93   2e-16
+UniRef90_A0A091JBE2 Max-binding protein MNT (Fragment) n=3 Tax=N...    93   2e-16
+UniRef90_A0A099ZLS6 Max-binding protein MNT (Fragment) n=2 Tax=T...    93   2e-16
+UniRef90_UPI00042BB00E PREDICTED: max-binding protein MNT n=1 Ta...    92   2e-16
+UniRef90_W5KN47 Uncharacterized protein n=1 Tax=Astyanax mexican...    92   2e-16
+UniRef90_UPI0003B6C4E4 PREDICTED: max-binding protein MNT-like n...    92   2e-16
+UniRef90_UPI00054EDC57 PREDICTED: max-binding protein MNT isofor...    92   2e-16
+UniRef90_M4A2E9 Uncharacterized protein n=4 Tax=Poeciliinae RepI...    92   3e-16
+UniRef90_L8Y3Y9 Max-binding protein MNT n=1 Tax=Tupaia chinensis...    92   3e-16
+UniRef90_UPI00038334A5 PREDICTED: max-binding protein MNT n=1 Ta...    91   4e-16
+UniRef90_UPI00057736CA PREDICTED: max-binding protein MNT-like n...    91   4e-16
+UniRef90_H2UTT8 Uncharacterized protein n=3 Tax=Takifugu rubripe...    91   4e-16
+UniRef90_A0A091W1H5 Max-binding protein MNT (Fragment) n=2 Tax=O...    91   4e-16
+UniRef90_G1LLX0 Uncharacterized protein n=8 Tax=Laurasiatheria R...    91   4e-16
+UniRef90_UPI00039588C8 PREDICTED: max-binding protein MNT n=1 Ta...    91   5e-16
+UniRef90_UPI00029D7BAB PREDICTED: max-binding protein MNT n=1 Ta...    91   5e-16
+UniRef90_UPI000496DAD8 PREDICTED: max-binding protein MNT-like i...    91   5e-16
+UniRef90_E7FCB9 Uncharacterized protein n=1 Tax=Danio rerio RepI...    91   5e-16
+UniRef90_W5Q2B1 Uncharacterized protein n=2 Tax=Ovis aries RepID...    91   5e-16
+UniRef90_G1N8X6 Uncharacterized protein (Fragment) n=3 Tax=Neogn...    91   6e-16
+UniRef90_I3JMZ8 Uncharacterized protein n=10 Tax=Pseudocrenilabr...    91   6e-16
+UniRef90_F1NB79 Uncharacterized protein (Fragment) n=8 Tax=Neogn...    91   7e-16
+UniRef90_W5LLC8 Uncharacterized protein n=1 Tax=Astyanax mexican...    91   7e-16
+UniRef90_UPI0005215C3F PREDICTED: LOW QUALITY PROTEIN: max-bindi...    91   7e-16
+UniRef90_UPI000580B814 PREDICTED: AF4/FMR2 family member 4-like ...    90   9e-16
+UniRef90_UPI0003992BEC PREDICTED: max-binding protein MNT n=2 Ta...    90   1e-15
+UniRef90_H0ZEM6 Uncharacterized protein n=3 Tax=Passeriformes Re...    90   1e-15
+UniRef90_A0A093SST5 Max-binding protein MNT (Fragment) n=2 Tax=M...    90   1e-15
+UniRef90_U3I848 Uncharacterized protein (Fragment) n=9 Tax=Neogn...    90   1e-15
+UniRef90_H3BFE5 Uncharacterized protein n=1 Tax=Latimeria chalum...    89   1e-15
+UniRef90_D2A4G9 Putative uncharacterized protein GLEAN_15361 n=2...    89   2e-15
+UniRef90_UPI000496D021 PREDICTED: max-binding protein MNT isofor...    89   2e-15
+UniRef90_UPI0003C19C7C PREDICTED: max-binding protein MNT n=1 Ta...    89   2e-15
+UniRef90_W5U920 Max-binding protein MNT n=1 Tax=Ictalurus puncta...    89   2e-15
+UniRef90_F4WE42 Phosphorylase b kinase gamma catalytic chain, sk...    89   2e-15
+UniRef90_UPI0003AF34ED PREDICTED: max-binding protein MNT n=1 Ta...    89   2e-15
+UniRef90_F7FZQ0 Uncharacterized protein n=1 Tax=Monodelphis dome...    89   2e-15
+UniRef90_A0A093FYG5 Max-binding protein MNT (Fragment) n=1 Tax=P...    88   3e-15
+UniRef90_UPI0004DFDEC8 PREDICTED: LOW QUALITY PROTEIN: max-bindi...    88   4e-15
+UniRef90_UPI00058C6080 UPI00058C6080 related cluster n=2 Tax=unk...    88   4e-15
+UniRef90_UPI0003EADA86 PREDICTED: max-binding protein MNT-like n...    88   5e-15
+UniRef90_U3JQ95 Uncharacterized protein (Fragment) n=2 Tax=Ficed...    88   6e-15
+UniRef90_UPI00054DFB51 PREDICTED: max-binding protein MNT-like i...    87   9e-15
+UniRef90_UPI0004DDF581 PREDICTED: max-binding protein MNT n=1 Ta...    87   1e-14
+UniRef90_UPI0005768E74 PREDICTED: max-binding protein MNT-like i...    86   1e-14
+UniRef90_B3NSR0 GG18664 n=1 Tax=Drosophila erecta RepID=B3NSR0_D...    86   1e-14
+UniRef90_H3DKT2 Uncharacterized protein n=2 Tax=Tetraodon nigrov...    86   1e-14
+UniRef90_D3ZF98 Protein Mnt n=2 Tax=Rattus norvegicus RepID=D3ZF...    85   4e-14
+UniRef90_UPI000273BD3F PREDICTED: max-binding protein MNT n=1 Ta...    84   5e-14
+UniRef90_E2BJJ4 Max-binding protein MNT n=1 Tax=Harpegnathos sal...    84   7e-14
+UniRef90_A0A060XLD0 Oncorhynchus mykiss genomic scaffold, scaffo...    83   1e-13
+UniRef90_W5MA60 Uncharacterized protein n=1 Tax=Lepisosteus ocul...    83   2e-13
+UniRef90_A0A067R5S3 Max-binding protein MNT n=1 Tax=Zootermopsis...    82   3e-13
+UniRef90_V9L5I9 MAX-binding protein (Fragment) n=1 Tax=Callorhyn...    81   5e-13
+UniRef90_S4RI56 Uncharacterized protein n=1 Tax=Petromyzon marin...    80   1e-12
+UniRef90_S7MH74 Max-binding protein MNT n=1 Tax=Myotis brandtii ...    80   1e-12
+UniRef90_T1PKU3 Helix-loop-helix DNA-binding protein n=1 Tax=Mus...    79   2e-12
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_E1B8Z7 Uncharacterized protein n=20 Tax=Theria RepID=E1...   214   4e-53
+UniRef90_Q05195 Max dimerization protein 1 n=73 Tax=Theria RepID...   206   1e-50
+UniRef90_H3BD61 Uncharacterized protein n=4 Tax=Latimeria chalum...   201   2e-49
+UniRef90_UPI0003D0EDC3 PREDICTED: max dimerization protein 1 n=3...   196   8e-48
+UniRef90_UPI00035A276E PREDICTED: max dimerization protein 1 iso...   194   3e-47
+UniRef90_W5NDZ3 Uncharacterized protein n=1 Tax=Lepisosteus ocul...   193   6e-47
+UniRef90_Q05195-2 Isoform 2 of Max dimerization protein 1 n=33 T...   193   8e-47
+UniRef90_P50538 Max dimerization protein 1 n=17 Tax=Muroidea Rep...   192   1e-46
+UniRef90_J9P471 Uncharacterized protein n=2 Tax=Canis familiaris...   192   1e-46
+UniRef90_Q0VH34 Max dimerization protein 1 n=4 Tax=Xenopus RepID...   190   7e-46
+UniRef90_J3S4M7 Max dimerization protein 1-like n=2 Tax=Colubroi...   188   2e-45
+UniRef90_W5N3L9 Uncharacterized protein n=3 Tax=Lepisosteus ocul...   187   5e-45
+UniRef90_A0A091JGR1 Max-interacting protein 1 (Fragment) n=8 Tax...   184   3e-44
+UniRef90_UPI0003941A3C PREDICTED: max-interacting protein 1-like...   183   7e-44
+UniRef90_H9GAU3 Uncharacterized protein n=2 Tax=Anolis carolinen...   183   7e-44
+UniRef90_UPI0003F12E27 PREDICTED: max dimerization protein 3 iso...   182   2e-43
+UniRef90_U3JHZ8 Uncharacterized protein n=21 Tax=Aves RepID=U3JH...   182   2e-43
+UniRef90_A2BFZ1 Uncharacterized protein n=1 Tax=Danio rerio RepI...   181   2e-43
+UniRef90_Q9BW11-4 Isoform 4 of Max dimerization protein 3 n=5 Ta...   181   2e-43
+UniRef90_U3I9F8 Uncharacterized protein (Fragment) n=16 Tax=Amni...   180   5e-43
+UniRef90_H2ULU6 Uncharacterized protein n=1 Tax=Takifugu rubripe...   180   6e-43
+UniRef90_W5P279 Uncharacterized protein n=1 Tax=Ovis aries RepID...   180   6e-43
+UniRef90_R4GCZ6 Uncharacterized protein n=3 Tax=Sauria RepID=R4G...   179   8e-43
+UniRef90_P50539 Max-interacting protein 1 n=58 Tax=Amniota RepID...   177   4e-42
+UniRef90_G3SPE8 Uncharacterized protein n=1 Tax=Loxodonta africa...   177   5e-42
+UniRef90_A0A060XEN0 Oncorhynchus mykiss genomic scaffold, scaffo...   177   6e-42
+UniRef90_UPI00042BFD7E PREDICTED: uncharacterized protein LOC102...   175   1e-41
+UniRef90_P50540 Max-interacting protein 1 n=31 Tax=Amniota RepID...   173   9e-41
+UniRef90_Q14582 Max dimerization protein 4 n=4 Tax=Homininae Rep...   172   1e-40
+UniRef90_M7B4R9 Max dimerization protein 1 n=2 Tax=Chelonia myda...   172   2e-40
+UniRef90_UPI0004421720 PREDICTED: max-interacting protein 1 isof...   172   2e-40
+UniRef90_H2ULU8 Uncharacterized protein n=1 Tax=Takifugu rubripe...   171   3e-40
+UniRef90_V9KZY9 Max dimerization protein 1 n=1 Tax=Callorhynchus...   171   4e-40
+UniRef90_UPI0003C17B38 PREDICTED: max dimerization protein 3 n=1...   171   4e-40
+UniRef90_UPI00045DF220 PREDICTED: max dimerization protein 4 n=1...   170   5e-40
+UniRef90_W5M2U7 Uncharacterized protein n=2 Tax=Euteleostomi Rep...   170   6e-40
+UniRef90_I3KFU3 Uncharacterized protein (Fragment) n=19 Tax=Perc...   170   6e-40
+UniRef90_F7E6J6 Max dimerization protein 1 n=1 Tax=Xenopus tropi...   169   1e-39
+UniRef90_P50539-3 Isoform 3 of Max-interacting protein 1 n=70 Ta...   169   1e-39
+UniRef90_UPI0003D0DAA7 PREDICTED: max-interacting protein 1 n=1 ...   169   1e-39
+UniRef90_H0X4J3 Uncharacterized protein (Fragment) n=8 Tax=Prima...   169   1e-39
+UniRef90_UPI00057B9203 PREDICTED: LOW QUALITY PROTEIN: max dimer...   168   2e-39
+UniRef90_UPI00033154CD PREDICTED: max dimerization protein 4 n=1...   168   2e-39
+UniRef90_UPI0004BD525C PREDICTED: max-interacting protein 1 n=1 ...   168   2e-39
+UniRef90_G1P8B9 Uncharacterized protein n=1 Tax=Myotis lucifugus...   168   2e-39
+UniRef90_Q5ZLB9 Uncharacterized protein n=34 Tax=Sarcopterygii R...   167   4e-39
+UniRef90_H2LN68 Uncharacterized protein (Fragment) n=4 Tax=Ovale...   167   5e-39
+UniRef90_UPI00053FD939 PREDICTED: max dimerization protein 1 n=5...   167   6e-39
+UniRef90_W5M2T1 Uncharacterized protein n=1 Tax=Lepisosteus ocul...   166   7e-39
+UniRef90_UPI000577EA7E PREDICTED: max-interacting protein 1-like...   166   9e-39
+UniRef90_W5KAD3 Uncharacterized protein n=1 Tax=Astyanax mexican...   166   1e-38
+UniRef90_H3C0W3 Uncharacterized protein (Fragment) n=1 Tax=Tetra...   166   1e-38
+UniRef90_H2ULU3 Uncharacterized protein (Fragment) n=4 Tax=Takif...   166   1e-38
+UniRef90_H9GD31 Uncharacterized protein n=2 Tax=Anolis carolinen...   165   2e-38
+UniRef90_I3KHD5 Uncharacterized protein (Fragment) n=5 Tax=Perco...   165   2e-38
+UniRef90_G1KEY6 Uncharacterized protein n=2 Tax=Anolis carolinen...   165   2e-38
+UniRef90_A0A060VTK8 Oncorhynchus mykiss genomic scaffold, scaffo...   164   4e-38
+UniRef90_UPI000533C112 PREDICTED: max dimerization protein 3 iso...   164   4e-38
+UniRef90_UPI00053CDD0A PREDICTED: max dimerization protein 1 n=1...   164   5e-38
+UniRef90_I3IVA8 Uncharacterized protein n=2 Tax=Percomorphaceae ...   163   6e-38
+UniRef90_UPI00034F5370 PREDICTED: max dimerization protein 3 iso...   163   8e-38
+UniRef90_H2MK07 Uncharacterized protein (Fragment) n=3 Tax=Oryzi...   163   1e-37
+UniRef90_H3DL10 Uncharacterized protein n=5 Tax=Euteleosteomorph...   162   1e-37
+UniRef90_F7G0Z6 Uncharacterized protein n=8 Tax=Cercopithecinae ...   162   2e-37
+UniRef90_UPI0003956F9B PREDICTED: max dimerization protein 1 n=1...   162   2e-37
+UniRef90_M3ZTE0 Uncharacterized protein n=10 Tax=Percomorphaceae...   161   2e-37
+UniRef90_H3D729 Uncharacterized protein n=4 Tax=Tetraodontidae R...   161   3e-37
+UniRef90_UPI000496097C PREDICTED: max-interacting protein 1-like...   160   5e-37
+UniRef90_W5KWH3 Uncharacterized protein n=1 Tax=Astyanax mexican...   160   7e-37
+UniRef90_S4R7M3 Uncharacterized protein n=1 Tax=Petromyzon marin...   160   7e-37
+UniRef90_UPI0004431FBB PREDICTED: max-interacting protein 1 isof...   159   1e-36
+UniRef90_G1SN45 Uncharacterized protein n=2 Tax=Oryctolagus cuni...   159   1e-36
+UniRef90_C3Y472 Putative uncharacterized protein n=1 Tax=Branchi...   159   1e-36
+UniRef90_M3ZXX7 Uncharacterized protein n=15 Tax=Percomorphaceae...   159   2e-36
+UniRef90_UPI000496D606 PREDICTED: max dimerization protein 3 n=1...   158   2e-36
+UniRef90_I3KMT1 Uncharacterized protein n=4 Tax=Pseudocrenilabri...   158   3e-36
+UniRef90_M4A5M4 Uncharacterized protein n=2 Tax=Poeciliinae RepI...   158   4e-36
+UniRef90_Q28CB7 MAX interactor 1 n=2 Tax=Xenopus tropicalis RepI...   158   4e-36
+UniRef90_L9KM97 Max dimerization protein 1 n=1 Tax=Tupaia chinen...   157   6e-36
+UniRef90_H0ZK05 Uncharacterized protein (Fragment) n=5 Tax=Neogn...   156   8e-36
+UniRef90_W5KAC8 Uncharacterized protein n=2 Tax=Astyanax mexican...   156   1e-35
+UniRef90_W5UCW5 Max dimerization protein 4 n=1 Tax=Ictalurus pun...   156   1e-35
+UniRef90_UPI0002234B54 PREDICTED: max dimerization protein 1 n=1...   156   1e-35
+UniRef90_UPI00059ACD56 UPI00059ACD56 related cluster n=2 Tax=unk...   156   1e-35
+UniRef90_L5LUH6 Max-interacting protein 1 n=1 Tax=Myotis davidii...   156   1e-35
+UniRef90_UPI0005773D7D PREDICTED: max-interacting protein 1-like...   155   2e-35
+UniRef90_Q5ZJ78 Uncharacterized protein n=2 Tax=Gallus gallus Re...   155   2e-35
+UniRef90_W5UHP3 Max dimerization protein 3 n=1 Tax=Ictalurus pun...   154   3e-35
+UniRef90_M4AE90 Uncharacterized protein n=7 Tax=Poeciliinae RepI...   154   3e-35
+UniRef90_UPI0001CBB2F0 PREDICTED: max dimerization protein 1-lik...   154   4e-35
+UniRef90_UPI0003EC63AB PREDICTED: max-interacting protein 1-like...   154   5e-35
+UniRef90_UPI000443F25B PREDICTED: max dimerization protein 3 n=1...   153   7e-35
+UniRef90_L9KNL3 Max dimerization protein 4 n=1 Tax=Tupaia chinen...   153   7e-35
+UniRef90_UPI00053FB67E PREDICTED: max dimerization protein 3 iso...   153   9e-35
+UniRef90_G3Q060 Uncharacterized protein (Fragment) n=1 Tax=Gaste...   152   2e-34
+UniRef90_UPI00039929B9 PREDICTED: max-interacting protein 1 n=1 ...   152   2e-34
+UniRef90_Q5HZZ5 Xmad4 protein n=1 Tax=Xenopus laevis RepID=Q5HZZ...   152   2e-34
+UniRef90_UPI0004F06DBD PREDICTED: max-interacting protein 1 isof...   151   2e-34
+UniRef90_Q7SX95 Max dimerization protein 3 n=3 Tax=Danio rerio R...   151   3e-34
+UniRef90_UPI000441A0F0 PREDICTED: max dimerization protein 3 iso...   151   3e-34
+UniRef90_H2S3Z8 Uncharacterized protein n=1 Tax=Takifugu rubripe...   151   3e-34
+UniRef90_UPI00051E3613 PREDICTED: max dimerization protein 1 n=1...   151   3e-34
+UniRef90_A0A096MIW8 Protein Mxd4 n=2 Tax=Rattus norvegicus RepID...   151   4e-34
+UniRef90_H2S3Z7 Uncharacterized protein n=1 Tax=Takifugu rubripe...   151   4e-34
+UniRef90_G1KEI5 Uncharacterized protein n=3 Tax=Anolis carolinen...   151   4e-34
+UniRef90_V9L0I1 Max dimerization protein 4 n=2 Tax=Callorhynchus...   150   5e-34
+UniRef90_UPI000577432C PREDICTED: max-interacting protein 1-like...   150   7e-34
+UniRef90_Q91VN7 Max dimerization protein 4 n=14 Tax=Boreoeutheri...   150   7e-34
+UniRef90_H2LQK1 Uncharacterized protein n=2 Tax=Oryzias latipes ...   150   7e-34
+UniRef90_P50541 Max-interacting protein 1 n=4 Tax=Danio rerio Re...   150   7e-34
+UniRef90_UPI0002C2E55E PREDICTED: LOW QUALITY PROTEIN: MAX dimer...   150   8e-34
+UniRef90_UPI000556ED68 PREDICTED: max dimerization protein 4 n=1...   149   9e-34
+UniRef90_G3Q2Y6 Uncharacterized protein n=5 Tax=Percomorphaceae ...   149   9e-34
+UniRef90_G3UQ51 Uncharacterized protein n=1 Tax=Meleagris gallop...   149   1e-33
+UniRef90_Q9BW11 Max dimerization protein 3 n=18 Tax=Boreoeutheri...   149   1e-33
+UniRef90_W5P281 Uncharacterized protein n=3 Tax=Boreoeutheria Re...   149   1e-33
+UniRef90_UPI0002C59C06 PREDICTED: max dimerization protein 3 n=2...   148   2e-33
+UniRef90_H2R7E4 Uncharacterized protein n=1 Tax=Pan troglodytes ...   148   2e-33
+UniRef90_F1S3C4 Uncharacterized protein n=5 Tax=Laurasiatheria R...   147   3e-33
+UniRef90_UPI0003316416 PREDICTED: max dimerization protein 3 n=1...   147   4e-33
+UniRef90_H2SHR6 Uncharacterized protein n=4 Tax=Tetraodontidae R...   147   5e-33
+UniRef90_Q60948 Max dimerization protein 4 n=21 Tax=Eutheria Rep...   147   5e-33
+UniRef90_UPI000441964B PREDICTED: max dimerization protein 1 n=1...   147   6e-33
+UniRef90_I3M0W7 Uncharacterized protein n=1 Tax=Spermophilus tri...   147   7e-33
+UniRef90_Q1L2N4 Mxi1 n=2 Tax=Xenopus laevis RepID=Q1L2N4_XENLA        146   1e-32
+UniRef90_A0A087QZF5 Max-interacting protein 1 (Fragment) n=11 Ta...   145   2e-32
+UniRef90_K7G942 Uncharacterized protein n=3 Tax=Amniota RepID=K7...   144   3e-32
+UniRef90_UPI000533DD4C PREDICTED: max dimerization protein 3 iso...   144   3e-32
+UniRef90_Q9W6H2 Basic helix-loop-helix transcription factor XMad...   144   4e-32
+UniRef90_W5UF31 Max-interacting protein 1 n=1 Tax=Ictalurus punc...   144   4e-32
+UniRef90_Q9BW11-3 Isoform 3 of Max dimerization protein 3 n=6 Ta...   144   5e-32
+UniRef90_A0A091HSH5 Max-interacting protein 1 (Fragment) n=2 Tax...   144   5e-32
+UniRef90_Q9BW11-2 Isoform 2 of Max dimerization protein 3 n=10 T...   144   5e-32
+UniRef90_UPI00034F2BC0 PREDICTED: max dimerization protein 3 iso...   144   6e-32
+UniRef90_G3P4F9 Uncharacterized protein (Fragment) n=1 Tax=Gaste...   144   6e-32
+UniRef90_UPI0000D8CFC2 PREDICTED: max dimerization protein 4 iso...   143   6e-32
+UniRef90_F6U3F6 Max-interacting protein 1 (Fragment) n=1 Tax=Hom...   143   9e-32
+UniRef90_UPI0004DFD604 PREDICTED: LOW QUALITY PROTEIN: max dimer...   142   1e-31
+UniRef90_Q0VH33 Max dimerization protein 3 n=3 Tax=Xenopus RepID...   142   1e-31
+UniRef90_A0A023FHU8 Uncharacterized protein n=1 Tax=Amblyomma ca...   142   2e-31
+UniRef90_G3PIQ6 Uncharacterized protein (Fragment) n=1 Tax=Gaste...   142   2e-31
+UniRef90_UPI000332F2CE PREDICTED: max dimerization protein 3 n=1...   142   2e-31
+UniRef90_UPI0005121272 PREDICTED: max-interacting protein 1 n=1 ...   142   2e-31
+UniRef90_UPI00053CEE0B PREDICTED: max-interacting protein 1 isof...   141   4e-31
+UniRef90_E2R8L9 Uncharacterized protein n=11 Tax=Laurasiatheria ...   140   5e-31
+UniRef90_E7F6Q1 Uncharacterized protein n=1 Tax=Danio rerio RepI...   140   7e-31
+UniRef90_H3BXC7 Uncharacterized protein (Fragment) n=2 Tax=Tetra...   140   7e-31
+UniRef90_G1U5V9 Uncharacterized protein n=1 Tax=Oryctolagus cuni...   139   9e-31
+UniRef90_UPI00051B0BB5 PREDICTED: max dimerization protein 1 n=1...   139   9e-31
+UniRef90_V5HRL2 Putative nucleus (Fragment) n=1 Tax=Ixodes ricin...   139   1e-30
+UniRef90_UPI0005116F5A PREDICTED: max dimerization protein 1 n=1...   139   1e-30
+UniRef90_UPI0005206723 PREDICTED: max dimerization protein 1, pa...   139   1e-30
+UniRef90_UPI00051EF073 PREDICTED: max dimerization protein 1, pa...   139   1e-30
+UniRef90_UPI0004F4553B PREDICTED: max-interacting protein 1 n=1 ...   139   1e-30
+UniRef90_A0A091TN04 Max dimerization protein 4 (Fragment) n=19 T...   139   1e-30
+UniRef90_UPI0004A2951D PREDICTED: max dimerization protein 3 iso...   139   2e-30
+UniRef90_UPI000523C76C PREDICTED: max dimerization protein 1-lik...   138   3e-30
+UniRef90_UPI00052F0ADF PREDICTED: max dimerization protein 4 n=1...   138   3e-30
+UniRef90_UPI0003C28882 PREDICTED: max dimerization protein 1 iso...   138   3e-30
+UniRef90_UPI0003D715C0 PREDICTED: max-interacting protein 1 isof...   138   3e-30
+UniRef90_V3Z6W0 Uncharacterized protein n=1 Tax=Lottia gigantea ...   137   4e-30
+UniRef90_UPI00053262A6 PREDICTED: max dimerization protein 1, pa...   137   4e-30
+UniRef90_I3LDS9 Uncharacterized protein n=1 Tax=Sus scrofa RepID...   137   4e-30
+UniRef90_UPI0004571943 PREDICTED: max dimerization protein 1-lik...   137   4e-30
+UniRef90_UPI000359C93E PREDICTED: max-interacting protein 1-like...   137   5e-30
+UniRef90_R7TJD7 Uncharacterized protein n=1 Tax=Capitella teleta...   137   6e-30
+UniRef90_R0LTV5 Max-interacting transcriptional repressor MAD4 (...   137   7e-30
+UniRef90_E9FXP6 Putative uncharacterized protein n=1 Tax=Daphnia...   136   9e-30
+UniRef90_UPI00039904C5 PREDICTED: LOW QUALITY PROTEIN: MAX dimer...   136   1e-29
+UniRef90_UPI00052174A6 PREDICTED: max dimerization protein 1 n=1...   136   1e-29
+UniRef90_UPI000523D497 PREDICTED: max-interacting protein 1, par...   136   1e-29
+UniRef90_UPI0004F4A124 PREDICTED: LOW QUALITY PROTEIN: max dimer...   136   1e-29
+UniRef90_H0XVY4 Uncharacterized protein n=1 Tax=Otolemur garnett...   136   1e-29
+UniRef90_A0A091D673 Lateral signaling target protein 2 like prot...   136   1e-29
+UniRef90_UPI00046B4BD0 PREDICTED: max dimerization protein 4 n=1...   135   2e-29
+UniRef90_UPI0004CCDEF4 PREDICTED: max dimerization protein 1-lik...   134   3e-29
+UniRef90_UPI0003D08727 PREDICTED: spidroin-2-like n=1 Tax=Alliga...   134   4e-29
+UniRef90_UPI000510AD1B PREDICTED: LOW QUALITY PROTEIN: max-inter...   133   6e-29
+UniRef90_W5N274 Uncharacterized protein n=1 Tax=Lepisosteus ocul...   133   6e-29
+UniRef90_UPI00032AE78F PREDICTED: max dimerization protein 3 n=1...   133   7e-29
+UniRef90_UPI00042CD68A PREDICTED: max-binding protein MNT-like n...   132   1e-28
+UniRef90_J9JXQ7 Uncharacterized protein n=2 Tax=Acyrthosiphon pi...   132   1e-28
+UniRef90_A0A0A9Z1J8 Max dimerization protein 1 n=4 Tax=Cimicomor...   132   2e-28
+UniRef90_UPI000333D8ED PREDICTED: max dimerization protein 4 n=1...   132   2e-28
+UniRef90_UPI00033465CC PREDICTED: max dimerization protein 3 n=1...   132   2e-28
+UniRef90_F6TVR7 Uncharacterized protein n=2 Tax=Simiiformes RepI...   131   3e-28
+UniRef90_Q14VH3 MAX dimerization protein n=11 Tax=Apocrita RepID...   131   3e-28
+UniRef90_UPI0001D55D33 PREDICTED: hypothetical protein LOC706346...   131   3e-28
+UniRef90_G3WK09 Uncharacterized protein n=2 Tax=Metatheria RepID...   131   4e-28
+UniRef90_T1KE75 Uncharacterized protein n=1 Tax=Tetranychus urti...   130   5e-28
+UniRef90_UPI0004D05AA0 PREDICTED: max dimerization protein 4 n=1...   130   5e-28
+UniRef90_F6UUZ2 Uncharacterized protein (Fragment) n=1 Tax=Xenop...   130   6e-28
+UniRef90_UPI0004402E48 PREDICTED: max dimerization protein 4 n=1...   130   6e-28
+UniRef90_UPI00057BA3C7 PREDICTED: LOW QUALITY PROTEIN: max dimer...   129   1e-27
+UniRef90_H9H0K3 Uncharacterized protein (Fragment) n=2 Tax=Melea...   129   1e-27
+UniRef90_W4XT34 Uncharacterized protein n=1 Tax=Strongylocentrot...   129   1e-27
+UniRef90_UPI0004549D4B PREDICTED: max dimerization protein 3 iso...   129   1e-27
+UniRef90_G3ICI8 MAX-interacting protein 1 n=3 Tax=Muroidea RepID...   129   2e-27
+UniRef90_A0A091CT70 Max dimerization protein 1 n=1 Tax=Fukomys d...   129   2e-27
+UniRef90_UPI0003F16C59 PREDICTED: max dimerization protein 4 n=1...   128   2e-27
+UniRef90_UPI0003288F2F PREDICTED: max dimerization protein 4 n=1...   128   2e-27
+UniRef90_UPI00053F30ED PREDICTED: max dimerization protein 4 n=1...   128   3e-27
+UniRef90_I3N2H7 Uncharacterized protein n=8 Tax=Amniota RepID=I3...   128   3e-27
+UniRef90_UPI000577DF90 PREDICTED: max dimerization protein 3 n=1...   128   3e-27
+UniRef90_M7C5M5 Max-interacting protein 1 n=4 Tax=Archelosauria ...   128   3e-27
+UniRef90_G5BCH8 Max-interacting transcriptional repressor MAD4 n...   128   3e-27
+UniRef90_UPI0004BFC8AD PREDICTED: LOW QUALITY PROTEIN: max dimer...   127   4e-27
+UniRef90_UPI0005305C21 PREDICTED: LOW QUALITY PROTEIN: max dimer...   127   7e-27
+UniRef90_UPI0004F054C9 PREDICTED: max dimerization protein 4 n=1...   126   8e-27
+UniRef90_UPI000441BDA9 PREDICTED: max dimerization protein 4 n=1...   126   9e-27
+UniRef90_A0A096MJ49 Max interacting protein 1, isoform CRA_e n=8...   126   1e-26
+UniRef90_UPI0003339175 PREDICTED: max dimerization protein 3 n=3...   126   1e-26
+UniRef90_UPI0003C8A820 PREDICTED: LOW QUALITY PROTEIN: MAX dimer...   125   2e-26
+UniRef90_UPI0003AE5ED4 PREDICTED: max dimerization protein 4 iso...   125   2e-26
+UniRef90_UPI0003AE97CE PREDICTED: max dimerization protein 4 iso...   125   3e-26
+UniRef90_G3Q4D7 Uncharacterized protein n=1 Tax=Gasterosteus acu...   124   4e-26
+UniRef90_UPI000441D57E PREDICTED: max dimerization protein 4-lik...   124   5e-26
+UniRef90_Q80US8 Max dimerization protein 3 n=4 Tax=Muroidea RepI...   124   6e-26
+UniRef90_UPI0003F1C05A PREDICTED: max dimerization protein 4 n=1...   123   7e-26
+UniRef90_U3IQX9 Uncharacterized protein (Fragment) n=4 Tax=Neogn...   123   8e-26
+UniRef90_UPI00034FE632 PREDICTED: max dimerization protein 3 iso...   123   1e-25
+UniRef90_L5K4V4 Max-interacting transcriptional repressor MAD4 n...   122   1e-25
+UniRef90_UPI000532FEE1 PREDICTED: max dimerization protein 4 n=1...   122   2e-25
+UniRef90_G1PTL7 Uncharacterized protein (Fragment) n=8 Tax=Amnio...   122   2e-25
+UniRef90_A0A091TCX5 Max dimerization protein 1 (Fragment) n=1 Ta...   122   2e-25
+UniRef90_UPI00034FF1A4 PREDICTED: max dimerization protein 3 iso...   121   2e-25
+UniRef90_G1T9C5 Uncharacterized protein n=1 Tax=Oryctolagus cuni...   121   3e-25
+UniRef90_H0VRZ0 Uncharacterized protein n=1 Tax=Cavia porcellus ...   121   3e-25
+UniRef90_A0A091D5F7 Max-binding protein MNT n=2 Tax=Rodentia Rep...   121   3e-25
+UniRef90_UPI0002A4C846 PREDICTED: max dimerization protein 1-lik...   121   3e-25
+UniRef90_A0A099ZI42 Max-interacting protein 1 (Fragment) n=8 Tax...   121   4e-25
+UniRef90_UPI0003F0A621 PREDICTED: max-binding protein MNT-like n...   121   4e-25
+UniRef90_H0UTP4 Uncharacterized protein (Fragment) n=1 Tax=Cavia...   121   4e-25
+UniRef90_UPI00046BE953 PREDICTED: max dimerization protein 4 n=1...   121   4e-25
+UniRef90_S9XFS6 Max dimerization protein 4 isoform 1 n=1 Tax=Cam...   120   6e-25
+UniRef90_UPI0005216EB8 PREDICTED: max dimerization protein 3 n=1...   120   7e-25
+UniRef90_UPI0002C66C8A PREDICTED: max dimerization protein 4 n=1...   120   8e-25
+UniRef90_A0A093DHM8 Max dimerization protein 1 (Fragment) n=1 Ta...   119   9e-25
+UniRef90_UPI000444324B PREDICTED: max dimerization protein 4 n=1...   119   1e-24
+UniRef90_UPI00046B9F07 PREDICTED: max dimerization protein 3 iso...   119   1e-24
+UniRef90_UPI0004ED301E PREDICTED: max dimerization protein 3 iso...   119   1e-24
+UniRef90_F7IMJ3 Uncharacterized protein n=9 Tax=Eutheria RepID=F...   119   1e-24
+UniRef90_UPI0003ACB1C3 PREDICTED: max-binding protein MNT n=1 Ta...   119   1e-24
+UniRef90_F7IGC8 Uncharacterized protein n=1 Tax=Callithrix jacch...   119   1e-24
+UniRef90_UPI0004432385 PREDICTED: max-binding protein MNT n=1 Ta...   119   2e-24
+UniRef90_G3RUA7 Uncharacterized protein n=1 Tax=Gorilla gorilla ...   119   2e-24
+UniRef90_UPI0003339B0C PREDICTED: max-binding protein MNT n=1 Ta...   118   2e-24
+UniRef90_Q99583 Max-binding protein MNT n=52 Tax=Eutheria RepID=...   118   3e-24
+UniRef90_UPI0003ABBF39 PREDICTED: max dimerization protein 4 iso...   118   3e-24
+UniRef90_F1QI91 Uncharacterized protein (Fragment) n=2 Tax=Danio...   118   3e-24
+UniRef90_UPI0003C8E207 PREDICTED: max dimerization protein 3 n=1...   118   3e-24
+UniRef90_UPI000328E5C1 PREDICTED: max-binding protein MNT n=1 Ta...   117   4e-24
+UniRef90_A0A096P2C4 Uncharacterized protein n=6 Tax=Boreoeutheri...   117   4e-24
+UniRef90_UPI000533F300 PREDICTED: max dimerization protein 4 iso...   117   5e-24
+UniRef90_G1U4P9 Uncharacterized protein n=1 Tax=Oryctolagus cuni...   117   5e-24
+UniRef90_UPI00035010E3 PREDICTED: max dimerization protein 4 n=1...   117   5e-24
+UniRef90_A0A099ZLS6 Max-binding protein MNT (Fragment) n=2 Tax=T...   117   6e-24
+UniRef90_B7PTG3 Max binding protein mnt, putative n=1 Tax=Ixodes...   117   6e-24
+UniRef90_UPI0004573B53 PREDICTED: max-binding protein MNT n=1 Ta...   117   6e-24
+UniRef90_UPI000522A2D3 PREDICTED: max dimerization protein 4 n=1...   117   6e-24
+UniRef90_K7G4F9 Uncharacterized protein n=9 Tax=Archelosauria Re...   117   6e-24
+UniRef90_G9KBY4 MAX dimerization protein 1 (Fragment) n=2 Tax=Ca...   117   7e-24
+UniRef90_H2PCQ5 Uncharacterized protein (Fragment) n=1 Tax=Pongo...   117   7e-24
+UniRef90_A0A091FN96 Max dimerization protein 1 (Fragment) n=1 Ta...   116   1e-23
+UniRef90_A0A096MXW9 Uncharacterized protein n=3 Tax=Simiiformes ...   116   1e-23
+UniRef90_UPI0004544642 PREDICTED: LOW QUALITY PROTEIN: max-bindi...   116   2e-23
+UniRef90_UPI00034FABD0 PREDICTED: max dimerization protein 3 iso...   115   2e-23
+UniRef90_UPI0003F113DC PREDICTED: max dimerization protein 3 n=1...   115   2e-23
+UniRef90_A0A091M9I3 Max dimerization protein 1 (Fragment) n=3 Ta...   115   2e-23
+UniRef90_UPI00054C4375 PREDICTED: max-binding protein MNT n=1 Ta...   115   2e-23
+UniRef90_H0ZYE6 Uncharacterized protein (Fragment) n=2 Tax=Taeni...   115   2e-23
+UniRef90_W5KN47 Uncharacterized protein n=1 Tax=Astyanax mexican...   115   2e-23
+UniRef90_E2QY39 Uncharacterized protein n=1 Tax=Canis familiaris...   115   2e-23
+UniRef90_UPI00049533DD PREDICTED: max-binding protein MNT isofor...   115   2e-23
+UniRef90_UPI00049865B5 PREDICTED: max dimerization protein 4 iso...   115   3e-23
+UniRef90_L8Y3Y9 Max-binding protein MNT n=1 Tax=Tupaia chinensis...   115   3e-23
+UniRef90_F7EQB6 Uncharacterized protein n=1 Tax=Xenopus tropical...   114   3e-23
+UniRef90_I3NCE6 Uncharacterized protein (Fragment) n=1 Tax=Sperm...   114   4e-23
+UniRef90_V9LB60 Max-interacting protein 1 (Fragment) n=2 Tax=Cal...   114   4e-23
+UniRef90_V9L6V5 Max-interacting protein 1 (Fragment) n=2 Tax=Cal...   114   5e-23
+UniRef90_F6RHV5 Uncharacterized protein (Fragment) n=2 Tax=Catar...   114   6e-23
+UniRef90_K1RGW6 MAD protein n=1 Tax=Crassostrea gigas RepID=K1RG...   113   7e-23
+UniRef90_H2Y6W3 Uncharacterized protein n=1 Tax=Ciona savignyi R...   113   8e-23
+UniRef90_V5IAF4 Max dimerization protein n=1 Tax=Anoplophora gla...   113   8e-23
+UniRef90_H2LUS4 Uncharacterized protein n=1 Tax=Oryzias latipes ...   113   9e-23
+UniRef90_A0A091JBE2 Max-binding protein MNT (Fragment) n=3 Tax=N...   113   9e-23
+UniRef90_A0A093SST5 Max-binding protein MNT (Fragment) n=2 Tax=M...   112   1e-22
+UniRef90_G1N8X6 Uncharacterized protein (Fragment) n=3 Tax=Neogn...   112   1e-22
+UniRef90_UPI000441D717 PREDICTED: LOW QUALITY PROTEIN: max-bindi...   112   1e-22
+UniRef90_M3YHU3 Uncharacterized protein n=7 Tax=Laurasiatheria R...   112   1e-22
+UniRef90_UPI0003EA9993 PREDICTED: max dimerization protein 3-lik...   112   1e-22
+UniRef90_S9X0L2 Max-interacting protein 1 isoform a n=1 Tax=Came...   112   2e-22
+UniRef90_T1IQ81 Uncharacterized protein n=1 Tax=Strigamia mariti...   112   2e-22
+UniRef90_UPI000273C7B1 PREDICTED: uncharacterized protein LOC100...   112   2e-22
+UniRef90_H9H0K4 Uncharacterized protein (Fragment) n=1 Tax=Melea...   112   2e-22
+UniRef90_UPI00038334A5 PREDICTED: max-binding protein MNT n=1 Ta...   112   2e-22
+UniRef90_G1LLX0 Uncharacterized protein n=8 Tax=Laurasiatheria R...   112   2e-22
+UniRef90_UPI0003BBB220 PREDICTED: max dimerization protein 4 n=1...   112   2e-22
+UniRef90_M4A9Z9 Uncharacterized protein n=3 Tax=Poeciliinae RepI...   111   2e-22
+UniRef90_UPI00054B1604 PREDICTED: max-binding protein MNT-like n...   111   3e-22
+UniRef90_G3P1X4 Uncharacterized protein n=1 Tax=Gasterosteus acu...   111   3e-22
+UniRef90_W5LLC8 Uncharacterized protein n=1 Tax=Astyanax mexican...   111   3e-22
+UniRef90_F1NB79 Uncharacterized protein (Fragment) n=8 Tax=Neogn...   111   3e-22
+UniRef90_UPI00057BB903 PREDICTED: LOW QUALITY PROTEIN: max-bindi...   111   3e-22
+UniRef90_Q9NDP3 Not7 n=1 Tax=Ciona intestinalis RepID=Q9NDP3_CIOIN    111   3e-22
+UniRef90_Q0VH32 Max-binding protein MNT n=2 Tax=Xenopus RepID=MN...   111   3e-22
+UniRef90_F7IDZ7 Uncharacterized protein n=1 Tax=Callithrix jacch...   111   4e-22
+UniRef90_A0A091W1H5 Max-binding protein MNT (Fragment) n=2 Tax=O...   111   4e-22
+UniRef90_UPI00039588C8 PREDICTED: max-binding protein MNT n=1 Ta...   111   4e-22
+UniRef90_UPI00042BB00E PREDICTED: max-binding protein MNT n=1 Ta...   111   5e-22
+UniRef90_F1QBK5 Uncharacterized protein n=2 Tax=Danio rerio RepI...   111   5e-22
+UniRef90_F7DZQ7 Uncharacterized protein (Fragment) n=2 Tax=Boreo...   110   6e-22
+UniRef90_Q561K6 Uncharacterized protein (Fragment) n=3 Tax=Tetra...   110   6e-22
+UniRef90_U3I848 Uncharacterized protein (Fragment) n=9 Tax=Neogn...   110   8e-22
+UniRef90_H2LBX6 Uncharacterized protein n=1 Tax=Oryzias latipes ...   110   8e-22
+UniRef90_UPI0005215C3F PREDICTED: LOW QUALITY PROTEIN: max-bindi...   110   9e-22
+UniRef90_I3MYV4 Uncharacterized protein (Fragment) n=2 Tax=Sperm...   109   1e-21
+UniRef90_F4WLA2 MAD protein n=4 Tax=Formicidae RepID=F4WLA2_ACREC     109   1e-21
+UniRef90_U5ES74 Putative max dimerization protein 4 (Fragment) n...   109   1e-21
+UniRef90_UPI000521714A PREDICTED: max-binding protein MNT, parti...   109   1e-21
+UniRef90_UPI0003992BEC PREDICTED: max-binding protein MNT n=2 Ta...   109   1e-21
+UniRef90_H0ZEM6 Uncharacterized protein n=3 Tax=Passeriformes Re...   109   1e-21
+UniRef90_UPI0003C4962B PREDICTED: max-binding protein MNT isofor...   109   1e-21
+UniRef90_UPI00029D7BAB PREDICTED: max-binding protein MNT n=1 Ta...   109   1e-21
+UniRef90_F6VYX9 Uncharacterized protein (Fragment) n=1 Tax=Ornit...   109   1e-21
+UniRef90_UPI0004543A6C PREDICTED: max dimerization protein 1 iso...   109   2e-21
+UniRef90_A0A060XLD0 Oncorhynchus mykiss genomic scaffold, scaffo...   109   2e-21
+UniRef90_W5Q2B1 Uncharacterized protein n=2 Tax=Ovis aries RepID...   109   2e-21
+UniRef90_UPI0002A48DB3 PREDICTED: max-binding protein MNT-like n...   109   2e-21
+UniRef90_A0A093J711 Max dimerization protein 1 (Fragment) n=5 Ta...   108   3e-21
+UniRef90_UPI00054EDC57 PREDICTED: max-binding protein MNT isofor...   108   3e-21
+UniRef90_G3I0K0 Max-interacting transcriptional repressor MAD4 (...   108   3e-21
+UniRef90_H2UTT8 Uncharacterized protein n=3 Tax=Takifugu rubripe...   108   3e-21
+UniRef90_I3JMZ8 Uncharacterized protein n=10 Tax=Pseudocrenilabr...   108   3e-21
+UniRef90_F4WE42 Phosphorylase b kinase gamma catalytic chain, sk...   108   3e-21
+UniRef90_E7FCB9 Uncharacterized protein n=1 Tax=Danio rerio RepI...   108   3e-21
+UniRef90_UPI0004BD9863 PREDICTED: max dimerization protein 4 n=1...   107   4e-21
+UniRef90_A0A0A9Z4U1 Max dimerization protein 1 (Fragment) n=1 Ta...   107   4e-21
+UniRef90_UPI0004CDAA81 PREDICTED: uncharacterized protein LOC103...   107   4e-21
+UniRef90_U3JQ95 Uncharacterized protein (Fragment) n=2 Tax=Ficed...   107   5e-21
+UniRef90_UPI0003DF7250 PREDICTED: uncharacterized protein LOC102...   107   5e-21
+UniRef90_UPI0003EBD0B2 PREDICTED: max dimerization protein 4, pa...   107   5e-21
+UniRef90_A0A026WE45 Max-binding protein MNT n=1 Tax=Cerapachys b...   107   6e-21
+UniRef90_UPI000522D14A PREDICTED: max dimerization protein 4, pa...   107   8e-21
+UniRef90_W5U920 Max-binding protein MNT n=1 Tax=Ictalurus puncta...   106   8e-21
+UniRef90_UPI0003EADA86 PREDICTED: max-binding protein MNT-like n...   106   9e-21
+UniRef90_L7X1I6 Max dimerization-like protein n=9 Tax=Heliconiin...   106   1e-20
+UniRef90_UPI0004F47126 PREDICTED: max-binding protein MNT n=1 Ta...   106   1e-20
+UniRef90_Q4S2T3 Chromosome 17 SCAF14760, whole genome shotgun se...   106   1e-20
+UniRef90_UPI00057736CA PREDICTED: max-binding protein MNT-like n...   106   1e-20
+UniRef90_S7MH74 Max-binding protein MNT n=1 Tax=Myotis brandtii ...   106   1e-20
+UniRef90_K9IRM4 Putative upstream transcription factor 2/l-myc-2...   106   1e-20
+UniRef90_UPI0004571EFC PREDICTED: max dimerization protein 4 n=1...   106   1e-20
+UniRef90_UPI0004DDF581 PREDICTED: max-binding protein MNT n=1 Ta...   106   1e-20
+UniRef90_Q175Q6 AAEL006567-PA n=1 Tax=Aedes aegypti RepID=Q175Q6...   106   1e-20
+UniRef90_G7MFT9 Max dimerization protein 4 (Fragment) n=2 Tax=Ce...   105   1e-20
+UniRef90_UPI00054DFB51 PREDICTED: max-binding protein MNT-like i...   105   1e-20
+UniRef90_UPI0003AF34ED PREDICTED: max-binding protein MNT n=1 Ta...   105   1e-20
+UniRef90_M4A2E9 Uncharacterized protein n=4 Tax=Poeciliinae RepI...   105   1e-20
+UniRef90_A0A091P5R9 Max dimerization protein 4 (Fragment) n=18 T...   105   1e-20
+UniRef90_Q4RJC9 Chromosome 18 SCAF15038, whole genome shotgun se...   105   2e-20
+UniRef90_H2TUU4 Uncharacterized protein (Fragment) n=1 Tax=Takif...   105   2e-20
+UniRef90_I3JQ33 Uncharacterized protein n=1 Tax=Oreochromis nilo...   105   2e-20
+UniRef90_W5JKJ3 Uncharacterized protein n=1 Tax=Anopheles darlin...   105   2e-20
+UniRef90_UPI0004DFDEC8 PREDICTED: LOW QUALITY PROTEIN: max-bindi...   105   2e-20
+UniRef90_U3JBG9 Uncharacterized protein (Fragment) n=3 Tax=Passe...   105   2e-20
+UniRef90_A0A088AJU1 Uncharacterized protein n=1 Tax=Apis mellife...   105   2e-20
+UniRef90_UPI000496DAD8 PREDICTED: max-binding protein MNT-like i...   105   2e-20
+UniRef90_I3JQ32 Uncharacterized protein n=6 Tax=Pseudocrenilabri...   105   2e-20
+UniRef90_UPI0003B6C4E4 PREDICTED: max-binding protein MNT-like n...   105   2e-20
+UniRef90_A0A9R4 BHLH transcription factor MAD n=1 Tax=Molgula te...   105   2e-20
+UniRef90_F5HKD4 AGAP013301-PA n=1 Tax=Anopheles gambiae RepID=F5...   104   3e-20
+UniRef90_UPI000580B814 PREDICTED: AF4/FMR2 family member 4-like ...   104   4e-20
+UniRef90_K1QLP9 Max-binding protein MNT n=1 Tax=Crassostrea giga...   104   4e-20
+UniRef90_UPI000495AE49 PREDICTED: max-binding protein MNT-like n...   104   5e-20
+UniRef90_H3BFE5 Uncharacterized protein n=1 Tax=Latimeria chalum...   104   6e-20
+UniRef90_V5HVZ6 Putative max-binding protein mnt (Fragment) n=2 ...   104   6e-20
+UniRef90_UPI00045483C7 PREDICTED: max dimerization protein 1, pa...   104   6e-20
+UniRef90_UPI0003506EB2 PREDICTED: max-binding protein MNT isofor...   104   7e-20
+UniRef90_I3KLY4 Uncharacterized protein (Fragment) n=1 Tax=Oreoc...   103   7e-20
+UniRef90_G3QB26 Uncharacterized protein n=1 Tax=Gasterosteus acu...   103   7e-20
+UniRef90_A0A093FYG5 Max-binding protein MNT (Fragment) n=1 Tax=P...   103   8e-20
+UniRef90_W5MA60 Uncharacterized protein n=1 Tax=Lepisosteus ocul...   103   9e-20
+UniRef90_S7QAH9 Max dimerization protein 4 n=1 Tax=Myotis brandt...   103   1e-19
+UniRef90_UPI0003C19C7C PREDICTED: max-binding protein MNT n=1 Ta...   103   1e-19
+UniRef90_A0A023FCM7 Uncharacterized protein (Fragment) n=1 Tax=A...   103   1e-19
+UniRef90_B0X7F7 Max binding protein n=1 Tax=Culex quinquefasciat...   102   1e-19
+UniRef90_F7FZQ0 Uncharacterized protein n=1 Tax=Monodelphis dome...   102   2e-19
+UniRef90_A0A091LM96 Max dimerization protein 1 (Fragment) n=1 Ta...   102   2e-19
+UniRef90_U5ESY6 Putative cell surface glycoprotein n=1 Tax=Coret...   102   2e-19
+UniRef90_UPI00034FAFCF PREDICTED: max-binding protein MNT-like n...   102   2e-19
+UniRef90_Q4TIQ8 Chromosome 12 SCAF1856, whole genome shotgun seq...   101   4e-19
+UniRef90_D3ZF98 Protein Mnt n=2 Tax=Rattus norvegicus RepID=D3ZF...   100   5e-19
+UniRef90_UPI000496D021 PREDICTED: max-binding protein MNT isofor...   100   5e-19
+UniRef90_V8PEK5 Max dimerization protein 3 (Fragment) n=1 Tax=Op...   100   6e-19
+UniRef90_UPI00034476A4 PREDICTED: max dimerization protein 3 iso...   100   6e-19
+UniRef90_L7LV39 Uncharacterized protein n=1 Tax=Rhipicephalus pu...   100   6e-19
+UniRef90_L7M5W1 Uncharacterized protein n=1 Tax=Rhipicephalus pu...   100   7e-19
+UniRef90_R7T9N9 Uncharacterized protein n=1 Tax=Capitella teleta...   100   8e-19
+UniRef90_A0A091SA35 Max dimerization protein 1 (Fragment) n=2 Ta...    99   2e-18
+UniRef90_V9L5I9 MAX-binding protein (Fragment) n=1 Tax=Callorhyn...    99   2e-18
+UniRef90_H3DKT2 Uncharacterized protein n=2 Tax=Tetraodon nigrov...    99   2e-18
+UniRef90_UPI0003955178 PREDICTED: max dimerization protein 3 n=1...    98   3e-18
+UniRef90_A0A093G6K6 Max dimerization protein 1 (Fragment) n=2 Ta...    98   4e-18
+UniRef90_UPI0003291CA0 PREDICTED: max dimerization protein 3 n=1...    98   4e-18
+UniRef90_L7MI91 Uncharacterized protein (Fragment) n=1 Tax=Rhipi...    98   5e-18
+UniRef90_A0A022T5H2 Phosphorylase b kinase gamma catalytic chain...    98   6e-18
+UniRef90_K7JRC0 Uncharacterized protein n=2 Tax=Nasonia vitripen...    97   7e-18
+UniRef90_UPI00053CE081 PREDICTED: max dimerization protein 3 n=1...    97   8e-18
+UniRef90_UPI00053CC497 PREDICTED: N-myc proto-oncogene protein n...    96   1e-17
+UniRef90_UPI000273BD3F PREDICTED: max-binding protein MNT n=1 Ta...    96   1e-17
+UniRef90_T1IW44 Uncharacterized protein n=1 Tax=Strigamia mariti...    96   2e-17
+UniRef90_UPI0003AED751 PREDICTED: max dimerization protein 3 iso...    96   2e-17
+UniRef90_L9JCC3 Max dimerization protein 3 n=1 Tax=Tupaia chinen...    96   2e-17
+UniRef90_UPI0005768E74 PREDICTED: max-binding protein MNT-like i...    96   2e-17
+UniRef90_A0A084VZA8 AGAP013301-PA-like protein n=1 Tax=Anopheles...    95   3e-17
+UniRef90_T1D607 Putative max binding protein (Fragment) n=1 Tax=...    95   4e-17
+UniRef90_UPI0003DE96E5 PREDICTED: uncharacterized protein LOC550...    94   5e-17
+UniRef90_H2MKY4 Uncharacterized protein (Fragment) n=1 Tax=Oryzi...    94   6e-17
+UniRef90_V8PCF1 Max dimerization protein 4 (Fragment) n=1 Tax=Op...    94   7e-17
+UniRef90_UPI00059DD9AF UPI00059DD9AF related cluster n=1 Tax=unk...    94   8e-17
+UniRef90_H9JUG0 Uncharacterized protein n=1 Tax=Bombyx mori RepI...    93   1e-16
+UniRef90_UPI0005283877 PREDICTED: N-myc proto-oncogene protein, ...    93   1e-16
+UniRef90_R0K3Q6 N-myc proto-oncogene protein (Fragment) n=1 Tax=...    93   1e-16
+UniRef90_K7G066 Uncharacterized protein n=5 Tax=Cryptodira RepID...    93   1e-16
+UniRef90_R0L9E7 Viral myc transforming protein (Fragment) n=4 Ta...    93   2e-16
+UniRef90_UPI0005112BE4 PREDICTED: myc proto-oncogene protein n=1...    93   2e-16
+UniRef90_B4Q0I6 GE16308 n=2 Tax=melanogaster subgroup RepID=B4Q0...    93   2e-16
+UniRef90_UPI0003C89223 PREDICTED: uncharacterized protein LOC102...    93   2e-16
+UniRef90_D2A4G9 Putative uncharacterized protein GLEAN_15361 n=2...    93   2e-16
+UniRef90_UPI0004EFD334 PREDICTED: U4/U6.U5 small nuclear ribonuc...    93   2e-16
+UniRef90_UPI0003C48957 PREDICTED: LOW QUALITY PROTEIN: myc proto...    92   3e-16
+UniRef90_G1KL38 Uncharacterized protein n=1 Tax=Anolis carolinen...    92   3e-16
+UniRef90_T2MEL1 Max dimerization protein 1 n=1 Tax=Hydra vulgari...    92   3e-16
+UniRef90_E0W3N1 Max-binding protein MNT, putative n=1 Tax=Pedicu...    92   3e-16
+UniRef90_UPI0004421CCE PREDICTED: N-myc proto-oncogene protein n...    91   5e-16
+UniRef90_P01109 Myc proto-oncogene protein n=6 Tax=root RepID=MY...    91   5e-16
+UniRef90_UPI0003508A9E PREDICTED: myc proto-oncogene protein n=1...    91   5e-16
+UniRef90_UPI00045461C5 PREDICTED: N-myc proto-oncogene protein i...    91   5e-16
+UniRef90_UPI0003F15400 PREDICTED: N-myc proto-oncogene protein-l...    91   5e-16
+UniRef90_U3IQM3 Uncharacterized protein (Fragment) n=1 Tax=Anas ...    91   5e-16
+UniRef90_P10395 Viral myc transforming protein n=9 Tax=Retroviri...    91   5e-16
+UniRef90_UPI0003C28C4C PREDICTED: N-myc proto-oncogene protein n...    91   5e-16
+UniRef90_UPI00046CA761 PREDICTED: max-binding protein MNT-like i...    91   6e-16
+UniRef90_UPI0003F08167 PREDICTED: myc proto-oncogene protein-lik...    91   6e-16
+UniRef90_UPI0003EAC647 PREDICTED: N-myc proto-oncogene protein-l...    91   6e-16
+UniRef90_UPI00052158B0 PREDICTED: N-myc proto-oncogene protein n...    91   6e-16
+UniRef90_H2RBM2 Uncharacterized protein (Fragment) n=1 Tax=Pan t...    91   6e-16
+UniRef90_G1S5W0 Uncharacterized protein n=1 Tax=Nomascus leucoge...    91   6e-16
+UniRef90_UPI00045762F4 PREDICTED: LOW QUALITY PROTEIN: myc proto...    91   6e-16
+UniRef90_H0X3Q7 Uncharacterized protein n=1 Tax=Otolemur garnett...    91   7e-16
+UniRef90_UPI00058C6080 UPI00058C6080 related cluster n=2 Tax=unk...    91   7e-16
+UniRef90_G3HFI5 N-myc proto-oncogene protein n=1 Tax=Cricetulus ...    91   7e-16
+UniRef90_H2UFM6 Uncharacterized protein n=1 Tax=Takifugu rubripe...    91   7e-16
+UniRef90_W5NI94 Uncharacterized protein (Fragment) n=1 Tax=Lepis...    90   8e-16
+UniRef90_Q5SWE2 Max-binding protein MNT (Fragment) n=1 Tax=Mus m...    90   9e-16
+UniRef90_Q8SY46 GH28809p n=3 Tax=Drosophila melanogaster RepID=Q...    90   1e-15
+UniRef90_G1L2K0 Uncharacterized protein n=2 Tax=Ailuropoda melan...    90   1e-15
+UniRef90_UPI0003AFF6CE PREDICTED: N-myc proto-oncogene protein n...    90   1e-15
+UniRef90_S9XLI1 N-myc proto-oncogene protein-like protein n=1 Ta...    90   1e-15
+UniRef90_L9LAR0 N-myc proto-oncogene protein n=1 Tax=Tupaia chin...    90   1e-15
+UniRef90_P20389 N-myc 2 proto-oncogene protein n=3 Tax=Marmotini...    90   1e-15
+UniRef90_UPI00032AF27D PREDICTED: N-myc proto-oncogene protein n...    89   1e-15
+UniRef90_UPI000350C3C4 PREDICTED: N-myc proto-oncogene protein n...    89   1e-15
+UniRef90_G1QGY8 Uncharacterized protein (Fragment) n=1 Tax=Nomas...    89   2e-15
+UniRef90_A0A093GH59 Uncharacterized protein (Fragment) n=5 Tax=N...    89   2e-15
+UniRef90_F6ZI45 Uncharacterized protein n=7 Tax=Cercopithecinae ...    89   2e-15
+UniRef90_UPI000392DD8F PREDICTED: N-myc proto-oncogene protein n...    89   2e-15
+UniRef90_H3AII4 Uncharacterized protein (Fragment) n=1 Tax=Latim...    89   2e-15
+UniRef90_UPI0004C099C0 PREDICTED: N-myc proto-oncogene protein n...    89   2e-15
+UniRef90_G3WEN3 Uncharacterized protein (Fragment) n=1 Tax=Sarco...    89   2e-15
+UniRef90_S4NWZ2 Max binding protein mnt (Fragment) n=1 Tax=Parar...    89   2e-15
+UniRef90_UPI00051E37BE PREDICTED: N-myc proto-oncogene protein n...    89   2e-15
+UniRef90_UPI000383545D PREDICTED: max dimerization protein 1-lik...    89   2e-15
+UniRef90_P18444 N-myc proto-oncogene protein n=2 Tax=Gallus gall...    89   2e-15
+UniRef90_UPI0004D06C27 PREDICTED: N-myc proto-oncogene protein n...    89   2e-15
+UniRef90_UPI0003C18F85 PREDICTED: N-myc proto-oncogene protein-l...    89   2e-15
+UniRef90_UPI0003C88886 PREDICTED: N-myc proto-oncogene protein n...    89   2e-15
+UniRef90_UPI0002C674F2 PREDICTED: N-myc proto-oncogene protein n...    89   2e-15
+UniRef90_UPI0003336564 PREDICTED: N-myc proto-oncogene protein n...    89   3e-15
+UniRef90_UPI00052E80EB PREDICTED: N-myc proto-oncogene protein n...    89   3e-15
+UniRef90_I3KBQ7 Uncharacterized protein (Fragment) n=1 Tax=Oreoc...    89   3e-15
+UniRef90_G1KK08 Uncharacterized protein n=2 Tax=Anolis carolinen...    88   3e-15
+UniRef90_UPI0003957307 PREDICTED: myc proto-oncogene protein n=1...    88   3e-15
+UniRef90_UPI0005351070 PREDICTED: N-myc proto-oncogene protein n...    88   3e-15
+UniRef90_O46042 EG:114E2.2 protein n=2 Tax=Drosophila melanogast...    88   3e-15
+UniRef90_UPI00029D6C25 PREDICTED: N-myc proto-oncogene protein n...    88   3e-15
+UniRef90_G1RWK7 Uncharacterized protein n=1 Tax=Nomascus leucoge...    88   3e-15
+UniRef90_A0A060Y977 Oncorhynchus mykiss genomic scaffold, scaffo...    88   3e-15
+UniRef90_U3JIP7 Uncharacterized protein (Fragment) n=11 Tax=Pass...    88   3e-15
+UniRef90_UPI0004F4B569 PREDICTED: max dimerization protein 4 iso...    88   4e-15
+UniRef90_E2BJJ4 Max-binding protein MNT n=1 Tax=Harpegnathos sal...    88   4e-15
+UniRef90_UPI000521AA03 PREDICTED: N-myc proto-oncogene protein n...    88   4e-15
+UniRef90_P03966 N-myc proto-oncogene protein n=10 Tax=Muroidea R...    88   4e-15
+UniRef90_Q9W4Q7 Mnt, isoform D n=3 Tax=Drosophila melanogaster R...    88   4e-15
+UniRef90_UPI00033304A6 PREDICTED: N-myc proto-oncogene protein n...    88   4e-15
+UniRef90_G1QCG9 Uncharacterized protein (Fragment) n=1 Tax=Myoti...    88   4e-15
+UniRef90_UPI000328A5DD PREDICTED: N-myc proto-oncogene protein-l...    88   4e-15
+UniRef90_A7RZK1 Predicted protein n=1 Tax=Nematostella vectensis...    88   4e-15
+UniRef90_L5M2W4 Max dimerization protein 4 (Fragment) n=1 Tax=My...    88   5e-15
+
+Sequences not found previously or not previously below threshold:
+
+  Database: uniref90.fasta
+    Posted date:  Mar 27, 2015  9:24 AM
+  Number of letters in database: 999,999,973
+  Number of sequences in database:  2,537,128
+  
+  Database: /home/freso388/nsc/programs/DB/uniref90.fasta.01
+    Posted date:  Mar 27, 2015  9:26 AM
+  Number of letters in database: 999,999,914
+  Number of sequences in database:  2,388,097
+  
+  Database: /home/freso388/nsc/programs/DB/uniref90.fasta.02
+    Posted date:  Mar 27, 2015  9:29 AM
+  Number of letters in database: 999,999,986
+  Number of sequences in database:  2,714,537
+  
+  Database: /home/freso388/nsc/programs/DB/uniref90.fasta.03
+    Posted date:  Mar 27, 2015  9:32 AM
+  Number of letters in database: 999,999,793
+  Number of sequences in database:  3,549,348
+  
+  Database: /home/freso388/nsc/programs/DB/uniref90.fasta.04
+    Posted date:  Mar 27, 2015  9:35 AM
+  Number of letters in database: 999,999,588
+  Number of sequences in database:  3,482,487
+  
+  Database: /home/freso388/nsc/programs/DB/uniref90.fasta.05
+    Posted date:  Mar 27, 2015  9:38 AM
+  Number of letters in database: 999,999,673
+  Number of sequences in database:  3,290,109
+  
+  Database: /home/freso388/nsc/programs/DB/uniref90.fasta.06
+    Posted date:  Mar 27, 2015  9:41 AM
+  Number of letters in database: 999,999,826
+  Number of sequences in database:  3,370,744
+  
+  Database: /home/freso388/nsc/programs/DB/uniref90.fasta.07
+    Posted date:  Mar 27, 2015  9:43 AM
+  Number of letters in database: 999,999,643
+  Number of sequences in database:  2,692,928
+  
+  Database: /home/freso388/nsc/programs/DB/uniref90.fasta.08
+    Posted date:  Mar 27, 2015  9:46 AM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,794,385
+  
+  Database: /home/freso388/nsc/programs/DB/uniref90.fasta.09
+    Posted date:  Mar 27, 2015  9:49 AM
+  Number of letters in database: 999,999,787
+  Number of sequences in database:  2,994,654
+  
+  Database: /home/freso388/nsc/programs/DB/uniref90.fasta.10
+    Posted date:  Mar 27, 2015  9:50 AM
+  Number of letters in database: 480,660,081
+  Number of sequences in database:  1,605,973
+  
+Lambda     K      H
+   0.306    0.127    0.327 
+
+Lambda     K      H
+   0.267   0.0385    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 12,371,901,721
+Number of Sequences: 31420390
+Number of extensions: 423571158
+Number of successful extensions: 4662926
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 10050
+Number of HSP's successfully gapped in prelim test: 32900
+Number of HSP's that attempted gapping in prelim test: 4172277
+Number of HSP's gapped (non-prelim): 347136
+length of query: 262
+length of database: 10,480,658,066
+effective HSP length: 141
+effective length of query: 121
+effective length of database: 10,345,350,372
+effective search space: 1251787395012
+effective search space used: 1251787395012
+T: 11
+A: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.5 bits)
+S2: 84 (37.1 bits)

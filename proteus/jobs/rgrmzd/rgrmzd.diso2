@@ -1,0 +1,19 @@
+       -----DISOPRED version 2-----
+Disordered residues are marked with asterisks (*)
+   Ordered residues are marked with dots (.)
+Predictions at a false positive rate threshold of: 5%
+
+    1 A *    0.853   0.853
+    2 S *    0.770   0.770
+    3 A *    0.698   0.698
+    4 S *    0.645   0.645
+    5 A *    0.626   0.626
+    6 S *    0.602   0.602
+    7 A *    0.574   0.574
+    8 S *    0.102   0.102
+    9 A *    0.132   0.132
+   10 S *    0.145   0.145
+   11 A *    0.172   0.172
+   12 S *    0.219   0.219
+   13 A *    0.272   0.272
+   14 S *    0.336   0.336

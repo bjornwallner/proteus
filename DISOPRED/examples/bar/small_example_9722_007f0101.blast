@@ -1,0 +1,1638 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= T0207 XcR50, X. campestris
+         (78 letters)
+
+Database: uniref90.fasta 
+           21,300,339 sequences; 7,299,530,212 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_B0RQB8 Uncharacterized protein n=4 Tax=Xanthomonas camp...   156   1e-36
+UniRef90_G0CBF3 Thiol-disulfide isomerase and thioredoxin n=1 Ta...   152   2e-35
+UniRef90_V7Z9X1 Uncharacterized protein n=3 Tax=Xanthomonas RepI...   123   1e-26
+UniRef90_G2M178 Uncharacterized protein n=9 Tax=Xanthomonas RepI...   122   2e-26
+UniRef90_Q3BQR0 Uncharacterized protein n=1 Tax=Xanthomonas camp...   122   3e-26
+UniRef90_F0B8B2 Glutaredoxin-like domain (DUF836) n=1 Tax=Xantho...   121   4e-26
+UniRef90_UPI0002E03D0B glutaredoxin n=1 Tax=Xanthomonas axonopod...   121   5e-26
+UniRef90_W4S3G9 Thiol-disulfide isomerase and thioredoxin n=3 Ta...   120   8e-26
+UniRef90_Q5H1U5 Uncharacterized protein n=5 Tax=Xanthomonas oryz...   119   3e-25
+UniRef90_R0E1U1 Uncharacterized protein n=1 Tax=Xanthomonas frag...   117   8e-25
+UniRef90_UPI0001CBF73B MULTISPECIES: glutaredoxin n=1 Tax=Xantho...   114   6e-24
+UniRef90_UPI0002631601 glutaredoxin n=1 Tax=Xanthomonas sacchari...   110   1e-22
+UniRef90_UPI0002F96D6D glutaredoxin n=1 Tax=Stenotrophomonas mal...   107   1e-21
+UniRef90_UPI0003650F9A glutaredoxin n=2 Tax=Xanthomonas RepID=UP...   107   1e-21
+UniRef90_K8ZGD1 Uncharacterized protein n=3 Tax=Xanthomonas camp...   104   8e-21
+UniRef90_E6WRF7 Glutaredoxin 2 n=1 Tax=Pseudoxanthomonas suwonen...   102   3e-20
+UniRef90_D2UER5 Putative thiol-disulfide isomerase and thioredox...   102   4e-20
+UniRef90_B2FQZ3 Uncharacterized protein n=4 Tax=Stenotrophomonas...    96   2e-18
+UniRef90_T5LAK1 Glutaredoxin n=3 Tax=Xanthomonadaceae RepID=T5LA...    94   7e-18
+UniRef90_I0KRM7 Uncharacterized protein n=1 Tax=Stenotrophomonas...    94   8e-18
+UniRef90_G0JZK2 Glutaredoxin 2 n=4 Tax=Stenotrophomonas RepID=G0...    94   8e-18
+UniRef90_UPI0002E0C1F2 glutaredoxin n=1 Tax=Pseudoxanthomonas sp...    94   8e-18
+UniRef90_G7USR0 Uncharacterized protein n=1 Tax=Pseudoxanthomona...    94   1e-17
+UniRef90_UPI00037378BB hypothetical protein n=1 Tax=Rudaea cellu...    87   1e-15
+UniRef90_H8FLA0 Uncharacterized protein n=1 Tax=Xanthomonas citr...    87   1e-15
+UniRef90_UPI0002FD0C5C hypothetical protein n=1 Tax=Dyella japon...    84   7e-15
+UniRef90_I4WDL6 Uncharacterized protein n=1 Tax=Rhodanobacter sp...    83   2e-14
+UniRef90_M4ND81 Glutaredoxin-like domain (DUF836) n=3 Tax=Rhodan...    82   4e-14
+UniRef90_UPI00034AD05E glutaredoxin n=1 Tax=Dyella ginsengisoli ...    82   4e-14
+UniRef90_I4WPV6 Uncharacterized protein n=1 Tax=Rhodanobacter th...    81   8e-14
+UniRef90_I4VKK5 Glutaredoxin n=1 Tax=Rhodanobacter fulvus Jip2 R...    75   4e-12
+UniRef90_V5YV21 Uncharacterized protein n=2 Tax=Stenotrophomonas...    71   6e-11
+UniRef90_Q608E8 Uncharacterized protein n=1 Tax=Methylococcus ca...    67   1e-09
+UniRef90_W6LPP4 Glutaredoxin 2 (Modular protein) n=1 Tax=Candida...    66   2e-09
+UniRef90_K1JAV8 Uncharacterized protein n=8 Tax=Bacteria RepID=K...    66   3e-09
+UniRef90_A0Z9G1 Uncharacterized protein n=1 Tax=marine gamma pro...    65   5e-09
+UniRef90_A0KKK6 Thiol-disulfide isomerase and thioredoxin n=3 Ta...    64   1e-08
+UniRef90_Q7MKX0 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    63   2e-08
+UniRef90_A4SME5 Thiol-disulfide isomerase and thioredoxin n=3 Ta...    63   2e-08
+UniRef90_F4DAE6 Thiol-disulfide isomerase and thioredoxin n=7 Ta...    62   4e-08
+UniRef90_R1H0U5 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    62   4e-08
+UniRef90_UPI0002197C4F glutaredoxin n=1 Tax=Aeromonas caviae Rep...    62   6e-08
+UniRef90_I1YGM1 Glutaredoxin-like domain (DUF836) n=1 Tax=Methyl...    61   6e-08
+UniRef90_UPI00037AC261 glutaredoxin n=1 Tax=Oceanimonas smirnovi...    61   8e-08
+UniRef90_K2JAP7 Glutaredoxin n=1 Tax=Gallaecimonas xiamenensis 3...    59   3e-07
+UniRef90_H8KZA2 Glutaredoxin-like domain (DUF836) n=1 Tax=Frateu...    59   5e-07
+UniRef90_H0IZV4 Uncharacterized protein n=1 Tax=Halomonas sp. GF...    59   5e-07
+UniRef90_T2L5C9 Uncharacterized protein n=2 Tax=Halomonas RepID=...    58   6e-07
+UniRef90_K5UW28 Uncharacterized protein n=3 Tax=Vibrio RepID=K5U...    58   6e-07
+UniRef90_F7SLG0 Uncharacterized protein n=1 Tax=Halomonas sp. TD...    58   6e-07
+UniRef90_B8CPF5 Conserved hypothetical thioredoxin n=1 Tax=Shewa...    58   8e-07
+UniRef90_V9ZXS1 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    58   8e-07
+UniRef90_R8AUR8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    57   9e-07
+UniRef90_UPI000289235C hypothetical protein n=1 Tax=Halomonas sp...    57   1e-06
+UniRef90_U3CEF7 Uncharacterized protein n=1 Tax=Vibrio azureus N...    57   1e-06
+UniRef90_H2FW47 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    57   1e-06
+UniRef90_I1DE09 Thiol-disulfide isomerase and thioredoxin n=4 Ta...    57   1e-06
+UniRef90_B1KDN1 Glutaredoxin 2 n=1 Tax=Shewanella woodyi (strain...    57   1e-06
+UniRef90_W2UDZ2 Uncharacterized protein n=1 Tax=Gammaproteobacte...    57   2e-06
+UniRef90_D5C1X6 Glutaredoxin 2 n=1 Tax=Nitrosococcus halophilus ...    57   2e-06
+UniRef90_U3CJU0 Uncharacterized protein n=2 Tax=Vibrio RepID=U3C...    56   2e-06
+UniRef90_UPI00037E5EE6 hypothetical protein n=1 Tax=Endozoicomon...    56   2e-06
+UniRef90_F2P873 Putative uncharacterized protein n=2 Tax=Photoba...    56   2e-06
+UniRef90_E1VPJ6 Uncharacterized protein n=1 Tax=gamma proteobact...    56   3e-06
+UniRef90_N6W075 Glutaredoxin n=1 Tax=Marinobacter nanhaiticus D1...    56   3e-06
+UniRef90_A1SX08 Glutaredoxin 2 n=1 Tax=Psychromonas ingrahamii (...    55   3e-06
+UniRef90_A0KVL7 Glutaredoxin 2 n=4 Tax=Shewanella RepID=A0KVL7_S...    55   4e-06
+UniRef90_UPI00039EE24F glutaredoxin n=1 Tax=Pseudomonas pelagia ...    55   4e-06
+UniRef90_UPI000364E473 hypothetical protein n=1 Tax=Vibrio genom...    55   5e-06
+UniRef90_M7P1G0 Glutaredoxin-like protein n=1 Tax=Methylophaga l...    55   5e-06
+UniRef90_U7P355 Uncharacterized protein n=1 Tax=Halomonas sp. PB...    55   5e-06
+UniRef90_UPI0003683040 hypothetical protein n=1 Tax=Psychromonas...    55   5e-06
+UniRef90_H1QYV3 Glutaredoxin-like domain-containing protein n=3 ...    55   5e-06
+UniRef90_F7RPS6 Uncharacterized protein n=1 Tax=Shewanella sp. H...    55   5e-06
+UniRef90_A7N0M7 Thiol-disulfide isomerase n=4 Tax=Vibrio RepID=A...    55   6e-06
+UniRef90_H3NTC6 Glutaredoxin-like domain (DUF836) n=1 Tax=gamma ...    55   6e-06
+UniRef90_UPI0003689DBA hypothetical protein n=1 Tax=Dasania mari...    55   7e-06
+UniRef90_UPI0003B68F38 glutaredoxin n=1 Tax=Psychromonas hadalis...    55   7e-06
+UniRef90_Q3JEK0 Glutaredoxin 2 n=2 Tax=Nitrosococcus oceani RepI...    55   7e-06
+UniRef90_UPI0002D35877 hypothetical protein n=1 Tax=Halomonas st...    55   7e-06
+UniRef90_E3BFG8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    54   8e-06
+UniRef90_S2KPW1 Uncharacterized protein n=1 Tax=Halomonas antica...    54   8e-06
+UniRef90_W7PS97 Uncharacterized protein n=2 Tax=Halomonas sp. BC...    54   8e-06
+UniRef90_E4QHY6 Glutaredoxin 2 n=1 Tax=Methylovorus sp. (strain ...    54   8e-06
+UniRef90_N9TXD5 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    54   9e-06
+UniRef90_UPI0002F70958 hypothetical protein n=1 Tax=Catenovulum ...    54   1e-05
+UniRef90_Q0A8A9 Glutaredoxin 2 n=1 Tax=Alkalilimnicola ehrlichii...    54   1e-05
+UniRef90_Q1ZQY4 Uncharacterized protein n=1 Tax=Photobacterium a...    54   1e-05
+UniRef90_D0IAI0 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    54   1e-05
+UniRef90_Q2BXZ5 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    54   1e-05
+UniRef90_UPI00030FC5A3 glutaredoxin n=1 Tax=Enterovibrio calvien...    54   1e-05
+UniRef90_C6X8V9 Glutaredoxin 2 n=1 Tax=Methylovorus sp. (strain ...    54   1e-05
+UniRef90_D8KBJ9 Glutaredoxin 2 n=1 Tax=Nitrosococcus watsoni (st...    54   1e-05
+UniRef90_F3L5J8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    54   2e-05
+UniRef90_U3B5X3 Uncharacterized protein n=1 Tax=Vibrio proteolyt...    53   2e-05
+UniRef90_M5DNN4 Glutaredoxin n=1 Tax=Thalassolituus oleivorans M...    53   2e-05
+UniRef90_A1RKM1 Glutaredoxin 2 n=1 Tax=Shewanella sp. (strain W3...    53   2e-05
+UniRef90_E1ST46 Glutaredoxin 2 n=1 Tax=Ferrimonas balearica (str...    53   2e-05
+UniRef90_UPI0003610E6D hypothetical protein n=1 Tax=Halomonas zh...    53   2e-05
+UniRef90_G4F808 Uncharacterized protein n=1 Tax=Halomonas sp. HA...    53   2e-05
+UniRef90_H2ICR7 Uncharacterized protein n=2 Tax=Vibrio RepID=H2I...    53   2e-05
+UniRef90_D4ZJI3 Uncharacterized protein n=2 Tax=Shewanella RepID...    53   2e-05
+UniRef90_W6MC61 Putative Long-chain fatty acid transport protein...    53   2e-05
+UniRef90_F7YJP4 Uncharacterized protein n=3 Tax=Vibrio RepID=F7Y...    53   2e-05
+UniRef90_G7F966 Putative uncharacterized protein n=1 Tax=Pseudoa...    52   3e-05
+UniRef90_A1S602 Uncharacterized protein n=1 Tax=Shewanella amazo...    52   3e-05
+UniRef90_F5SW97 Glutaredoxin 2 n=1 Tax=Methylophaga aminisulfidi...    52   4e-05
+UniRef90_Q07ZR4 Glutaredoxin 2 n=1 Tax=Shewanella frigidimarina ...    52   4e-05
+UniRef90_C6WTG1 Glutaredoxin 2 n=1 Tax=Methylotenera mobilis (st...    52   4e-05
+UniRef90_S6GIM6 Glutaredoxin n=1 Tax=Osedax symbiont Rs1 RepID=S...    52   4e-05
+UniRef90_H7ERT0 Thiol-disulfide isomerase and thioredoxin (Fragm...    52   5e-05
+UniRef90_UPI000378F2A3 MULTISPECIES: hypothetical protein n=1 Ta...    52   5e-05
+UniRef90_I1DYK9 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    52   5e-05
+UniRef90_A4Y5X5 Glutaredoxin 2 n=2 Tax=Shewanella putrefaciens R...    52   5e-05
+UniRef90_Q1YPL4 Uncharacterized protein n=1 Tax=gamma proteobact...    52   5e-05
+UniRef90_A8H3Y2 Glutaredoxin 2 n=1 Tax=Shewanella pealeana (stra...    52   6e-05
+UniRef90_A0Y1E1 Uncharacterized protein n=3 Tax=Alteromonadales ...    51   7e-05
+UniRef90_UPI0003602F47 hypothetical protein n=1 Tax=Gayadomonas ...    51   8e-05
+UniRef90_U3AJZ4 Uncharacterized protein n=33 Tax=Vibrio RepID=U3...    51   8e-05
+UniRef90_G0A5K9 Glutaredoxin 2 n=1 Tax=Methylomonas methanica (s...    51   1e-04
+UniRef90_Q12LC7 Glutaredoxin 2 n=1 Tax=Shewanella denitrificans ...    51   1e-04
+UniRef90_A3QDY1 Glutaredoxin 2 n=1 Tax=Shewanella loihica (strai...    50   1e-04
+UniRef90_T1AWJ0 Glutaredoxin 2 n=1 Tax=mine drainage metagenome ...    50   1e-04
+UniRef90_UPI000287D79E glutaredoxin n=1 Tax=Pseudomonas extremau...    50   1e-04
+UniRef90_UPI0002D4A9D9 glutaredoxin n=3 Tax=Enterovibrio norvegi...    50   2e-04
+UniRef90_B7RUA7 Putative glutaredoxin domain family protein n=1 ...    50   2e-04
+UniRef90_W7QT51 Uncharacterized protein n=1 Tax=Catenovulum agar...    50   2e-04
+UniRef90_UPI000346C888 hypothetical protein n=1 Tax=Halomonas je...    50   2e-04
+UniRef90_E1V4J1 Uncharacterized protein n=1 Tax=Halomonas elonga...    49   2e-04
+UniRef90_U1NW80 Glutaredoxin related protein n=2 Tax=Halonotius ...    49   3e-04
+UniRef90_UPI0002D63685 hypothetical protein n=2 Tax=Vibrio breog...    49   3e-04
+UniRef90_D1BBA4 Glutaredoxin-like domain (DUF836) n=1 Tax=Sangui...    49   3e-04
+UniRef90_A8FW58 Glutaredoxin 2 n=1 Tax=Shewanella sediminis (str...    49   3e-04
+UniRef90_M4U740 Glutaredoxin n=1 Tax=Psychromonas sp. CNPT3 RepI...    49   3e-04
+UniRef90_UPI0003736771 hypothetical protein n=1 Tax=Methylophilu...    49   3e-04
+UniRef90_K2FYZ3 Uncharacterized protein n=1 Tax=Alcanivorax paci...    49   3e-04
+UniRef90_Q2BMT5 Uncharacterized protein n=1 Tax=Neptuniibacter c...    49   3e-04
+UniRef90_UPI0003703EFF hypothetical protein n=1 Tax=Methylotener...    49   4e-04
+UniRef90_B7VNL2 Uncharacterized protein n=15 Tax=Vibrionales Rep...    49   4e-04
+UniRef90_A4VM30 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    49   4e-04
+UniRef90_A5F853 Uncharacterized protein n=145 Tax=Vibrio RepID=A...    49   4e-04
+UniRef90_K6YDW6 Glutaredoxin 2 n=1 Tax=Glaciecola lipolytica E3 ...    49   5e-04
+UniRef90_I1XHF7 Glutaredoxin-like protein n=1 Tax=Methylophaga n...    49   5e-04
+UniRef90_UPI000381E1B8 thiol-disulfide isomerase n=1 Tax=Pseudoa...    49   5e-04
+UniRef90_U1LHZ7 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    49   5e-04
+UniRef90_UPI00035E2084 hypothetical protein n=1 Tax=Halomonas lu...    49   5e-04
+UniRef90_F3LGX2 Glutaredoxin-like domain containing protein n=1 ...    48   6e-04
+UniRef90_B8KYH1 Putative glutaredoxin domain family protein n=1 ...    48   6e-04
+UniRef90_UPI0003B664E1 glutaredoxin n=1 Tax=Perlucidibaca piscin...    48   6e-04
+UniRef90_F3BMT7 Uncharacterized protein n=5 Tax=Pseudoalteromona...    48   6e-04
+UniRef90_W6ZWA5 Uncharacterized protein n=2 Tax=Alcanivorax RepI...    48   6e-04
+UniRef90_G3ITR8 Glutaredoxin 2 n=1 Tax=Methylobacter tundripalud...    48   6e-04
+UniRef90_UPI00031170B3 hypothetical protein n=1 Tax=Moritella da...    48   6e-04
+UniRef90_A9L590 Glutaredoxin 2 n=9 Tax=Shewanella baltica RepID=...    48   6e-04
+UniRef90_UPI0003773C26 hypothetical protein n=1 Tax=Cupriavidus ...    48   7e-04
+UniRef90_K0X5Q1 Glutaredoxin-like protein n=1 Tax=Pseudomonas fl...    48   7e-04
+UniRef90_UPI000381F069 hypothetical protein n=1 Tax=Vibrio marin...    48   7e-04
+UniRef90_UPI0003955856 glutaredoxin n=1 Tax=Salinivibrio costico...    48   7e-04
+UniRef90_W2D7T2 Uncharacterized protein n=1 Tax=Pseudomonas sp. ...    48   7e-04
+UniRef90_Q1N6A0 Uncharacterized protein n=1 Tax=Bermanella maris...    48   8e-04
+UniRef90_UPI000288A1A5 glutaredoxin n=2 Tax=Pseudomonas fuscovag...    48   8e-04
+UniRef90_I9KVU1 Uncharacterized protein n=1 Tax=Ralstonia sp. PB...    48   9e-04
+UniRef90_I2BKY2 Uncharacterized protein n=12 Tax=Pseudomonas Rep...    47   9e-04
+UniRef90_F8GKJ3 Glutaredoxin 2 n=1 Tax=Nitrosomonas sp. (strain ...    47   0.001
+UniRef90_D5CQK7 Glutaredoxin 2 n=1 Tax=Sideroxydans lithotrophic...    47   0.001
+UniRef90_S6GBX1 Uncharacterized protein n=1 Tax=Osedax symbiont ...    47   0.001
+UniRef90_I4Y2E6 Uncharacterized protein n=9 Tax=Pseudomonas RepI...    47   0.001
+UniRef90_A6FJ67 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    47   0.001
+UniRef90_Q0YSJ3 Glutaredoxin:Glutaredoxin 2 n=1 Tax=Chlorobium f...    47   0.001
+UniRef90_N6W3D0 Uncharacterized protein n=2 Tax=Pseudoalteromona...    47   0.001
+UniRef90_Q8EFW3 Thioredoxin/glutaredoxin 2 family protein n=1 Ta...    47   0.001
+UniRef90_J1IPK1 Uncharacterized protein n=4 Tax=Pseudomonas RepI...    47   0.001
+UniRef90_UPI0003612E43 hypothetical protein n=1 Tax=Salinimonas ...    47   0.001
+UniRef90_A0YBZ0 Thiol-disulfide isomerase and thioredoxins n=1 T...    47   0.001
+UniRef90_UPI0002FD1669 glutaredoxin n=1 Tax=Pseudomonas fluoresc...    47   0.002
+UniRef90_I4CUK3 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    47   0.002
+UniRef90_L1LVN9 Glutaredoxin 2 n=1 Tax=Pseudomonas putida CSV86 ...    47   0.002
+UniRef90_A4XT39 Glutaredoxin 2 n=7 Tax=Pseudomonas RepID=A4XT39_...    47   0.002
+UniRef90_UPI000346C881 glutaredoxin n=1 Tax=Pseudomonas veronii ...    46   0.002
+UniRef90_M0JQ97 Thioredoxin n=4 Tax=Haloarcula RepID=M0JQ97_HALVA      46   0.002
+UniRef90_R9PJY5 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    46   0.002
+UniRef90_U1L7B8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    46   0.002
+UniRef90_H3Z9V3 Thiol-disulfide isomerase and thioredoxin n=3 Ta...    46   0.002
+UniRef90_Q6LR99 Uncharacterized protein n=2 Tax=Photobacterium p...    46   0.003
+UniRef90_F9R9F1 Thiol-disulfide isomerase and thioredoxin n=3 Ta...    46   0.003
+UniRef90_UPI000368B4D1 hypothetical protein n=1 Tax=Methylomonas...    46   0.003
+UniRef90_UPI00037E4965 hypothetical protein n=1 Tax=Methylosarci...    46   0.003
+UniRef90_UPI00037BB85C hypothetical protein n=1 Tax=actinobacter...    46   0.003
+UniRef90_A4BQW9 Uncharacterized protein n=1 Tax=Nitrococcus mobi...    46   0.003
+UniRef90_U1UPT4 Glutaredoxin n=1 Tax=Pseudomonas fluorescens EGD...    46   0.003
+UniRef90_M5QUU2 Uncharacterized protein n=1 Tax=Pseudomonas sp. ...    46   0.003
+UniRef90_UPI000379DC83 hypothetical protein n=1 Tax=Rheinheimera...    45   0.003
+UniRef90_UPI000362ED3C hypothetical protein n=1 Tax=Gilvimarinus...    45   0.003
+UniRef90_K7ALV1 Glutaredoxin 2 n=2 Tax=Glaciecola RepID=K7ALV1_9...    45   0.003
+UniRef90_U1NVC3 Glutaredoxin-like domain (DUF836) n=1 Tax=Halono...    45   0.004
+UniRef90_B7UXN6 Uncharacterized protein n=137 Tax=Pseudomonas Re...    45   0.004
+UniRef90_UPI0003823962 hypothetical protein n=1 Tax=Teredinibact...    45   0.004
+UniRef90_A6EUG7 Uncharacterized protein n=2 Tax=Marinobacter Rep...    45   0.004
+UniRef90_M5DGK9 Glutaredoxin 2 n=1 Tax=Nitrosospira sp. APG3 Rep...    45   0.004
+UniRef90_UPI0002915C9E thiol-disulfide isomerase and thioredoxin...    45   0.004
+UniRef90_UPI00029ABE76 glutaredoxin n=1 Tax=Pseudomonas sp. HYS ...    45   0.004
+UniRef90_UPI0002D2F5EC hypothetical protein n=1 Tax=Bacillus mas...    45   0.004
+UniRef90_F9EWB6 Glutaredoxin 2 n=3 Tax=Neisseria RepID=F9EWB6_9NEIS    45   0.004
+UniRef90_I4JJ13 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    45   0.005
+UniRef90_UPI000301881B hypothetical protein n=1 Tax=Vibrio rumoi...    45   0.005
+UniRef90_UPI00036A98AE hypothetical protein n=1 Tax=Nocardioides...    45   0.005
+UniRef90_C3K7L0 Uncharacterized protein n=1 Tax=Pseudomonas fluo...    45   0.005
+UniRef90_Q2Y874 Glutaredoxin 2 n=1 Tax=Nitrosospira multiformis ...    45   0.005
+UniRef90_B8KGX5 Putative glutaredoxin domain family protein n=1 ...    45   0.006
+UniRef90_M1F7I8 Uncharacterized protein n=3 Tax=Marinobacter Rep...    45   0.006
+UniRef90_UPI00030CD9A1 glutaredoxin n=2 Tax=Neisseria sicca RepI...    45   0.006
+UniRef90_C1CVU8 Putative Glutaredoxin n=1 Tax=Deinococcus desert...    45   0.007
+UniRef90_E6QV72 Putative glutaredoxin 2 n=1 Tax=mine drainage me...    45   0.007
+UniRef90_I1X5D3 Glutaredoxin n=1 Tax=uncultured bacterium ws085G...    44   0.007
+UniRef90_F3HIM9 Uncharacterized protein n=1 Tax=Pseudomonas syri...    44   0.008
+UniRef90_Q21JU2 Glutaredoxin 2 n=1 Tax=Saccharophagus degradans ...    44   0.008
+UniRef90_W0HBF8 Uncharacterized protein n=1 Tax=Pseudomonas cich...    44   0.008
+UniRef90_C1DEC7 Uncharacterized protein n=3 Tax=Azotobacter vine...    44   0.008
+UniRef90_L1NN79 Glutaredoxin-like protein n=1 Tax=Neisseria sp. ...    44   0.009
+UniRef90_M7CT77 Glutaredoxin n=2 Tax=Marinobacter RepID=M7CT77_9...    44   0.009
+UniRef90_F5Z7V2 Glutaredoxin 2 n=1 Tax=Alteromonas sp. (strain S...    44   0.009
+UniRef90_L0GL53 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    44   0.009
+UniRef90_F7NWG5 Glutaredoxin-like protein n=1 Tax=Rheinheimera s...    44   0.009
+UniRef90_M5NCP2 Uncharacterized protein n=6 Tax=Vibrio RepID=M5N...    44   0.010
+UniRef90_UPI000381F651 hypothetical protein n=1 Tax=Chitiniphilu...    44   0.010
+UniRef90_L9VDE5 Glutaredoxin 2 n=2 Tax=Halalkalicoccus jeotgali ...    44   0.010
+UniRef90_E2XNX8 Uncharacterized protein n=1 Tax=Pseudomonas fluo...    44   0.011
+UniRef90_UPI0002556668 glutaredoxin n=1 Tax=Pseudomonas sp. S9 R...    44   0.012
+UniRef90_C9QI14 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    44   0.012
+UniRef90_F2BE30 Glutaredoxin 2 n=1 Tax=Neisseria bacilliformis A...    44   0.013
+UniRef90_Q8D9G9 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    44   0.013
+UniRef90_H6RPM5 Uncharacterized protein n=1 Tax=Blastococcus sax...    44   0.014
+UniRef90_UPI00037AE1C4 hypothetical protein n=1 Tax=actinobacter...    44   0.014
+UniRef90_UPI00038114F2 hypothetical protein n=1 Tax=Leeia oryzae...    44   0.014
+UniRef90_K6YJ64 Thiol-disulfide isomerase and thioredoxin i n=1 ...    44   0.014
+UniRef90_R7X6T4 Glutaredoxin 2 n=2 Tax=Pandoraea RepID=R7X6T4_9BURK    44   0.015
+UniRef90_H5T9G7 Uncharacterized protein n=1 Tax=Glaciecola punic...    44   0.015
+UniRef90_UPI00035C523C hypothetical protein n=1 Tax=Catelliglobo...    44   0.016
+UniRef90_UPI0003032430 glutaredoxin n=1 Tax=Pseudomonas psychrop...    44   0.016
+UniRef90_D8NVK8 Uncharacterized protein n=9 Tax=Ralstonia RepID=...    43   0.017
+UniRef90_S6I238 Glutaredoxin 2 n=1 Tax=Pseudomonas sp. CFII68 Re...    43   0.017
+UniRef90_E4PHM3 Glutaredoxin 2 n=9 Tax=Marinobacter RepID=E4PHM3...    43   0.018
+UniRef90_UPI0002EF003B hypothetical protein n=1 Tax=Halomonas sm...    43   0.019
+UniRef90_J2YJM2 Glutaredoxin-like domain (DUF836) n=2 Tax=Pseudo...    43   0.019
+UniRef90_G8Q2X1 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    43   0.019
+UniRef90_F2G294 Thiol-disulfide isomerase n=9 Tax=Alteromonas ma...    43   0.020
+UniRef90_V4QYF6 Glutaredoxin n=1 Tax=Pseudomonas aeruginosa VRFP...    43   0.020
+UniRef90_A1SDZ9 Glutaredoxin 2 n=1 Tax=Nocardioides sp. (strain ...    43   0.021
+UniRef90_U0ZF53 Glutaredoxin n=2 Tax=Neisseriaceae RepID=U0ZF53_...    43   0.021
+UniRef90_J3EKH7 Glutaredoxin-like domain (DUF836) n=15 Tax=Pseud...    43   0.021
+UniRef90_V6UUU4 Glutaredoxin n=1 Tax=Pseudomonas mosselii SJ10 R...    43   0.023
+UniRef90_UPI0003B46A68 thiol-disulfide isomerase n=1 Tax=Pseudoa...    43   0.023
+UniRef90_K6BLI6 Uncharacterized protein n=1 Tax=Pseudomonas viri...    43   0.024
+UniRef90_G2DAC4 Putative serine protease do-like protein n=1 Tax...    43   0.024
+UniRef90_I3IA90 Glutaredoxin 2 n=1 Tax=Cellvibrio sp. BR RepID=I...    43   0.024
+UniRef90_UPI00031B67C9 glutaredoxin n=1 Tax=Pseudomonas agarici ...    43   0.025
+UniRef90_UPI000375018D glutaredoxin n=1 Tax=Actinoplanes globisp...    43   0.025
+UniRef90_W0SGV0 GTP-binding protein LepA n=1 Tax=Sulfuritalea hy...    43   0.026
+UniRef90_C8N8C9 Glutaredoxin-like protein n=1 Tax=Cardiobacteriu...    43   0.026
+UniRef90_U5WAQ1 Putative redoxin n=1 Tax=Actinoplanes friuliensi...    43   0.027
+UniRef90_E7RTU9 Glutaredoxin-like protein n=1 Tax=Lautropia mira...    43   0.027
+UniRef90_UPI00037A84EF hypothetical protein n=1 Tax=Deinococcus ...    43   0.028
+UniRef90_UPI000374BB3C hypothetical protein n=1 Tax=Herbaspirill...    43   0.028
+UniRef90_Q1I7A5 Uncharacterized protein n=1 Tax=Pseudomonas ento...    42   0.028
+UniRef90_S6JFE8 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    42   0.028
+UniRef90_I7ACJ8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    42   0.029
+UniRef90_U7G661 Uncharacterized protein n=1 Tax=Alcanivorax sp. ...    42   0.031
+UniRef90_V4HZH0 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    42   0.031
+UniRef90_I0HIG8 Putative redoxin n=1 Tax=Actinoplanes missourien...    42   0.033
+UniRef90_W4VHA5 Glutaredoxin family protein n=1 Tax=Gracilibacil...    42   0.033
+UniRef90_G4SZ73 Glutaredoxin 2 n=2 Tax=Methylomicrobium RepID=G4...    42   0.034
+UniRef90_Q3K951 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    42   0.034
+UniRef90_E6SAF1 Glutaredoxin 2 n=1 Tax=Intrasporangium calvum (s...    42   0.036
+UniRef90_M4K382 Uncharacterized protein n=2 Tax=Pseudomonas fluo...    42   0.037
+UniRef90_S6HBJ8 Uncharacterized protein n=1 Tax=Pseudomonas sp. ...    42   0.038
+UniRef90_UPI000363AEF8 hypothetical protein n=2 Tax=unclassified...    42   0.038
+UniRef90_U2Z0V6 Uncharacterized protein n=1 Tax=Pseudomonas alca...    42   0.039
+UniRef90_C4L5I0 Glutaredoxin 2 n=1 Tax=Exiguobacterium sp. (stra...    42   0.041
+UniRef90_K0C989 Uncharacterized protein n=2 Tax=Alcanivorax RepI...    42   0.046
+UniRef90_J3GNU1 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    42   0.047
+UniRef90_N2JRK3 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    42   0.050
+UniRef90_UPI00036B6996 glutaredoxin n=1 Tax=Pseudomonas fluoresc...    42   0.051
+UniRef90_J2ZN49 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    42   0.051
+UniRef90_I2JMW8 Glutaredoxin n=1 Tax=gamma proteobacterium BDW91...    42   0.051
+UniRef90_L8D6R0 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    42   0.052
+UniRef90_E8LST8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    42   0.053
+UniRef90_W1N4K5 Uncharacterized protein n=1 Tax=Halomonas sp. BJ...    42   0.055
+UniRef90_A4CC94 Uncharacterized protein n=1 Tax=Pseudoalteromona...    42   0.055
+UniRef90_T1D1J9 Glutaredoxin 2 n=1 Tax=mine drainage metagenome ...    42   0.057
+UniRef90_H1G4F0 Glutaredoxin 2 n=1 Tax=Ectothiorhodospira sp. PH...    42   0.057
+UniRef90_C0DXK2 Glutaredoxin-like protein n=2 Tax=Eikenella corr...    42   0.059
+UniRef90_G9ZDQ6 Glutaredoxin-like protein n=1 Tax=Cardiobacteriu...    42   0.060
+UniRef90_E9UQI4 Glutaredoxin 2 n=1 Tax=Nocardioidaceae bacterium...    42   0.061
+UniRef90_H8GNL5 Glutaredoxin-like domain (DUF836) n=1 Tax=Methyl...    41   0.064
+UniRef90_F2ZNG9 Uncharacterized protein n=1 Tax=Pseudomonas syri...    41   0.065
+UniRef90_A3WPC8 Thioredoxin related protein n=1 Tax=Idiomarina b...    41   0.065
+UniRef90_K9NHM5 Glutaredoxin 2 n=2 Tax=Pseudomonas RepID=K9NHM5_...    41   0.065
+UniRef90_U1KCR9 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    41   0.067
+UniRef90_A7C1R5 Uncharacterized protein n=1 Tax=Beggiatoa sp. PS...    41   0.067
+UniRef90_U3H9V7 Glutaredoxin n=1 Tax=Pseudomonas alcaligenes OT ...    41   0.069
+UniRef90_L8MR95 Thiol-disulfide isomerase n=2 Tax=Pseudomonas ae...    41   0.069
+UniRef90_R7Y2B1 Glutaredoxin 2 n=1 Tax=Nocardioides sp. CF8 RepI...    41   0.070
+UniRef90_C7R0C2 Glutaredoxin 2 n=1 Tax=Jonesia denitrificans (st...    41   0.071
+UniRef90_D2SHH8 Glutaredoxin 2 n=1 Tax=Geodermatophilus obscurus...    41   0.072
+UniRef90_A4BIQ8 Uncharacterized protein n=1 Tax=Reinekea blanden...    41   0.073
+UniRef90_U7DNQ4 Glutaredoxin n=1 Tax=Pseudomonas fluorescens NCI...    41   0.075
+UniRef90_UPI0002558486 glutaredoxin n=1 Tax=Marinobacterium stan...    41   0.078
+UniRef90_V5UCR7 Glutaredoxin n=2 Tax=Pandoraea RepID=V5UCR7_9BURK      41   0.084
+UniRef90_E8M8R0 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    41   0.085
+UniRef90_C8XAG3 Glutaredoxin 2 n=1 Tax=Nakamurella multipartita ...    41   0.086
+UniRef90_S9TEN3 Glutaredoxin n=1 Tax=Ralstonia sp. AU12-08 RepID...    41   0.089
+UniRef90_E6RK48 Uncharacterized protein n=5 Tax=Pseudoalteromona...    41   0.090
+UniRef90_UPI0003B5F3CD hypothetical protein n=1 Tax=Methylohalob...    41   0.092
+UniRef90_D8NCN4 Uncharacterized protein n=4 Tax=Ralstonia solana...    41   0.094
+UniRef90_UPI000361400C hypothetical protein n=1 Tax=Thiobacillus...    41   0.094
+UniRef90_S5TV37 Thiol-disulfide isomerase and thioredoxins n=1 T...    41   0.094
+UniRef90_L0WGI9 Uncharacterized protein n=1 Tax=Alcanivorax hong...    41   0.097
+UniRef90_R4YN03 Glutaredoxin 2 n=1 Tax=Oleispira antarctica RB-8...    41   0.099
+UniRef90_C0N8D4 Putative glutaredoxin domain family protein n=1 ...    41   0.10 
+UniRef90_C6BFM6 Glutaredoxin 2 n=5 Tax=Ralstonia RepID=C6BFM6_RALP1    41   0.10 
+UniRef90_G0HQQ8 Thioredoxin n=3 Tax=Haloarcula RepID=G0HQQ8_HALHT      41   0.10 
+UniRef90_UPI000380A8BE hypothetical protein n=1 Tax=Gracilibacil...    41   0.10 
+UniRef90_D7DLR6 Glutaredoxin 2 n=1 Tax=Methylotenera sp. (strain...    41   0.11 
+UniRef90_F5R8R4 Uncharacterized protein n=4 Tax=Rhodocyclaceae R...    40   0.11 
+UniRef90_UPI0001FFF260 glutaredoxin n=1 Tax=Pseudonocardia sp. P...    40   0.11 
+UniRef90_W0MQ42 Glutaredoxin n=1 Tax=Pseudomonas syringae CC1557...    40   0.12 
+UniRef90_V8R2F7 Glutaredoxin n=5 Tax=Pseudomonas RepID=V8R2F7_9PSED    40   0.12 
+UniRef90_C5TJ36 Glutaredoxin-like protein n=2 Tax=Neisseria RepI...    40   0.13 
+UniRef90_K9T4N5 Glutaredoxin-like domain (DUF836) n=1 Tax=Pleuro...    40   0.13 
+UniRef90_F3EMH9 Uncharacterized protein n=20 Tax=Pseudomonas syr...    40   0.13 
+UniRef90_U2YXI4 Uncharacterized protein n=1 Tax=Halarchaeum acid...    40   0.14 
+UniRef90_F4ARZ1 Glutaredoxin 2 n=3 Tax=Glaciecola RepID=F4ARZ1_G...    40   0.14 
+UniRef90_E0UBJ1 Glutaredoxin 2 n=1 Tax=Cyanothece sp. (strain PC...    40   0.14 
+UniRef90_K9RPF6 Glutaredoxin-like domain (DUF836) n=1 Tax=Synech...    40   0.15 
+UniRef90_I3CH48 Glutaredoxin-like domain (DUF836) n=1 Tax=Beggia...    40   0.17 
+UniRef90_Q5V0G8 Thioredoxin n=2 Tax=Haloarcula RepID=Q5V0G8_HALMA      40   0.17 
+UniRef90_L8J6Y9 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    40   0.17 
+UniRef90_C7P4Y2 Glutaredoxin 2 n=1 Tax=Halomicrobium mukohataei ...    40   0.17 
+UniRef90_UPI0003B69161 glutaredoxin n=1 Tax=Leucothrix mucor Rep...    40   0.18 
+UniRef90_UPI0003689453 hypothetical protein n=1 Tax=Kangiella aq...    40   0.18 
+UniRef90_Q13VM5 Uncharacterized protein n=2 Tax=Burkholderia Rep...    40   0.20 
+UniRef90_G4E7N1 Glutaredoxin 2 n=1 Tax=Thiorhodospira sibirica A...    40   0.20 
+UniRef90_G4CQX8 Glutaredoxin 2 n=1 Tax=Neisseria wadsworthii 971...    40   0.21 
+UniRef90_F6AKC4 Glutaredoxin 2 n=1 Tax=Pseudomonas fulva (strain...    39   0.24 
+UniRef90_S3FKI7 Uncharacterized protein n=1 Tax=Exiguobacterium ...    39   0.27 
+UniRef90_Q0K8M9 Uncharacterized protein n=3 Tax=Burkholderiaceae...    39   0.27 
+UniRef90_H0P5Q9 Uncharacterized protein n=7 Tax=Bacteria RepID=H...    39   0.28 
+UniRef90_UPI0002E8E82A glutaredoxin n=1 Tax=Pseudomonas nitrored...    39   0.29 
+UniRef90_UPI00029A4A67 glutaredoxin n=1 Tax=Streptomyces somalie...    39   0.32 
+UniRef90_R4M0X3 Glutaredoxin 2 n=1 Tax=Actinoplanes sp. N902-109...    39   0.32 
+UniRef90_UPI00037F0A3D hypothetical protein n=1 Tax=Amphritea ja...    39   0.32 
+UniRef90_U3QJP8 Glutaredoxin n=1 Tax=Ralstonia pickettii DTP0602...    39   0.33 
+UniRef90_Q883M0 Uncharacterized protein n=30 Tax=Pseudomonas syr...    39   0.33 
+UniRef90_N0B4T2 Glutaredoxin n=1 Tax=Bacillus sp. 1NLA3E RepID=N...    39   0.35 
+UniRef90_C6WNG7 Glutaredoxin 2 n=1 Tax=Actinosynnema mirum (stra...    39   0.35 
+UniRef90_A1WT93 Glutaredoxin 2 n=1 Tax=Halorhodospira halophila ...    39   0.37 
+UniRef90_A4A878 Glutaredoxin-like domain protein n=1 Tax=Congreg...    39   0.37 
+UniRef90_UPI000365435C hypothetical protein n=1 Tax=Smaragdicocc...    39   0.38 
+UniRef90_F0EXW0 Glutaredoxin-like protein n=1 Tax=Kingella denit...    39   0.38 
+UniRef90_I3R1Y2 Thioredoxin n=1 Tax=Haloferax mediterranei (stra...    39   0.39 
+UniRef90_B2JFJ9 Glutaredoxin 2 n=1 Tax=Burkholderia phymatum (st...    39   0.39 
+UniRef90_A3YAA1 Uncharacterized protein n=1 Tax=Marinomonas sp. ...    39   0.39 
+UniRef90_UPI000367CCDD hypothetical protein n=1 Tax=Deinococcus ...    39   0.41 
+UniRef90_I5CDZ5 Glutaredoxin 2 n=2 Tax=Burkholderia RepID=I5CDZ5...    39   0.41 
+UniRef90_Q47EG1 Glutaredoxin 2 n=1 Tax=Dechloromonas aromatica (...    39   0.41 
+UniRef90_B5FE20 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    39   0.42 
+UniRef90_K9XI60 Glutaredoxin 2 n=1 Tax=Gloeocapsa sp. PCC 7428 R...    39   0.44 
+UniRef90_UPI00024A3B01 hypothetical protein n=1 Tax=Mycobacteriu...    39   0.45 
+UniRef90_U1KV77 Uncharacterized protein n=1 Tax=Pseudoalteromona...    39   0.45 
+UniRef90_D9PJH0 Glutaredoxin 2 n=1 Tax=sediment metagenome RepID...    39   0.45 
+UniRef90_A6D6F5 Uncharacterized protein n=1 Tax=Vibrio shilonii ...    39   0.45 
+UniRef90_F2K9E4 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    39   0.45 
+UniRef90_UPI000379FD15 hypothetical protein n=1 Tax=Meiothermus ...    39   0.46 
+UniRef90_S6AGT2 Glutaredoxin 2 n=1 Tax=Sulfuricella denitrifican...    39   0.46 
+UniRef90_W5WMG3 Uncharacterized protein n=1 Tax=Kutzneria albida...    39   0.48 
+UniRef90_H8GVF7 Glutaredoxin 2 n=1 Tax=Deinococcus gobiensis (st...    39   0.49 
+UniRef90_S2FSH4 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    39   0.49 
+UniRef90_M0J018 Thioredoxin n=1 Tax=Haloferax denitrificans ATCC...    39   0.51 
+UniRef90_A1UAP6 Glutaredoxin 2 n=3 Tax=Mycobacterium RepID=A1UAP...    38   0.54 
+UniRef90_D3PSU3 Glutaredoxin n=1 Tax=Meiothermus ruber (strain A...    38   0.55 
+UniRef90_UPI000365B0D6 hypothetical protein n=1 Tax=Gordonia kro...    38   0.58 
+UniRef90_Q2JM87 Glutaredoxin family protein n=1 Tax=Synechococcu...    38   0.59 
+UniRef90_E2ZWC4 Uncharacterized protein n=2 Tax=Pseudomonas aeru...    38   0.60 
+UniRef90_B5INU9 Putative glutaredoxin domain family protein n=1 ...    38   0.60 
+UniRef90_V6JHS5 Uncharacterized protein n=1 Tax=Pseudomonas puti...    38   0.63 
+UniRef90_UPI0003B5DDC7 glutaredoxin n=1 Tax=Frankia sp. Iso899 R...    38   0.64 
+UniRef90_M4WZ91 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    38   0.67 
+UniRef90_U5VFB9 Glutaredoxin n=1 Tax=Pseudomonas sp. VLB120 RepI...    38   0.67 
+UniRef90_F1VZA6 Glutaredoxin 2 n=1 Tax=Oxalobacteraceae bacteriu...    38   0.68 
+UniRef90_J9Y951 Thiol-disulfide isomerase and thioredoxin i n=4 ...    38   0.71 
+UniRef90_E1T5L0 Glutaredoxin 2 n=1 Tax=Burkholderia sp. (strain ...    38   0.71 
+UniRef90_D2PWZ8 Glutaredoxin 2 n=1 Tax=Kribbella flavida (strain...    38   0.74 
+UniRef90_UPI0003B5D8E3 redoxin n=1 Tax=Gryllotalpicola ginsengis...    38   0.75 
+UniRef90_D3SBU2 Glutaredoxin 2 n=8 Tax=Ectothiorhodospiraceae Re...    38   0.75 
+UniRef90_J9H5D4 Glutaredoxin-like domain (DUF836) n=1 Tax=actino...    38   0.75 
+UniRef90_F8H0R7 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    38   0.76 
+UniRef90_C1D7L1 Thioredoxin n=1 Tax=Laribacter hongkongensis (st...    38   0.77 
+UniRef90_UPI0003604C24 MULTISPECIES: hypothetical protein n=1 Ta...    38   0.77 
+UniRef90_UPI00035E04AC hypothetical protein n=1 Tax=Salinicoccus...    38   0.78 
+UniRef90_W6K4W7 Glutaredoxin-like protein n=1 Tax=Tetrasphaera a...    38   0.78 
+UniRef90_K9YU55 Glutaredoxin-like domain (DUF836) n=1 Tax=Dactyl...    38   0.79 
+UniRef90_K7X266 Glutaredoxin 2 n=1 Tax=Anabaena sp. 90 RepID=K7X...    38   0.82 
+UniRef90_UPI0003B3C9C1 glutaredoxin n=1 Tax=Pseudomonas caeni Re...    38   0.83 
+UniRef90_B8KE74 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    38   0.83 
+UniRef90_L0HYG3 Thiol-disulfide isomerase and thioredoxin n=6 Ta...    38   0.85 
+UniRef90_K9WD87 Glutaredoxin-like domain (DUF836) n=1 Tax=Microc...    38   0.86 
+UniRef90_UPI0003663CBD MULTISPECIES: glutaredoxin n=1 Tax=Strept...    38   0.89 
+UniRef90_UPI0003B3E56F glutaredoxin n=1 Tax=Spongiibacter tropic...    37   0.91 
+UniRef90_UPI00036A4F2D hypothetical protein n=1 Tax=Methylotener...    37   0.91 
+UniRef90_UPI00034A2716 hypothetical protein n=1 Tax=Pseudanabaen...    37   0.92 
+UniRef90_Q31N54 Uncharacterized protein n=2 Tax=Synechococcus el...    37   0.96 
+UniRef90_UPI000366416C hypothetical protein n=1 Tax=Caldibacillu...    37   1.0  
+UniRef90_UPI00037E6916 hypothetical protein n=1 Tax=Longispora a...    37   1.0  
+UniRef90_UPI0003663B81 hypothetical protein n=1 Tax=Methyloversa...    37   1.0  
+UniRef90_UPI00036B96C8 glutaredoxin n=1 Tax=Pseudomonas stutzeri...    37   1.0  
+UniRef90_UPI0003B72AFE glutaredoxin n=1 Tax=Aquaspirillum serpen...    37   1.2  
+UniRef90_B3PFU8 Uncharacterized protein n=1 Tax=Cellvibrio japon...    37   1.2  
+UniRef90_Q1J0F3 Glutaredoxin 2 n=1 Tax=Deinococcus geothermalis ...    37   1.2  
+UniRef90_UPI00035EC534 hypothetical protein n=1 Tax=Methylobacte...    37   1.2  
+UniRef90_UPI000287D396 glutaredoxin n=1 Tax=Streptomyces acidisc...    37   1.2  
+UniRef90_UPI0003715F63 glutaredoxin n=1 Tax=Streptomyces sp. CNT...    37   1.2  
+UniRef90_UPI0002002316 ribonucleotide reductase n=1 Tax=Synechoc...    37   1.2  
+UniRef90_Q82SJ4 Putative thioredoxin n=1 Tax=Nitrosomonas europa...    37   1.3  
+UniRef90_U1YG67 Glutaredoxin-like protein n=1 Tax=Aneurinibacill...    37   1.3  
+UniRef90_V6T681 Uncharacterized protein n=2 Tax=Bacillus RepID=V...    37   1.3  
+UniRef90_F5S483 Glutaredoxin 2 n=3 Tax=Kingella kingae RepID=F5S...    37   1.3  
+UniRef90_U1P0D6 Glutaredoxin-like domain (DUF836) n=2 Tax=Archae...    37   1.3  
+UniRef90_Q0AF66 Glutaredoxin 2 n=1 Tax=Nitrosomonas eutropha (st...    37   1.3  
+UniRef90_D7MYJ2 Glutaredoxin-like protein n=1 Tax=Neisseria sp. ...    37   1.4  
+UniRef90_Q9RY93 Uncharacterized protein n=1 Tax=Deinococcus radi...    37   1.4  
+UniRef90_C7MFK4 Glutaredoxin-like domain (DUF836) n=1 Tax=Brachy...    37   1.4  
+UniRef90_Q3B1Z2 Uncharacterized protein n=1 Tax=Pelodictyon lute...    37   1.4  
+UniRef90_W1SF26 Glutaredoxin 2 n=1 Tax=Bacillus vireti LMG 21834...    37   1.4  
+UniRef90_UPI0003684725 hypothetical protein n=1 Tax=Frankia sp. ...    37   1.4  
+UniRef90_G2J2M2 Glutaredoxin-like domain protein n=2 Tax=Pseudog...    37   1.4  
+UniRef90_B3R203 Uncharacterized protein n=2 Tax=Cupriavidus taiw...    37   1.5  
+UniRef90_W4NKG8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    37   1.5  
+UniRef90_F9TV70 Thiol-disulfide isomerase and thioredoxin n=16 T...    37   1.5  
+UniRef90_F9ZG34 Glutaredoxin 2 n=1 Tax=Nitrosomonas sp. AL212 Re...    37   1.6  
+UniRef90_F2L837 Uncharacterized protein n=1 Tax=Burkholderia gla...    37   1.6  
+UniRef90_UPI000366AAE2 hypothetical protein n=1 Tax=actinobacter...    37   1.6  
+UniRef90_K9ZZI8 Glutaredoxin-like protein n=1 Tax=Deinococcus pe...    37   1.7  
+UniRef90_I3BPH6 Glutaredoxin 2 n=1 Tax=Thiothrix nivea DSM 5205 ...    37   1.7  
+UniRef90_UPI0003B674CE glutaredoxin n=1 Tax=Deinococcus sp. 2009...    37   1.8  
+UniRef90_UPI00037D1AF0 hypothetical protein n=1 Tax=Promicromono...    37   1.8  
+UniRef90_U1Y2Q5 Glutaredoxin n=1 Tax=Arthrobacter sp. AK-YN10 Re...    37   1.8  
+UniRef90_G8MX04 Glutaredoxin 2 n=8 Tax=Geobacillus RepID=G8MX04_...    37   1.8  
+UniRef90_UPI0003628A77 glutaredoxin n=1 Tax=Deinococcus wulumuqi...    37   1.8  
+UniRef90_B0TIX6 Glutaredoxin 2 n=1 Tax=Shewanella halifaxensis (...    37   1.9  
+UniRef90_G8S661 Uncharacterized protein n=1 Tax=Actinoplanes sp....    37   1.9  
+UniRef90_UPI0003B42958 redoxin n=2 Tax=Curtobacterium RepID=UPI0...    37   1.9  
+UniRef90_UPI00036CE6B5 hypothetical protein n=2 Tax=Microbacteri...    37   1.9  
+UniRef90_A6V344 Uncharacterized protein n=1 Tax=Pseudomonas aeru...    37   1.9  
+UniRef90_R4W5Y1 Thioredoxin n=1 Tax=Salinarchaeum sp. Harcht-Bsk...    37   1.9  
+UniRef90_M0LTF8 Thioredoxin n=1 Tax=Halococcus hamelinensis 100A...    37   1.9  
+UniRef90_K6Z637 Thiol-disulfide isomerase and thioredoxin i n=1 ...    37   2.0  
+UniRef90_UPI0003B6BF8F glutaredoxin n=1 Tax=Ruania albidiflava R...    37   2.0  
+UniRef90_UPI0003B5F023 glutaredoxin n=1 Tax=Nevskia ramosa RepID...    37   2.0  
+UniRef90_UPI0003625007 hypothetical protein n=1 Tax=Thiothrix di...    37   2.0  
+UniRef90_UPI0003456BE6 hypothetical protein n=1 Tax=Burkholderia...    36   2.1  
+UniRef90_J7J3Q3 Glutaredoxin 2 n=1 Tax=Burkholderia cepacia GG4 ...    36   2.2  
+UniRef90_T2H9H8 Uncharacterized protein n=25 Tax=Pseudomonas Rep...    36   2.2  
+UniRef90_Q2JFS3 Glutaredoxin 2 n=1 Tax=Frankia sp. (strain CcI3)...    36   2.2  
+UniRef90_I8QVT0 Glutaredoxin-like protein n=2 Tax=Frankia RepID=...    36   2.2  
+UniRef90_UPI0003610EE6 hypothetical protein n=1 Tax=Microbacteri...    36   2.2  
+UniRef90_A5GRL7 Thioredoxin family protein n=1 Tax=Synechococcus...    36   2.4  
+UniRef90_E1ZTP7 Putative uncharacterized protein n=1 Tax=Chlorel...    36   2.4  
+UniRef90_UPI00034B5776 hypothetical protein n=1 Tax=Leucobacter ...    36   2.4  
+UniRef90_B3MKI5 GF14500 n=1 Tax=Drosophila ananassae RepID=B3MKI...    36   2.4  
+UniRef90_K2HBM9 Glutaredoxin n=1 Tax=Salimicrobium sp. MJ3 RepID...    36   2.4  
+UniRef90_G4CK76 Glutaredoxin 2 n=1 Tax=Neisseria shayeganii 871 ...    36   2.4  
+UniRef90_H5TYT8 Putative uncharacterized protein n=1 Tax=Gordoni...    36   2.4  
+UniRef90_A4FPY6 Glutaredoxin 2 n=2 Tax=Saccharopolyspora erythra...    36   2.5  
+UniRef90_E8U6Z9 Glutaredoxin 2 n=1 Tax=Deinococcus maricopensis ...    36   2.5  
+UniRef90_UPI000371CE23 glutaredoxin n=1 Tax=Burkholderia bryophi...    36   2.5  
+UniRef90_K0KAH4 Uncharacterized protein n=1 Tax=Saccharothrix es...    36   2.5  
+UniRef90_E8VZ89 Glutaredoxin 2 n=2 Tax=Streptomyces RepID=E8VZ89...    36   2.5  
+UniRef90_J3HW58 Glutaredoxin-like domain (DUF836) n=1 Tax=Herbas...    36   2.6  
+UniRef90_L8DDT7 Glutaredoxin 2 n=1 Tax=Rhodococcus sp. AW25M09 R...    36   2.6  
+UniRef90_D4GS75 Thioredoxin n=8 Tax=Haloferax RepID=D4GS75_HALVD       36   2.6  
+UniRef90_Q2JY23 Glutaredoxin family protein n=1 Tax=Synechococcu...    36   2.7  
+UniRef90_E8YL36 Glutaredoxin 2 n=2 Tax=Burkholderia RepID=E8YL36...    36   2.7  
+UniRef90_UPI0003786047 glutaredoxin n=1 Tax=Kribbella catacumbae...    36   2.9  
+UniRef90_Q5QX62 Thioredoxin related protein n=2 Tax=Idiomarina l...    36   3.1  
+UniRef90_F0LTZ5 Thiol-disulfide isomerase and thioredoxin n=4 Ta...    36   3.1  
+UniRef90_C5C191 Glutaredoxin 2 n=1 Tax=Beutenbergia cavernae (st...    36   3.1  
+UniRef90_Q3SH46 Uncharacterized protein n=1 Tax=Thiobacillus den...    36   3.1  
+UniRef90_S2UGR7 Uncharacterized protein n=2 Tax=Cycloclasticus R...    36   3.2  
+UniRef90_M0GTI1 Thioredoxin n=2 Tax=Haloferax RepID=M0GTI1_9EURY       36   3.2  
+UniRef90_UPI00036FE1C4 hypothetical protein n=1 Tax=Thiobacillus...    36   3.4  
+UniRef90_B3QQI6 Glutaredoxin 2 n=1 Tax=Chlorobaculum parvum (str...    36   3.4  
+UniRef90_UPI000379D22B glutaredoxin n=1 Tax=Actinokineospora enz...    35   3.5  
+UniRef90_UPI0003703DE6 hypothetical protein n=1 Tax=Massilia nia...    35   3.6  
+UniRef90_UPI0000E10B9C glutaredoxin 2 n=1 Tax=Glaciecola sp. HTC...    35   3.6  
+UniRef90_Q2SCX7 Thiol-disulfide isomerase and thioredoxins n=1 T...    35   3.8  
+UniRef90_A4X1T6 Glutaredoxin 2 n=7 Tax=Salinispora RepID=A4X1T6_...    35   3.9  
+UniRef90_I4ECD3 Uncharacterized protein n=1 Tax=Nitrolancea holl...    35   3.9  
+UniRef90_A4G6S2 Uncharacterized protein n=1 Tax=Herminiimonas ar...    35   4.1  
+UniRef90_H5X488 Glutaredoxin-like protein n=1 Tax=Saccharomonosp...    35   4.2  
+UniRef90_M0P7H6 Glutaredoxin 2 n=1 Tax=Halorubrum aidingense JCM...    35   4.2  
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_B0RQB8 Uncharacterized protein n=4 Tax=Xanthomonas camp...   132   2e-29
+UniRef90_G0CBF3 Thiol-disulfide isomerase and thioredoxin n=1 Ta...   130   7e-29
+UniRef90_UPI0002631601 glutaredoxin n=1 Tax=Xanthomonas sacchari...   125   3e-27
+UniRef90_V7Z9X1 Uncharacterized protein n=3 Tax=Xanthomonas RepI...   124   7e-27
+UniRef90_F0B8B2 Glutaredoxin-like domain (DUF836) n=1 Tax=Xantho...   124   8e-27
+UniRef90_W4S3G9 Thiol-disulfide isomerase and thioredoxin n=3 Ta...   123   1e-26
+UniRef90_UPI0003650F9A glutaredoxin n=2 Tax=Xanthomonas RepID=UP...   122   3e-26
+UniRef90_Q3BQR0 Uncharacterized protein n=1 Tax=Xanthomonas camp...   122   3e-26
+UniRef90_UPI0002E03D0B glutaredoxin n=1 Tax=Xanthomonas axonopod...   120   1e-25
+UniRef90_G2M178 Uncharacterized protein n=9 Tax=Xanthomonas RepI...   119   2e-25
+UniRef90_Q5H1U5 Uncharacterized protein n=5 Tax=Xanthomonas oryz...   119   2e-25
+UniRef90_D2UER5 Putative thiol-disulfide isomerase and thioredox...   119   2e-25
+UniRef90_UPI0001CBF73B MULTISPECIES: glutaredoxin n=1 Tax=Xantho...   118   5e-25
+UniRef90_U3CJU0 Uncharacterized protein n=2 Tax=Vibrio RepID=U3C...   116   2e-24
+UniRef90_Q7MKX0 Thiol-disulfide isomerase and thioredoxin n=2 Ta...   116   2e-24
+UniRef90_R0E1U1 Uncharacterized protein n=1 Tax=Xanthomonas frag...   113   1e-23
+UniRef90_E6WRF7 Glutaredoxin 2 n=1 Tax=Pseudoxanthomonas suwonen...   113   1e-23
+UniRef90_UPI0002F96D6D glutaredoxin n=1 Tax=Stenotrophomonas mal...   113   1e-23
+UniRef90_K8ZGD1 Uncharacterized protein n=3 Tax=Xanthomonas camp...   112   2e-23
+UniRef90_I4WDL6 Uncharacterized protein n=1 Tax=Rhodanobacter sp...   111   5e-23
+UniRef90_G7USR0 Uncharacterized protein n=1 Tax=Pseudoxanthomona...   110   8e-23
+UniRef90_I1DE09 Thiol-disulfide isomerase and thioredoxin n=4 Ta...   110   8e-23
+UniRef90_A0KKK6 Thiol-disulfide isomerase and thioredoxin n=3 Ta...   109   2e-22
+UniRef90_K5UW28 Uncharacterized protein n=3 Tax=Vibrio RepID=K5U...   109   2e-22
+UniRef90_UPI0002D63685 hypothetical protein n=2 Tax=Vibrio breog...   109   2e-22
+UniRef90_K1JAV8 Uncharacterized protein n=8 Tax=Bacteria RepID=K...   109   2e-22
+UniRef90_W6LPP4 Glutaredoxin 2 (Modular protein) n=1 Tax=Candida...   108   3e-22
+UniRef90_H2ICR7 Uncharacterized protein n=2 Tax=Vibrio RepID=H2I...   108   4e-22
+UniRef90_UPI00037378BB hypothetical protein n=1 Tax=Rudaea cellu...   108   4e-22
+UniRef90_A0KVL7 Glutaredoxin 2 n=4 Tax=Shewanella RepID=A0KVL7_S...   108   4e-22
+UniRef90_U3CEF7 Uncharacterized protein n=1 Tax=Vibrio azureus N...   108   5e-22
+UniRef90_UPI00034AD05E glutaredoxin n=1 Tax=Dyella ginsengisoli ...   108   5e-22
+UniRef90_A7N0M7 Thiol-disulfide isomerase n=4 Tax=Vibrio RepID=A...   108   5e-22
+UniRef90_H1QYV3 Glutaredoxin-like domain-containing protein n=3 ...   107   6e-22
+UniRef90_W6MC61 Putative Long-chain fatty acid transport protein...   107   6e-22
+UniRef90_A4SME5 Thiol-disulfide isomerase and thioredoxin n=3 Ta...   107   7e-22
+UniRef90_Q3JEK0 Glutaredoxin 2 n=2 Tax=Nitrosococcus oceani RepI...   107   8e-22
+UniRef90_UPI0002FD0C5C hypothetical protein n=1 Tax=Dyella japon...   107   8e-22
+UniRef90_F2P873 Putative uncharacterized protein n=2 Tax=Photoba...   107   9e-22
+UniRef90_F4DAE6 Thiol-disulfide isomerase and thioredoxin n=7 Ta...   107   9e-22
+UniRef90_B2FQZ3 Uncharacterized protein n=4 Tax=Stenotrophomonas...   107   1e-21
+UniRef90_E1ST46 Glutaredoxin 2 n=1 Tax=Ferrimonas balearica (str...   107   1e-21
+UniRef90_M4ND81 Glutaredoxin-like domain (DUF836) n=3 Tax=Rhodan...   107   1e-21
+UniRef90_UPI0002E0C1F2 glutaredoxin n=1 Tax=Pseudoxanthomonas sp...   107   1e-21
+UniRef90_U3AJZ4 Uncharacterized protein n=33 Tax=Vibrio RepID=U3...   107   1e-21
+UniRef90_Q2BXZ5 Thiol-disulfide isomerase and thioredoxin n=1 Ta...   106   1e-21
+UniRef90_K2JAP7 Glutaredoxin n=1 Tax=Gallaecimonas xiamenensis 3...   106   1e-21
+UniRef90_UPI000364E473 hypothetical protein n=1 Tax=Vibrio genom...   106   1e-21
+UniRef90_UPI00037AC261 glutaredoxin n=1 Tax=Oceanimonas smirnovi...   106   2e-21
+UniRef90_A4Y5X5 Glutaredoxin 2 n=2 Tax=Shewanella putrefaciens R...   106   2e-21
+UniRef90_F7YJP4 Uncharacterized protein n=3 Tax=Vibrio RepID=F7Y...   105   3e-21
+UniRef90_F7RPS6 Uncharacterized protein n=1 Tax=Shewanella sp. H...   105   3e-21
+UniRef90_I4WPV6 Uncharacterized protein n=1 Tax=Rhodanobacter th...   105   4e-21
+UniRef90_V9ZXS1 Thiol-disulfide isomerase and thioredoxin n=2 Ta...   105   4e-21
+UniRef90_Q1ZQY4 Uncharacterized protein n=1 Tax=Photobacterium a...   104   5e-21
+UniRef90_E3BFG8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...   104   5e-21
+UniRef90_Q608E8 Uncharacterized protein n=1 Tax=Methylococcus ca...   104   6e-21
+UniRef90_B1KDN1 Glutaredoxin 2 n=1 Tax=Shewanella woodyi (strain...   104   6e-21
+UniRef90_B7VNL2 Uncharacterized protein n=15 Tax=Vibrionales Rep...   104   7e-21
+UniRef90_T5LAK1 Glutaredoxin n=3 Tax=Xanthomonadaceae RepID=T5LA...   104   7e-21
+UniRef90_UPI0002197C4F glutaredoxin n=1 Tax=Aeromonas caviae Rep...   104   8e-21
+UniRef90_U3B5X3 Uncharacterized protein n=1 Tax=Vibrio proteolyt...   103   1e-20
+UniRef90_H2FW47 Thiol-disulfide isomerase and thioredoxin n=1 Ta...   103   1e-20
+UniRef90_R1H0U5 Thiol-disulfide isomerase and thioredoxin n=1 Ta...   103   1e-20
+UniRef90_A1RKM1 Glutaredoxin 2 n=1 Tax=Shewanella sp. (strain W3...   103   1e-20
+UniRef90_N9TXD5 Thiol-disulfide isomerase and thioredoxin n=1 Ta...   103   1e-20
+UniRef90_N6W075 Glutaredoxin n=1 Tax=Marinobacter nanhaiticus D1...   103   2e-20
+UniRef90_A5F853 Uncharacterized protein n=145 Tax=Vibrio RepID=A...   103   2e-20
+UniRef90_M7P1G0 Glutaredoxin-like protein n=1 Tax=Methylophaga l...   103   2e-20
+UniRef90_A0Z9G1 Uncharacterized protein n=1 Tax=marine gamma pro...   102   2e-20
+UniRef90_UPI00037E5EE6 hypothetical protein n=1 Tax=Endozoicomon...   102   2e-20
+UniRef90_G0JZK2 Glutaredoxin 2 n=4 Tax=Stenotrophomonas RepID=G0...   102   2e-20
+UniRef90_D5C1X6 Glutaredoxin 2 n=1 Tax=Nitrosococcus halophilus ...   102   2e-20
+UniRef90_G0A5K9 Glutaredoxin 2 n=1 Tax=Methylomonas methanica (s...   102   2e-20
+UniRef90_B8CPF5 Conserved hypothetical thioredoxin n=1 Tax=Shewa...   102   2e-20
+UniRef90_A3QDY1 Glutaredoxin 2 n=1 Tax=Shewanella loihica (strai...   102   3e-20
+UniRef90_I1DYK9 Thiol-disulfide isomerase and thioredoxin n=1 Ta...   102   4e-20
+UniRef90_I0KRM7 Uncharacterized protein n=1 Tax=Stenotrophomonas...   101   5e-20
+UniRef90_D4ZJI3 Uncharacterized protein n=2 Tax=Shewanella RepID...   101   5e-20
+UniRef90_A1SX08 Glutaredoxin 2 n=1 Tax=Psychromonas ingrahamii (...   101   5e-20
+UniRef90_F7SLG0 Uncharacterized protein n=1 Tax=Halomonas sp. TD...   101   5e-20
+UniRef90_D0IAI0 Thiol-disulfide isomerase and thioredoxin n=2 Ta...   101   6e-20
+UniRef90_Q07ZR4 Glutaredoxin 2 n=1 Tax=Shewanella frigidimarina ...   100   7e-20
+UniRef90_H0IZV4 Uncharacterized protein n=1 Tax=Halomonas sp. GF...   100   9e-20
+UniRef90_I1YGM1 Glutaredoxin-like domain (DUF836) n=1 Tax=Methyl...   100   1e-19
+UniRef90_G7F966 Putative uncharacterized protein n=1 Tax=Pseudoa...   100   1e-19
+UniRef90_F3BMT7 Uncharacterized protein n=5 Tax=Pseudoalteromona...   100   1e-19
+UniRef90_H3NTC6 Glutaredoxin-like domain (DUF836) n=1 Tax=gamma ...   100   2e-19
+UniRef90_A8H3Y2 Glutaredoxin 2 n=1 Tax=Shewanella pealeana (stra...    99   2e-19
+UniRef90_T2L5C9 Uncharacterized protein n=2 Tax=Halomonas RepID=...    99   2e-19
+UniRef90_D8KBJ9 Glutaredoxin 2 n=1 Tax=Nitrosococcus watsoni (st...    99   2e-19
+UniRef90_UPI0002D35877 hypothetical protein n=1 Tax=Halomonas st...    99   2e-19
+UniRef90_U7P355 Uncharacterized protein n=1 Tax=Halomonas sp. PB...    99   2e-19
+UniRef90_UPI0003B68F38 glutaredoxin n=1 Tax=Psychromonas hadalis...    99   3e-19
+UniRef90_Q12LC7 Glutaredoxin 2 n=1 Tax=Shewanella denitrificans ...    99   3e-19
+UniRef90_UPI0003955856 glutaredoxin n=1 Tax=Salinivibrio costico...    99   3e-19
+UniRef90_F3L5J8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    99   3e-19
+UniRef90_M4U740 Glutaredoxin n=1 Tax=Psychromonas sp. CNPT3 RepI...    99   3e-19
+UniRef90_A0Y1E1 Uncharacterized protein n=3 Tax=Alteromonadales ...    98   4e-19
+UniRef90_M5DNN4 Glutaredoxin n=1 Tax=Thalassolituus oleivorans M...    98   5e-19
+UniRef90_F5SW97 Glutaredoxin 2 n=1 Tax=Methylophaga aminisulfidi...    98   6e-19
+UniRef90_E1VPJ6 Uncharacterized protein n=1 Tax=gamma proteobact...    98   7e-19
+UniRef90_E4QHY6 Glutaredoxin 2 n=1 Tax=Methylovorus sp. (strain ...    97   7e-19
+UniRef90_W7PS97 Uncharacterized protein n=2 Tax=Halomonas sp. BC...    97   8e-19
+UniRef90_UPI00030FC5A3 glutaredoxin n=1 Tax=Enterovibrio calvien...    97   8e-19
+UniRef90_B7RUA7 Putative glutaredoxin domain family protein n=1 ...    97   8e-19
+UniRef90_UPI000381E1B8 thiol-disulfide isomerase n=1 Tax=Pseudoa...    97   9e-19
+UniRef90_A8FW58 Glutaredoxin 2 n=1 Tax=Shewanella sediminis (str...    97   1e-18
+UniRef90_S6GIM6 Glutaredoxin n=1 Tax=Osedax symbiont Rs1 RepID=S...    97   1e-18
+UniRef90_H7ERT0 Thiol-disulfide isomerase and thioredoxin (Fragm...    97   1e-18
+UniRef90_UPI00031170B3 hypothetical protein n=1 Tax=Moritella da...    97   1e-18
+UniRef90_A1S602 Uncharacterized protein n=1 Tax=Shewanella amazo...    97   1e-18
+UniRef90_UPI0002D4A9D9 glutaredoxin n=3 Tax=Enterovibrio norvegi...    97   2e-18
+UniRef90_G4F808 Uncharacterized protein n=1 Tax=Halomonas sp. HA...    96   2e-18
+UniRef90_U1LHZ7 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    96   2e-18
+UniRef90_I4VKK5 Glutaredoxin n=1 Tax=Rhodanobacter fulvus Jip2 R...    96   3e-18
+UniRef90_UPI00039EE24F glutaredoxin n=1 Tax=Pseudomonas pelagia ...    96   3e-18
+UniRef90_A4VM30 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    96   3e-18
+UniRef90_I1XHF7 Glutaredoxin-like protein n=1 Tax=Methylophaga n...    96   3e-18
+UniRef90_S2KPW1 Uncharacterized protein n=1 Tax=Halomonas antica...    96   3e-18
+UniRef90_Q0A8A9 Glutaredoxin 2 n=1 Tax=Alkalilimnicola ehrlichii...    95   4e-18
+UniRef90_UPI000289235C hypothetical protein n=1 Tax=Halomonas sp...    94   7e-18
+UniRef90_UPI0002F70958 hypothetical protein n=1 Tax=Catenovulum ...    94   8e-18
+UniRef90_UPI0003683040 hypothetical protein n=1 Tax=Psychromonas...    94   9e-18
+UniRef90_K6YDW6 Glutaredoxin 2 n=1 Tax=Glaciecola lipolytica E3 ...    94   9e-18
+UniRef90_UPI000346C888 hypothetical protein n=1 Tax=Halomonas je...    94   1e-17
+UniRef90_UPI000378F2A3 MULTISPECIES: hypothetical protein n=1 Ta...    93   1e-17
+UniRef90_G3ITR8 Glutaredoxin 2 n=1 Tax=Methylobacter tundripalud...    93   2e-17
+UniRef90_UPI000381F069 hypothetical protein n=1 Tax=Vibrio marin...    93   2e-17
+UniRef90_UPI000288A1A5 glutaredoxin n=2 Tax=Pseudomonas fuscovag...    93   2e-17
+UniRef90_F3LGX2 Glutaredoxin-like domain containing protein n=1 ...    93   2e-17
+UniRef90_W6ZWA5 Uncharacterized protein n=2 Tax=Alcanivorax RepI...    93   2e-17
+UniRef90_UPI000287D79E glutaredoxin n=1 Tax=Pseudomonas extremau...    93   2e-17
+UniRef90_UPI0003602F47 hypothetical protein n=1 Tax=Gayadomonas ...    92   3e-17
+UniRef90_C6X8V9 Glutaredoxin 2 n=1 Tax=Methylovorus sp. (strain ...    92   4e-17
+UniRef90_A9L590 Glutaredoxin 2 n=9 Tax=Shewanella baltica RepID=...    92   5e-17
+UniRef90_S6GBX1 Uncharacterized protein n=1 Tax=Osedax symbiont ...    92   5e-17
+UniRef90_K0X5Q1 Glutaredoxin-like protein n=1 Tax=Pseudomonas fl...    91   5e-17
+UniRef90_W2UDZ2 Uncharacterized protein n=1 Tax=Gammaproteobacte...    91   8e-17
+UniRef90_Q1N6A0 Uncharacterized protein n=1 Tax=Bermanella maris...    91   9e-17
+UniRef90_UPI0003703EFF hypothetical protein n=1 Tax=Methylotener...    91   9e-17
+UniRef90_C6WTG1 Glutaredoxin 2 n=1 Tax=Methylotenera mobilis (st...    91   9e-17
+UniRef90_UPI0003610E6D hypothetical protein n=1 Tax=Halomonas zh...    90   1e-16
+UniRef90_H8KZA2 Glutaredoxin-like domain (DUF836) n=1 Tax=Frateu...    90   1e-16
+UniRef90_K2FYZ3 Uncharacterized protein n=1 Tax=Alcanivorax paci...    90   1e-16
+UniRef90_UPI0003B664E1 glutaredoxin n=1 Tax=Perlucidibaca piscin...    89   3e-16
+UniRef90_UPI0003689DBA hypothetical protein n=1 Tax=Dasania mari...    89   3e-16
+UniRef90_W2D7T2 Uncharacterized protein n=1 Tax=Pseudomonas sp. ...    89   3e-16
+UniRef90_UPI00035E2084 hypothetical protein n=1 Tax=Halomonas lu...    88   6e-16
+UniRef90_W7QT51 Uncharacterized protein n=1 Tax=Catenovulum agar...    88   6e-16
+UniRef90_Q1YPL4 Uncharacterized protein n=1 Tax=gamma proteobact...    87   8e-16
+UniRef90_UPI0003736771 hypothetical protein n=1 Tax=Methylophilu...    87   1e-15
+UniRef90_I2BKY2 Uncharacterized protein n=12 Tax=Pseudomonas Rep...    86   3e-15
+UniRef90_D5CQK7 Glutaredoxin 2 n=1 Tax=Sideroxydans lithotrophic...    85   6e-15
+UniRef90_E1V4J1 Uncharacterized protein n=1 Tax=Halomonas elonga...    84   8e-15
+UniRef90_Q2BMT5 Uncharacterized protein n=1 Tax=Neptuniibacter c...    84   1e-14
+UniRef90_B8KYH1 Putative glutaredoxin domain family protein n=1 ...    84   1e-14
+UniRef90_H8FLA0 Uncharacterized protein n=1 Tax=Xanthomonas citr...    84   1e-14
+UniRef90_R8AUR8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    80   9e-14
+UniRef90_V5YV21 Uncharacterized protein n=2 Tax=Stenotrophomonas...    80   2e-13
+UniRef90_UPI0003773C26 hypothetical protein n=1 Tax=Cupriavidus ...    77   1e-12
+UniRef90_T1AWJ0 Glutaredoxin 2 n=1 Tax=mine drainage metagenome ...    75   3e-12
+UniRef90_I9KVU1 Uncharacterized protein n=1 Tax=Ralstonia sp. PB...    75   6e-12
+UniRef90_D1BBA4 Glutaredoxin-like domain (DUF836) n=1 Tax=Sangui...    74   1e-11
+UniRef90_U1NW80 Glutaredoxin related protein n=2 Tax=Halonotius ...    74   1e-11
+UniRef90_F8GKJ3 Glutaredoxin 2 n=1 Tax=Nitrosomonas sp. (strain ...    70   2e-10
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_M5NCP2 Uncharacterized protein n=6 Tax=Vibrio RepID=M5N...   102   2e-20
+UniRef90_A6EUG7 Uncharacterized protein n=2 Tax=Marinobacter Rep...   101   5e-20
+UniRef90_A0YBZ0 Thiol-disulfide isomerase and thioredoxins n=1 T...   100   8e-20
+UniRef90_Q6LR99 Uncharacterized protein n=2 Tax=Photobacterium p...    99   3e-19
+UniRef90_M1F7I8 Uncharacterized protein n=3 Tax=Marinobacter Rep...    99   4e-19
+UniRef90_B7UXN6 Uncharacterized protein n=137 Tax=Pseudomonas Re...    97   1e-18
+UniRef90_M7CT77 Glutaredoxin n=2 Tax=Marinobacter RepID=M7CT77_9...    97   1e-18
+UniRef90_F7NWG5 Glutaredoxin-like protein n=1 Tax=Rheinheimera s...    96   2e-18
+UniRef90_UPI000301881B hypothetical protein n=1 Tax=Vibrio rumoi...    96   2e-18
+UniRef90_Q8EFW3 Thioredoxin/glutaredoxin 2 family protein n=1 Ta...    96   3e-18
+UniRef90_UPI0002E8E82A glutaredoxin n=1 Tax=Pseudomonas nitrored...    96   3e-18
+UniRef90_A6FJ67 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    96   3e-18
+UniRef90_L1LVN9 Glutaredoxin 2 n=1 Tax=Pseudomonas putida CSV86 ...    95   4e-18
+UniRef90_I4CUK3 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    95   4e-18
+UniRef90_I4Y2E6 Uncharacterized protein n=9 Tax=Pseudomonas RepI...    95   4e-18
+UniRef90_U1L7B8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    94   6e-18
+UniRef90_A4XT39 Glutaredoxin 2 n=7 Tax=Pseudomonas RepID=A4XT39_...    94   7e-18
+UniRef90_B8KGX5 Putative glutaredoxin domain family protein n=1 ...    94   7e-18
+UniRef90_Q1I7A5 Uncharacterized protein n=1 Tax=Pseudomonas ento...    94   8e-18
+UniRef90_L8D6R0 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    94   1e-17
+UniRef90_UPI0002556668 glutaredoxin n=1 Tax=Pseudomonas sp. S9 R...    94   1e-17
+UniRef90_UPI0002915C9E thiol-disulfide isomerase and thioredoxin...    94   1e-17
+UniRef90_E4PHM3 Glutaredoxin 2 n=9 Tax=Marinobacter RepID=E4PHM3...    94   1e-17
+UniRef90_H3Z9V3 Thiol-disulfide isomerase and thioredoxin n=3 Ta...    93   1e-17
+UniRef90_S6JFE8 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    93   2e-17
+UniRef90_V6UUU4 Glutaredoxin n=1 Tax=Pseudomonas mosselii SJ10 R...    93   2e-17
+UniRef90_UPI00029ABE76 glutaredoxin n=1 Tax=Pseudomonas sp. HYS ...    93   2e-17
+UniRef90_UPI000346C881 glutaredoxin n=1 Tax=Pseudomonas veronii ...    93   2e-17
+UniRef90_U2Z0V6 Uncharacterized protein n=1 Tax=Pseudomonas alca...    93   2e-17
+UniRef90_UPI0003823962 hypothetical protein n=1 Tax=Teredinibact...    93   2e-17
+UniRef90_V4QYF6 Glutaredoxin n=1 Tax=Pseudomonas aeruginosa VRFP...    93   2e-17
+UniRef90_C1DEC7 Uncharacterized protein n=3 Tax=Azotobacter vine...    92   2e-17
+UniRef90_M4WZ91 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    92   3e-17
+UniRef90_K0C989 Uncharacterized protein n=2 Tax=Alcanivorax RepI...    92   4e-17
+UniRef90_M5QUU2 Uncharacterized protein n=1 Tax=Pseudomonas sp. ...    92   4e-17
+UniRef90_UPI00037D8EF6 hypothetical protein n=1 Tax=Methylovulum...    92   5e-17
+UniRef90_J3EKH7 Glutaredoxin-like domain (DUF836) n=15 Tax=Pseud...    92   5e-17
+UniRef90_L0GL53 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    91   6e-17
+UniRef90_Q3K951 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    91   7e-17
+UniRef90_N6W3D0 Uncharacterized protein n=2 Tax=Pseudoalteromona...    91   8e-17
+UniRef90_J2YJM2 Glutaredoxin-like domain (DUF836) n=2 Tax=Pseudo...    91   9e-17
+UniRef90_UPI0003B46A68 thiol-disulfide isomerase n=1 Tax=Pseudoa...    91   9e-17
+UniRef90_R9PJY5 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    91   1e-16
+UniRef90_Q21JU2 Glutaredoxin 2 n=1 Tax=Saccharophagus degradans ...    91   1e-16
+UniRef90_L8MR95 Thiol-disulfide isomerase n=2 Tax=Pseudomonas ae...    91   1e-16
+UniRef90_E2XNX8 Uncharacterized protein n=1 Tax=Pseudomonas fluo...    90   2e-16
+UniRef90_I3IA90 Glutaredoxin 2 n=1 Tax=Cellvibrio sp. BR RepID=I...    90   2e-16
+UniRef90_F3HIM9 Uncharacterized protein n=1 Tax=Pseudomonas syri...    90   2e-16
+UniRef90_J3GNU1 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    90   2e-16
+UniRef90_J1IPK1 Uncharacterized protein n=4 Tax=Pseudomonas RepI...    90   2e-16
+UniRef90_UPI000379DC83 hypothetical protein n=1 Tax=Rheinheimera...    89   2e-16
+UniRef90_T2H9H8 Uncharacterized protein n=25 Tax=Pseudomonas Rep...    89   2e-16
+UniRef90_K6BLI6 Uncharacterized protein n=1 Tax=Pseudomonas viri...    89   3e-16
+UniRef90_V8R2F7 Glutaredoxin n=5 Tax=Pseudomonas RepID=V8R2F7_9PSED    89   3e-16
+UniRef90_W0HBF8 Uncharacterized protein n=1 Tax=Pseudomonas cich...    89   4e-16
+UniRef90_U7DNQ4 Glutaredoxin n=1 Tax=Pseudomonas fluorescens NCI...    89   4e-16
+UniRef90_V4HZH0 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    89   4e-16
+UniRef90_UPI0003B5F3CD hypothetical protein n=1 Tax=Methylohalob...    89   4e-16
+UniRef90_UPI00031B67C9 glutaredoxin n=1 Tax=Pseudomonas agarici ...    89   4e-16
+UniRef90_UPI00037E4965 hypothetical protein n=1 Tax=Methylosarci...    88   5e-16
+UniRef90_K9NHM5 Glutaredoxin 2 n=2 Tax=Pseudomonas RepID=K9NHM5_...    88   5e-16
+UniRef90_I7ACJ8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    88   5e-16
+UniRef90_S2FSH4 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    88   5e-16
+UniRef90_J2ZN49 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    88   5e-16
+UniRef90_UPI0002FD1669 glutaredoxin n=1 Tax=Pseudomonas fluoresc...    88   6e-16
+UniRef90_UPI0003032430 glutaredoxin n=1 Tax=Pseudomonas psychrop...    88   6e-16
+UniRef90_U1KCR9 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    88   7e-16
+UniRef90_I4JJ13 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    88   7e-16
+UniRef90_UPI00036B6996 glutaredoxin n=1 Tax=Pseudomonas fluoresc...    87   9e-16
+UniRef90_B3PFU8 Uncharacterized protein n=1 Tax=Cellvibrio japon...    87   1e-15
+UniRef90_G4SZ73 Glutaredoxin 2 n=2 Tax=Methylomicrobium RepID=G4...    87   1e-15
+UniRef90_UPI000368B4D1 hypothetical protein n=1 Tax=Methylomonas...    87   1e-15
+UniRef90_I2JMW8 Glutaredoxin n=1 Tax=gamma proteobacterium BDW91...    87   1e-15
+UniRef90_S6I238 Glutaredoxin 2 n=1 Tax=Pseudomonas sp. CFII68 Re...    87   2e-15
+UniRef90_U5VFB9 Glutaredoxin n=1 Tax=Pseudomonas sp. VLB120 RepI...    87   2e-15
+UniRef90_UPI0003604C24 MULTISPECIES: hypothetical protein n=1 Ta...    87   2e-15
+UniRef90_U3H9V7 Glutaredoxin n=1 Tax=Pseudomonas alcaligenes OT ...    86   2e-15
+UniRef90_L0WGI9 Uncharacterized protein n=1 Tax=Alcanivorax hong...    86   2e-15
+UniRef90_G8Q2X1 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    86   2e-15
+UniRef90_UPI0002558486 glutaredoxin n=1 Tax=Marinobacterium stan...    86   2e-15
+UniRef90_C3K7L0 Uncharacterized protein n=1 Tax=Pseudomonas fluo...    86   2e-15
+UniRef90_V6JHS5 Uncharacterized protein n=1 Tax=Pseudomonas puti...    86   3e-15
+UniRef90_UPI0003B3C9C1 glutaredoxin n=1 Tax=Pseudomonas caeni Re...    85   5e-15
+UniRef90_F3EMH9 Uncharacterized protein n=20 Tax=Pseudomonas syr...    85   5e-15
+UniRef90_M4K382 Uncharacterized protein n=2 Tax=Pseudomonas fluo...    85   6e-15
+UniRef90_Q2SCX7 Thiol-disulfide isomerase and thioredoxins n=1 T...    85   6e-15
+UniRef90_UPI0002EF003B hypothetical protein n=1 Tax=Halomonas sm...    84   7e-15
+UniRef90_S6HBJ8 Uncharacterized protein n=1 Tax=Pseudomonas sp. ...    84   7e-15
+UniRef90_UPI00036B96C8 glutaredoxin n=1 Tax=Pseudomonas stutzeri...    84   8e-15
+UniRef90_U1UPT4 Glutaredoxin n=1 Tax=Pseudomonas fluorescens EGD...    84   8e-15
+UniRef90_S5TV37 Thiol-disulfide isomerase and thioredoxins n=1 T...    84   9e-15
+UniRef90_UPI000362ED3C hypothetical protein n=1 Tax=Gilvimarinus...    84   1e-14
+UniRef90_W0MQ42 Glutaredoxin n=1 Tax=Pseudomonas syringae CC1557...    84   1e-14
+UniRef90_UPI0003B3E56F glutaredoxin n=1 Tax=Spongiibacter tropic...    84   1e-14
+UniRef90_UPI00036A4F2D hypothetical protein n=1 Tax=Methylotener...    84   1e-14
+UniRef90_U7G661 Uncharacterized protein n=1 Tax=Alcanivorax sp. ...    83   2e-14
+UniRef90_J2EK76 Uncharacterized protein n=1 Tax=Pseudomonas fluo...    82   3e-14
+UniRef90_I1X5D3 Glutaredoxin n=1 Tax=uncultured bacterium ws085G...    82   3e-14
+UniRef90_S2UGR7 Uncharacterized protein n=2 Tax=Cycloclasticus R...    82   4e-14
+UniRef90_F2K9E4 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    82   5e-14
+UniRef90_K7ALV1 Glutaredoxin 2 n=2 Tax=Glaciecola RepID=K7ALV1_9...    82   5e-14
+UniRef90_W1N4K5 Uncharacterized protein n=1 Tax=Halomonas sp. BJ...    82   5e-14
+UniRef90_A4A878 Glutaredoxin-like domain protein n=1 Tax=Congreg...    81   8e-14
+UniRef90_V5BVK5 Fumarate hydratase class II n=1 Tax=Methyloglobu...    80   1e-13
+UniRef90_Q8D9G9 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    80   1e-13
+UniRef90_UPI000361BFE0 hypothetical protein n=1 Tax=Algicola sag...    80   1e-13
+UniRef90_F9R9F1 Thiol-disulfide isomerase and thioredoxin n=3 Ta...    79   3e-13
+UniRef90_C9QI14 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    79   3e-13
+UniRef90_U1KV77 Uncharacterized protein n=1 Tax=Pseudoalteromona...    79   3e-13
+UniRef90_UPI0003612E43 hypothetical protein n=1 Tax=Salinimonas ...    79   4e-13
+UniRef90_A6D6F5 Uncharacterized protein n=1 Tax=Vibrio shilonii ...    78   5e-13
+UniRef90_E8LST8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    78   8e-13
+UniRef90_Q883M0 Uncharacterized protein n=30 Tax=Pseudomonas syr...    77   9e-13
+UniRef90_E8M8R0 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    77   9e-13
+UniRef90_H8GNL5 Glutaredoxin-like domain (DUF836) n=1 Tax=Methyl...    77   1e-12
+UniRef90_F6AKC4 Glutaredoxin 2 n=1 Tax=Pseudomonas fulva (strain...    77   1e-12
+UniRef90_UPI00037F0A3D hypothetical protein n=1 Tax=Amphritea ja...    77   2e-12
+UniRef90_A4CC94 Uncharacterized protein n=1 Tax=Pseudoalteromona...    77   2e-12
+UniRef90_UPI00035EC534 hypothetical protein n=1 Tax=Methylobacte...    76   2e-12
+UniRef90_G4QHK1 Thiol-disulfide isomerase and thioredoxin i n=1 ...    76   2e-12
+UniRef90_UPI000373CE1E hypothetical protein n=1 Tax=Hahella gang...    75   3e-12
+UniRef90_D8NVK8 Uncharacterized protein n=9 Tax=Ralstonia RepID=...    75   3e-12
+UniRef90_C6BFM6 Glutaredoxin 2 n=5 Tax=Ralstonia RepID=C6BFM6_RALP1    75   3e-12
+UniRef90_F5Z7V2 Glutaredoxin 2 n=1 Tax=Alteromonas sp. (strain S...    75   4e-12
+UniRef90_R4YN03 Glutaredoxin 2 n=1 Tax=Oleispira antarctica RB-8...    75   7e-12
+UniRef90_I4N5K3 Uncharacterized protein n=1 Tax=Pseudomonas sp. ...    75   7e-12
+UniRef90_E6RK48 Uncharacterized protein n=5 Tax=Pseudoalteromona...    74   7e-12
+UniRef90_F9TV70 Thiol-disulfide isomerase and thioredoxin n=16 T...    74   7e-12
+UniRef90_UPI00037BA95A hypothetical protein n=1 Tax=Colwellia pi...    74   8e-12
+UniRef90_S9TEN3 Glutaredoxin n=1 Tax=Ralstonia sp. AU12-08 RepID...    74   9e-12
+UniRef90_Q47Z10 Uncharacterized protein n=1 Tax=Colwellia psychr...    74   9e-12
+UniRef90_C0N8D4 Putative glutaredoxin domain family protein n=1 ...    74   1e-11
+UniRef90_N2JRK3 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    74   1e-11
+UniRef90_F2G294 Thiol-disulfide isomerase n=9 Tax=Alteromonas ma...    74   1e-11
+UniRef90_F2ZNG9 Uncharacterized protein n=1 Tax=Pseudomonas syri...    74   1e-11
+UniRef90_A3YAA1 Uncharacterized protein n=1 Tax=Marinomonas sp. ...    74   1e-11
+UniRef90_F4ARZ1 Glutaredoxin 2 n=3 Tax=Glaciecola RepID=F4ARZ1_G...    74   1e-11
+UniRef90_C1CVU8 Putative Glutaredoxin n=1 Tax=Deinococcus desert...    73   2e-11
+UniRef90_F0LTZ5 Thiol-disulfide isomerase and thioredoxin n=4 Ta...    73   2e-11
+UniRef90_C9Q6W5 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    73   2e-11
+UniRef90_D7DLR6 Glutaredoxin 2 n=1 Tax=Methylotenera sp. (strain...    73   2e-11
+UniRef90_H5T9G7 Uncharacterized protein n=1 Tax=Glaciecola punic...    73   3e-11
+UniRef90_B8KE74 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    72   3e-11
+UniRef90_UPI0002E293FD thiol-disulfide isomerase n=1 Tax=Vibrio ...    72   3e-11
+UniRef90_A4BQW9 Uncharacterized protein n=1 Tax=Nitrococcus mobi...    72   3e-11
+UniRef90_K6YJ64 Thiol-disulfide isomerase and thioredoxin i n=1 ...    72   4e-11
+UniRef90_J9Y951 Thiol-disulfide isomerase and thioredoxin i n=4 ...    72   4e-11
+UniRef90_C8N8C9 Glutaredoxin-like protein n=1 Tax=Cardiobacteriu...    72   4e-11
+UniRef90_U4T5M7 Uncharacterized protein n=1 Tax=Psychrobacter aq...    72   5e-11
+UniRef90_T1D1J9 Glutaredoxin 2 n=1 Tax=mine drainage metagenome ...    72   5e-11
+UniRef90_L0HYG3 Thiol-disulfide isomerase and thioredoxin n=6 Ta...    72   5e-11
+UniRef90_Q3IGZ4 Uncharacterized protein n=1 Tax=Pseudoalteromona...    72   5e-11
+UniRef90_D8NCN4 Uncharacterized protein n=4 Tax=Ralstonia solana...    72   5e-11
+UniRef90_A4BIQ8 Uncharacterized protein n=1 Tax=Reinekea blanden...    72   5e-11
+UniRef90_R4VKA4 Glutaredoxin 2 n=1 Tax=Spiribacter salinus M19-4...    72   5e-11
+UniRef90_Q4FR61 Uncharacterized protein n=1 Tax=Psychrobacter ar...    71   6e-11
+UniRef90_L8J6Y9 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    71   9e-11
+UniRef90_E2ZWC4 Uncharacterized protein n=2 Tax=Pseudomonas aeru...    70   1e-10
+UniRef90_UPI00035C523C hypothetical protein n=1 Tax=Catelliglobo...    70   1e-10
+UniRef90_U3QJP8 Glutaredoxin n=1 Tax=Ralstonia pickettii DTP0602...    70   2e-10
+UniRef90_Q0K8M9 Uncharacterized protein n=3 Tax=Burkholderiaceae...    69   2e-10
+UniRef90_UPI0003744D81 hypothetical protein n=1 Tax=Microbulbife...    69   2e-10
+UniRef90_UPI00037D1AF0 hypothetical protein n=1 Tax=Promicromono...    69   2e-10
+UniRef90_E9UQI4 Glutaredoxin 2 n=1 Tax=Nocardioidaceae bacterium...    69   3e-10
+UniRef90_K6Z637 Thiol-disulfide isomerase and thioredoxin i n=1 ...    69   3e-10
+UniRef90_F6FUT6 Glutaredoxin 2 n=1 Tax=Isoptericola variabilis (...    69   3e-10
+UniRef90_UPI0003689453 hypothetical protein n=1 Tax=Kangiella aq...    69   4e-10
+UniRef90_A3WPC8 Thioredoxin related protein n=1 Tax=Idiomarina b...    69   4e-10
+UniRef90_A1WT93 Glutaredoxin 2 n=1 Tax=Halorhodospira halophila ...    69   4e-10
+UniRef90_UPI00037D95DF hypothetical protein n=1 Tax=Arhodomonas ...    69   4e-10
+UniRef90_B5FE20 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    69   5e-10
+UniRef90_K4KGW1 Glutaredoxin 2 n=1 Tax=Simiduia agarivorans (str...    68   6e-10
+UniRef90_G5FNZ9 Uncharacterized protein n=1 Tax=Pseudomonas sp. ...    68   7e-10
+UniRef90_Q1Q9J2 Glutaredoxin 2 n=2 Tax=Psychrobacter RepID=Q1Q9J...    68   7e-10
+UniRef90_UPI0003B5D8E3 redoxin n=1 Tax=Gryllotalpicola ginsengis...    68   7e-10
+UniRef90_UPI000366416C hypothetical protein n=1 Tax=Caldibacillu...    68   8e-10
+UniRef90_I0HIG8 Putative redoxin n=1 Tax=Actinoplanes missourien...    68   8e-10
+UniRef90_UPI00036A98AE hypothetical protein n=1 Tax=Nocardioides...    67   9e-10
+UniRef90_D2PWZ8 Glutaredoxin 2 n=1 Tax=Kribbella flavida (strain...    67   9e-10
+UniRef90_B0TIX6 Glutaredoxin 2 n=1 Tax=Shewanella halifaxensis (...    67   1e-09
+UniRef90_UPI000371AE17 hypothetical protein n=1 Tax=Marinobacter...    67   1e-09
+UniRef90_UPI000255B79D hypothetical protein n=1 Tax=Microbulbife...    67   1e-09
+UniRef90_G2DAC4 Putative serine protease do-like protein n=1 Tax...    67   1e-09
+UniRef90_UPI000367CCDD hypothetical protein n=1 Tax=Deinococcus ...    67   2e-09
+UniRef90_UPI000287CC11 glutaredoxin n=1 Tax=Psychrobacter sp. PA...    67   2e-09
+UniRef90_A6V344 Uncharacterized protein n=1 Tax=Pseudomonas aeru...    67   2e-09
+UniRef90_UPI000375018D glutaredoxin n=1 Tax=Actinoplanes globisp...    66   2e-09
+UniRef90_UPI0003786047 glutaredoxin n=1 Tax=Kribbella catacumbae...    66   2e-09
+UniRef90_M5DGK9 Glutaredoxin 2 n=1 Tax=Nitrosospira sp. APG3 Rep...    66   3e-09
+UniRef90_E6QV72 Putative glutaredoxin 2 n=1 Tax=mine drainage me...    66   3e-09
+UniRef90_UPI000379FD15 hypothetical protein n=1 Tax=Meiothermus ...    65   3e-09
+UniRef90_C7RA98 Glutaredoxin 2 n=1 Tax=Kangiella koreensis (stra...    65   4e-09
+UniRef90_UPI0003B69161 glutaredoxin n=1 Tax=Leucothrix mucor Rep...    65   4e-09
+UniRef90_K9ZZI8 Glutaredoxin-like protein n=1 Tax=Deinococcus pe...    65   4e-09
+UniRef90_UPI00037A84EF hypothetical protein n=1 Tax=Deinococcus ...    65   4e-09
+UniRef90_F2L837 Uncharacterized protein n=1 Tax=Burkholderia gla...    65   5e-09
+UniRef90_R4M0X3 Glutaredoxin 2 n=1 Tax=Actinoplanes sp. N902-109...    65   5e-09
+UniRef90_E6SAF1 Glutaredoxin 2 n=1 Tax=Intrasporangium calvum (s...    65   5e-09
+UniRef90_G4E7N1 Glutaredoxin 2 n=1 Tax=Thiorhodospira sibirica A...    65   5e-09
+UniRef90_UPI0002D2F5EC hypothetical protein n=1 Tax=Bacillus mas...    65   6e-09
+UniRef90_UPI0003684725 hypothetical protein n=1 Tax=Frankia sp. ...    65   6e-09
+UniRef90_G9ZDQ6 Glutaredoxin-like protein n=1 Tax=Cardiobacteriu...    65   6e-09
+UniRef90_F1VZA6 Glutaredoxin 2 n=1 Tax=Oxalobacteraceae bacteriu...    64   7e-09
+UniRef90_D6AM88 Redoxin n=10 Tax=Streptomyces RepID=D6AM88_STRFL       64   7e-09
+UniRef90_Q0AF66 Glutaredoxin 2 n=1 Tax=Nitrosomonas eutropha (st...    64   8e-09
+UniRef90_F8H0R7 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    64   8e-09
+UniRef90_A1SDZ9 Glutaredoxin 2 n=1 Tax=Nocardioides sp. (strain ...    64   1e-08
+UniRef90_Q2B705 Uncharacterized protein n=1 Tax=Bacillus sp. NRR...    64   1e-08
+UniRef90_A7C1R5 Uncharacterized protein n=1 Tax=Beggiatoa sp. PS...    64   1e-08
+UniRef90_V6T681 Uncharacterized protein n=2 Tax=Bacillus RepID=V...    64   1e-08
+UniRef90_I3CH48 Glutaredoxin-like domain (DUF836) n=1 Tax=Beggia...    64   1e-08
+UniRef90_UPI00037D8D09 hypothetical protein n=1 Tax=Pseudoclavib...    64   1e-08
+UniRef90_E8U6Z9 Glutaredoxin 2 n=1 Tax=Deinococcus maricopensis ...    64   1e-08
+UniRef90_UPI00037F5849 hypothetical protein n=1 Tax=Psychrobacte...    64   1e-08
+UniRef90_UPI00035E61DD hypothetical protein n=1 Tax=Terracoccus ...    64   1e-08
+UniRef90_U1NVC3 Glutaredoxin-like domain (DUF836) n=1 Tax=Halono...    64   2e-08
+UniRef90_W0SGV0 GTP-binding protein LepA n=1 Tax=Sulfuritalea hy...    63   2e-08
+UniRef90_B4S4H2 Glutaredoxin 2 n=1 Tax=Prosthecochloris aestuari...    63   2e-08
+UniRef90_UPI0003456BE6 hypothetical protein n=1 Tax=Burkholderia...    63   2e-08
+UniRef90_R7Y2B1 Glutaredoxin 2 n=1 Tax=Nocardioides sp. CF8 RepI...    63   2e-08
+UniRef90_Q5QX62 Thioredoxin related protein n=2 Tax=Idiomarina l...    63   2e-08
+UniRef90_D6X8J9 Redoxin n=1 Tax=Streptomyces pristinaespiralis A...    63   2e-08
+UniRef90_E1T5L0 Glutaredoxin 2 n=1 Tax=Burkholderia sp. (strain ...    63   2e-08
+UniRef90_N0B4T2 Glutaredoxin n=1 Tax=Bacillus sp. 1NLA3E RepID=N...    63   2e-08
+UniRef90_B3R203 Uncharacterized protein n=2 Tax=Cupriavidus taiw...    63   2e-08
+UniRef90_L8EYX4 Putative redoxin n=1 Tax=Streptomyces rimosus su...    63   3e-08
+UniRef90_A2WBJ1 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    63   3e-08
+UniRef90_A4G6S2 Uncharacterized protein n=1 Tax=Herminiimonas ar...    63   3e-08
+UniRef90_A5WG29 Glutaredoxin 2 n=1 Tax=Psychrobacter sp. (strain...    62   3e-08
+UniRef90_UPI00035C3205 glutaredoxin n=1 Tax=Streptomyces purpure...    62   3e-08
+UniRef90_C9YZC7 Putative redoxin n=2 Tax=Streptomyces RepID=C9YZ...    62   3e-08
+UniRef90_Q9RY93 Uncharacterized protein n=1 Tax=Deinococcus radi...    62   3e-08
+UniRef90_Q1J0F3 Glutaredoxin 2 n=1 Tax=Deinococcus geothermalis ...    62   3e-08
+UniRef90_K9AS44 Glutaredoxin n=1 Tax=Brevibacterium casei S18 Re...    62   3e-08
+UniRef90_I3CU42 Uncharacterized protein n=1 Tax=Herbaspirillum s...    62   3e-08
+UniRef90_UPI0002FDAB0F glutaredoxin n=1 Tax=Herbaspirillum serop...    62   4e-08
+UniRef90_UPI00036514D6 glutaredoxin n=1 Tax=Streptomyces sp. AA0...    62   4e-08
+UniRef90_Q2Y874 Glutaredoxin 2 n=1 Tax=Nitrosospira multiformis ...    62   4e-08
+UniRef90_Q2JFS3 Glutaredoxin 2 n=1 Tax=Frankia sp. (strain CcI3)...    62   4e-08
+UniRef90_Q2JY23 Glutaredoxin family protein n=1 Tax=Synechococcu...    62   5e-08
+UniRef90_W4NKG8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    62   5e-08
+UniRef90_C7QKQ2 Glutaredoxin 2 n=1 Tax=Catenulispora acidiphila ...    62   5e-08
+UniRef90_E7RTU9 Glutaredoxin-like protein n=1 Tax=Lautropia mira...    62   5e-08
+UniRef90_D3D317 Glutaredoxin 2 n=1 Tax=Frankia sp. EUN1f RepID=D...    62   6e-08
+UniRef90_UPI0003803531 hypothetical protein n=1 Tax=Frankia sp. ...    62   6e-08
+UniRef90_B1YVM1 Glutaredoxin 2 n=5 Tax=Burkholderia cepacia comp...    62   6e-08
+UniRef90_UPI000374BB3C hypothetical protein n=1 Tax=Herbaspirill...    61   6e-08
+UniRef90_F9ZG34 Glutaredoxin 2 n=1 Tax=Nitrosomonas sp. AL212 Re...    61   7e-08
+UniRef90_UPI0003B42958 redoxin n=2 Tax=Curtobacterium RepID=UPI0...    61   8e-08
+UniRef90_UPI00029AF977 glutaredoxin n=1 Tax=Schlesneria paludico...    61   8e-08
+UniRef90_D1A495 Glutaredoxin 2 n=1 Tax=Thermomonospora curvata (...    61   8e-08
+UniRef90_I4ECD3 Uncharacterized protein n=1 Tax=Nitrolancea holl...    61   8e-08
+UniRef90_A8LDG9 Glutaredoxin 2 n=1 Tax=Frankia sp. (strain EAN1p...    61   8e-08
+UniRef90_UPI0002F8415E hypothetical protein n=1 Tax=Bacillus mas...    61   8e-08
+UniRef90_UPI00038114F2 hypothetical protein n=1 Tax=Leeia oryzae...    61   8e-08
+UniRef90_UPI0001FFF260 glutaredoxin n=1 Tax=Pseudonocardia sp. P...    61   8e-08
+UniRef90_F4H0S2 Glutaredoxin 2 n=1 Tax=Cellulomonas fimi (strain...    61   8e-08
+UniRef90_UPI0002D9F819 hypothetical protein n=1 Tax=Bacillus end...    61   8e-08
+UniRef90_UPI0003715F63 glutaredoxin n=1 Tax=Streptomyces sp. CNT...    61   9e-08
+UniRef90_D8HXN8 Glutaredoxin 2 n=5 Tax=Amycolatopsis RepID=D8HXN...    61   9e-08
+UniRef90_J7J3Q3 Glutaredoxin 2 n=1 Tax=Burkholderia cepacia GG4 ...    61   9e-08
+UniRef90_V4QA24 Thiol-disulfide isomerase n=1 Tax=Pseudomonas ch...    61   9e-08
+UniRef90_UPI0000E10B9C glutaredoxin 2 n=1 Tax=Glaciecola sp. HTC...    61   9e-08
+UniRef90_A4X1T6 Glutaredoxin 2 n=7 Tax=Salinispora RepID=A4X1T6_...    61   9e-08
+UniRef90_R4WHS7 Glutaredoxin 2 n=1 Tax=Burkholderia sp. RPE64 Re...    61   1e-07
+UniRef90_W4VHA5 Glutaredoxin family protein n=1 Tax=Gracilibacil...    61   1e-07
+UniRef90_Q13VM5 Uncharacterized protein n=2 Tax=Burkholderia Rep...    60   1e-07
+UniRef90_U5WAQ1 Putative redoxin n=1 Tax=Actinoplanes friuliensi...    60   1e-07
+UniRef90_S0HA53 Glutaredoxin n=4 Tax=Streptomyces RepID=S0HA53_S...    60   1e-07
+UniRef90_UPI00037BB85C hypothetical protein n=1 Tax=actinobacter...    60   1e-07
+UniRef90_Q8YWE9 Asl1664 protein n=2 Tax=Nostocaceae RepID=Q8YWE9...    60   1e-07
+UniRef90_D1BVX5 Glutaredoxin 2 n=1 Tax=Xylanimonas cellulosilyti...    60   1e-07
+UniRef90_Q39I76 Glutaredoxin 2 n=17 Tax=Burkholderia RepID=Q39I7...    60   1e-07
+UniRef90_D3PSU3 Glutaredoxin n=1 Tax=Meiothermus ruber (strain A...    60   1e-07
+UniRef90_UPI0003625007 hypothetical protein n=1 Tax=Thiothrix di...    60   1e-07
+UniRef90_C4KRI4 Conserved domain protein n=44 Tax=pseudomallei g...    60   1e-07
+UniRef90_UPI0003679D51 hypothetical protein n=1 Tax=Oxalobactera...    60   1e-07
+UniRef90_UPI0003810884 hypothetical protein n=1 Tax=Actinopolymo...    60   2e-07
+UniRef90_UPI00037FD770 hypothetical protein n=1 Tax=Leucobacter ...    60   2e-07
+UniRef90_UPI000375C21E hypothetical protein n=1 Tax=Moraxella bo...    60   2e-07
+UniRef90_H0P5Q9 Uncharacterized protein n=7 Tax=Bacteria RepID=H...    60   2e-07
+UniRef90_B2JFJ9 Glutaredoxin 2 n=1 Tax=Burkholderia phymatum (st...    60   2e-07
+UniRef90_D3FBQ5 Glutaredoxin 2 n=1 Tax=Conexibacter woesei (stra...    60   2e-07
+UniRef90_UPI0003628A77 glutaredoxin n=1 Tax=Deinococcus wulumuqi...    60   2e-07
+UniRef90_F0G0U6 Glutaredoxin 2 n=1 Tax=Burkholderia sp. TJI49 Re...    60   2e-07
+UniRef90_B5H2I1 Putative redoxin n=2 Tax=Streptomyces clavuliger...    60   2e-07
+UniRef90_H8GVF7 Glutaredoxin 2 n=1 Tax=Deinococcus gobiensis (st...    60   2e-07
+UniRef90_UPI0003B3305D REX family transcriptional regulator n=1 ...    60   2e-07
+UniRef90_UPI00037E6916 hypothetical protein n=1 Tax=Longispora a...    60   2e-07
+UniRef90_R0G486 Uncharacterized protein n=1 Tax=Herbaspirillum f...    60   2e-07
+UniRef90_Q31N54 Uncharacterized protein n=2 Tax=Synechococcus el...    60   2e-07
+UniRef90_UPI0003772603 glutaredoxin n=1 Tax=Nonomuraea coxensis ...    60   2e-07
+UniRef90_G0A9S7 Uncharacterized protein n=1 Tax=Collimonas fungi...    60   2e-07
+UniRef90_UPI00036063E7 hypothetical protein n=1 Tax=filamentous ...    60   2e-07
+UniRef90_A6SXQ9 Glutaredoxin 2 n=1 Tax=Janthinobacterium sp. (st...    60   2e-07
+UniRef90_Q2JM87 Glutaredoxin family protein n=1 Tax=Synechococcu...    60   2e-07
+UniRef90_E8YL36 Glutaredoxin 2 n=2 Tax=Burkholderia RepID=E8YL36...    60   2e-07
+UniRef90_I5CDZ5 Glutaredoxin 2 n=2 Tax=Burkholderia RepID=I5CDZ5...    60   2e-07
+UniRef90_C3ASV8 Glutaredoxin n=8 Tax=Bacillaceae RepID=C3ASV8_BACMY    60   2e-07
+UniRef90_C8PXQ0 Glutaredoxin-like protein n=1 Tax=Enhydrobacter ...    60   2e-07
+UniRef90_F2R909 Redoxin n=2 Tax=Streptomyces RepID=F2R909_STRVP        59   2e-07
+UniRef90_C5BKX5 Glutaredoxin domain protein n=2 Tax=Teredinibact...    59   2e-07
+UniRef90_B4RK25 Thioredoxin n=177 Tax=Neisseria RepID=B4RK25_NEIG2     59   2e-07
+UniRef90_G8S661 Uncharacterized protein n=1 Tax=Actinoplanes sp....    59   2e-07
+UniRef90_K9DG56 Uncharacterized protein n=1 Tax=Massilia timonae...    59   2e-07
+UniRef90_UPI0003663CBD MULTISPECIES: glutaredoxin n=1 Tax=Strept...    59   2e-07
+UniRef90_L8LND1 Glutaredoxin-like domain (DUF836) n=1 Tax=Gloeoc...    59   3e-07
+UniRef90_B8GPK7 Glutaredoxin 2 n=2 Tax=Thioalkalivibrio RepID=B8...    59   3e-07
+UniRef90_A4JCQ8 Glutaredoxin 2 n=2 Tax=Burkholderia RepID=A4JCQ8...    59   3e-07
+UniRef90_UPI0003B61A2B redoxin n=1 Tax=Agromyces italicus RepID=...    59   3e-07
+UniRef90_K8RSI7 Glutaredoxin n=1 Tax=Burkholderia sp. SJ98 RepID...    59   3e-07
+UniRef90_M0JQ97 Thioredoxin n=4 Tax=Haloarcula RepID=M0JQ97_HALVA      59   3e-07
+UniRef90_C5C191 Glutaredoxin 2 n=1 Tax=Beutenbergia cavernae (st...    59   3e-07
+UniRef90_Q82SJ4 Putative thioredoxin n=1 Tax=Nitrosomonas europa...    59   3e-07
+UniRef90_UPI00016A2FA9 glutaredoxin n=1 Tax=Burkholderia oklahom...    59   3e-07
+UniRef90_N0CQM3 Redoxin n=1 Tax=Streptomyces fulvissimus DSM 405...    59   3e-07
+UniRef90_M5B888 Redoxin n=2 Tax=Clavibacter michiganensis RepID=...    59   3e-07
+UniRef90_R7X6T4 Glutaredoxin 2 n=2 Tax=Pandoraea RepID=R7X6T4_9BURK    59   3e-07
+UniRef90_S6BY56 Glutaredoxin n=1 Tax=endosymbiont of unidentifie...    59   3e-07
+UniRef90_D9WSU9 Redoxin n=2 Tax=Streptomyces RepID=D9WSU9_9ACTO        59   3e-07
+UniRef90_B4V350 Redoxin n=2 Tax=Streptomyces RepID=B4V350_9ACTO        59   3e-07
+UniRef90_E4ND94 Putative redoxin n=1 Tax=Kitasatospora setae (st...    59   3e-07
+UniRef90_W1SF26 Glutaredoxin 2 n=1 Tax=Bacillus vireti LMG 21834...    59   3e-07
+UniRef90_UPI0003B6BF8F glutaredoxin n=1 Tax=Ruania albidiflava R...    59   4e-07
+UniRef90_F3KBJ7 Uncharacterized protein n=1 Tax=gamma proteobact...    59   4e-07
+UniRef90_F9EWB6 Glutaredoxin 2 n=3 Tax=Neisseria RepID=F9EWB6_9NEIS    59   4e-07
+UniRef90_UPI000380A8BE hypothetical protein n=1 Tax=Gracilibacil...    59   4e-07
+UniRef90_UPI0003663B81 hypothetical protein n=1 Tax=Methyloversa...    59   4e-07
+UniRef90_D3PXZ4 Glutaredoxin 2 n=1 Tax=Stackebrandtia nassauensi...    59   4e-07
+UniRef90_K2KWZ5 Thioredoxin related protein n=1 Tax=Idiomarina x...    59   4e-07
+UniRef90_Q5V0G8 Thioredoxin n=2 Tax=Haloarcula RepID=Q5V0G8_HALMA      59   4e-07
+UniRef90_D6TIK5 Glutaredoxin 2 n=1 Tax=Ktedonobacter racemifer D...    59   4e-07
+UniRef90_B7KLL8 Glutaredoxin 2 n=1 Tax=Cyanothece sp. (strain PC...    59   4e-07
+UniRef90_F4FEJ9 Glutaredoxin 2 n=1 Tax=Verrucosispora maris (str...    59   4e-07
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_L8EYX4 Putative redoxin n=1 Tax=Streptomyces rimosus su...   111   4e-23
+UniRef90_U3CJU0 Uncharacterized protein n=2 Tax=Vibrio RepID=U3C...   111   6e-23
+UniRef90_B0RQB8 Uncharacterized protein n=4 Tax=Xanthomonas camp...   110   1e-22
+UniRef90_G0CBF3 Thiol-disulfide isomerase and thioredoxin n=1 Ta...   110   1e-22
+UniRef90_UPI0002631601 glutaredoxin n=1 Tax=Xanthomonas sacchari...   110   1e-22
+UniRef90_UPI00035C3205 glutaredoxin n=1 Tax=Streptomyces purpure...   108   3e-22
+UniRef90_D6X8J9 Redoxin n=1 Tax=Streptomyces pristinaespiralis A...   108   3e-22
+UniRef90_D2PWZ8 Glutaredoxin 2 n=1 Tax=Kribbella flavida (strain...   107   7e-22
+UniRef90_D6AM88 Redoxin n=10 Tax=Streptomyces RepID=D6AM88_STRFL      107   9e-22
+UniRef90_F0B8B2 Glutaredoxin-like domain (DUF836) n=1 Tax=Xantho...   106   1e-21
+UniRef90_D9WSU9 Redoxin n=2 Tax=Streptomyces RepID=D9WSU9_9ACTO       106   1e-21
+UniRef90_S0HA53 Glutaredoxin n=4 Tax=Streptomyces RepID=S0HA53_S...   106   1e-21
+UniRef90_W6MC61 Putative Long-chain fatty acid transport protein...   106   1e-21
+UniRef90_V7Z9X1 Uncharacterized protein n=3 Tax=Xanthomonas RepI...   106   2e-21
+UniRef90_UPI00036514D6 glutaredoxin n=1 Tax=Streptomyces sp. AA0...   106   2e-21
+UniRef90_W4S3G9 Thiol-disulfide isomerase and thioredoxin n=3 Ta...   105   3e-21
+UniRef90_UPI0003650F9A glutaredoxin n=2 Tax=Xanthomonas RepID=UP...   105   3e-21
+UniRef90_UPI0003786047 glutaredoxin n=1 Tax=Kribbella catacumbae...   105   3e-21
+UniRef90_Q3JEK0 Glutaredoxin 2 n=2 Tax=Nitrosococcus oceani RepI...   105   4e-21
+UniRef90_G2P018 Glutaredoxin 2 n=2 Tax=Streptomyces RepID=G2P018...   104   4e-21
+UniRef90_UPI0002D63685 hypothetical protein n=2 Tax=Vibrio breog...   104   6e-21
+UniRef90_Q7MKX0 Thiol-disulfide isomerase and thioredoxin n=2 Ta...   104   7e-21
+UniRef90_C9YZC7 Putative redoxin n=2 Tax=Streptomyces RepID=C9YZ...   104   8e-21
+UniRef90_F2R909 Redoxin n=2 Tax=Streptomyces RepID=F2R909_STRVP       104   9e-21
+UniRef90_B5H2I1 Putative redoxin n=2 Tax=Streptomyces clavuliger...   104   9e-21
+UniRef90_L1L940 Glutaredoxin-like protein n=1 Tax=Streptomyces i...   103   9e-21
+UniRef90_UPI0003772603 glutaredoxin n=1 Tax=Nonomuraea coxensis ...   103   1e-20
+UniRef90_UPI00036F9C7D hypothetical protein n=1 Tax=Streptomyces...   103   1e-20
+UniRef90_D2UER5 Putative thiol-disulfide isomerase and thioredox...   103   1e-20
+UniRef90_W6LPP4 Glutaredoxin 2 (Modular protein) n=1 Tax=Candida...   103   1e-20
+UniRef90_Q82E79 Putative redoxin n=1 Tax=Streptomyces avermitili...   103   1e-20
+UniRef90_L7FBC9 Glutaredoxin-like protein n=1 Tax=Streptomyces t...   103   1e-20
+UniRef90_UPI0003613F19 hypothetical protein n=1 Tax=Streptomyces...   103   2e-20
+UniRef90_E4ND94 Putative redoxin n=1 Tax=Kitasatospora setae (st...   103   2e-20
+UniRef90_M3A5B1 Putative redoxin n=1 Tax=Streptomyces mobaraensi...   103   2e-20
+UniRef90_C7QKQ2 Glutaredoxin 2 n=1 Tax=Catenulispora acidiphila ...   103   2e-20
+UniRef90_UPI0003715F63 glutaredoxin n=1 Tax=Streptomyces sp. CNT...   102   2e-20
+UniRef90_D1A495 Glutaredoxin 2 n=1 Tax=Thermomonospora curvata (...   102   3e-20
+UniRef90_E9UQI4 Glutaredoxin 2 n=1 Tax=Nocardioidaceae bacterium...   102   3e-20
+UniRef90_I1DE09 Thiol-disulfide isomerase and thioredoxin n=4 Ta...   101   4e-20
+UniRef90_E6WRF7 Glutaredoxin 2 n=1 Tax=Pseudoxanthomonas suwonen...   101   4e-20
+UniRef90_UPI0003663CBD MULTISPECIES: glutaredoxin n=1 Tax=Strept...   101   4e-20
+UniRef90_K2JAP7 Glutaredoxin n=1 Tax=Gallaecimonas xiamenensis 3...   101   4e-20
+UniRef90_UPI00036B06D5 MULTISPECIES: glutaredoxin n=2 Tax=Strept...   101   4e-20
+UniRef90_UPI0003698657 MULTISPECIES: hypothetical protein n=1 Ta...   101   6e-20
+UniRef90_D9XZ21 Redoxin n=1 Tax=Streptomyces griseoflavus Tu4000...   101   6e-20
+UniRef90_A1SDZ9 Glutaredoxin 2 n=1 Tax=Nocardioides sp. (strain ...   101   7e-20
+UniRef90_B4V350 Redoxin n=2 Tax=Streptomyces RepID=B4V350_9ACTO       101   7e-20
+UniRef90_Q5H1U5 Uncharacterized protein n=5 Tax=Xanthomonas oryz...   101   7e-20
+UniRef90_UPI0003810884 hypothetical protein n=1 Tax=Actinopolymo...   100   8e-20
+UniRef90_Q3BQR0 Uncharacterized protein n=1 Tax=Xanthomonas camp...   100   8e-20
+UniRef90_N0CQM3 Redoxin n=1 Tax=Streptomyces fulvissimus DSM 405...   100   9e-20
+UniRef90_H2JNR7 Redoxin n=2 Tax=Streptomyces hygroscopicus subsp...   100   1e-19
+UniRef90_L8PGB2 Putative redoxin n=1 Tax=Streptomyces viridochro...   100   1e-19
+UniRef90_Q1XAN8 Putative redoxin n=2 Tax=Streptomyces RepID=Q1XA...   100   1e-19
+UniRef90_F2P873 Putative uncharacterized protein n=2 Tax=Photoba...   100   1e-19
+UniRef90_UPI000287D396 glutaredoxin n=1 Tax=Streptomyces acidisc...   100   1e-19
+UniRef90_UPI0003C76802 glutaredoxin n=1 Tax=Streptomyces violace...   100   1e-19
+UniRef90_UPI00036A98AE hypothetical protein n=1 Tax=Nocardioides...    99   1e-19
+UniRef90_UPI00037C24FE redoxin n=1 Tax=Streptomyces sp. LaPpAH-1...    99   1e-19
+UniRef90_V6KR78 Uncharacterized protein n=1 Tax=Streptomycetacea...    99   1e-19
+UniRef90_V6KFL8 Glutaredoxin n=1 Tax=Streptomyces niveus NCIMB 1...    99   1e-19
+UniRef90_UPI0002E03D0B glutaredoxin n=1 Tax=Xanthomonas axonopod...    99   1e-19
+UniRef90_I4WDL6 Uncharacterized protein n=1 Tax=Rhodanobacter sp...    99   2e-19
+UniRef90_S3ASR2 Uncharacterized protein n=1 Tax=Streptomyces sp....    99   2e-19
+UniRef90_D5C1X6 Glutaredoxin 2 n=1 Tax=Nitrosococcus halophilus ...   100   2e-19
+UniRef90_UPI0001CBF73B MULTISPECIES: glutaredoxin n=1 Tax=Xantho...   100   2e-19
+UniRef90_K8ZGD1 Uncharacterized protein n=3 Tax=Xanthomonas camp...   100   2e-19
+UniRef90_I2N3X3 Glutaredoxin 2 n=1 Tax=Streptomyces tsukubaensis...    99   2e-19
+UniRef90_A0KVL7 Glutaredoxin 2 n=4 Tax=Shewanella RepID=A0KVL7_S...    99   2e-19
+UniRef90_R7Y2B1 Glutaredoxin 2 n=1 Tax=Nocardioides sp. CF8 RepI...    99   2e-19
+UniRef90_F3NDZ1 Redoxin n=1 Tax=Streptomyces griseoaurantiacus M...    99   3e-19
+UniRef90_E3B7B7 Glutaredoxin-like protein n=1 Tax=Dermacoccus sp...    99   3e-19
+UniRef90_H2ICR7 Uncharacterized protein n=2 Tax=Vibrio RepID=H2I...    99   3e-19
+UniRef90_UPI0003684725 hypothetical protein n=1 Tax=Frankia sp. ...    99   3e-19
+UniRef90_D6B6J6 Redoxin n=7 Tax=Streptomyces RepID=D6B6J6_9ACTO        99   3e-19
+UniRef90_D6A6A0 Redoxin n=2 Tax=Streptomyces RepID=D6A6A0_9ACTO        99   3e-19
+UniRef90_B5I6Z3 Redoxin n=1 Tax=Streptomyces sviceus ATCC 29083 ...    99   3e-19
+UniRef90_W2EUI1 Glutaredoxin n=1 Tax=Microbispora sp. ATCC PTA-5...    99   3e-19
+UniRef90_E6SAF1 Glutaredoxin 2 n=1 Tax=Intrasporangium calvum (s...    98   4e-19
+UniRef90_F8JWJ6 Redoxin n=2 Tax=Streptomyces cattleya (strain AT...    98   4e-19
+UniRef90_UPI00035E61DD hypothetical protein n=1 Tax=Terracoccus ...    98   4e-19
+UniRef90_S5UV18 Redoxin n=1 Tax=Streptomyces collinus Tu 365 Rep...    98   4e-19
+UniRef90_K5UW28 Uncharacterized protein n=3 Tax=Vibrio RepID=K5U...    98   4e-19
+UniRef90_F7YJP4 Uncharacterized protein n=3 Tax=Vibrio RepID=F7Y...    98   5e-19
+UniRef90_G7USR0 Uncharacterized protein n=1 Tax=Pseudoxanthomona...    98   5e-19
+UniRef90_UPI00035D6397 glutaredoxin n=2 Tax=Streptomyces sulphur...    98   5e-19
+UniRef90_H3NTC6 Glutaredoxin-like domain (DUF836) n=1 Tax=gamma ...    98   5e-19
+UniRef90_UPI0003B5D8E3 redoxin n=1 Tax=Gryllotalpicola ginsengis...    98   5e-19
+UniRef90_UPI00035CB1F8 hypothetical protein n=1 Tax=Streptomyces...    98   5e-19
+UniRef90_UPI00037770A1 redoxin n=2 Tax=Streptomyces RepID=UPI000...    98   6e-19
+UniRef90_UPI00037AC261 glutaredoxin n=1 Tax=Oceanimonas smirnovi...    98   7e-19
+UniRef90_G2M178 Uncharacterized protein n=9 Tax=Xanthomonas RepI...    98   7e-19
+UniRef90_E8VZ89 Glutaredoxin 2 n=2 Tax=Streptomyces RepID=E8VZ89...    98   7e-19
+UniRef90_UPI0003803531 hypothetical protein n=1 Tax=Frankia sp. ...    98   7e-19
+UniRef90_UPI000364E473 hypothetical protein n=1 Tax=Vibrio genom...    98   7e-19
+UniRef90_H1QYV3 Glutaredoxin-like domain-containing protein n=3 ...    98   8e-19
+UniRef90_D6KA65 Glutaredoxin 2 n=2 Tax=Streptomyces RepID=D6KA65...    97   8e-19
+UniRef90_D2B2U3 Glutaredoxin 2 n=1 Tax=Streptosporangium roseum ...    97   8e-19
+UniRef90_D9X5I3 Redoxin n=1 Tax=Streptomyces viridochromogenes D...    97   9e-19
+UniRef90_U3CEF7 Uncharacterized protein n=1 Tax=Vibrio azureus N...    97   9e-19
+UniRef90_G2NCF6 Glutaredoxin 2 n=2 Tax=Streptomyces RepID=G2NCF6...    97   9e-19
+UniRef90_D8KBJ9 Glutaredoxin 2 n=1 Tax=Nitrosococcus watsoni (st...    97   1e-18
+UniRef90_D3D317 Glutaredoxin 2 n=1 Tax=Frankia sp. EUN1f RepID=D...    97   1e-18
+UniRef90_B7UXN6 Uncharacterized protein n=137 Tax=Pseudomonas Re...    97   1e-18
+UniRef90_M7P1G0 Glutaredoxin-like protein n=1 Tax=Methylophaga l...    97   1e-18
+UniRef90_UPI00029A4A67 glutaredoxin n=1 Tax=Streptomyces somalie...    97   1e-18
+UniRef90_UPI00037378BB hypothetical protein n=1 Tax=Rudaea cellu...    96   1e-18
+UniRef90_A1SX08 Glutaredoxin 2 n=1 Tax=Psychromonas ingrahamii (...    96   2e-18
+UniRef90_V6KEY1 Redoxin n=1 Tax=Streptomyces roseochromogenes su...    96   2e-18
+UniRef90_I0HIG8 Putative redoxin n=1 Tax=Actinoplanes missourien...    96   2e-18
+UniRef90_G7F966 Putative uncharacterized protein n=1 Tax=Pseudoa...    96   2e-18
+UniRef90_F7RPS6 Uncharacterized protein n=1 Tax=Shewanella sp. H...    96   2e-18
+UniRef90_E1ST46 Glutaredoxin 2 n=1 Tax=Ferrimonas balearica (str...    96   2e-18
+UniRef90_Q2BXZ5 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    96   2e-18
+UniRef90_UPI00036F5CAA redoxin n=1 Tax=Streptomyces sp. PsTaAH-1...    96   2e-18
+UniRef90_UPI00036090DB hypothetical protein n=1 Tax=Sporichthya ...    96   2e-18
+UniRef90_A0YBZ0 Thiol-disulfide isomerase and thioredoxins n=1 T...    96   2e-18
+UniRef90_UPI0002E8E82A glutaredoxin n=1 Tax=Pseudomonas nitrored...    96   2e-18
+UniRef90_U3AJZ4 Uncharacterized protein n=33 Tax=Vibrio RepID=U3...    96   2e-18
+UniRef90_H2FW47 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    96   2e-18
+UniRef90_A8LDG9 Glutaredoxin 2 n=1 Tax=Frankia sp. (strain EAN1p...    96   2e-18
+UniRef90_M3E1Z3 Redoxin n=2 Tax=Streptomyces RepID=M3E1Z3_9ACTO        96   2e-18
+UniRef90_A6EUG7 Uncharacterized protein n=2 Tax=Marinobacter Rep...    96   2e-18
+UniRef90_G2G480 Redoxin n=1 Tax=Streptomyces zinciresistens K42 ...    96   3e-18
+UniRef90_A7N0M7 Thiol-disulfide isomerase n=4 Tax=Vibrio RepID=A...    96   3e-18
+UniRef90_R0E1U1 Uncharacterized protein n=1 Tax=Xanthomonas frag...    96   3e-18
+UniRef90_E3BFG8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    96   3e-18
+UniRef90_M5NCP2 Uncharacterized protein n=6 Tax=Vibrio RepID=M5N...    96   3e-18
+UniRef90_A3THP7 Putative redoxin n=1 Tax=Janibacter sp. HTCC2649...    96   3e-18
+UniRef90_I4CUK3 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    95   3e-18
+UniRef90_F3L5J8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    95   3e-18
+UniRef90_A4Y5X5 Glutaredoxin 2 n=2 Tax=Shewanella putrefaciens R...    95   4e-18
+UniRef90_K4R5N3 Uncharacterized protein n=1 Tax=Streptomyces dav...    95   4e-18
+UniRef90_U2MWE7 Uncharacterized protein n=1 Tax=Actinomadura mad...    95   4e-18
+UniRef90_U3B5X3 Uncharacterized protein n=1 Tax=Vibrio proteolyt...    95   5e-18
+UniRef90_Q2JFS3 Glutaredoxin 2 n=1 Tax=Frankia sp. (strain CcI3)...    95   5e-18
+UniRef90_G0A5K9 Glutaredoxin 2 n=1 Tax=Methylomonas methanica (s...    95   5e-18
+UniRef90_F6FUT6 Glutaredoxin 2 n=1 Tax=Isoptericola variabilis (...    95   5e-18
+UniRef90_A0Z9G1 Uncharacterized protein n=1 Tax=marine gamma pro...    95   5e-18
+UniRef90_Q07ZR4 Glutaredoxin 2 n=1 Tax=Shewanella frigidimarina ...    95   5e-18
+UniRef90_H1QCV9 Redoxin n=1 Tax=Streptomyces coelicoflavus ZG065...    95   5e-18
+UniRef90_B8KGX5 Putative glutaredoxin domain family protein n=1 ...    95   5e-18
+UniRef90_UPI000375018D glutaredoxin n=1 Tax=Actinoplanes globisp...    95   5e-18
+UniRef90_UPI0002F96D6D glutaredoxin n=1 Tax=Stenotrophomonas mal...    95   5e-18
+UniRef90_UPI00037E5EE6 hypothetical protein n=1 Tax=Endozoicomon...    95   6e-18
+UniRef90_N6W075 Glutaredoxin n=1 Tax=Marinobacter nanhaiticus D1...    95   6e-18
+UniRef90_I1DYK9 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    95   6e-18
+UniRef90_D6ERX2 Redoxin n=4 Tax=Streptomyces RepID=D6ERX2_STRLI        95   7e-18
+UniRef90_D1BBA4 Glutaredoxin-like domain (DUF836) n=1 Tax=Sangui...    95   7e-18
+UniRef90_I1YGM1 Glutaredoxin-like domain (DUF836) n=1 Tax=Methyl...    95   7e-18
+UniRef90_A5F853 Uncharacterized protein n=145 Tax=Vibrio RepID=A...    94   7e-18
+UniRef90_A4VM30 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    94   8e-18
+UniRef90_UPI00037D1AF0 hypothetical protein n=1 Tax=Promicromono...    94   8e-18
+UniRef90_UPI0003823962 hypothetical protein n=1 Tax=Teredinibact...    94   8e-18
+UniRef90_Q608E8 Uncharacterized protein n=1 Tax=Methylococcus ca...    94   9e-18
+UniRef90_B5GKD7 Redoxin n=3 Tax=Streptomyces RepID=B5GKD7_9ACTO        94   9e-18
+UniRef90_F3BMT7 Uncharacterized protein n=5 Tax=Pseudoalteromona...    94   9e-18
+UniRef90_UPI0002D461AB glutaredoxin n=1 Tax=Kocuria rhizophila R...    94   1e-17
+UniRef90_M1F7I8 Uncharacterized protein n=3 Tax=Marinobacter Rep...    94   1e-17
+UniRef90_Q12LC7 Glutaredoxin 2 n=1 Tax=Shewanella denitrificans ...    94   1e-17
+UniRef90_B2FQZ3 Uncharacterized protein n=4 Tax=Stenotrophomonas...    94   1e-17
+UniRef90_J2YJM2 Glutaredoxin-like domain (DUF836) n=2 Tax=Pseudo...    93   1e-17
+UniRef90_F5SW97 Glutaredoxin 2 n=1 Tax=Methylophaga aminisulfidi...    93   1e-17
+UniRef90_UPI00034AD05E glutaredoxin n=1 Tax=Dyella ginsengisoli ...    93   1e-17
+UniRef90_R4M0X3 Glutaredoxin 2 n=1 Tax=Actinoplanes sp. N902-109...    93   1e-17
+UniRef90_U7P355 Uncharacterized protein n=1 Tax=Halomonas sp. PB...    93   1e-17
+UniRef90_UPI00037F330E hypothetical protein n=1 Tax=Streptomyces...    93   2e-17
+UniRef90_UPI0002E0C1F2 glutaredoxin n=1 Tax=Pseudoxanthomonas sp...    93   2e-17
+UniRef90_M4ND81 Glutaredoxin-like domain (DUF836) n=3 Tax=Rhodan...    93   2e-17
+UniRef90_B1KDN1 Glutaredoxin 2 n=1 Tax=Shewanella woodyi (strain...    93   2e-17
+UniRef90_Q1ZQY4 Uncharacterized protein n=1 Tax=Photobacterium a...    93   2e-17
+UniRef90_U2Z0V6 Uncharacterized protein n=1 Tax=Pseudomonas alca...    93   2e-17
+UniRef90_D9V0N3 Glutaredoxin 2 n=2 Tax=Actinomycetales RepID=D9V...    93   2e-17
+UniRef90_Q1I7A5 Uncharacterized protein n=1 Tax=Pseudomonas ento...    93   2e-17
+UniRef90_Q0A8A9 Glutaredoxin 2 n=1 Tax=Alkalilimnicola ehrlichii...    93   2e-17
+UniRef90_S6JFE8 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    93   2e-17
+UniRef90_M4WZ91 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    93   3e-17
+UniRef90_M7CT77 Glutaredoxin n=2 Tax=Marinobacter RepID=M7CT77_9...    93   3e-17
+UniRef90_A0Y1E1 Uncharacterized protein n=3 Tax=Alteromonadales ...    93   3e-17
+UniRef90_A0KKK6 Thiol-disulfide isomerase and thioredoxin n=3 Ta...    92   3e-17
+UniRef90_T5LAK1 Glutaredoxin n=3 Tax=Xanthomonadaceae RepID=T5LA...    92   3e-17
+UniRef90_UPI0002FD0C5C hypothetical protein n=1 Tax=Dyella japon...    92   3e-17
+UniRef90_UPI00037D8EF6 hypothetical protein n=1 Tax=Methylovulum...    92   3e-17
+UniRef90_M5DNN4 Glutaredoxin n=1 Tax=Thalassolituus oleivorans M...    92   3e-17
+UniRef90_N6W3D0 Uncharacterized protein n=2 Tax=Pseudoalteromona...    92   3e-17
+UniRef90_K1JAV8 Uncharacterized protein n=8 Tax=Bacteria RepID=K...    92   3e-17
+UniRef90_B7VNL2 Uncharacterized protein n=15 Tax=Vibrionales Rep...    92   3e-17
+UniRef90_UPI00038265DE hypothetical protein n=1 Tax=Streptomyces...    92   3e-17
+UniRef90_V6UUU4 Glutaredoxin n=1 Tax=Pseudomonas mosselii SJ10 R...    92   3e-17
+UniRef90_F2L837 Uncharacterized protein n=1 Tax=Burkholderia gla...    92   3e-17
+UniRef90_U2T7G2 Glutaredoxin-like protein n=1 Tax=Leifsonia aqua...    92   4e-17
+UniRef90_UPI00035C523C hypothetical protein n=1 Tax=Catelliglobo...    92   4e-17
+UniRef90_A4XT39 Glutaredoxin 2 n=7 Tax=Pseudomonas RepID=A4XT39_...    92   4e-17
+UniRef90_UPI000376640F hypothetical protein n=1 Tax=Actinomadura...    92   4e-17
+UniRef90_UPI0002915C9E thiol-disulfide isomerase and thioredoxin...    92   4e-17
+UniRef90_UPI0003955856 glutaredoxin n=1 Tax=Salinivibrio costico...    92   4e-17
+UniRef90_K6YDW6 Glutaredoxin 2 n=1 Tax=Glaciecola lipolytica E3 ...    92   4e-17
+UniRef90_D4ZJI3 Uncharacterized protein n=2 Tax=Shewanella RepID...    92   4e-17
+UniRef90_UPI00029ABE76 glutaredoxin n=1 Tax=Pseudomonas sp. HYS ...    92   4e-17
+UniRef90_F7NWG5 Glutaredoxin-like protein n=1 Tax=Rheinheimera s...    92   4e-17
+UniRef90_D0IAI0 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    92   4e-17
+UniRef90_UPI000381E1B8 thiol-disulfide isomerase n=1 Tax=Pseudoa...    92   4e-17
+UniRef90_D8HXN8 Glutaredoxin 2 n=5 Tax=Amycolatopsis RepID=D8HXN...    92   4e-17
+UniRef90_B7RUA7 Putative glutaredoxin domain family protein n=1 ...    92   4e-17
+UniRef90_I3IA90 Glutaredoxin 2 n=1 Tax=Cellvibrio sp. BR RepID=I...    91   5e-17
+UniRef90_W6ZWA5 Uncharacterized protein n=2 Tax=Alcanivorax RepI...    91   5e-17
+UniRef90_T2H9H8 Uncharacterized protein n=25 Tax=Pseudomonas Rep...    91   5e-17
+UniRef90_M4U740 Glutaredoxin n=1 Tax=Psychromonas sp. CNPT3 RepI...    91   5e-17
+UniRef90_G0JZK2 Glutaredoxin 2 n=4 Tax=Stenotrophomonas RepID=G0...    91   5e-17
+UniRef90_V4QYF6 Glutaredoxin n=1 Tax=Pseudomonas aeruginosa VRFP...    91   5e-17
+UniRef90_I4Y2E6 Uncharacterized protein n=9 Tax=Pseudomonas RepI...    91   5e-17
+UniRef90_UPI0001FFF260 glutaredoxin n=1 Tax=Pseudonocardia sp. P...    91   6e-17
+UniRef90_UPI0003701AF4 hypothetical protein n=2 Tax=Microbacteri...    91   6e-17
+UniRef90_I4WPV6 Uncharacterized protein n=1 Tax=Rhodanobacter th...    91   6e-17
+UniRef90_L1LVN9 Glutaredoxin 2 n=1 Tax=Pseudomonas putida CSV86 ...    91   6e-17
+UniRef90_UPI0003B68F38 glutaredoxin n=1 Tax=Psychromonas hadalis...    91   6e-17
+UniRef90_N9TXD5 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    91   7e-17
+UniRef90_V8R2F7 Glutaredoxin n=5 Tax=Pseudomonas RepID=V8R2F7_9PSED    91   7e-17
+UniRef90_UPI0002D35877 hypothetical protein n=1 Tax=Halomonas st...    91   7e-17
+UniRef90_F5XF79 Uncharacterized protein n=1 Tax=Microlunatus pho...    91   7e-17
+UniRef90_J3EKH7 Glutaredoxin-like domain (DUF836) n=15 Tax=Pseud...    91   7e-17
+UniRef90_M5QUU2 Uncharacterized protein n=1 Tax=Pseudomonas sp. ...    91   7e-17
+UniRef90_U1LHZ7 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    91   8e-17
+UniRef90_UPI0003B42958 redoxin n=2 Tax=Curtobacterium RepID=UPI0...    91   8e-17
+UniRef90_E1VPJ6 Uncharacterized protein n=1 Tax=gamma proteobact...    91   8e-17
+UniRef90_UPI0002556668 glutaredoxin n=1 Tax=Pseudomonas sp. S9 R...    91   8e-17
+UniRef90_G8S661 Uncharacterized protein n=1 Tax=Actinoplanes sp....    91   8e-17
+UniRef90_UPI000346C881 glutaredoxin n=1 Tax=Pseudomonas veronii ...    91   9e-17
+UniRef90_Q3K951 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    91   9e-17
+UniRef90_H7ERT0 Thiol-disulfide isomerase and thioredoxin (Fragm...    91   9e-17
+UniRef90_UPI0002558486 glutaredoxin n=1 Tax=Marinobacterium stan...    91   9e-17
+UniRef90_L8MR95 Thiol-disulfide isomerase n=2 Tax=Pseudomonas ae...    91   9e-17
+UniRef90_UPI00036EF142 hypothetical protein n=1 Tax=Actinomadura...    91   9e-17
+UniRef90_K0C989 Uncharacterized protein n=2 Tax=Alcanivorax RepI...    91   9e-17
+UniRef90_L0GL53 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    91   1e-16
+UniRef90_A4X1T6 Glutaredoxin 2 n=7 Tax=Salinispora RepID=A4X1T6_...    91   1e-16
+UniRef90_F7SLG0 Uncharacterized protein n=1 Tax=Halomonas sp. TD...    90   1e-16
+UniRef90_F3HIM9 Uncharacterized protein n=1 Tax=Pseudomonas syri...    90   1e-16
+UniRef90_I0KRM7 Uncharacterized protein n=1 Tax=Stenotrophomonas...    90   1e-16
+UniRef90_UPI000288A1A5 glutaredoxin n=2 Tax=Pseudomonas fuscovag...    90   1e-16
+UniRef90_E4PHM3 Glutaredoxin 2 n=9 Tax=Marinobacter RepID=E4PHM3...    90   1e-16
+UniRef90_K9AS44 Glutaredoxin n=1 Tax=Brevibacterium casei S18 Re...    90   1e-16
+UniRef90_UPI0003B4E72F redoxin n=1 Tax=Humibacter albus RepID=UP...    90   1e-16
+UniRef90_S2KPW1 Uncharacterized protein n=1 Tax=Halomonas antica...    90   1e-16
+UniRef90_E4QHY6 Glutaredoxin 2 n=1 Tax=Methylovorus sp. (strain ...    90   1e-16
+UniRef90_A3QDY1 Glutaredoxin 2 n=1 Tax=Shewanella loihica (strai...    90   1e-16
+UniRef90_V9ZXS1 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    90   1e-16
+UniRef90_B8CPF5 Conserved hypothetical thioredoxin n=1 Tax=Shewa...    90   1e-16
+UniRef90_W6K4W7 Glutaredoxin-like protein n=1 Tax=Tetrasphaera a...    90   1e-16
+UniRef90_G3ITR8 Glutaredoxin 2 n=1 Tax=Methylobacter tundripalud...    90   2e-16
+UniRef90_R9PJY5 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    90   2e-16
+UniRef90_J1IPK1 Uncharacterized protein n=4 Tax=Pseudomonas RepI...    90   2e-16
+UniRef90_B0RI67 Uncharacterized protein n=1 Tax=Clavibacter mich...    90   2e-16
+UniRef90_UPI000301881B hypothetical protein n=1 Tax=Vibrio rumoi...    90   2e-16
+UniRef90_A8H3Y2 Glutaredoxin 2 n=1 Tax=Shewanella pealeana (stra...    90   2e-16
+UniRef90_H0IZV4 Uncharacterized protein n=1 Tax=Halomonas sp. GF...    90   2e-16
+UniRef90_W2UDZ2 Uncharacterized protein n=1 Tax=Gammaproteobacte...    90   2e-16
+UniRef90_A1RKM1 Glutaredoxin 2 n=1 Tax=Shewanella sp. (strain W3...    90   2e-16
+UniRef90_R4SHC2 Glutaredoxin 2 n=3 Tax=Amycolatopsis RepID=R4SHC...    90   2e-16
+UniRef90_UPI0003C7E503 glutaredoxin n=1 Tax=actinobacterium LLX1...    89   2e-16
+UniRef90_U7DNQ4 Glutaredoxin n=1 Tax=Pseudomonas fluorescens NCI...    89   2e-16
+UniRef90_UPI0003610EE6 hypothetical protein n=1 Tax=Microbacteri...    89   2e-16
+UniRef90_U2XLD5 Thiol-disulfide isomerase and thioredoxins n=1 T...    89   3e-16
+UniRef90_I1XHF7 Glutaredoxin-like protein n=1 Tax=Methylophaga n...    89   3e-16
+UniRef90_F4FEJ9 Glutaredoxin 2 n=1 Tax=Verrucosispora maris (str...    89   3e-16
+UniRef90_F4DAE6 Thiol-disulfide isomerase and thioredoxin n=7 Ta...    89   3e-16
+UniRef90_UPI000287D79E glutaredoxin n=1 Tax=Pseudomonas extremau...    89   3e-16
+UniRef90_M5B888 Redoxin n=2 Tax=Clavibacter michiganensis RepID=...    89   3e-16
+UniRef90_UPI0003B61A2B redoxin n=1 Tax=Agromyces italicus RepID=...    89   3e-16
+UniRef90_A4SME5 Thiol-disulfide isomerase and thioredoxin n=3 Ta...    89   3e-16
+UniRef90_Q6LR99 Uncharacterized protein n=2 Tax=Photobacterium p...    89   3e-16
+UniRef90_Q1YPL4 Uncharacterized protein n=1 Tax=gamma proteobact...    89   3e-16
+UniRef90_U5WAQ1 Putative redoxin n=1 Tax=Actinoplanes friuliensi...    89   4e-16
+UniRef90_UPI0003171C89 hypothetical protein n=1 Tax=Microbacteri...    89   4e-16
+UniRef90_U1L7B8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    89   4e-16
+UniRef90_J3GNU1 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    89   4e-16
+UniRef90_A0LRF5 Glutaredoxin 2 n=1 Tax=Acidothermus cellulolytic...    88   4e-16
+UniRef90_U5VFB9 Glutaredoxin n=1 Tax=Pseudomonas sp. VLB120 RepI...    88   5e-16
+UniRef90_L8D6R0 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    88   5e-16
+UniRef90_UPI0002D4A9D9 glutaredoxin n=3 Tax=Enterovibrio norvegi...    88   5e-16
+UniRef90_UPI000379DC83 hypothetical protein n=1 Tax=Rheinheimera...    88   5e-16
+UniRef90_B2JFJ9 Glutaredoxin 2 n=1 Tax=Burkholderia phymatum (st...    88   5e-16
+UniRef90_UPI00039EE24F glutaredoxin n=1 Tax=Pseudomonas pelagia ...    88   5e-16
+UniRef90_S2FSH4 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    88   6e-16
+UniRef90_H3Z9V3 Thiol-disulfide isomerase and thioredoxin n=3 Ta...    88   7e-16
+UniRef90_UPI00037FD770 hypothetical protein n=1 Tax=Leucobacter ...    88   7e-16
+UniRef90_C1DEC7 Uncharacterized protein n=3 Tax=Azotobacter vine...    88   7e-16
+UniRef90_UPI0003B3C9C1 glutaredoxin n=1 Tax=Pseudomonas caeni Re...    88   7e-16
+UniRef90_UPI00030FC5A3 glutaredoxin n=1 Tax=Enterovibrio calvien...    88   7e-16
+UniRef90_UPI0003B46A68 thiol-disulfide isomerase n=1 Tax=Pseudoa...    88   7e-16
+UniRef90_T2L5C9 Uncharacterized protein n=2 Tax=Halomonas RepID=...    88   7e-16
+UniRef90_K1EUE7 Glutaredoxin n=1 Tax=Janibacter hoylei PVAS-1 Re...    88   7e-16
+UniRef90_C4KRI4 Conserved domain protein n=44 Tax=pseudomallei g...    88   8e-16
+UniRef90_UPI000234DBC1 glutaredoxin n=1 Tax=Frankia sp. CN3 RepI...    88   8e-16
+UniRef90_UPI0003B77762 redoxin n=1 Tax=Agromyces subbeticus RepI...    88   8e-16
+UniRef90_E1T5L0 Glutaredoxin 2 n=1 Tax=Burkholderia sp. (strain ...    88   8e-16
+UniRef90_E2XNX8 Uncharacterized protein n=1 Tax=Pseudomonas fluo...    88   8e-16
+UniRef90_A8FW58 Glutaredoxin 2 n=1 Tax=Shewanella sediminis (str...    88   8e-16
+UniRef90_UPI0002197C4F glutaredoxin n=1 Tax=Aeromonas caviae Rep...    88   8e-16
+UniRef90_J2ZN49 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    87   9e-16
+UniRef90_B1YVM1 Glutaredoxin 2 n=5 Tax=Burkholderia cepacia comp...    87   9e-16
+UniRef90_UPI00036B6996 glutaredoxin n=1 Tax=Pseudomonas fluoresc...    87   1e-15
+UniRef90_B3PFU8 Uncharacterized protein n=1 Tax=Cellvibrio japon...    87   1e-15
+UniRef90_UPI00016A2FA9 glutaredoxin n=1 Tax=Burkholderia oklahom...    87   1e-15
+UniRef90_S6GIM6 Glutaredoxin n=1 Tax=Osedax symbiont Rs1 RepID=S...    87   1e-15
+UniRef90_UPI0003456BE6 hypothetical protein n=1 Tax=Burkholderia...    87   1e-15
+UniRef90_Q1N6A0 Uncharacterized protein n=1 Tax=Bermanella maris...    87   1e-15
+UniRef90_G4SZ73 Glutaredoxin 2 n=2 Tax=Methylomicrobium RepID=G4...    87   1e-15
+UniRef90_UPI00037E4965 hypothetical protein n=1 Tax=Methylosarci...    87   1e-15
+UniRef90_UPI0003B664E1 glutaredoxin n=1 Tax=Perlucidibaca piscin...    87   1e-15
+UniRef90_I8QVT0 Glutaredoxin-like protein n=2 Tax=Frankia RepID=...    87   1e-15
+UniRef90_UPI000379D22B glutaredoxin n=1 Tax=Actinokineospora enz...    87   1e-15
+UniRef90_V6JHS5 Uncharacterized protein n=1 Tax=Pseudomonas puti...    87   1e-15
+UniRef90_UPI0003703EFF hypothetical protein n=1 Tax=Methylotener...    87   1e-15
+UniRef90_Q8EFW3 Thioredoxin/glutaredoxin 2 family protein n=1 Ta...    87   1e-15
+UniRef90_I7ACJ8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    87   1e-15
+UniRef90_D9SYH2 Glutaredoxin 2 n=3 Tax=Micromonospora RepID=D9SY...    87   1e-15
+UniRef90_W0HBF8 Uncharacterized protein n=1 Tax=Pseudomonas cich...    86   2e-15
+UniRef90_Q21JU2 Glutaredoxin 2 n=1 Tax=Saccharophagus degradans ...    86   2e-15
+UniRef90_K0X5Q1 Glutaredoxin-like protein n=1 Tax=Pseudomonas fl...    86   2e-15
+UniRef90_UPI0003615BAA glutaredoxin n=1 Tax=Arthrobacter sp. 161...    86   2e-15
+UniRef90_UPI00037BB85C hypothetical protein n=1 Tax=actinobacter...    86   2e-15
+UniRef90_U3H9V7 Glutaredoxin n=1 Tax=Pseudomonas alcaligenes OT ...    86   2e-15
+UniRef90_K9NHM5 Glutaredoxin 2 n=2 Tax=Pseudomonas RepID=K9NHM5_...    86   2e-15
+UniRef90_UPI00037D8D09 hypothetical protein n=1 Tax=Pseudoclavib...    86   2e-15
+UniRef90_C4RC12 Glutaredoxin n=2 Tax=Micromonospora RepID=C4RC12...    86   2e-15
+UniRef90_Q39I76 Glutaredoxin 2 n=17 Tax=Burkholderia RepID=Q39I7...    86   2e-15
+UniRef90_Q0YSJ3 Glutaredoxin:Glutaredoxin 2 n=1 Tax=Chlorobium f...    86   2e-15
+UniRef90_V5BVK5 Fumarate hydratase class II n=1 Tax=Methyloglobu...    86   2e-15
+UniRef90_A1S602 Uncharacterized protein n=1 Tax=Shewanella amazo...    86   2e-15
+UniRef90_U1L7M0 Uncharacterized protein n=1 Tax=Agrococcus pavil...    86   2e-15
+UniRef90_A4AIY0 Redoxin n=1 Tax=marine actinobacterium PHSC20C1 ...    86   2e-15
+UniRef90_C6X8V9 Glutaredoxin 2 n=1 Tax=Methylovorus sp. (strain ...    86   2e-15
+UniRef90_C8XAG3 Glutaredoxin 2 n=1 Tax=Nakamurella multipartita ...    86   2e-15
+UniRef90_UPI0002EF003B hypothetical protein n=1 Tax=Halomonas sm...    86   3e-15
+UniRef90_H5X488 Glutaredoxin-like protein n=1 Tax=Saccharomonosp...    86   3e-15
+UniRef90_H8E3V7 Glutaredoxin 2 n=2 Tax=Microbacterium RepID=H8E3...    86   3e-15
+UniRef90_W7IST5 Putative redoxin n=1 Tax=Actinokineospora sp. EG...    86   3e-15
+UniRef90_UPI000378F2A3 MULTISPECIES: hypothetical protein n=1 Ta...    86   3e-15
+UniRef90_L0WGI9 Uncharacterized protein n=1 Tax=Alcanivorax hong...    86   3e-15
+UniRef90_N1UZP8 Glutaredoxin n=1 Tax=Arthrobacter crystallopoiet...    86   3e-15
+UniRef90_UPI0003689DBA hypothetical protein n=1 Tax=Dasania mari...    86   3e-15
+UniRef90_I4JJ13 Thiol-disulfide isomerase and thioredoxin n=2 Ta...    86   3e-15
+UniRef90_A2WBJ1 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    86   3e-15
+UniRef90_C5CCT1 Glutaredoxin 2 n=2 Tax=Micrococcus luteus RepID=...    86   3e-15
+UniRef90_T5L359 Uncharacterized protein n=1 Tax=Microbacterium m...    85   3e-15
+UniRef90_UPI0002D8B0CF glutaredoxin n=1 Tax=Micrococcus luteus R...    85   4e-15
+UniRef90_I5CDZ5 Glutaredoxin 2 n=2 Tax=Burkholderia RepID=I5CDZ5...    85   4e-15
+UniRef90_UPI0003604C24 MULTISPECIES: hypothetical protein n=1 Ta...    85   4e-15
+UniRef90_UPI0003B5F3CD hypothetical protein n=1 Tax=Methylohalob...    85   4e-15
+UniRef90_UPI000289235C hypothetical protein n=1 Tax=Halomonas sp...    85   4e-15
+UniRef90_C6WTG1 Glutaredoxin 2 n=1 Tax=Methylotenera mobilis (st...    85   4e-15
+UniRef90_UPI0003032430 glutaredoxin n=1 Tax=Pseudomonas psychrop...    85   4e-15
+UniRef90_UPI0003B3E56F glutaredoxin n=1 Tax=Spongiibacter tropic...    85   4e-15
+UniRef90_W7PS97 Uncharacterized protein n=2 Tax=Halomonas sp. BC...    85   4e-15
+UniRef90_K6BLI6 Uncharacterized protein n=1 Tax=Pseudomonas viri...    85   4e-15
+UniRef90_W4NKG8 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    85   4e-15
+UniRef90_F3LGX2 Glutaredoxin-like domain containing protein n=1 ...    85   5e-15
+UniRef90_G8Q2X1 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    85   5e-15
+UniRef90_UPI00036CE6B5 hypothetical protein n=2 Tax=Microbacteri...    85   5e-15
+UniRef90_I2JMW8 Glutaredoxin n=1 Tax=gamma proteobacterium BDW91...    85   5e-15
+UniRef90_UPI0003612E43 hypothetical protein n=1 Tax=Salinimonas ...    85   5e-15
+UniRef90_D5UJI7 Glutaredoxin 2 n=1 Tax=Cellulomonas flavigena (s...    85   5e-15
+UniRef90_C6BFM6 Glutaredoxin 2 n=5 Tax=Ralstonia RepID=C6BFM6_RALP1    85   5e-15
+UniRef90_UPI0003773C26 hypothetical protein n=1 Tax=Cupriavidus ...    85   5e-15
+UniRef90_UPI00031B67C9 glutaredoxin n=1 Tax=Pseudomonas agarici ...    85   5e-15
+UniRef90_UPI0003B6BF8F glutaredoxin n=1 Tax=Ruania albidiflava R...    85   6e-15
+UniRef90_C7MT04 Glutaredoxin-like domain (DUF836) n=1 Tax=Saccha...    85   6e-15
+UniRef90_U1UPT4 Glutaredoxin n=1 Tax=Pseudomonas fluorescens EGD...    85   6e-15
+UniRef90_S6GBX1 Uncharacterized protein n=1 Tax=Osedax symbiont ...    85   6e-15
+UniRef90_U1KCR9 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    85   6e-15
+UniRef90_UPI000379346A glutaredoxin n=1 Tax=Saccharomonospora sa...    85   6e-15
+UniRef90_UPI00034B5776 hypothetical protein n=1 Tax=Leucobacter ...    85   6e-15
+UniRef90_F4CZS5 Glutaredoxin 2 n=1 Tax=Pseudonocardia dioxanivor...    85   6e-15
+UniRef90_M4K382 Uncharacterized protein n=2 Tax=Pseudomonas fluo...    85   6e-15
+UniRef90_H8GNL5 Glutaredoxin-like domain (DUF836) n=1 Tax=Methyl...    85   6e-15
+UniRef90_F0G0U6 Glutaredoxin 2 n=1 Tax=Burkholderia sp. TJI49 Re...    85   6e-15
+UniRef90_S6I238 Glutaredoxin 2 n=1 Tax=Pseudomonas sp. CFII68 Re...    85   6e-15
+UniRef90_K2FYZ3 Uncharacterized protein n=1 Tax=Alcanivorax paci...    85   7e-15
+UniRef90_C3K7L0 Uncharacterized protein n=1 Tax=Pseudomonas fluo...    85   7e-15
+UniRef90_W0MQ42 Glutaredoxin n=1 Tax=Pseudomonas syringae CC1557...    85   7e-15
+UniRef90_UPI0002F70958 hypothetical protein n=1 Tax=Catenovulum ...    85   7e-15
+UniRef90_I2BKY2 Uncharacterized protein n=12 Tax=Pseudomonas Rep...    85   7e-15
+UniRef90_UPI0002FD1669 glutaredoxin n=1 Tax=Pseudomonas fluoresc...    84   8e-15
+UniRef90_F3EMH9 Uncharacterized protein n=20 Tax=Pseudomonas syr...    84   8e-15
+UniRef90_UPI0003701A35 hypothetical protein n=1 Tax=Leptolyngbya...    84   8e-15
+UniRef90_A1R9S9 Putative glutaredoxin-like domain (DUF836) n=3 T...    84   9e-15
+UniRef90_W2D7T2 Uncharacterized protein n=1 Tax=Pseudomonas sp. ...    84   9e-15
+UniRef90_U1Y2Q5 Glutaredoxin n=1 Tax=Arthrobacter sp. AK-YN10 Re...    84   9e-15
+UniRef90_UPI000366416C hypothetical protein n=1 Tax=Caldibacillu...    84   9e-15
+UniRef90_Q2SCX7 Thiol-disulfide isomerase and thioredoxins n=1 T...    84   9e-15
+UniRef90_C7R0C2 Glutaredoxin 2 n=1 Tax=Jonesia denitrificans (st...    84   9e-15
+UniRef90_S6HBJ8 Uncharacterized protein n=1 Tax=Pseudomonas sp. ...    84   1e-14
+UniRef90_J7J3Q3 Glutaredoxin 2 n=1 Tax=Burkholderia cepacia GG4 ...    84   1e-14
+UniRef90_S5TV37 Thiol-disulfide isomerase and thioredoxins n=1 T...    84   1e-14
+UniRef90_UPI000368B4D1 hypothetical protein n=1 Tax=Methylomonas...    84   1e-14
+UniRef90_U7G661 Uncharacterized protein n=1 Tax=Alcanivorax sp. ...    84   1e-14
+UniRef90_D3FBQ5 Glutaredoxin 2 n=1 Tax=Conexibacter woesei (stra...    84   1e-14
+UniRef90_E8YL36 Glutaredoxin 2 n=2 Tax=Burkholderia RepID=E8YL36...    84   1e-14
+UniRef90_UPI00031170B3 hypothetical protein n=1 Tax=Moritella da...    84   1e-14
+UniRef90_J2EK76 Uncharacterized protein n=1 Tax=Pseudomonas fluo...    84   1e-14
+UniRef90_A0K054 Glutaredoxin 2 n=1 Tax=Arthrobacter sp. (strain ...    84   1e-14
+UniRef90_UPI000362ED3C hypothetical protein n=1 Tax=Gilvimarinus...    83   1e-14
+UniRef90_UPI000372B136 glutaredoxin n=1 Tax=Saccharomonospora ha...    83   1e-14
+UniRef90_B4S4H2 Glutaredoxin 2 n=1 Tax=Prosthecochloris aestuari...    83   1e-14
+UniRef90_F9EWB6 Glutaredoxin 2 n=3 Tax=Neisseria RepID=F9EWB6_9NEIS    83   1e-14
+UniRef90_UPI00036B96C8 glutaredoxin n=1 Tax=Pseudomonas stutzeri...    83   1e-14
+UniRef90_A4JCQ8 Glutaredoxin 2 n=2 Tax=Burkholderia RepID=A4JCQ8...    83   1e-14
+UniRef90_D8NVK8 Uncharacterized protein n=9 Tax=Ralstonia RepID=...    83   1e-14
+UniRef90_UPI0003610E6D hypothetical protein n=1 Tax=Halomonas zh...    83   2e-14
+UniRef90_UPI000346C888 hypothetical protein n=1 Tax=Halomonas je...    83   2e-14
+UniRef90_S9TEN3 Glutaredoxin n=1 Tax=Ralstonia sp. AU12-08 RepID...    83   2e-14
+UniRef90_C6WNG7 Glutaredoxin 2 n=1 Tax=Actinosynnema mirum (stra...    83   2e-14
+UniRef90_B3QQI6 Glutaredoxin 2 n=1 Tax=Chlorobaculum parvum (str...    83   2e-14
+UniRef90_W5WMG3 Uncharacterized protein n=1 Tax=Kutzneria albida...    83   2e-14
+UniRef90_H8KZA2 Glutaredoxin-like domain (DUF836) n=1 Tax=Frateu...    83   2e-14
+UniRef90_R9F4A6 Redoxin n=2 Tax=Thermobifida fusca RepID=R9F4A6_...    83   2e-14
+UniRef90_F4ARZ1 Glutaredoxin 2 n=3 Tax=Glaciecola RepID=F4ARZ1_G...    83   2e-14
+UniRef90_B2GHJ4 Putative uncharacterized protein n=1 Tax=Kocuria...    83   2e-14
+UniRef90_F5Z7V2 Glutaredoxin 2 n=1 Tax=Alteromonas sp. (strain S...    83   2e-14
+UniRef90_UPI0003616016 hypothetical protein n=1 Tax=Kocuria atri...    83   2e-14
+UniRef90_D1BVX5 Glutaredoxin 2 n=1 Tax=Xylanimonas cellulosilyti...    83   2e-14
+UniRef90_F2BE30 Glutaredoxin 2 n=1 Tax=Neisseria bacilliformis A...    83   2e-14
+UniRef90_UPI000255ED9D glutaredoxin n=1 Tax=Citricoccus sp. CH26...    83   2e-14
+UniRef90_E7RTU9 Glutaredoxin-like protein n=1 Tax=Lautropia mira...    83   2e-14
+UniRef90_I0V1I3 Glutaredoxin-like protein n=1 Tax=Saccharomonosp...    83   2e-14
+UniRef90_B5WGZ6 Glutaredoxin 2 n=1 Tax=Burkholderia sp. H160 Rep...    83   2e-14
+UniRef90_B4RK25 Thioredoxin n=177 Tax=Neisseria RepID=B4RK25_NEIG2     83   3e-14
+UniRef90_K7ALV1 Glutaredoxin 2 n=2 Tax=Glaciecola RepID=K7ALV1_9...    83   3e-14
+UniRef90_R1H0U5 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    82   3e-14
+UniRef90_B8HF90 Glutaredoxin 2 n=2 Tax=Arthrobacter RepID=B8HF90...    82   3e-14
+UniRef90_UPI0003683040 hypothetical protein n=1 Tax=Psychromonas...    82   3e-14
+UniRef90_R4WHS7 Glutaredoxin 2 n=1 Tax=Burkholderia sp. RPE64 Re...    82   3e-14
+UniRef90_F4H0S2 Glutaredoxin 2 n=1 Tax=Cellulomonas fimi (strain...    82   3e-14
+UniRef90_F2K9E4 Uncharacterized protein n=2 Tax=Pseudomonas RepI...    82   3e-14
+UniRef90_UPI0003B6E685 redoxin n=1 Tax=Corynebacterium-like bact...    82   3e-14
+UniRef90_Q2JY23 Glutaredoxin family protein n=1 Tax=Synechococcu...    82   3e-14
+UniRef90_UPI00037028CE hypothetical protein n=1 Tax=Arthrobacter...    82   3e-14
+UniRef90_UPI00034B63F9 hypothetical protein n=1 Tax=Microbacteri...    82   4e-14
+UniRef90_Q8KFT5 Uncharacterized protein n=1 Tax=Chlorobium tepid...    82   4e-14
+UniRef90_UPI0003625818 glutaredoxin n=2 Tax=Arthrobacter RepID=U...    82   4e-14
+UniRef90_L8TR23 Uncharacterized protein n=1 Tax=Arthrobacter sp....    82   4e-14
+UniRef90_UPI00022DFCBA glutaredoxin n=1 Tax=Saccharomonospora pa...    82   4e-14
+UniRef90_G4F808 Uncharacterized protein n=1 Tax=Halomonas sp. HA...    82   4e-14
+UniRef90_H8GE28 Glutaredoxin-like protein n=4 Tax=Saccharomonosp...    82   4e-14
+UniRef90_UPI00037E6916 hypothetical protein n=1 Tax=Longispora a...    82   4e-14
+UniRef90_UPI00030CD9A1 glutaredoxin n=2 Tax=Neisseria sicca RepI...    82   4e-14
+UniRef90_K8RSI7 Glutaredoxin n=1 Tax=Burkholderia sp. SJ98 RepID...    82   4e-14
+UniRef90_H5TYT8 Putative uncharacterized protein n=1 Tax=Gordoni...    82   4e-14
+UniRef90_A9WS07 Glutaredoxin n=1 Tax=Renibacterium salmoninarum ...    82   4e-14
+UniRef90_B3ELN4 Glutaredoxin 2 n=1 Tax=Chlorobium phaeobacteroid...    82   5e-14
+UniRef90_M7NK48 Uncharacterized protein n=1 Tax=Arthrobacter gan...    81   5e-14
+UniRef90_A4ISQ0 Glutaredoxin n=2 Tax=Geobacillus RepID=A4ISQ0_GEOTN    81   5e-14
+UniRef90_A6FJ67 Thiol-disulfide isomerase and thioredoxin n=1 Ta...    81   5e-14
+UniRef90_B4SCE3 Glutaredoxin 2 n=1 Tax=Pelodictyon phaeoclathrat...    81   5e-14
+UniRef90_UPI0003B5CEB1 glutaredoxin n=1 Tax=Yaniella halotoleran...    81   5e-14
+UniRef90_UPI000371CE23 glutaredoxin n=1 Tax=Burkholderia bryophi...    81   6e-14
+UniRef90_C5TJ36 Glutaredoxin-like protein n=2 Tax=Neisseria RepI...    81   6e-14
+UniRef90_Q5V0G8 Thioredoxin n=2 Tax=Haloarcula RepID=Q5V0G8_HALMA      81   6e-14
+UniRef90_UPI000237A53F glutaredoxin n=1 Tax=Saccharopolyspora sp...    81   6e-14
+UniRef90_UPI0003736771 hypothetical protein n=1 Tax=Methylophilu...    81   6e-14
+UniRef90_E8NG20 Thiol-disulfide isomerase and thioredoxins n=1 T...    81   6e-14
+UniRef90_U3QJP8 Glutaredoxin n=1 Tax=Ralstonia pickettii DTP0602...    81   7e-14
+UniRef90_UPI0003676ECA hypothetical protein n=1 Tax=Actinoallote...    81   7e-14
+UniRef90_UPI000365435C hypothetical protein n=1 Tax=Smaragdicocc...    81   7e-14
+UniRef90_C7MFK4 Glutaredoxin-like domain (DUF836) n=1 Tax=Brachy...    81   7e-14
+UniRef90_D7MYJ2 Glutaredoxin-like protein n=1 Tax=Neisseria sp. ...    81   7e-14
+UniRef90_Q8YWE9 Asl1664 protein n=2 Tax=Nostocaceae RepID=Q8YWE9...    81   7e-14
+UniRef90_UPI0002D42376 hypothetical protein n=1 Tax=Microbacteri...    81   8e-14
+UniRef90_W7QT51 Uncharacterized protein n=1 Tax=Catenovulum agar...    81   8e-14
+UniRef90_UPI00036A4F2D hypothetical protein n=1 Tax=Methylotener...    81   8e-14
+UniRef90_D4YMU2 Glutaredoxin-like protein n=1 Tax=Brevibacterium...    81   8e-14
+UniRef90_UPI00029AF977 glutaredoxin n=1 Tax=Schlesneria paludico...    81   8e-14
+UniRef90_V4HZH0 Glutaredoxin-like domain (DUF836) n=1 Tax=Pseudo...    81   8e-14
+UniRef90_J9H5D4 Glutaredoxin-like domain (DUF836) n=1 Tax=actino...    81   8e-14
+UniRef90_E6QV72 Putative glutaredoxin 2 n=1 Tax=mine drainage me...    81   8e-14
+UniRef90_K8GMZ1 Uncharacterized protein n=1 Tax=Oscillatoriales ...    81   9e-14
+UniRef90_Q883M0 Uncharacterized protein n=30 Tax=Pseudomonas syr...    81   9e-14
+UniRef90_J9Y951 Thiol-disulfide isomerase and thioredoxin i n=4 ...    81   9e-14
+UniRef90_E3H084 Glutaredoxin-like protein n=2 Tax=Rothia dentoca...    81   9e-14
+UniRef90_C3ASV8 Glutaredoxin n=8 Tax=Bacillaceae RepID=C3ASV8_BACMY    81   9e-14
+UniRef90_Q2B705 Uncharacterized protein n=1 Tax=Bacillus sp. NRR...    81   9e-14
+UniRef90_Q0K8M9 Uncharacterized protein n=3 Tax=Burkholderiaceae...    81   1e-13
+UniRef90_UPI0003B2F838 redoxin n=1 Tax=Microbacterium sp. B19 Re...    81   1e-13
+UniRef90_UPI000371BFCE hypothetical protein n=1 Tax=Calothrix sp...    81   1e-13
+UniRef90_F2G294 Thiol-disulfide isomerase n=9 Tax=Alteromonas ma...    81   1e-13
+UniRef90_F6AKC4 Glutaredoxin 2 n=1 Tax=Pseudomonas fulva (strain...    80   1e-13
+UniRef90_B7KLL8 Glutaredoxin 2 n=1 Tax=Cyanothece sp. (strain PC...    80   1e-13
+UniRef90_D7DW35 Glutaredoxin 2 n=1 Tax=Nostoc azollae (strain 07...    80   1e-13
+UniRef90_UPI0003755068 glutaredoxin n=1 Tax=Amycolatopsis nigres...    80   1e-13
+UniRef90_UPI000376211B hypothetical protein n=1 Tax=Dehalobacter...    80   1e-13
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_S2XTN1 Uncharacterized protein n=1 Tax=Streptomyces sp....    90   2e-16
+UniRef90_UPI0003751CC8 hypothetical protein n=1 Tax=Streptomyces...    87   1e-15
+UniRef90_D6Y3G1 Glutaredoxin 2 n=1 Tax=Thermobispora bispora (st...    86   2e-15
+UniRef90_UPI0003482A50 hypothetical protein n=1 Tax=Nocardiopsis...    84   9e-15
+UniRef90_K6WRM6 Putative redoxin n=1 Tax=Kineosphaera limosa NBR...    81   6e-14
+UniRef90_UPI00036C58FD hypothetical protein n=1 Tax=Demetria ter...    81   7e-14
+UniRef90_UPI00034647FD hypothetical protein n=1 Tax=Nocardiopsis...    81   7e-14
+UniRef90_W0ZDH6 Thiol-disulfide isomerase and thioredoxins n=1 T...    80   1e-13
+
+  Database: uniref90.fasta
+    Posted date:  Apr 29, 2014 10:15 AM
+  Number of letters in database: 999,998,653
+  Number of sequences in database:  2,501,723
+  
+  Database: /home/bjornw/Research/DB/casp11/uniref90.fasta.01
+    Posted date:  Apr 29, 2014 10:16 AM
+  Number of letters in database: 999,999,990
+  Number of sequences in database:  2,392,326
+  
+  Database: /home/bjornw/Research/DB/casp11/uniref90.fasta.02
+    Posted date:  Apr 29, 2014 10:17 AM
+  Number of letters in database: 999,999,962
+  Number of sequences in database:  3,093,320
+  
+  Database: /home/bjornw/Research/DB/casp11/uniref90.fasta.03
+    Posted date:  Apr 29, 2014 10:19 AM
+  Number of letters in database: 999,999,912
+  Number of sequences in database:  3,473,238
+  
+  Database: /home/bjornw/Research/DB/casp11/uniref90.fasta.04
+    Posted date:  Apr 29, 2014 10:20 AM
+  Number of letters in database: 999,999,234
+  Number of sequences in database:  3,310,203
+  
+  Database: /home/bjornw/Research/DB/casp11/uniref90.fasta.05
+    Posted date:  Apr 29, 2014 10:22 AM
+  Number of letters in database: 999,999,703
+  Number of sequences in database:  2,985,014
+  
+  Database: /home/bjornw/Research/DB/casp11/uniref90.fasta.06
+    Posted date:  Apr 29, 2014 10:23 AM
+  Number of letters in database: 999,999,837
+  Number of sequences in database:  2,843,653
+  
+  Database: /home/bjornw/Research/DB/casp11/uniref90.fasta.07
+    Posted date:  Apr 29, 2014 10:23 AM
+  Number of letters in database: 299,532,921
+  Number of sequences in database:  700,862
+  
+Lambda     K      H
+   0.315    0.197    0.754 
+
+Lambda     K      H
+   0.267   0.0601    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 4,914,655,553
+Number of Sequences: 21300339
+Number of extensions: 238761648
+Number of successful extensions: 904065
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 2506
+Number of HSP's successfully gapped in prelim test: 2154
+Number of HSP's that attempted gapping in prelim test: 897714
+Number of HSP's gapped (non-prelim): 4687
+length of query: 78
+length of database: 7,299,530,212
+effective HSP length: 49
+effective length of query: 29
+effective length of database: 6,255,813,601
+effective search space: 181418594429
+effective search space used: 181418594429
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.5 bits)
+S2: 78 (34.1 bits)
