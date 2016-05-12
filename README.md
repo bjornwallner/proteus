@@ -36,7 +36,7 @@ $ chmod +x proteus/run_proteus.py
 
 ## The program has just one inputs
 
-        1. A fasta file containing single / multiple amino acid sequence in fasta format
+        1. A fasta file containing a single amino acid sequence in fasta format
 
 ##### Run Step: 
 ```sh

@@ -1,0 +1,1231 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= T0865
+         (75 letters)
+
+Database: uniref90.fasta 
+           31,420,390 sequences; 10,480,658,066 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_H0WKT1 Uncharacterized protein n=26 Tax=Eutheria RepID=...   142   3e-32
+UniRef90_UPI0002740CA5 PREDICTED: SH3 domain-containing kinase-b...   142   3e-32
+UniRef90_UPI0003AB6191 PREDICTED: SH3 domain-containing kinase-b...   140   1e-31
+UniRef90_Q96B97-3 Isoform 3 of SH3 domain-containing kinase-bind...   140   1e-31
+UniRef90_UPI00046B2ECE PREDICTED: SH3 domain-containing kinase-b...   140   1e-31
+UniRef90_Q5JPT2 SH3 domain-containing kinase-binding protein 1 (...   140   1e-31
+UniRef90_A0A096NYA0 Uncharacterized protein n=1 Tax=Papio anubis...   139   2e-31
+UniRef90_Q96B97 SH3 domain-containing kinase-binding protein 1 n...   139   2e-31
+UniRef90_I3NB90 Uncharacterized protein (Fragment) n=1 Tax=Sperm...   139   3e-31
+UniRef90_UPI00038BB3CA PREDICTED: SH3 domain-containing kinase-b...   139   4e-31
+UniRef90_G1TH36 Uncharacterized protein n=15 Tax=Eutheria RepID=...   137   9e-31
+UniRef90_UPI00045D9C95 PREDICTED: SH3 domain-containing kinase-b...   137   1e-30
+UniRef90_U6D0W3 SH3-domain kinase-binding protein 1 (Fragment) n...   137   1e-30
+UniRef90_UPI0003AF6260 PREDICTED: SH3 domain-containing kinase-b...   136   2e-30
+UniRef90_K7GK80 Uncharacterized protein (Fragment) n=1 Tax=Sus s...   135   4e-30
+UniRef90_G5C0L8 SH3 domain-containing kinase-binding protein 1 n...   135   4e-30
+UniRef90_UPI0003F1BF34 PREDICTED: SH3 domain-containing kinase-b...   135   5e-30
+UniRef90_UPI0004ED62FF PREDICTED: SH3 domain-containing kinase-b...   135   5e-30
+UniRef90_UPI00020AB6DA PREDICTED: SH3 domain-containing kinase-b...   134   6e-30
+UniRef90_A0A091CX59 SH3 domain-containing kinase-binding protein...   134   8e-30
+UniRef90_A0A061HZT7 Src homology-3 domain containing protein n=3...   133   2e-29
+UniRef90_G3H5K9 SH3 domain-containing kinase-binding protein 1 n...   132   3e-29
+UniRef90_B0R0Y8 SH3 domain-containing kinase-binding protein 1 (...   132   4e-29
+UniRef90_UPI0003D7155C PREDICTED: SH3 domain-containing kinase-b...   131   5e-29
+UniRef90_Q8R550-4 Isoform 4 of SH3 domain-containing kinase-bind...   131   6e-29
+UniRef90_Q8R550-6 Isoform 6 of SH3 domain-containing kinase-bind...   131   6e-29
+UniRef90_Q8R550-8 Isoform 8 of SH3 domain-containing kinase-bind...   131   8e-29
+UniRef90_F7CTV5 Uncharacterized protein (Fragment) n=18 Tax=Bore...   128   5e-28
+UniRef90_UPI00042AA9A4 PREDICTED: SH3 domain-containing kinase-b...   126   2e-27
+UniRef90_UPI00051E4C86 PREDICTED: SH3 domain-containing kinase-b...   121   6e-26
+UniRef90_Q925Q9 SH3 domain-containing kinase-binding protein 1 n...   121   7e-26
+UniRef90_UPI000273A7DB PREDICTED: uncharacterized protein LOC100...   120   1e-25
+UniRef90_G3WLM4 Uncharacterized protein (Fragment) n=2 Tax=Metat...   120   1e-25
+UniRef90_UPI0004EFDE6E PREDICTED: SH3 domain-containing kinase-b...   119   4e-25
+UniRef90_U3JNR8 Uncharacterized protein n=8 Tax=Aves RepID=U3JNR...   118   5e-25
+UniRef90_UPI0003D0E141 PREDICTED: SH3 domain-containing kinase-b...   118   6e-25
+UniRef90_UPI0002B483B0 PREDICTED: SH3 domain-containing kinase-b...   118   6e-25
+UniRef90_UPI000528D480 PREDICTED: SH3 domain-containing kinase-b...   118   6e-25
+UniRef90_UPI0004434D2C PREDICTED: SH3 domain-containing kinase-b...   118   8e-25
+UniRef90_F7DH99 Uncharacterized protein n=5 Tax=Monodelphis dome...   117   9e-25
+UniRef90_Q5ZMQ7 Uncharacterized protein n=41 Tax=Aves RepID=Q5ZM...   117   1e-24
+UniRef90_UPI0005323162 PREDICTED: SH3 domain-containing kinase-b...   117   1e-24
+UniRef90_UPI000549A922 PREDICTED: SH3 domain-containing kinase-b...   117   1e-24
+UniRef90_F6ZB43 Uncharacterized protein n=1 Tax=Ornithorhynchus ...   117   1e-24
+UniRef90_UPI00015A9ACE PREDICTED: SH3 domain-containing kinase-b...   116   2e-24
+UniRef90_K7FFR3 Uncharacterized protein n=5 Tax=Cryptodira RepID...   116   2e-24
+UniRef90_UPI0004544852 PREDICTED: SH3 domain-containing kinase-b...   116   2e-24
+UniRef90_UPI00045455F9 PREDICTED: SH3 domain-containing kinase-b...   116   2e-24
+UniRef90_G3UQL4 Uncharacterized protein (Fragment) n=1 Tax=Melea...   116   3e-24
+UniRef90_UPI00045481B9 PREDICTED: SH3 domain-containing kinase-b...   116   3e-24
+UniRef90_G1NP95 Uncharacterized protein (Fragment) n=9 Tax=Neogn...   115   3e-24
+UniRef90_UPI00046C0BF0 PREDICTED: SH3 domain-containing kinase-b...   115   3e-24
+UniRef90_H9KY00 Uncharacterized protein (Fragment) n=1 Tax=Calli...   115   4e-24
+UniRef90_UPI00046BEEA1 PREDICTED: SH3 domain-containing kinase-b...   115   5e-24
+UniRef90_UPI000523DE4D PREDICTED: SH3 domain-containing kinase-b...   115   5e-24
+UniRef90_A0A091D1W7 Mitogen-activated protein kinase kinase kina...   115   5e-24
+UniRef90_UPI000441E16F PREDICTED: SH3 domain-containing kinase-b...   113   2e-23
+UniRef90_U3IHT0 Uncharacterized protein (Fragment) n=12 Tax=Neog...   113   2e-23
+UniRef90_L9JDM3 SH3 domain-containing kinase-binding protein 1 n...   111   7e-23
+UniRef90_S9WB56 SH3 domain-containing kinase-binding protein 1 i...   109   2e-22
+UniRef90_Q925Q9-5 Isoform 5 of SH3 domain-containing kinase-bind...   103   2e-20
+UniRef90_F6YKG4 Uncharacterized protein (Fragment) n=1 Tax=Xenop...   101   9e-20
+UniRef90_B2GUQ4 Sh3kbp1 protein (Fragment) n=3 Tax=Xenopus tropi...   101   9e-20
+UniRef90_F7HL05 Uncharacterized protein n=1 Tax=Callithrix jacch...   100   1e-19
+UniRef90_H9KYK2 Uncharacterized protein (Fragment) n=1 Tax=Calli...    99   3e-19
+UniRef90_F6X5Z0 Uncharacterized protein n=1 Tax=Callithrix jacch...    95   8e-18
+UniRef90_M7AMD3 SH3 domain-containing kinase-binding protein 1 n...    94   2e-17
+UniRef90_A0A091V1C5 SH3 domain-containing kinase-binding protein...    94   2e-17
+UniRef90_V9KG33 SH3-domain kinase-binding protein 1 n=3 Tax=Call...    87   2e-15
+UniRef90_W5M772 Uncharacterized protein (Fragment) n=1 Tax=Lepis...    82   7e-14
+UniRef90_G1KMG7 Uncharacterized protein n=1 Tax=Anolis carolinen...    74   1e-11
+UniRef90_E9QJP6 Uncharacterized protein n=2 Tax=Danio rerio RepI...    70   2e-10
+UniRef90_UPI000440A78E PREDICTED: SH3 domain-containing kinase-b...    70   2e-10
+UniRef90_W5KL58 Uncharacterized protein n=4 Tax=Astyanax mexican...    70   2e-10
+UniRef90_E7FAT0 Uncharacterized protein n=3 Tax=Danio rerio RepI...    70   2e-10
+UniRef90_A0A060WNS8 Oncorhynchus mykiss genomic scaffold, scaffo...    70   2e-10
+UniRef90_Q4SFM6 Chromosome 7 SCAF14601, whole genome shotgun seq...    69   6e-10
+UniRef90_UPI00042C1A03 PREDICTED: LOW QUALITY PROTEIN: SH3 domai...    67   1e-09
+UniRef90_UPI0003EAD8F3 PREDICTED: SH3 domain-containing kinase-b...    67   2e-09
+UniRef90_UPI0004626132 PREDICTED: SH3 domain-containing kinase-b...    67   3e-09
+UniRef90_UPI000498227C PREDICTED: SH3 domain-containing kinase-b...    66   3e-09
+UniRef90_UPI0004969E85 PREDICTED: SH3 domain-containing kinase-b...    66   3e-09
+UniRef90_UPI00049760CE PREDICTED: SH3 domain-containing kinase-b...    66   4e-09
+UniRef90_UPI000555528C PREDICTED: SH3 domain-containing kinase-b...    66   4e-09
+UniRef90_A0A060WY15 Oncorhynchus mykiss genomic scaffold, scaffo...    65   5e-09
+UniRef90_UPI0004975D47 PREDICTED: SH3 domain-containing kinase-b...    65   6e-09
+UniRef90_UPI0003836CD2 PREDICTED: SH3 domain-containing kinase-b...    65   7e-09
+UniRef90_M3ZN33 Uncharacterized protein (Fragment) n=1 Tax=Xipho...    65   7e-09
+UniRef90_E9QGJ0 Uncharacterized protein n=1 Tax=Danio rerio RepI...    65   7e-09
+UniRef90_UPI000576C885 PREDICTED: SH3 domain-containing kinase-b...    65   8e-09
+UniRef90_UPI0004A39303 PREDICTED: SH3 domain-containing kinase-b...    65   8e-09
+UniRef90_UPI00057666B4 PREDICTED: SH3 domain-containing kinase-b...    65   8e-09
+UniRef90_UPI0005772F34 PREDICTED: SH3 domain-containing kinase-b...    65   8e-09
+UniRef90_UPI0004447534 PREDICTED: SH3 domain-containing kinase-b...    65   8e-09
+UniRef90_UPI00054B8E4E PREDICTED: SH3 domain-containing kinase-b...    65   9e-09
+UniRef90_A0A087XJ82 Uncharacterized protein n=5 Tax=Poeciliinae ...    65   9e-09
+UniRef90_UPI0004A2EFBB PREDICTED: SH3 domain-containing kinase-b...    65   9e-09
+UniRef90_UPI00057812F2 PREDICTED: SH3 domain-containing kinase-b...    65   9e-09
+UniRef90_B5X4S2 SH3 domain-containing kinase-binding protein 1 n...    64   1e-08
+UniRef90_E6ZJD9 SH3 domain-containing kinase-binding protein 1 n...    64   1e-08
+UniRef90_E6ZJE0 SH3 domain-containing kinase-binding protein 1 n...    64   2e-08
+UniRef90_UPI0004957BED PREDICTED: SH3 domain-containing kinase-b...    64   2e-08
+UniRef90_H3C8P9 Uncharacterized protein (Fragment) n=2 Tax=Tetra...    64   2e-08
+UniRef90_UPI0004982D2D PREDICTED: SH3 domain-containing kinase-b...    63   2e-08
+UniRef90_UPI0003944B1D PREDICTED: SH3 domain-containing kinase-b...    63   4e-08
+UniRef90_G3NPA9 Uncharacterized protein (Fragment) n=1 Tax=Gaste...    62   4e-08
+UniRef90_H2SX56 Uncharacterized protein (Fragment) n=5 Tax=Takif...    62   5e-08
+UniRef90_A0A060XIL9 Oncorhynchus mykiss genomic scaffold, scaffo...    62   6e-08
+UniRef90_H2SX58 Uncharacterized protein (Fragment) n=2 Tax=Takif...    62   6e-08
+UniRef90_UPI0003BCDF49 PREDICTED: SH3 domain-containing kinase-b...    62   8e-08
+UniRef90_I3JH37 Uncharacterized protein n=1 Tax=Oreochromis nilo...    61   9e-08
+UniRef90_UPI000394646F PREDICTED: SH3 domain-containing kinase-b...    61   9e-08
+UniRef90_UPI00039467AE PREDICTED: SH3 domain-containing kinase-b...    61   1e-07
+UniRef90_UPI000329E104 PREDICTED: SH3 domain-containing kinase-b...    61   1e-07
+UniRef90_UPI0004957EA6 PREDICTED: SH3 domain-containing kinase-b...    60   2e-07
+UniRef90_UPI000329CA88 PREDICTED: SH3 domain-containing kinase-b...    60   2e-07
+UniRef90_UPI000440FD1C PREDICTED: SH3 domain-containing kinase-b...    60   2e-07
+UniRef90_H2MGE4 Uncharacterized protein (Fragment) n=1 Tax=Oryzi...    59   4e-07
+UniRef90_UPI00054C27B4 PREDICTED: SH3 domain-containing kinase-b...    59   4e-07
+UniRef90_UPI0002A4BC70 PREDICTED: SH3 domain-containing kinase-b...    59   4e-07
+UniRef90_UPI0002A4A97A PREDICTED: SH3 domain-containing kinase-b...    59   5e-07
+UniRef90_UPI0003AFF03E PREDICTED: SH3 domain-containing kinase-b...    58   8e-07
+UniRef90_H3AXY0 Uncharacterized protein (Fragment) n=1 Tax=Latim...    58   1e-06
+UniRef90_UPI00044411B1 PREDICTED: SH3 domain-containing kinase-b...    55   6e-06
+UniRef90_Q4S1M8 Chromosome 6 SCAF14768, whole genome shotgun seq...    55   9e-06
+UniRef90_UPI0003945560 PREDICTED: CD2-associated protein-like is...    54   1e-05
+UniRef90_G1NNA4 Uncharacterized protein (Fragment) n=5 Tax=Phasi...    54   2e-05
+UniRef90_UPI0003B6F6F3 PREDICTED: SH3 domain-containing kinase-b...    54   2e-05
+UniRef90_C3ZNS2 Putative uncharacterized protein n=1 Tax=Branchi...    54   2e-05
+UniRef90_UPI000329EA09 PREDICTED: CD2-associated protein-like is...    53   2e-05
+UniRef90_A0A060VPI1 Oncorhynchus mykiss genomic scaffold, scaffo...    53   2e-05
+UniRef90_F1NAW2 Uncharacterized protein n=1 Tax=Gallus gallus Re...    53   3e-05
+UniRef90_UPI0003AF7F35 PREDICTED: CD2-associated protein-like n=...    53   4e-05
+UniRef90_R0LU42 SH3 domain-containing kinase-binding protein 1 n...    52   5e-05
+UniRef90_UPI0003833DD8 PREDICTED: CD2-associated protein n=1 Tax...    52   5e-05
+UniRef90_W5UTE1 CD2-associated protein n=1 Tax=Ictalurus punctat...    52   7e-05
+UniRef90_V9KAZ4 CD2-associated protein n=2 Tax=Callorhynchus mil...    52   7e-05
+UniRef90_UPI0004BF04FC PREDICTED: CD2-associated protein n=1 Tax...    52   7e-05
+UniRef90_W5KS86 Uncharacterized protein n=2 Tax=Astyanax mexican...    51   1e-04
+UniRef90_H3DPC9 Uncharacterized protein n=2 Tax=Tetraodon nigrov...    51   1e-04
+UniRef90_UPI0005767DF5 PREDICTED: CD2-associated protein isoform...    51   1e-04
+UniRef90_V8P3I8 SH3 domain-containing kinase-binding protein 1 n...    50   2e-04
+UniRef90_H2V574 Uncharacterized protein (Fragment) n=2 Tax=Takif...    50   2e-04
+UniRef90_A0A093H5D8 CD2-associated protein (Fragment) n=2 Tax=St...    50   2e-04
+UniRef90_H2V571 Uncharacterized protein (Fragment) n=1 Tax=Takif...    50   2e-04
+UniRef90_H2V572 Uncharacterized protein (Fragment) n=1 Tax=Takif...    50   2e-04
+UniRef90_H2V573 Uncharacterized protein (Fragment) n=2 Tax=Takif...    50   2e-04
+UniRef90_UPI000298B68D PREDICTED: CD2-associated protein-like n=...    50   2e-04
+UniRef90_W4XCU3 Uncharacterized protein n=1 Tax=Strongylocentrot...    50   3e-04
+UniRef90_UPI0002651818 PREDICTED: SH3 domain-containing kinase-b...    50   3e-04
+UniRef90_UPI00054DAC34 PREDICTED: SH3 domain-containing kinase-b...    50   3e-04
+UniRef90_H0ZSK8 Uncharacterized protein (Fragment) n=10 Tax=Pass...    50   3e-04
+UniRef90_UPI000398F76E PREDICTED: CD2-associated protein n=1 Tax...    50   3e-04
+UniRef90_UPI0005285785 PREDICTED: CD2-associated protein n=1 Tax...    49   4e-04
+UniRef90_A0A091N8N4 CD2-associated protein (Fragment) n=2 Tax=Ac...    49   4e-04
+UniRef90_UPI0005294CF4 PREDICTED: CD2-associated protein n=1 Tax...    49   4e-04
+UniRef90_UPI000523AB10 PREDICTED: CD2-associated protein n=1 Tax...    49   4e-04
+UniRef90_UPI00032AFE74 PREDICTED: CD2-associated protein n=1 Tax...    49   4e-04
+UniRef90_D5XMF7 CD2-associated protein n=5 Tax=Neognathae RepID=...    49   5e-04
+UniRef90_A0A093GVB0 CD2-associated protein (Fragment) n=8 Tax=Ne...    49   5e-04
+UniRef90_A0A087Y318 Uncharacterized protein n=6 Tax=Poecilia Rep...    49   6e-04
+UniRef90_A0A096LW77 Uncharacterized protein (Fragment) n=1 Tax=P...    49   6e-04
+UniRef90_UPI000454AFED PREDICTED: LOW QUALITY PROTEIN: CD2-assoc...    49   6e-04
+UniRef90_M3ZEU7 Uncharacterized protein n=1 Tax=Xiphophorus macu...    49   6e-04
+UniRef90_UPI0004A4A33F PREDICTED: CD2-associated protein isoform...    49   7e-04
+UniRef90_UPI0004A470FD PREDICTED: CD2-associated protein isoform...    49   7e-04
+UniRef90_A0A087VCL9 CD2-associated protein (Fragment) n=2 Tax=Ba...    49   7e-04
+UniRef90_UPI00054BC5E5 PREDICTED: CD2-associated protein isoform...    49   7e-04
+UniRef90_A0A099Z7B3 CD2-associated protein (Fragment) n=2 Tax=Ti...    48   8e-04
+UniRef90_UPI000523541C PREDICTED: CD2-associated protein-like, p...    48   8e-04
+UniRef90_UPI0003C2853F PREDICTED: CD2-associated protein n=2 Tax...    48   9e-04
+UniRef90_D8KW66 CD2-associated protein n=25 Tax=Neognathae RepID...    48   0.001
+UniRef90_UPI0004EFC7F2 PREDICTED: CD2-associated protein n=1 Tax...    47   0.001
+UniRef90_G3NJU9 Uncharacterized protein (Fragment) n=1 Tax=Gaste...    47   0.001
+UniRef90_U3J4Y7 Uncharacterized protein (Fragment) n=2 Tax=Anas ...    47   0.001
+UniRef90_W5NID0 Uncharacterized protein n=2 Tax=Lepisosteus ocul...    47   0.001
+UniRef90_W5NIC7 Uncharacterized protein n=1 Tax=Lepisosteus ocul...    47   0.001
+UniRef90_B2GU86 LOC100158527 protein n=3 Tax=Xenopus tropicalis ...    47   0.001
+UniRef90_G5BVG7 CD2-associated protein (Fragment) n=5 Tax=Hetero...    47   0.001
+UniRef90_G5ASY7 CD2-associated protein n=1 Tax=Heterocephalus gl...    47   0.002
+UniRef90_G1SN22 Uncharacterized protein n=13 Tax=Euarchontoglire...    47   0.002
+UniRef90_UPI000497270F PREDICTED: CD2-associated protein isoform...    47   0.002
+UniRef90_H3B383 Uncharacterized protein n=2 Tax=Latimeria chalum...    47   0.002
+UniRef90_UPI0003C90C8C PREDICTED: CD2-associated protein n=1 Tax...    47   0.002
+UniRef90_K1QMP9 SH3 domain-containing kinase-binding protein 1 n...    47   0.003
+UniRef90_UPI0004955373 PREDICTED: CD2-associated protein n=1 Tax...    46   0.003
+UniRef90_Q9Y5K6 CD2-associated protein n=12 Tax=Boreoeutheria Re...    46   0.003
+UniRef90_F1R1N9 Uncharacterized protein n=3 Tax=Danio rerio RepI...    46   0.003
+UniRef90_H2QT49 CD2-associated protein n=15 Tax=Boreoeutheria Re...    46   0.003
+UniRef90_UPI0003336784 PREDICTED: CD2-associated protein n=1 Tax...    46   0.004
+UniRef90_A0A091DVU9 CD2-associated protein (Fragment) n=2 Tax=Fu...    46   0.004
+UniRef90_I3JGX8 Uncharacterized protein (Fragment) n=1 Tax=Oreoc...    46   0.004
+UniRef90_UPI00044391D2 PREDICTED: CD2-associated protein n=1 Tax...    45   0.006
+UniRef90_V8P1P7 CD2-associated protein n=3 Tax=Colubroidea RepID...    45   0.006
+UniRef90_K7FES7 Uncharacterized protein n=2 Tax=Pelodiscus sinen...    45   0.006
+UniRef90_UPI0003AE917B PREDICTED: CD2-associated protein-like n=...    45   0.008
+UniRef90_G1L402 Uncharacterized protein (Fragment) n=7 Tax=Canif...    45   0.010
+UniRef90_UPI0003332511 PREDICTED: CD2-associated protein n=1 Tax...    45   0.010
+UniRef90_G3SN92 Uncharacterized protein (Fragment) n=2 Tax=Loxod...    45   0.011
+UniRef90_UPI0003347396 PREDICTED: CD2-associated protein n=1 Tax...    44   0.011
+UniRef90_UPI0004ED33C8 PREDICTED: CD2-associated protein n=1 Tax...    44   0.011
+UniRef90_Q4V7X8 LOC445851 protein n=1 Tax=Xenopus laevis RepID=Q...    44   0.013
+UniRef90_L7MG31 Putative sh3 domain-containing kinase-binding pr...    44   0.013
+UniRef90_UPI00042C4464 PREDICTED: CD2-associated protein isoform...    44   0.015
+UniRef90_UPI0005212F8D PREDICTED: CD2-associated protein-like, p...    44   0.015
+UniRef90_L7MHV7 Putative sh3 domain-containing kinase-binding pr...    44   0.015
+UniRef90_B7Q1G0 Putative uncharacterized protein n=1 Tax=Ixodes ...    44   0.016
+UniRef90_L7MF63 Putative sh3 domain-containing kinase-binding pr...    44   0.017
+UniRef90_H0WJX6 Uncharacterized protein (Fragment) n=14 Tax=Euth...    44   0.019
+UniRef90_UPI00045DFB32 PREDICTED: CD2-associated protein n=1 Tax...    44   0.020
+UniRef90_UPI000350877F PREDICTED: LOW QUALITY PROTEIN: CD2-assoc...    44   0.021
+UniRef90_V5HLP5 Putative sh3 domain-containing kinase-binding pr...    44   0.021
+UniRef90_UPI000529BB88 PREDICTED: LOW QUALITY PROTEIN: probable ...    44   0.024
+UniRef90_I3MVK0 Uncharacterized protein (Fragment) n=1 Tax=Sperm...    44   0.024
+UniRef90_UPI00042BC885 PREDICTED: CD2-associated protein-like n=...    43   0.025
+UniRef90_UPI0003F18192 PREDICTED: CD2-associated protein n=1 Tax...    43   0.030
+UniRef90_UPI000572B3E3 PREDICTED: CD2-associated protein isoform...    42   0.046
+UniRef90_UPI0003317EEE PREDICTED: CD2-associated protein n=1 Tax...    42   0.048
+UniRef90_F1MM14 Uncharacterized protein n=10 Tax=Bovidae RepID=F...    42   0.049
+UniRef90_G1PEH6 Uncharacterized protein (Fragment) n=5 Tax=Vespe...    42   0.053
+UniRef90_UPI0003AF5962 PREDICTED: CD2-associated protein n=2 Tax...    42   0.064
+UniRef90_UPI0004405993 PREDICTED: CD2-associated protein n=1 Tax...    42   0.068
+UniRef90_K9IZ22 Putative adaptor protein cms/seta n=1 Tax=Desmod...    41   0.10 
+UniRef90_UPI000328F82F PREDICTED: CD2-associated protein isoform...    41   0.15 
+UniRef90_UPI0003EA998A PREDICTED: SH3 domain-containing kinase-b...    40   0.19 
+UniRef90_H0VHL8 Uncharacterized protein (Fragment) n=2 Tax=Cavia...    40   0.25 
+UniRef90_A0A087TZU2 SH3 domain-containing kinase-binding protein...    40   0.25 
+UniRef90_UPI000533C73F PREDICTED: CD2-associated protein isoform...    40   0.34 
+UniRef90_W5M550 Uncharacterized protein (Fragment) n=1 Tax=Lepis...    39   0.35 
+UniRef90_R7U1P9 Uncharacterized protein n=1 Tax=Capitella teleta...    39   0.35 
+UniRef90_UPI0005764FF7 PREDICTED: SH3 domain-containing protein ...    39   0.37 
+UniRef90_UPI000521C83A PREDICTED: CD2-associated protein-like, p...    39   0.40 
+UniRef90_F6RJ57 CD2-associated protein n=4 Tax=Cebidae RepID=F6R...    39   0.44 
+UniRef90_B1H1G5 LOC100145355 protein (Fragment) n=3 Tax=Xenopus ...    39   0.49 
+UniRef90_T1JI45 Uncharacterized protein n=1 Tax=Strigamia mariti...    39   0.54 
+UniRef90_B3RYB4 Putative uncharacterized protein n=1 Tax=Trichop...    38   1.3  
+UniRef90_UPI0003835C50 PREDICTED: SH3 domain-containing protein ...    37   1.5  
+UniRef90_UPI0003838365 PREDICTED: SH3 domain-containing protein ...    37   1.6  
+UniRef90_F1R5I9 Uncharacterized protein n=2 Tax=Danio rerio RepI...    37   1.7  
+UniRef90_E7FDC3 Uncharacterized protein n=1 Tax=Danio rerio RepI...    37   1.8  
+UniRef90_UPI0003F0714A PREDICTED: CD2-associated protein n=1 Tax...    37   1.9  
+UniRef90_A0A060YYQ1 Oncorhynchus mykiss genomic scaffold, scaffo...    37   2.4  
+UniRef90_F1REC8 Uncharacterized protein (Fragment) n=1 Tax=Danio...    37   2.5  
+UniRef90_F7CR85 Uncharacterized protein (Fragment) n=1 Tax=Xenop...    36   3.2  
+UniRef90_A8A8L3 Uncharacterized protein n=1 Tax=Ignicoccus hospi...    36   3.5  
+UniRef90_UPI00051BBF7C PREDICTED: SH3 domain-containing protein ...    36   3.8  
+UniRef90_M7ASZ2 CD2-associated protein n=1 Tax=Chelonia mydas Re...    36   4.2  
+UniRef90_UPI0003C12A73 PREDICTED: SH3 domain-containing kinase-b...    35   6.4  
+UniRef90_UPI0002657F00 PREDICTED: uncharacterized protein LOC100...    35   6.4  
+UniRef90_B0BLY6 LOC100137714 protein n=1 Tax=Xenopus laevis RepI...    35   7.2  
+UniRef90_W5K2S7 Uncharacterized protein n=1 Tax=Astyanax mexican...    35   7.2  
+UniRef90_W5K2S2 Uncharacterized protein n=1 Tax=Astyanax mexican...    35   7.3  
+UniRef90_L5JN88 CD2-associated protein n=2 Tax=Pteropus alecto R...    35   7.5  
+UniRef90_A0A061BJ42 Uncharacterized protein n=1 Tax=Babesia bige...    35   7.6  
+UniRef90_UPI000497A244 PREDICTED: SH3 domain-containing protein ...    35   8.5  
+UniRef90_A7BY72 ATPase n=1 Tax=Beggiatoa sp. PS RepID=A7BY72_9GAMM     35   8.6  
+UniRef90_T1G9C4 Uncharacterized protein n=1 Tax=Helobdella robus...    35   9.0  
+UniRef90_A0A091QXL0 CD2-associated protein (Fragment) n=2 Tax=Me...    35   9.9  
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_UPI0003AF6260 PREDICTED: SH3 domain-containing kinase-b...   114   7e-24
+UniRef90_UPI00038BB3CA PREDICTED: SH3 domain-containing kinase-b...   114   8e-24
+UniRef90_H0WKT1 Uncharacterized protein n=26 Tax=Eutheria RepID=...   111   9e-23
+UniRef90_Q5JPT2 SH3 domain-containing kinase-binding protein 1 (...   110   2e-22
+UniRef90_UPI0003AB6191 PREDICTED: SH3 domain-containing kinase-b...   110   2e-22
+UniRef90_UPI0003F1BF34 PREDICTED: SH3 domain-containing kinase-b...   109   2e-22
+UniRef90_UPI00051E4C86 PREDICTED: SH3 domain-containing kinase-b...   109   3e-22
+UniRef90_Q96B97 SH3 domain-containing kinase-binding protein 1 n...   109   3e-22
+UniRef90_UPI00046B2ECE PREDICTED: SH3 domain-containing kinase-b...   108   4e-22
+UniRef90_F6ZB43 Uncharacterized protein n=1 Tax=Ornithorhynchus ...   108   6e-22
+UniRef90_G1TH36 Uncharacterized protein n=15 Tax=Eutheria RepID=...   108   6e-22
+UniRef90_A0A096NYA0 Uncharacterized protein n=1 Tax=Papio anubis...   108   7e-22
+UniRef90_A0A061HZT7 Src homology-3 domain containing protein n=3...   107   9e-22
+UniRef90_UPI0002740CA5 PREDICTED: SH3 domain-containing kinase-b...   107   1e-21
+UniRef90_UPI00020AB6DA PREDICTED: SH3 domain-containing kinase-b...   107   1e-21
+UniRef90_G3H5K9 SH3 domain-containing kinase-binding protein 1 n...   106   2e-21
+UniRef90_Q96B97-3 Isoform 3 of SH3 domain-containing kinase-bind...   106   2e-21
+UniRef90_Q8R550-4 Isoform 4 of SH3 domain-containing kinase-bind...   106   2e-21
+UniRef90_UPI0004544852 PREDICTED: SH3 domain-containing kinase-b...   105   4e-21
+UniRef90_A0A091CX59 SH3 domain-containing kinase-binding protein...   105   4e-21
+UniRef90_UPI00045481B9 PREDICTED: SH3 domain-containing kinase-b...   105   5e-21
+UniRef90_UPI0003D7155C PREDICTED: SH3 domain-containing kinase-b...   105   7e-21
+UniRef90_UPI00045455F9 PREDICTED: SH3 domain-containing kinase-b...   105   7e-21
+UniRef90_U3JNR8 Uncharacterized protein n=8 Tax=Aves RepID=U3JNR...   104   9e-21
+UniRef90_UPI0004ED62FF PREDICTED: SH3 domain-containing kinase-b...   104   1e-20
+UniRef90_F7CTV5 Uncharacterized protein (Fragment) n=18 Tax=Bore...   104   1e-20
+UniRef90_UPI00046BEEA1 PREDICTED: SH3 domain-containing kinase-b...   103   2e-20
+UniRef90_U6D0W3 SH3-domain kinase-binding protein 1 (Fragment) n...   103   2e-20
+UniRef90_Q5ZMQ7 Uncharacterized protein n=41 Tax=Aves RepID=Q5ZM...   103   2e-20
+UniRef90_UPI00042AA9A4 PREDICTED: SH3 domain-containing kinase-b...   103   3e-20
+UniRef90_UPI00015A9ACE PREDICTED: SH3 domain-containing kinase-b...   103   3e-20
+UniRef90_UPI00046C0BF0 PREDICTED: SH3 domain-containing kinase-b...   102   3e-20
+UniRef90_UPI000273A7DB PREDICTED: uncharacterized protein LOC100...   102   3e-20
+UniRef90_UPI0002B483B0 PREDICTED: SH3 domain-containing kinase-b...   102   3e-20
+UniRef90_G3WLM4 Uncharacterized protein (Fragment) n=2 Tax=Metat...   102   4e-20
+UniRef90_Q925Q9 SH3 domain-containing kinase-binding protein 1 n...   102   4e-20
+UniRef90_UPI0004EFDE6E PREDICTED: SH3 domain-containing kinase-b...   102   4e-20
+UniRef90_W5M772 Uncharacterized protein (Fragment) n=1 Tax=Lepis...   101   5e-20
+UniRef90_G3UQL4 Uncharacterized protein (Fragment) n=1 Tax=Melea...   101   8e-20
+UniRef90_Q8R550-6 Isoform 6 of SH3 domain-containing kinase-bind...   100   1e-19
+UniRef90_K7FFR3 Uncharacterized protein n=5 Tax=Cryptodira RepID...   100   1e-19
+UniRef90_G1NP95 Uncharacterized protein (Fragment) n=9 Tax=Neogn...   100   1e-19
+UniRef90_G5C0L8 SH3 domain-containing kinase-binding protein 1 n...   100   2e-19
+UniRef90_Q8R550-8 Isoform 8 of SH3 domain-containing kinase-bind...   100   3e-19
+UniRef90_UPI000549A922 PREDICTED: SH3 domain-containing kinase-b...   100   3e-19
+UniRef90_B0R0Y8 SH3 domain-containing kinase-binding protein 1 (...    99   4e-19
+UniRef90_A0A091D1W7 Mitogen-activated protein kinase kinase kina...    99   5e-19
+UniRef90_UPI0004434D2C PREDICTED: SH3 domain-containing kinase-b...    99   5e-19
+UniRef90_K7GK80 Uncharacterized protein (Fragment) n=1 Tax=Sus s...    99   5e-19
+UniRef90_UPI0003D0E141 PREDICTED: SH3 domain-containing kinase-b...    98   7e-19
+UniRef90_U3IHT0 Uncharacterized protein (Fragment) n=12 Tax=Neog...    98   8e-19
+UniRef90_I3NB90 Uncharacterized protein (Fragment) n=1 Tax=Sperm...    98   9e-19
+UniRef90_H9KY00 Uncharacterized protein (Fragment) n=1 Tax=Calli...    97   1e-18
+UniRef90_F7DH99 Uncharacterized protein n=5 Tax=Monodelphis dome...    97   1e-18
+UniRef90_UPI0005323162 PREDICTED: SH3 domain-containing kinase-b...    95   7e-18
+UniRef90_UPI000528D480 PREDICTED: SH3 domain-containing kinase-b...    95   7e-18
+UniRef90_UPI000441E16F PREDICTED: SH3 domain-containing kinase-b...    95   8e-18
+UniRef90_UPI00045D9C95 PREDICTED: SH3 domain-containing kinase-b...    93   3e-17
+UniRef90_V9KG33 SH3-domain kinase-binding protein 1 n=3 Tax=Call...    90   2e-16
+UniRef90_E6ZJD9 SH3 domain-containing kinase-binding protein 1 n...    89   4e-16
+UniRef90_H2SX56 Uncharacterized protein (Fragment) n=5 Tax=Takif...    89   5e-16
+UniRef90_S9WB56 SH3 domain-containing kinase-binding protein 1 i...    88   7e-16
+UniRef90_H3C8P9 Uncharacterized protein (Fragment) n=2 Tax=Tetra...    88   1e-15
+UniRef90_F6YKG4 Uncharacterized protein (Fragment) n=1 Tax=Xenop...    88   1e-15
+UniRef90_E6ZJE0 SH3 domain-containing kinase-binding protein 1 n...    88   1e-15
+UniRef90_F7HL05 Uncharacterized protein n=1 Tax=Callithrix jacch...    87   2e-15
+UniRef90_M7AMD3 SH3 domain-containing kinase-binding protein 1 n...    87   2e-15
+UniRef90_B2GUQ4 Sh3kbp1 protein (Fragment) n=3 Tax=Xenopus tropi...    86   3e-15
+UniRef90_UPI000576C885 PREDICTED: SH3 domain-containing kinase-b...    86   3e-15
+UniRef90_L9JDM3 SH3 domain-containing kinase-binding protein 1 n...    86   4e-15
+UniRef90_UPI00049760CE PREDICTED: SH3 domain-containing kinase-b...    86   4e-15
+UniRef90_UPI000498227C PREDICTED: SH3 domain-containing kinase-b...    85   5e-15
+UniRef90_UPI0002A4BC70 PREDICTED: SH3 domain-containing kinase-b...    85   7e-15
+UniRef90_G3NPA9 Uncharacterized protein (Fragment) n=1 Tax=Gaste...    85   9e-15
+UniRef90_H2SX58 Uncharacterized protein (Fragment) n=2 Tax=Takif...    85   1e-14
+UniRef90_UPI0004969E85 PREDICTED: SH3 domain-containing kinase-b...    84   1e-14
+UniRef90_UPI000555528C PREDICTED: SH3 domain-containing kinase-b...    84   1e-14
+UniRef90_A0A060XIL9 Oncorhynchus mykiss genomic scaffold, scaffo...    84   1e-14
+UniRef90_UPI0004A2EFBB PREDICTED: SH3 domain-containing kinase-b...    84   1e-14
+UniRef90_A0A060WNS8 Oncorhynchus mykiss genomic scaffold, scaffo...    84   2e-14
+UniRef90_E9QJP6 Uncharacterized protein n=2 Tax=Danio rerio RepI...    84   2e-14
+UniRef90_UPI00057666B4 PREDICTED: SH3 domain-containing kinase-b...    84   2e-14
+UniRef90_UPI0004A39303 PREDICTED: SH3 domain-containing kinase-b...    84   2e-14
+UniRef90_A0A060WY15 Oncorhynchus mykiss genomic scaffold, scaffo...    84   2e-14
+UniRef90_H2MGE4 Uncharacterized protein (Fragment) n=1 Tax=Oryzi...    83   2e-14
+UniRef90_UPI0003944B1D PREDICTED: SH3 domain-containing kinase-b...    83   2e-14
+UniRef90_G1KMG7 Uncharacterized protein n=1 Tax=Anolis carolinen...    83   2e-14
+UniRef90_UPI000394646F PREDICTED: SH3 domain-containing kinase-b...    83   2e-14
+UniRef90_UPI0004975D47 PREDICTED: SH3 domain-containing kinase-b...    83   3e-14
+UniRef90_UPI00057812F2 PREDICTED: SH3 domain-containing kinase-b...    83   3e-14
+UniRef90_UPI0004957BED PREDICTED: SH3 domain-containing kinase-b...    83   3e-14
+UniRef90_UPI0004447534 PREDICTED: SH3 domain-containing kinase-b...    83   3e-14
+UniRef90_UPI0005772F34 PREDICTED: SH3 domain-containing kinase-b...    83   4e-14
+UniRef90_A0A091V1C5 SH3 domain-containing kinase-binding protein...    82   5e-14
+UniRef90_UPI0003BCDF49 PREDICTED: SH3 domain-containing kinase-b...    82   5e-14
+UniRef90_M3ZN33 Uncharacterized protein (Fragment) n=1 Tax=Xipho...    82   5e-14
+UniRef90_H9KYK2 Uncharacterized protein (Fragment) n=1 Tax=Calli...    82   5e-14
+UniRef90_A0A087XJ82 Uncharacterized protein n=5 Tax=Poeciliinae ...    82   6e-14
+UniRef90_I3JH37 Uncharacterized protein n=1 Tax=Oreochromis nilo...    82   6e-14
+UniRef90_Q4SFM6 Chromosome 7 SCAF14601, whole genome shotgun seq...    82   7e-14
+UniRef90_UPI00039467AE PREDICTED: SH3 domain-containing kinase-b...    82   8e-14
+UniRef90_E7FAT0 Uncharacterized protein n=3 Tax=Danio rerio RepI...    81   9e-14
+UniRef90_UPI000329E104 PREDICTED: SH3 domain-containing kinase-b...    81   1e-13
+UniRef90_UPI00054B8E4E PREDICTED: SH3 domain-containing kinase-b...    81   1e-13
+UniRef90_F1NAW2 Uncharacterized protein n=1 Tax=Gallus gallus Re...    81   1e-13
+UniRef90_UPI000440A78E PREDICTED: SH3 domain-containing kinase-b...    80   2e-13
+UniRef90_G1NNA4 Uncharacterized protein (Fragment) n=5 Tax=Phasi...    80   2e-13
+UniRef90_H2V574 Uncharacterized protein (Fragment) n=2 Tax=Takif...    80   2e-13
+UniRef90_UPI0003EAD8F3 PREDICTED: SH3 domain-containing kinase-b...    80   3e-13
+UniRef90_UPI000440FD1C PREDICTED: SH3 domain-containing kinase-b...    80   3e-13
+UniRef90_B5X4S2 SH3 domain-containing kinase-binding protein 1 n...    80   3e-13
+UniRef90_UPI0003945560 PREDICTED: CD2-associated protein-like is...    79   5e-13
+UniRef90_W5KL58 Uncharacterized protein n=4 Tax=Astyanax mexican...    79   6e-13
+UniRef90_UPI000329EA09 PREDICTED: CD2-associated protein-like is...    79   6e-13
+UniRef90_A0A060VPI1 Oncorhynchus mykiss genomic scaffold, scaffo...    78   6e-13
+UniRef90_UPI00032AFE74 PREDICTED: CD2-associated protein n=1 Tax...    78   1e-12
+UniRef90_UPI0003C2853F PREDICTED: CD2-associated protein n=2 Tax...    78   1e-12
+UniRef90_UPI000454AFED PREDICTED: LOW QUALITY PROTEIN: CD2-assoc...    78   1e-12
+UniRef90_UPI0003836CD2 PREDICTED: SH3 domain-containing kinase-b...    78   1e-12
+UniRef90_UPI0004982D2D PREDICTED: SH3 domain-containing kinase-b...    77   2e-12
+UniRef90_UPI000398F76E PREDICTED: CD2-associated protein n=1 Tax...    77   2e-12
+UniRef90_H2V572 Uncharacterized protein (Fragment) n=1 Tax=Takif...    77   2e-12
+UniRef90_H2V571 Uncharacterized protein (Fragment) n=1 Tax=Takif...    77   2e-12
+UniRef90_W5KS86 Uncharacterized protein n=2 Tax=Astyanax mexican...    77   2e-12
+UniRef90_UPI0005767DF5 PREDICTED: CD2-associated protein isoform...    77   2e-12
+UniRef90_F6X5Z0 Uncharacterized protein n=1 Tax=Callithrix jacch...    76   3e-12
+UniRef90_H2V573 Uncharacterized protein (Fragment) n=2 Tax=Takif...    76   4e-12
+UniRef90_H3DPC9 Uncharacterized protein n=2 Tax=Tetraodon nigrov...    76   4e-12
+UniRef90_UPI00054BC5E5 PREDICTED: CD2-associated protein isoform...    76   5e-12
+UniRef90_UPI000523AB10 PREDICTED: CD2-associated protein n=1 Tax...    76   5e-12
+UniRef90_UPI0004BF04FC PREDICTED: CD2-associated protein n=1 Tax...    75   6e-12
+UniRef90_A0A093H5D8 CD2-associated protein (Fragment) n=2 Tax=St...    75   8e-12
+UniRef90_UPI000298B68D PREDICTED: CD2-associated protein-like n=...    75   8e-12
+UniRef90_UPI000329CA88 PREDICTED: SH3 domain-containing kinase-b...    75   8e-12
+UniRef90_D5XMF7 CD2-associated protein n=5 Tax=Neognathae RepID=...    75   9e-12
+UniRef90_UPI0003833DD8 PREDICTED: CD2-associated protein n=1 Tax...    74   1e-11
+UniRef90_D8KW66 CD2-associated protein n=25 Tax=Neognathae RepID...    74   1e-11
+UniRef90_Q4S1M8 Chromosome 6 SCAF14768, whole genome shotgun seq...    74   1e-11
+UniRef90_H0ZSK8 Uncharacterized protein (Fragment) n=10 Tax=Pass...    74   1e-11
+UniRef90_UPI0005294CF4 PREDICTED: CD2-associated protein n=1 Tax...    74   1e-11
+UniRef90_Q925Q9-5 Isoform 5 of SH3 domain-containing kinase-bind...    74   1e-11
+UniRef90_W5UTE1 CD2-associated protein n=1 Tax=Ictalurus punctat...    74   2e-11
+UniRef90_V9KAZ4 CD2-associated protein n=2 Tax=Callorhynchus mil...    73   2e-11
+UniRef90_A0A093GVB0 CD2-associated protein (Fragment) n=8 Tax=Ne...    73   2e-11
+UniRef90_UPI0005285785 PREDICTED: CD2-associated protein n=1 Tax...    73   2e-11
+UniRef90_UPI0003AFF03E PREDICTED: SH3 domain-containing kinase-b...    72   4e-11
+UniRef90_UPI000523DE4D PREDICTED: SH3 domain-containing kinase-b...    72   5e-11
+UniRef90_A0A099Z7B3 CD2-associated protein (Fragment) n=2 Tax=Ti...    72   6e-11
+UniRef90_A0A091N8N4 CD2-associated protein (Fragment) n=2 Tax=Ac...    72   8e-11
+UniRef90_UPI00054C27B4 PREDICTED: SH3 domain-containing kinase-b...    71   9e-11
+UniRef90_E9QGJ0 Uncharacterized protein n=1 Tax=Danio rerio RepI...    71   1e-10
+UniRef90_UPI0004626132 PREDICTED: SH3 domain-containing kinase-b...    70   2e-10
+UniRef90_A0A096LW77 Uncharacterized protein (Fragment) n=1 Tax=P...    70   2e-10
+UniRef90_UPI00044411B1 PREDICTED: SH3 domain-containing kinase-b...    70   2e-10
+UniRef90_W4XCU3 Uncharacterized protein n=1 Tax=Strongylocentrot...    70   2e-10
+UniRef90_A0A087VCL9 CD2-associated protein (Fragment) n=2 Tax=Ba...    70   3e-10
+UniRef90_H3AXY0 Uncharacterized protein (Fragment) n=1 Tax=Latim...    69   4e-10
+UniRef90_UPI0002651818 PREDICTED: SH3 domain-containing kinase-b...    69   5e-10
+UniRef90_UPI0002A4A97A PREDICTED: SH3 domain-containing kinase-b...    69   5e-10
+UniRef90_A0A087Y318 Uncharacterized protein n=6 Tax=Poecilia Rep...    68   9e-10
+UniRef90_UPI000523541C PREDICTED: CD2-associated protein-like, p...    68   1e-09
+UniRef90_UPI0004A4A33F PREDICTED: CD2-associated protein isoform...    67   2e-09
+UniRef90_UPI0003AF7F35 PREDICTED: CD2-associated protein-like n=...    66   3e-09
+UniRef90_M3ZEU7 Uncharacterized protein n=1 Tax=Xiphophorus macu...    66   3e-09
+UniRef90_UPI0004A470FD PREDICTED: CD2-associated protein isoform...    66   3e-09
+UniRef90_C3ZNS2 Putative uncharacterized protein n=1 Tax=Branchi...    64   1e-08
+UniRef90_UPI0003B6F6F3 PREDICTED: SH3 domain-containing kinase-b...    61   9e-08
+UniRef90_UPI00042C1A03 PREDICTED: LOW QUALITY PROTEIN: SH3 domai...    58   6e-07
+UniRef90_UPI0004957EA6 PREDICTED: SH3 domain-containing kinase-b...    58   7e-07
+UniRef90_UPI00054DAC34 PREDICTED: SH3 domain-containing kinase-b...    58   7e-07
+UniRef90_R0LU42 SH3 domain-containing kinase-binding protein 1 n...    52   7e-05
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_G5ASY7 CD2-associated protein n=1 Tax=Heterocephalus gl...    81   1e-13
+UniRef90_G5BVG7 CD2-associated protein (Fragment) n=5 Tax=Hetero...    79   3e-13
+UniRef90_A0A091DVU9 CD2-associated protein (Fragment) n=2 Tax=Fu...    78   8e-13
+UniRef90_G1SN22 Uncharacterized protein n=13 Tax=Euarchontoglire...    78   9e-13
+UniRef90_Q9Y5K6 CD2-associated protein n=12 Tax=Boreoeutheria Re...    78   1e-12
+UniRef90_H2QT49 CD2-associated protein n=15 Tax=Boreoeutheria Re...    78   1e-12
+UniRef90_G1L402 Uncharacterized protein (Fragment) n=7 Tax=Canif...    77   2e-12
+UniRef90_UPI0003C90C8C PREDICTED: CD2-associated protein n=1 Tax...    76   3e-12
+UniRef90_UPI0003AE917B PREDICTED: CD2-associated protein-like n=...    76   4e-12
+UniRef90_UPI0003332511 PREDICTED: CD2-associated protein n=1 Tax...    76   4e-12
+UniRef90_UPI0004ED33C8 PREDICTED: CD2-associated protein n=1 Tax...    75   7e-12
+UniRef90_UPI000533C73F PREDICTED: CD2-associated protein isoform...    75   7e-12
+UniRef90_UPI00044391D2 PREDICTED: CD2-associated protein n=1 Tax...    75   7e-12
+UniRef90_G3SN92 Uncharacterized protein (Fragment) n=2 Tax=Loxod...    75   8e-12
+UniRef90_G1PEH6 Uncharacterized protein (Fragment) n=5 Tax=Vespe...    75   9e-12
+UniRef90_U3J4Y7 Uncharacterized protein (Fragment) n=2 Tax=Anas ...    74   1e-11
+UniRef90_UPI0004EFC7F2 PREDICTED: CD2-associated protein n=1 Tax...    74   1e-11
+UniRef90_UPI0003347396 PREDICTED: CD2-associated protein n=1 Tax...    74   1e-11
+UniRef90_F6RJ57 CD2-associated protein n=4 Tax=Cebidae RepID=F6R...    74   2e-11
+UniRef90_W5NIC7 Uncharacterized protein n=1 Tax=Lepisosteus ocul...    74   2e-11
+UniRef90_K9IZ22 Putative adaptor protein cms/seta n=1 Tax=Desmod...    73   2e-11
+UniRef90_H0WJX6 Uncharacterized protein (Fragment) n=14 Tax=Euth...    73   2e-11
+UniRef90_UPI000350877F PREDICTED: LOW QUALITY PROTEIN: CD2-assoc...    73   3e-11
+UniRef90_W5NID0 Uncharacterized protein n=2 Tax=Lepisosteus ocul...    73   3e-11
+UniRef90_I3MVK0 Uncharacterized protein (Fragment) n=1 Tax=Sperm...    73   3e-11
+UniRef90_UPI0003317EEE PREDICTED: CD2-associated protein n=1 Tax...    73   4e-11
+UniRef90_UPI000497270F PREDICTED: CD2-associated protein isoform...    73   4e-11
+UniRef90_UPI000328F82F PREDICTED: CD2-associated protein isoform...    72   5e-11
+UniRef90_G3NJU9 Uncharacterized protein (Fragment) n=1 Tax=Gaste...    72   5e-11
+UniRef90_UPI0004955373 PREDICTED: CD2-associated protein n=1 Tax...    72   8e-11
+UniRef90_H3B383 Uncharacterized protein n=2 Tax=Latimeria chalum...    72   8e-11
+UniRef90_UPI000529BB88 PREDICTED: LOW QUALITY PROTEIN: probable ...    71   9e-11
+UniRef90_F1R1N9 Uncharacterized protein n=3 Tax=Danio rerio RepI...    71   1e-10
+UniRef90_UPI0003336784 PREDICTED: CD2-associated protein n=1 Tax...    71   1e-10
+UniRef90_UPI00042BC885 PREDICTED: CD2-associated protein-like n=...    70   2e-10
+UniRef90_UPI0003F18192 PREDICTED: CD2-associated protein n=1 Tax...    70   2e-10
+UniRef90_UPI00042C4464 PREDICTED: CD2-associated protein isoform...    70   2e-10
+UniRef90_V8P1P7 CD2-associated protein n=3 Tax=Colubroidea RepID...    70   3e-10
+UniRef90_K7FES7 Uncharacterized protein n=2 Tax=Pelodiscus sinen...    69   5e-10
+UniRef90_UPI0004405993 PREDICTED: CD2-associated protein n=1 Tax...    68   6e-10
+UniRef90_UPI00045DFB32 PREDICTED: CD2-associated protein n=1 Tax...    68   7e-10
+UniRef90_UPI0003AF5962 PREDICTED: CD2-associated protein n=2 Tax...    66   3e-09
+UniRef90_F1MM14 Uncharacterized protein n=10 Tax=Bovidae RepID=F...    66   3e-09
+UniRef90_I3JGX8 Uncharacterized protein (Fragment) n=1 Tax=Oreoc...    66   5e-09
+UniRef90_UPI000572B3E3 PREDICTED: CD2-associated protein isoform...    66   5e-09
+UniRef90_H0VHL8 Uncharacterized protein (Fragment) n=2 Tax=Cavia...    64   1e-08
+UniRef90_UPI0005212F8D PREDICTED: CD2-associated protein-like, p...    64   1e-08
+UniRef90_B2GU86 LOC100158527 protein n=3 Tax=Xenopus tropicalis ...    64   2e-08
+UniRef90_L5JN88 CD2-associated protein n=2 Tax=Pteropus alecto R...    63   3e-08
+UniRef90_M7ASZ2 CD2-associated protein n=1 Tax=Chelonia mydas Re...    61   1e-07
+UniRef90_UPI00051BBF7C PREDICTED: SH3 domain-containing protein ...    60   4e-07
+UniRef90_Q4V7X8 LOC445851 protein n=1 Tax=Xenopus laevis RepID=Q...    59   5e-07
+UniRef90_F7CR85 Uncharacterized protein (Fragment) n=1 Tax=Xenop...    58   7e-07
+UniRef90_H2MHU6 Uncharacterized protein n=1 Tax=Oryzias latipes ...    58   1e-06
+UniRef90_UPI0003EA998A PREDICTED: SH3 domain-containing kinase-b...    56   4e-06
+UniRef90_H9GQQ8 Uncharacterized protein (Fragment) n=1 Tax=Anoli...    56   4e-06
+UniRef90_W5M550 Uncharacterized protein (Fragment) n=1 Tax=Lepis...    55   6e-06
+UniRef90_UPI000521C83A PREDICTED: CD2-associated protein-like, p...    55   7e-06
+UniRef90_B7Q1G0 Putative uncharacterized protein n=1 Tax=Ixodes ...    55   8e-06
+UniRef90_UPI0004626436 PREDICTED: CD2-associated protein-like n=...    55   8e-06
+UniRef90_UPI0003F0714A PREDICTED: CD2-associated protein n=1 Tax...    54   2e-05
+UniRef90_W5K2S7 Uncharacterized protein n=1 Tax=Astyanax mexican...    54   2e-05
+UniRef90_V5HLP5 Putative sh3 domain-containing kinase-binding pr...    53   2e-05
+UniRef90_W5K2S2 Uncharacterized protein n=1 Tax=Astyanax mexican...    53   2e-05
+UniRef90_L7MG31 Putative sh3 domain-containing kinase-binding pr...    53   2e-05
+UniRef90_L7MHV7 Putative sh3 domain-containing kinase-binding pr...    52   5e-05
+UniRef90_UPI0004545DA2 PREDICTED: CD2-associated protein isoform...    52   5e-05
+UniRef90_H3D3R9 Uncharacterized protein (Fragment) n=2 Tax=Tetra...    52   5e-05
+UniRef90_A9VDQ3 Predicted protein n=1 Tax=Monosiga brevicollis R...    52   6e-05
+UniRef90_F1LRS8 CD2-associated protein n=7 Tax=Murinae RepID=CD2...    52   7e-05
+UniRef90_T1G9C4 Uncharacterized protein n=1 Tax=Helobdella robus...    52   7e-05
+UniRef90_B1H1G5 LOC100145355 protein (Fragment) n=3 Tax=Xenopus ...    51   8e-05
+UniRef90_A0A091QXL0 CD2-associated protein (Fragment) n=2 Tax=Me...    51   1e-04
+UniRef90_UPI0002A4CB40 PREDICTED: SH3 domain-containing kinase-b...    51   1e-04
+UniRef90_UPI0005764FF7 PREDICTED: SH3 domain-containing protein ...    50   2e-04
+UniRef90_G1KNU6 Uncharacterized protein n=3 Tax=Anolis carolinen...    50   2e-04
+UniRef90_W5UH90 CD2-associated protein n=1 Tax=Ictalurus punctat...    50   2e-04
+UniRef90_K1QMP9 SH3 domain-containing kinase-binding protein 1 n...    50   2e-04
+UniRef90_B3RYB4 Putative uncharacterized protein n=1 Tax=Trichop...    50   3e-04
+UniRef90_V9KI75 SH3 domain-containing 21 n=1 Tax=Callorhynchus m...    50   3e-04
+UniRef90_UPI0004571E92 PREDICTED: SH3 domain-containing protein ...    50   3e-04
+UniRef90_L7MF63 Putative sh3 domain-containing kinase-binding pr...    49   4e-04
+UniRef90_M7C375 SH3 domain-containing kinase-binding protein 1 n...    49   6e-04
+UniRef90_G3PKN4 Uncharacterized protein n=1 Tax=Gasterosteus acu...    49   6e-04
+UniRef90_UPI000497A244 PREDICTED: SH3 domain-containing protein ...    48   6e-04
+UniRef90_B0BLY6 LOC100137714 protein n=1 Tax=Xenopus laevis RepI...    48   6e-04
+UniRef90_M3ZH96 Uncharacterized protein n=4 Tax=Poeciliinae RepI...    48   9e-04
+UniRef90_UPI00053CC5AF PREDICTED: SH3 domain-containing protein ...    48   0.001
+UniRef90_I1FWV1 Uncharacterized protein n=1 Tax=Amphimedon queen...    48   0.001
+UniRef90_V8P3I8 SH3 domain-containing kinase-binding protein 1 n...    48   0.001
+UniRef90_UPI000329F2F8 PREDICTED: SH3 domain-containing kinase-b...    47   0.002
+UniRef90_Q4S783 Chromosome undetermined SCAF14718, whole genome ...    47   0.002
+UniRef90_I3KH92 Uncharacterized protein (Fragment) n=1 Tax=Oreoc...    46   0.003
+UniRef90_UPI000551131C PREDICTED: SH3 domain-containing protein ...    46   0.003
+UniRef90_T1JI45 Uncharacterized protein n=1 Tax=Strigamia mariti...    46   0.003
+UniRef90_UPI000393F813 PREDICTED: SH3 domain-containing kinase-b...    46   0.003
+UniRef90_I3KH91 Uncharacterized protein n=1 Tax=Oreochromis nilo...    46   0.004
+UniRef90_I3KH90 Uncharacterized protein n=1 Tax=Oreochromis nilo...    46   0.004
+UniRef90_H2TSE1 Uncharacterized protein (Fragment) n=1 Tax=Takif...    46   0.004
+UniRef90_E7FDC3 Uncharacterized protein n=1 Tax=Danio rerio RepI...    46   0.005
+UniRef90_UPI0003838365 PREDICTED: SH3 domain-containing protein ...    46   0.005
+UniRef90_F1R5I9 Uncharacterized protein n=2 Tax=Danio rerio RepI...    46   0.005
+UniRef90_UPI0003835C50 PREDICTED: SH3 domain-containing protein ...    46   0.005
+UniRef90_UPI00021A4A13 PREDICTED: hypothetical protein LOC100634...    45   0.008
+UniRef90_UPI00054B0990 PREDICTED: SH3 domain-containing protein ...    45   0.009
+UniRef90_R7U1P9 Uncharacterized protein n=1 Tax=Capitella teleta...    45   0.011
+UniRef90_S9XY38 Uncharacterized protein n=1 Tax=Camelus ferus Re...    44   0.020
+UniRef90_UPI0003C12A73 PREDICTED: SH3 domain-containing kinase-b...    43   0.044
+UniRef90_UPI000398F63B PREDICTED: uncharacterized protein LOC102...    42   0.046
+UniRef90_UPI000298EF86 PREDICTED: uncharacterized protein LOC101...    42   0.062
+UniRef90_T2M7W8 SH3 domain-containing kinase-binding protein 1 n...    42   0.064
+UniRef90_T1KXY2 Non-specific serine/threonine protein kinase n=1...    42   0.065
+UniRef90_G3HTI3 Putative G-protein coupled receptor 111 n=1 Tax=...    41   0.080
+UniRef90_UPI0002657F00 PREDICTED: uncharacterized protein LOC100...    41   0.082
+UniRef90_UPI00047CC54B hypothetical protein n=1 Tax=Ahrensia sp....    41   0.085
+UniRef90_UPI00021A54F0 PREDICTED: transient receptor potential c...    41   0.091
+UniRef90_A0A087TZU2 SH3 domain-containing kinase-binding protein...    41   0.096
+UniRef90_UPI0004433196 PREDICTED: CD2-associated protein isoform...    41   0.12 
+UniRef90_F7DID5 Uncharacterized protein (Fragment) n=1 Tax=Xenop...    41   0.14 
+UniRef90_UPI00054DF6AF histidine kinase n=1 Tax=Frankia sp. BCU1...    40   0.20 
+UniRef90_UPI000443394F PREDICTED: CD2-associated protein isoform...    40   0.20 
+UniRef90_L5LSJ7 CD2-associated protein n=1 Tax=Myotis davidii Re...    40   0.21 
+UniRef90_UPI0004430FF9 PREDICTED: CD2-associated protein isoform...    40   0.22 
+UniRef90_A2Q436 Protein kinase n=1 Tax=Medicago truncatula RepID...    40   0.25 
+UniRef90_Q4RF27 Chromosome 14 SCAF15120, whole genome shotgun se...    40   0.30 
+UniRef90_A0A060YYQ1 Oncorhynchus mykiss genomic scaffold, scaffo...    40   0.35 
+UniRef90_A0A063BS05 Golgi matrix protein n=1 Tax=Ustilaginoidea ...    40   0.35 
+UniRef90_G3VGS8 Uncharacterized protein n=3 Tax=Sarcophilus harr...    40   0.38 
+UniRef90_L9MUK9 Uncharacterized protein n=6 Tax=Acinetobacter Re...    39   0.40 
+UniRef90_F1REC8 Uncharacterized protein (Fragment) n=1 Tax=Danio...    39   0.41 
+UniRef90_UPI0005815304 PREDICTED: serine/threonine-protein kinas...    39   0.42 
+UniRef90_UPI00032A5924 PREDICTED: serine/threonine-protein kinas...    39   0.46 
+UniRef90_M7AHT2 Butyrophilin subfamily 2 member A1 n=1 Tax=Chelo...    39   0.48 
+UniRef90_UPI0002C327A7 PREDICTED: uncharacterized protein LOC101...    39   0.49 
+UniRef90_UPI00052397C1 PREDICTED: hepatocyte growth factor-regul...    39   0.53 
+UniRef90_A0A094ZSZ9 SH3 domain-containing kinase-binding protein...    39   0.61 
+UniRef90_A0A066XLH3 Uncharacterized protein n=1 Tax=Colletotrich...    38   0.68 
+UniRef90_A0A058Z3L0 Uncharacterized protein n=1 Tax=Fonticula al...    38   0.72 
+UniRef90_A0BMA7 Chromosome undetermined scaffold_116, whole geno...    38   0.82 
+UniRef90_I1G206 Uncharacterized protein n=1 Tax=Amphimedon queen...    38   0.84 
+UniRef90_G5CQC0 Putative uncharacterized protein mg9 n=3 Tax=unc...    38   0.85 
+UniRef90_W6U4N4 Mucolipin-2 n=1 Tax=Echinococcus granulosus RepI...    38   1.0  
+UniRef90_Q4SE24 Chromosome 3 SCAF14626, whole genome shotgun seq...    38   1.3  
+UniRef90_UPI0002658883 PREDICTED: rho guanine nucleotide exchang...    38   1.4  
+UniRef90_UPI0005623019 histidine kinase, partial n=2 Tax=Strepto...    38   1.4  
+UniRef90_F6Z1V7 Uncharacterized protein n=2 Tax=Monodelphis dome...    38   1.4  
+UniRef90_G2XB41 Cell division control protein n=1 Tax=Verticilli...    37   1.5  
+UniRef90_V9KRL8 Neuronal pentraxin-2 n=2 Tax=Callorhynchus milii...    37   1.5  
+UniRef90_T1F136 Uncharacterized protein n=1 Tax=Helobdella robus...    37   1.8  
+UniRef90_A0A060T372 ARAD1C38456p n=1 Tax=Blastobotrys adeninivor...    37   1.9  
+UniRef90_Q1K691 UVS-3 n=5 Tax=Neurospora RepID=Q1K691_NEUCR            37   1.9  
+UniRef90_X6P1C5 Kinesin-like protein n=1 Tax=Reticulomyxa filosa...    37   2.0  
+UniRef90_L8G983 Uncharacterized protein n=6 Tax=Pseudogymnoascus...    37   2.0  
+UniRef90_A0A075A0Y8 Uncharacterized protein n=2 Tax=Opisthorchii...    37   2.1  
+UniRef90_H0GRG1 Smy2p n=1 Tax=Saccharomyces cerevisiae x Sacchar...    37   2.1  
+UniRef90_K1QVA2 Rho guanine nucleotide exchange factor 7 n=1 Tax...    37   2.2  
+UniRef90_UPI00051BDBB5 PREDICTED: serine/threonine-protein kinas...    37   2.3  
+UniRef90_L8HLA1 Ankyrin repeatcontaining protein n=1 Tax=Acantha...    37   2.3  
+UniRef90_E3QKL7 Putative uncharacterized protein n=1 Tax=Colleto...    36   2.5  
+UniRef90_UPI0004986A63 PREDICTED: SH3 domain-containing protein ...    36   2.8  
+UniRef90_A0A060WZ87 Oncorhynchus mykiss genomic scaffold, scaffo...    36   2.8  
+UniRef90_UPI00031CE328 hypothetical protein n=1 Tax=Ruminococcus...    36   3.0  
+UniRef90_UPI000462A127 PREDICTED: testis-specific protein TEX28 ...    36   3.1  
+UniRef90_C9SWP3 Septation protein imp2 n=1 Tax=Verticillium alfa...    36   3.1  
+UniRef90_H2YDA3 Uncharacterized protein n=1 Tax=Ciona savignyi R...    36   3.2  
+UniRef90_UPI0004E004FD PREDICTED: coiled-coil domain-containing ...    36   3.6  
+UniRef90_A7BSK6 Histidine kinase n=1 Tax=Beggiatoa sp. PS RepID=...    36   3.6  
+UniRef90_B6ACD5 Putative uncharacterized protein n=1 Tax=Cryptos...    36   3.7  
+UniRef90_A8BPU2 Uncharacterized protein n=2 Tax=Giardia intestin...    36   3.9  
+UniRef90_A8A8L3 Uncharacterized protein n=1 Tax=Ignicoccus hospi...    36   4.0  
+UniRef90_M5P0Q7 Phage infection protein YueB n=1 Tax=Bacillus so...    36   4.2  
+UniRef90_R7T4Y6 Uncharacterized protein n=1 Tax=Capitella teleta...    36   4.4  
+UniRef90_A8Q694 Uncharacterized protein n=1 Tax=Malassezia globo...    36   4.5  
+UniRef90_D2H803 Putative uncharacterized protein (Fragment) n=1 ...    36   4.5  
+UniRef90_Q234S1 Chromosome condensation regulator RCC1 repeat pr...    36   4.5  
+UniRef90_E9E5K2 Mutator-like element transposase, putative n=9 T...    36   4.8  
+UniRef90_T1L4C8 Uncharacterized protein n=1 Tax=Tetranychus urti...    36   5.4  
+UniRef90_UPI0003AE5943 PREDICTED: SH3 domain-containing protein ...    35   5.5  
+UniRef90_L9KZS3 Hepatocyte growth factor-regulated tyrosine kina...    35   5.5  
+UniRef90_C6WD04 Histidine kinase n=1 Tax=Actinosynnema mirum (st...    35   5.5  
+UniRef90_UPI0003ADDB94 PREDICTED: SH3 domain-containing protein ...    35   5.7  
+UniRef90_UPI00006CE121 regulator of chromosome condensation (RCC...    35   5.8  
+UniRef90_A0A089VIF0 Chaperone protein DnaK n=1 Tax=Cerataulina d...    35   5.8  
+UniRef90_I1L6T0 Uncharacterized protein n=6 Tax=Soja RepID=I1L6T...    35   6.8  
+UniRef90_A0A074TDY8 Cyclic nucleotide-binding domain-containing ...    35   6.8  
+UniRef90_H2W811 Uncharacterized protein n=2 Tax=Caenorhabditis j...    35   7.1  
+UniRef90_UPI00046980B2 hypothetical protein n=1 Tax=Sulfitobacte...    35   7.4  
+UniRef90_G6CSY7 Dab2-interacting protein n=1 Tax=Danaus plexippu...    35   7.5  
+UniRef90_UPI0003C3AAEE PREDICTED: RB1-inducible coiled-coil prot...    35   7.5  
+UniRef90_UPI000288668E multi-sensor hybrid histidine kinase n=1 ...    35   7.5  
+UniRef90_K1RBA7 Uncharacterized protein n=1 Tax=Crassostrea giga...    35   7.8  
+UniRef90_S7V252 Cyclic nucleotide-binding domain-containing prot...    35   8.1  
+UniRef90_V5AYN9 Cyclic nucleotide-binding domain-containing prot...    35   8.1  
+UniRef90_Q6C3L5 YALI0E33825p n=1 Tax=Yarrowia lipolytica (strain...    35   8.6  
+UniRef90_A2DLE3 Kinesin-like protein n=1 Tax=Trichomonas vaginal...    35   9.1  
+UniRef90_B1P5D7 SiM protein n=7 Tax=Streptococcus iniae RepID=B1...    35   9.6  
+UniRef90_UPI0005778B63 PREDICTED: rho guanine nucleotide exchang...    35   9.9  
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_UPI00038BB3CA PREDICTED: SH3 domain-containing kinase-b...   111   5e-23
+UniRef90_UPI0003AF6260 PREDICTED: SH3 domain-containing kinase-b...   110   1e-22
+UniRef90_F6ZB43 Uncharacterized protein n=1 Tax=Ornithorhynchus ...   108   5e-22
+UniRef90_UPI00051E4C86 PREDICTED: SH3 domain-containing kinase-b...   108   6e-22
+UniRef90_Q5JPT2 SH3 domain-containing kinase-binding protein 1 (...   107   9e-22
+UniRef90_UPI0003AB6191 PREDICTED: SH3 domain-containing kinase-b...   107   9e-22
+UniRef90_H0WKT1 Uncharacterized protein n=26 Tax=Eutheria RepID=...   107   1e-21
+UniRef90_UPI00046B2ECE PREDICTED: SH3 domain-containing kinase-b...   106   2e-21
+UniRef90_Q96B97 SH3 domain-containing kinase-binding protein 1 n...   106   3e-21
+UniRef90_A0A061HZT7 Src homology-3 domain containing protein n=3...   106   3e-21
+UniRef90_UPI0003F1BF34 PREDICTED: SH3 domain-containing kinase-b...   105   5e-21
+UniRef90_A0A096NYA0 Uncharacterized protein n=1 Tax=Papio anubis...   104   6e-21
+UniRef90_UPI00020AB6DA PREDICTED: SH3 domain-containing kinase-b...   104   7e-21
+UniRef90_Q96B97-3 Isoform 3 of SH3 domain-containing kinase-bind...   104   7e-21
+UniRef90_G3H5K9 SH3 domain-containing kinase-binding protein 1 n...   104   1e-20
+UniRef90_Q8R550-4 Isoform 4 of SH3 domain-containing kinase-bind...   103   1e-20
+UniRef90_UPI0002740CA5 PREDICTED: SH3 domain-containing kinase-b...   103   1e-20
+UniRef90_UPI0004544852 PREDICTED: SH3 domain-containing kinase-b...   103   2e-20
+UniRef90_G1TH36 Uncharacterized protein n=15 Tax=Eutheria RepID=...   103   2e-20
+UniRef90_UPI00045481B9 PREDICTED: SH3 domain-containing kinase-b...   103   2e-20
+UniRef90_UPI00045455F9 PREDICTED: SH3 domain-containing kinase-b...   102   3e-20
+UniRef90_UPI0003D7155C PREDICTED: SH3 domain-containing kinase-b...   102   3e-20
+UniRef90_U3JNR8 Uncharacterized protein n=8 Tax=Aves RepID=U3JNR...   102   4e-20
+UniRef90_UPI00046C0BF0 PREDICTED: SH3 domain-containing kinase-b...   102   4e-20
+UniRef90_UPI00015A9ACE PREDICTED: SH3 domain-containing kinase-b...   102   5e-20
+UniRef90_UPI00046BEEA1 PREDICTED: SH3 domain-containing kinase-b...   102   5e-20
+UniRef90_W5M772 Uncharacterized protein (Fragment) n=1 Tax=Lepis...   101   6e-20
+UniRef90_Q5ZMQ7 Uncharacterized protein n=41 Tax=Aves RepID=Q5ZM...   101   7e-20
+UniRef90_A0A091CX59 SH3 domain-containing kinase-binding protein...   101   7e-20
+UniRef90_UPI0002B483B0 PREDICTED: SH3 domain-containing kinase-b...   101   1e-19
+UniRef90_UPI000273A7DB PREDICTED: uncharacterized protein LOC100...   100   1e-19
+UniRef90_UPI00042AA9A4 PREDICTED: SH3 domain-containing kinase-b...   100   1e-19
+UniRef90_U6D0W3 SH3-domain kinase-binding protein 1 (Fragment) n...   100   2e-19
+UniRef90_F7CTV5 Uncharacterized protein (Fragment) n=18 Tax=Bore...   100   2e-19
+UniRef90_UPI0004ED62FF PREDICTED: SH3 domain-containing kinase-b...   100   2e-19
+UniRef90_Q925Q9 SH3 domain-containing kinase-binding protein 1 n...   100   2e-19
+UniRef90_G3UQL4 Uncharacterized protein (Fragment) n=1 Tax=Melea...   100   2e-19
+UniRef90_UPI0004EFDE6E PREDICTED: SH3 domain-containing kinase-b...   100   3e-19
+UniRef90_G3WLM4 Uncharacterized protein (Fragment) n=2 Tax=Metat...    99   3e-19
+UniRef90_K7FFR3 Uncharacterized protein n=5 Tax=Cryptodira RepID...    99   3e-19
+UniRef90_UPI000549A922 PREDICTED: SH3 domain-containing kinase-b...    99   4e-19
+UniRef90_U3IHT0 Uncharacterized protein (Fragment) n=12 Tax=Neog...    99   4e-19
+UniRef90_G1NP95 Uncharacterized protein (Fragment) n=9 Tax=Neogn...    99   4e-19
+UniRef90_Q8R550-6 Isoform 6 of SH3 domain-containing kinase-bind...    98   8e-19
+UniRef90_B0R0Y8 SH3 domain-containing kinase-binding protein 1 (...    98   1e-18
+UniRef90_G5C0L8 SH3 domain-containing kinase-binding protein 1 n...    98   1e-18
+UniRef90_K7GK80 Uncharacterized protein (Fragment) n=1 Tax=Sus s...    97   2e-18
+UniRef90_UPI0003D0E141 PREDICTED: SH3 domain-containing kinase-b...    97   2e-18
+UniRef90_I3NB90 Uncharacterized protein (Fragment) n=1 Tax=Sperm...    96   2e-18
+UniRef90_G5ASY7 CD2-associated protein n=1 Tax=Heterocephalus gl...    96   3e-18
+UniRef90_UPI0004434D2C PREDICTED: SH3 domain-containing kinase-b...    96   4e-18
+UniRef90_UPI0005323162 PREDICTED: SH3 domain-containing kinase-b...    96   4e-18
+UniRef90_Q8R550-8 Isoform 8 of SH3 domain-containing kinase-bind...    96   5e-18
+UniRef90_A0A091DVU9 CD2-associated protein (Fragment) n=2 Tax=Fu...    95   6e-18
+UniRef90_H9KY00 Uncharacterized protein (Fragment) n=1 Tax=Calli...    95   6e-18
+UniRef90_G5BVG7 CD2-associated protein (Fragment) n=5 Tax=Hetero...    95   8e-18
+UniRef90_F7DH99 Uncharacterized protein n=5 Tax=Monodelphis dome...    94   9e-18
+UniRef90_A0A091D1W7 Mitogen-activated protein kinase kinase kina...    94   1e-17
+UniRef90_UPI000528D480 PREDICTED: SH3 domain-containing kinase-b...    94   1e-17
+UniRef90_H2QT49 CD2-associated protein n=15 Tax=Boreoeutheria Re...    94   1e-17
+UniRef90_UPI000441E16F PREDICTED: SH3 domain-containing kinase-b...    93   2e-17
+UniRef90_Q9Y5K6 CD2-associated protein n=12 Tax=Boreoeutheria Re...    93   2e-17
+UniRef90_G1L402 Uncharacterized protein (Fragment) n=7 Tax=Canif...    93   3e-17
+UniRef90_UPI000533C73F PREDICTED: CD2-associated protein isoform...    92   6e-17
+UniRef90_G1SN22 Uncharacterized protein n=13 Tax=Euarchontoglire...    92   7e-17
+UniRef90_UPI0003AE917B PREDICTED: CD2-associated protein-like n=...    91   7e-17
+UniRef90_V9KG33 SH3-domain kinase-binding protein 1 n=3 Tax=Call...    91   8e-17
+UniRef90_UPI0003C90C8C PREDICTED: CD2-associated protein n=1 Tax...    91   1e-16
+UniRef90_UPI00045D9C95 PREDICTED: SH3 domain-containing kinase-b...    91   1e-16
+UniRef90_G3SN92 Uncharacterized protein (Fragment) n=2 Tax=Loxod...    91   1e-16
+UniRef90_G1PEH6 Uncharacterized protein (Fragment) n=5 Tax=Vespe...    90   2e-16
+UniRef90_F6RJ57 CD2-associated protein n=4 Tax=Cebidae RepID=F6R...    90   2e-16
+UniRef90_K9IZ22 Putative adaptor protein cms/seta n=1 Tax=Desmod...    90   2e-16
+UniRef90_UPI0003332511 PREDICTED: CD2-associated protein n=1 Tax...    90   2e-16
+UniRef90_UPI0003347396 PREDICTED: CD2-associated protein n=1 Tax...    90   2e-16
+UniRef90_UPI00032AFE74 PREDICTED: CD2-associated protein n=1 Tax...    90   2e-16
+UniRef90_H2SX56 Uncharacterized protein (Fragment) n=5 Tax=Takif...    90   3e-16
+UniRef90_E6ZJD9 SH3 domain-containing kinase-binding protein 1 n...    88   6e-16
+UniRef90_UPI000328F82F PREDICTED: CD2-associated protein isoform...    88   6e-16
+UniRef90_UPI0004ED33C8 PREDICTED: CD2-associated protein n=1 Tax...    88   7e-16
+UniRef90_UPI00044391D2 PREDICTED: CD2-associated protein n=1 Tax...    88   7e-16
+UniRef90_H0WJX6 Uncharacterized protein (Fragment) n=14 Tax=Euth...    88   8e-16
+UniRef90_H3C8P9 Uncharacterized protein (Fragment) n=2 Tax=Tetra...    88   9e-16
+UniRef90_UPI0003C2853F PREDICTED: CD2-associated protein n=2 Tax...    88   9e-16
+UniRef90_F6YKG4 Uncharacterized protein (Fragment) n=1 Tax=Xenop...    88   1e-15
+UniRef90_I3MVK0 Uncharacterized protein (Fragment) n=1 Tax=Sperm...    88   1e-15
+UniRef90_F1NAW2 Uncharacterized protein n=1 Tax=Gallus gallus Re...    88   1e-15
+UniRef90_UPI000350877F PREDICTED: LOW QUALITY PROTEIN: CD2-assoc...    87   1e-15
+UniRef90_E6ZJE0 SH3 domain-containing kinase-binding protein 1 n...    87   2e-15
+UniRef90_M7AMD3 SH3 domain-containing kinase-binding protein 1 n...    87   2e-15
+UniRef90_B2GUQ4 Sh3kbp1 protein (Fragment) n=3 Tax=Xenopus tropi...    86   3e-15
+UniRef90_UPI000454AFED PREDICTED: LOW QUALITY PROTEIN: CD2-assoc...    86   4e-15
+UniRef90_UPI000498227C PREDICTED: SH3 domain-containing kinase-b...    86   4e-15
+UniRef90_UPI0002A4BC70 PREDICTED: SH3 domain-containing kinase-b...    86   5e-15
+UniRef90_UPI00042BC885 PREDICTED: CD2-associated protein-like n=...    86   5e-15
+UniRef90_UPI00049760CE PREDICTED: SH3 domain-containing kinase-b...    86   5e-15
+UniRef90_UPI0003945560 PREDICTED: CD2-associated protein-like is...    86   5e-15
+UniRef90_H3B383 Uncharacterized protein n=2 Tax=Latimeria chalum...    86   5e-15
+UniRef90_A0A060VPI1 Oncorhynchus mykiss genomic scaffold, scaffo...    85   5e-15
+UniRef90_G1NNA4 Uncharacterized protein (Fragment) n=5 Tax=Phasi...    85   5e-15
+UniRef90_UPI0003317EEE PREDICTED: CD2-associated protein n=1 Tax...    85   5e-15
+UniRef90_H2SX58 Uncharacterized protein (Fragment) n=2 Tax=Takif...    85   6e-15
+UniRef90_UPI0003336784 PREDICTED: CD2-associated protein n=1 Tax...    85   6e-15
+UniRef90_G3NPA9 Uncharacterized protein (Fragment) n=1 Tax=Gaste...    85   6e-15
+UniRef90_UPI000329EA09 PREDICTED: CD2-associated protein-like is...    85   7e-15
+UniRef90_S9WB56 SH3 domain-containing kinase-binding protein 1 i...    85   7e-15
+UniRef90_F7HL05 Uncharacterized protein n=1 Tax=Callithrix jacch...    85   8e-15
+UniRef90_UPI0004969E85 PREDICTED: SH3 domain-containing kinase-b...    84   9e-15
+UniRef90_UPI000576C885 PREDICTED: SH3 domain-containing kinase-b...    84   9e-15
+UniRef90_H2MGE4 Uncharacterized protein (Fragment) n=1 Tax=Oryzi...    84   1e-14
+UniRef90_UPI00045DFB32 PREDICTED: CD2-associated protein n=1 Tax...    84   1e-14
+UniRef90_UPI000555528C PREDICTED: SH3 domain-containing kinase-b...    84   1e-14
+UniRef90_UPI0003944B1D PREDICTED: SH3 domain-containing kinase-b...    84   2e-14
+UniRef90_UPI00042C4464 PREDICTED: CD2-associated protein isoform...    84   2e-14
+UniRef90_E9QJP6 Uncharacterized protein n=2 Tax=Danio rerio RepI...    84   2e-14
+UniRef90_UPI0003F18192 PREDICTED: CD2-associated protein n=1 Tax...    84   2e-14
+UniRef90_H2V574 Uncharacterized protein (Fragment) n=2 Tax=Takif...    84   2e-14
+UniRef90_A0A060XIL9 Oncorhynchus mykiss genomic scaffold, scaffo...    83   2e-14
+UniRef90_A0A093H5D8 CD2-associated protein (Fragment) n=2 Tax=St...    83   2e-14
+UniRef90_UPI0004405993 PREDICTED: CD2-associated protein n=1 Tax...    83   2e-14
+UniRef90_UPI0005767DF5 PREDICTED: CD2-associated protein isoform...    83   3e-14
+UniRef90_K7FES7 Uncharacterized protein n=2 Tax=Pelodiscus sinen...    83   3e-14
+UniRef90_UPI000523AB10 PREDICTED: CD2-associated protein n=1 Tax...    83   3e-14
+UniRef90_A0A060WNS8 Oncorhynchus mykiss genomic scaffold, scaffo...    83   3e-14
+UniRef90_A0A060WY15 Oncorhynchus mykiss genomic scaffold, scaffo...    82   5e-14
+UniRef90_UPI000398F76E PREDICTED: CD2-associated protein n=1 Tax...    82   5e-14
+UniRef90_UPI00057666B4 PREDICTED: SH3 domain-containing kinase-b...    82   5e-14
+UniRef90_UPI000394646F PREDICTED: SH3 domain-containing kinase-b...    82   5e-14
+UniRef90_L9JDM3 SH3 domain-containing kinase-binding protein 1 n...    82   5e-14
+UniRef90_UPI0004A39303 PREDICTED: SH3 domain-containing kinase-b...    82   5e-14
+UniRef90_UPI0004BF04FC PREDICTED: CD2-associated protein n=1 Tax...    82   6e-14
+UniRef90_UPI000440A78E PREDICTED: SH3 domain-containing kinase-b...    82   6e-14
+UniRef90_UPI0004957BED PREDICTED: SH3 domain-containing kinase-b...    82   6e-14
+UniRef90_G1KMG7 Uncharacterized protein n=1 Tax=Anolis carolinen...    82   6e-14
+UniRef90_W5NIC7 Uncharacterized protein n=1 Tax=Lepisosteus ocul...    82   6e-14
+UniRef90_UPI0004A2EFBB PREDICTED: SH3 domain-containing kinase-b...    82   6e-14
+UniRef90_UPI000329E104 PREDICTED: SH3 domain-containing kinase-b...    82   6e-14
+UniRef90_UPI0004975D47 PREDICTED: SH3 domain-containing kinase-b...    82   6e-14
+UniRef90_A0A091V1C5 SH3 domain-containing kinase-binding protein...    82   6e-14
+UniRef90_UPI000440FD1C PREDICTED: SH3 domain-containing kinase-b...    81   8e-14
+UniRef90_E7FAT0 Uncharacterized protein n=3 Tax=Danio rerio RepI...    81   8e-14
+UniRef90_UPI00054BC5E5 PREDICTED: CD2-associated protein isoform...    81   8e-14
+UniRef90_UPI00054B8E4E PREDICTED: SH3 domain-containing kinase-b...    81   8e-14
+UniRef90_UPI0004EFC7F2 PREDICTED: CD2-associated protein n=1 Tax...    81   9e-14
+UniRef90_UPI0003833DD8 PREDICTED: CD2-associated protein n=1 Tax...    81   9e-14
+UniRef90_UPI00057812F2 PREDICTED: SH3 domain-containing kinase-b...    81   1e-13
+UniRef90_UPI0005772F34 PREDICTED: SH3 domain-containing kinase-b...    81   1e-13
+UniRef90_I3JH37 Uncharacterized protein n=1 Tax=Oreochromis nilo...    81   1e-13
+UniRef90_W5NID0 Uncharacterized protein n=2 Tax=Lepisosteus ocul...    81   1e-13
+UniRef90_W5UTE1 CD2-associated protein n=1 Tax=Ictalurus punctat...    81   1e-13
+UniRef90_UPI0004447534 PREDICTED: SH3 domain-containing kinase-b...    81   1e-13
+UniRef90_UPI0005285785 PREDICTED: CD2-associated protein n=1 Tax...    81   1e-13
+UniRef90_UPI0003BCDF49 PREDICTED: SH3 domain-containing kinase-b...    81   1e-13
+UniRef90_D5XMF7 CD2-associated protein n=5 Tax=Neognathae RepID=...    81   1e-13
+UniRef90_UPI00039467AE PREDICTED: SH3 domain-containing kinase-b...    81   1e-13
+UniRef90_H2V572 Uncharacterized protein (Fragment) n=1 Tax=Takif...    81   1e-13
+UniRef90_V9KAZ4 CD2-associated protein n=2 Tax=Callorhynchus mil...    81   1e-13
+UniRef90_H2V571 Uncharacterized protein (Fragment) n=1 Tax=Takif...    81   2e-13
+UniRef90_A0A087XJ82 Uncharacterized protein n=5 Tax=Poeciliinae ...    80   2e-13
+UniRef90_U3J4Y7 Uncharacterized protein (Fragment) n=2 Tax=Anas ...    80   2e-13
+UniRef90_M3ZN33 Uncharacterized protein (Fragment) n=1 Tax=Xipho...    80   2e-13
+UniRef90_W5KS86 Uncharacterized protein n=2 Tax=Astyanax mexican...    80   2e-13
+UniRef90_W5KL58 Uncharacterized protein n=4 Tax=Astyanax mexican...    80   2e-13
+UniRef90_UPI0003EAD8F3 PREDICTED: SH3 domain-containing kinase-b...    80   2e-13
+UniRef90_A0A099Z7B3 CD2-associated protein (Fragment) n=2 Tax=Ti...    80   2e-13
+UniRef90_UPI0005294CF4 PREDICTED: CD2-associated protein n=1 Tax...    80   2e-13
+UniRef90_D8KW66 CD2-associated protein n=25 Tax=Neognathae RepID...    80   2e-13
+UniRef90_Q4SFM6 Chromosome 7 SCAF14601, whole genome shotgun seq...    80   3e-13
+UniRef90_H0ZSK8 Uncharacterized protein (Fragment) n=10 Tax=Pass...    80   3e-13
+UniRef90_UPI000497270F PREDICTED: CD2-associated protein isoform...    79   3e-13
+UniRef90_H0VHL8 Uncharacterized protein (Fragment) n=2 Tax=Cavia...    79   3e-13
+UniRef90_H2V573 Uncharacterized protein (Fragment) n=2 Tax=Takif...    79   3e-13
+UniRef90_UPI0004955373 PREDICTED: CD2-associated protein n=1 Tax...    79   4e-13
+UniRef90_B5X4S2 SH3 domain-containing kinase-binding protein 1 n...    79   4e-13
+UniRef90_F1MM14 Uncharacterized protein n=10 Tax=Bovidae RepID=F...    79   4e-13
+UniRef90_H9KYK2 Uncharacterized protein (Fragment) n=1 Tax=Calli...    79   5e-13
+UniRef90_UPI000529BB88 PREDICTED: LOW QUALITY PROTEIN: probable ...    79   5e-13
+UniRef90_UPI000572B3E3 PREDICTED: CD2-associated protein isoform...    79   5e-13
+UniRef90_UPI000298B68D PREDICTED: CD2-associated protein-like n=...    79   6e-13
+UniRef90_UPI0003AF5962 PREDICTED: CD2-associated protein n=2 Tax...    78   7e-13
+UniRef90_F1R1N9 Uncharacterized protein n=3 Tax=Danio rerio RepI...    78   7e-13
+UniRef90_A0A091N8N4 CD2-associated protein (Fragment) n=2 Tax=Ac...    78   8e-13
+UniRef90_L5JN88 CD2-associated protein n=2 Tax=Pteropus alecto R...    78   1e-12
+UniRef90_H3DPC9 Uncharacterized protein n=2 Tax=Tetraodon nigrov...    78   1e-12
+UniRef90_A0A093GVB0 CD2-associated protein (Fragment) n=8 Tax=Ne...    78   1e-12
+UniRef90_G3NJU9 Uncharacterized protein (Fragment) n=1 Tax=Gaste...    78   1e-12
+UniRef90_V8P1P7 CD2-associated protein n=3 Tax=Colubroidea RepID...    77   1e-12
+UniRef90_F6X5Z0 Uncharacterized protein n=1 Tax=Callithrix jacch...    77   1e-12
+UniRef90_A0A096LW77 Uncharacterized protein (Fragment) n=1 Tax=P...    77   2e-12
+UniRef90_UPI00051BBF7C PREDICTED: SH3 domain-containing protein ...    77   2e-12
+UniRef90_UPI0003836CD2 PREDICTED: SH3 domain-containing kinase-b...    76   3e-12
+UniRef90_UPI0004982D2D PREDICTED: SH3 domain-containing kinase-b...    76   3e-12
+UniRef90_UPI000329CA88 PREDICTED: SH3 domain-containing kinase-b...    76   5e-12
+UniRef90_M7ASZ2 CD2-associated protein n=1 Tax=Chelonia mydas Re...    75   7e-12
+UniRef90_A0A087VCL9 CD2-associated protein (Fragment) n=2 Tax=Ba...    75   8e-12
+UniRef90_A0A087Y318 Uncharacterized protein n=6 Tax=Poecilia Rep...    75   8e-12
+UniRef90_B2GU86 LOC100158527 protein n=3 Tax=Xenopus tropicalis ...    74   1e-11
+UniRef90_H2MHU6 Uncharacterized protein n=1 Tax=Oryzias latipes ...    74   1e-11
+UniRef90_M3ZEU7 Uncharacterized protein n=1 Tax=Xiphophorus macu...    74   2e-11
+UniRef90_UPI0003AFF03E PREDICTED: SH3 domain-containing kinase-b...    73   2e-11
+UniRef90_UPI0004A4A33F PREDICTED: CD2-associated protein isoform...    73   2e-11
+UniRef90_W4XCU3 Uncharacterized protein n=1 Tax=Strongylocentrot...    73   2e-11
+UniRef90_Q4S1M8 Chromosome 6 SCAF14768, whole genome shotgun seq...    73   2e-11
+UniRef90_UPI000523541C PREDICTED: CD2-associated protein-like, p...    73   2e-11
+UniRef90_Q925Q9-5 Isoform 5 of SH3 domain-containing kinase-bind...    73   2e-11
+UniRef90_UPI0002651818 PREDICTED: SH3 domain-containing kinase-b...    73   3e-11
+UniRef90_UPI0004A470FD PREDICTED: CD2-associated protein isoform...    73   3e-11
+UniRef90_UPI000523DE4D PREDICTED: SH3 domain-containing kinase-b...    73   4e-11
+UniRef90_UPI0003AF7F35 PREDICTED: CD2-associated protein-like n=...    72   5e-11
+UniRef90_I3JGX8 Uncharacterized protein (Fragment) n=1 Tax=Oreoc...    72   5e-11
+UniRef90_UPI00054C27B4 PREDICTED: SH3 domain-containing kinase-b...    72   6e-11
+UniRef90_B7Q1G0 Putative uncharacterized protein n=1 Tax=Ixodes ...    72   6e-11
+UniRef90_UPI0005212F8D PREDICTED: CD2-associated protein-like, p...    71   9e-11
+UniRef90_UPI00044411B1 PREDICTED: SH3 domain-containing kinase-b...    71   1e-10
+UniRef90_E9QGJ0 Uncharacterized protein n=1 Tax=Danio rerio RepI...    70   2e-10
+UniRef90_V5HLP5 Putative sh3 domain-containing kinase-binding pr...    70   2e-10
+UniRef90_Q4V7X8 LOC445851 protein n=1 Tax=Xenopus laevis RepID=Q...    70   3e-10
+UniRef90_H3AXY0 Uncharacterized protein (Fragment) n=1 Tax=Latim...    70   3e-10
+UniRef90_H9GQQ8 Uncharacterized protein (Fragment) n=1 Tax=Anoli...    69   3e-10
+UniRef90_UPI0002A4A97A PREDICTED: SH3 domain-containing kinase-b...    69   3e-10
+UniRef90_F7CR85 Uncharacterized protein (Fragment) n=1 Tax=Xenop...    69   4e-10
+UniRef90_L7MG31 Putative sh3 domain-containing kinase-binding pr...    68   7e-10
+UniRef90_UPI0004626436 PREDICTED: CD2-associated protein-like n=...    68   7e-10
+UniRef90_C3ZNS2 Putative uncharacterized protein n=1 Tax=Branchi...    68   9e-10
+UniRef90_B1H1G5 LOC100145355 protein (Fragment) n=3 Tax=Xenopus ...    68   1e-09
+UniRef90_L7MHV7 Putative sh3 domain-containing kinase-binding pr...    67   2e-09
+UniRef90_W5K2S7 Uncharacterized protein n=1 Tax=Astyanax mexican...    67   2e-09
+UniRef90_W5K2S2 Uncharacterized protein n=1 Tax=Astyanax mexican...    67   2e-09
+UniRef90_A9VDQ3 Predicted protein n=1 Tax=Monosiga brevicollis R...    66   3e-09
+UniRef90_UPI0003EA998A PREDICTED: SH3 domain-containing kinase-b...    66   3e-09
+UniRef90_UPI0004626132 PREDICTED: SH3 domain-containing kinase-b...    66   3e-09
+UniRef90_UPI0003F0714A PREDICTED: CD2-associated protein n=1 Tax...    66   3e-09
+UniRef90_M7C375 SH3 domain-containing kinase-binding protein 1 n...    66   4e-09
+UniRef90_W5M550 Uncharacterized protein (Fragment) n=1 Tax=Lepis...    66   5e-09
+UniRef90_UPI00053CC5AF PREDICTED: SH3 domain-containing protein ...    66   5e-09
+UniRef90_B0BLY6 LOC100137714 protein n=1 Tax=Xenopus laevis RepI...    65   6e-09
+UniRef90_K1QMP9 SH3 domain-containing kinase-binding protein 1 n...    65   7e-09
+UniRef90_F1LRS8 CD2-associated protein n=7 Tax=Murinae RepID=CD2...    64   1e-08
+UniRef90_H3D3R9 Uncharacterized protein (Fragment) n=2 Tax=Tetra...    64   1e-08
+UniRef90_UPI0002A4CB40 PREDICTED: SH3 domain-containing kinase-b...    64   2e-08
+UniRef90_L7MF63 Putative sh3 domain-containing kinase-binding pr...    63   2e-08
+UniRef90_UPI0005764FF7 PREDICTED: SH3 domain-containing protein ...    63   2e-08
+UniRef90_W5UH90 CD2-associated protein n=1 Tax=Ictalurus punctat...    63   3e-08
+UniRef90_UPI0003B6F6F3 PREDICTED: SH3 domain-containing kinase-b...    63   3e-08
+UniRef90_M3ZH96 Uncharacterized protein n=4 Tax=Poeciliinae RepI...    63   4e-08
+UniRef90_V9KI75 SH3 domain-containing 21 n=1 Tax=Callorhynchus m...    62   5e-08
+UniRef90_G3PKN4 Uncharacterized protein n=1 Tax=Gasterosteus acu...    62   5e-08
+UniRef90_UPI0004545DA2 PREDICTED: CD2-associated protein isoform...    62   5e-08
+UniRef90_UPI0004571E92 PREDICTED: SH3 domain-containing protein ...    62   5e-08
+UniRef90_T1G9C4 Uncharacterized protein n=1 Tax=Helobdella robus...    62   7e-08
+UniRef90_UPI0004957EA6 PREDICTED: SH3 domain-containing kinase-b...    61   1e-07
+UniRef90_UPI000521C83A PREDICTED: CD2-associated protein-like, p...    60   2e-07
+UniRef90_UPI000497A244 PREDICTED: SH3 domain-containing protein ...    60   2e-07
+UniRef90_B3RYB4 Putative uncharacterized protein n=1 Tax=Trichop...    59   5e-07
+UniRef90_UPI00042C1A03 PREDICTED: LOW QUALITY PROTEIN: SH3 domai...    59   5e-07
+UniRef90_UPI00054DAC34 PREDICTED: SH3 domain-containing kinase-b...    58   1e-06
+UniRef90_G1KNU6 Uncharacterized protein n=3 Tax=Anolis carolinen...    57   2e-06
+UniRef90_A0A091QXL0 CD2-associated protein (Fragment) n=2 Tax=Me...    56   3e-06
+UniRef90_R0LU42 SH3 domain-containing kinase-binding protein 1 n...    52   4e-05
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI000551131C PREDICTED: SH3 domain-containing protein ...    60   3e-07
+UniRef90_Q4S783 Chromosome undetermined SCAF14718, whole genome ...    59   4e-07
+UniRef90_UPI000329F2F8 PREDICTED: SH3 domain-containing kinase-b...    59   5e-07
+UniRef90_UPI00054B0990 PREDICTED: SH3 domain-containing protein ...    58   1e-06
+UniRef90_UPI000393F813 PREDICTED: SH3 domain-containing kinase-b...    57   1e-06
+UniRef90_I3KH90 Uncharacterized protein n=1 Tax=Oreochromis nilo...    57   2e-06
+UniRef90_I3KH92 Uncharacterized protein (Fragment) n=1 Tax=Oreoc...    56   3e-06
+UniRef90_I3KH91 Uncharacterized protein n=1 Tax=Oreochromis nilo...    56   4e-06
+UniRef90_S9XY38 Uncharacterized protein n=1 Tax=Camelus ferus Re...    56   5e-06
+UniRef90_H2TSE1 Uncharacterized protein (Fragment) n=1 Tax=Takif...    54   1e-05
+UniRef90_A0A060YYQ1 Oncorhynchus mykiss genomic scaffold, scaffo...    54   2e-05
+UniRef90_I1FWV1 Uncharacterized protein n=1 Tax=Amphimedon queen...    54   2e-05
+UniRef90_UPI0003838365 PREDICTED: SH3 domain-containing protein ...    54   2e-05
+UniRef90_E7FDC3 Uncharacterized protein n=1 Tax=Danio rerio RepI...    54   2e-05
+UniRef90_UPI0003835C50 PREDICTED: SH3 domain-containing protein ...    53   2e-05
+UniRef90_F1R5I9 Uncharacterized protein n=2 Tax=Danio rerio RepI...    53   3e-05
+UniRef90_T1JI45 Uncharacterized protein n=1 Tax=Strigamia mariti...    52   5e-05
+UniRef90_UPI0002657F00 PREDICTED: uncharacterized protein LOC100...    52   7e-05
+UniRef90_L5LSJ7 CD2-associated protein n=1 Tax=Myotis davidii Re...    52   7e-05
+UniRef90_G3HTI3 Putative G-protein coupled receptor 111 n=1 Tax=...    51   1e-04
+UniRef90_UPI000398F63B PREDICTED: uncharacterized protein LOC102...    51   1e-04
+UniRef90_UPI00021A4A13 PREDICTED: hypothetical protein LOC100634...    51   1e-04
+UniRef90_UPI000298EF86 PREDICTED: uncharacterized protein LOC101...    51   2e-04
+UniRef90_R7U1P9 Uncharacterized protein n=1 Tax=Capitella teleta...    49   3e-04
+UniRef90_UPI0004433196 PREDICTED: CD2-associated protein isoform...    49   4e-04
+UniRef90_A0A060WZ87 Oncorhynchus mykiss genomic scaffold, scaffo...    49   5e-04
+UniRef90_A0A087TZU2 SH3 domain-containing kinase-binding protein...    49   6e-04
+UniRef90_F7DID5 Uncharacterized protein (Fragment) n=1 Tax=Xenop...    49   7e-04
+UniRef90_UPI000443394F PREDICTED: CD2-associated protein isoform...    48   7e-04
+UniRef90_UPI0004430FF9 PREDICTED: CD2-associated protein isoform...    48   8e-04
+UniRef90_F1REC8 Uncharacterized protein (Fragment) n=1 Tax=Danio...    47   0.002
+UniRef90_V8P3I8 SH3 domain-containing kinase-binding protein 1 n...    46   0.003
+UniRef90_G3VGS8 Uncharacterized protein n=3 Tax=Sarcophilus harr...    46   0.004
+UniRef90_Q1K691 UVS-3 n=5 Tax=Neurospora RepID=Q1K691_NEUCR            46   0.004
+UniRef90_UPI00021A54F0 PREDICTED: transient receptor potential c...    46   0.006
+UniRef90_T2M7W8 SH3 domain-containing kinase-binding protein 1 n...    45   0.006
+UniRef90_UPI0004986A63 PREDICTED: SH3 domain-containing protein ...    44   0.011
+UniRef90_A0A066XLH3 Uncharacterized protein n=1 Tax=Colletotrich...    44   0.021
+UniRef90_T1KXY2 Non-specific serine/threonine protein kinase n=1...    43   0.024
+UniRef90_F6Z1V7 Uncharacterized protein n=2 Tax=Monodelphis dome...    43   0.037
+UniRef90_UPI00021A3F3F PREDICTED: serine/threonine-protein phosp...    42   0.041
+UniRef90_UPI00046B1A6F PREDICTED: SH3 domain-containing protein ...    42   0.042
+UniRef90_E3QKL7 Putative uncharacterized protein n=1 Tax=Colleto...    42   0.046
+UniRef90_M7TQU6 Putative bzip transcription factor protein n=1 T...    42   0.055
+UniRef90_UPI0003C12A73 PREDICTED: SH3 domain-containing kinase-b...    42   0.057
+UniRef90_A0A063BS05 Golgi matrix protein n=1 Tax=Ustilaginoidea ...    42   0.069
+UniRef90_I1GE26 Uncharacterized protein n=1 Tax=Amphimedon queen...    42   0.076
+UniRef90_UPI0003AE5943 PREDICTED: SH3 domain-containing protein ...    41   0.085
+UniRef90_UPI0003ADDB94 PREDICTED: SH3 domain-containing protein ...    41   0.088
+UniRef90_J3NPG7 Uncharacterized protein n=1 Tax=Gaeumannomyces g...    41   0.093
+UniRef90_H0GRG1 Smy2p n=1 Tax=Saccharomyces cerevisiae x Sacchar...    41   0.097
+UniRef90_UPI0005717B8A hypothetical protein n=1 Tax=Thermodesulf...    41   0.11 
+UniRef90_UPI00047CC54B hypothetical protein n=1 Tax=Ahrensia sp....    41   0.12 
+UniRef90_A0A060T372 ARAD1C38456p n=1 Tax=Blastobotrys adeninivor...    41   0.13 
+UniRef90_UPI0001D37227 PREDICTED: SH3 domain-containing protein ...    41   0.14 
+UniRef90_UPI00054DF6AF histidine kinase n=1 Tax=Frankia sp. BCU1...    41   0.14 
+UniRef90_A0M8T5 Cortactin-binding protein 2 n=14 Tax=Laurasiathe...    41   0.16 
+UniRef90_UPI0004407A32 hypothetical protein FOMMEDRAFT_164311 n=...    41   0.18 
+UniRef90_UPI0005815304 PREDICTED: serine/threonine-protein kinas...    41   0.18 
+UniRef90_M1BCH9 Uncharacterized protein n=2 Tax=Solanum RepID=M1...    40   0.19 
+UniRef90_UPI0002658883 PREDICTED: rho guanine nucleotide exchang...    40   0.21 
+UniRef90_F1PVT7 Uncharacterized protein (Fragment) n=3 Tax=Canis...    40   0.21 
+UniRef90_UPI0004BDFBDB PREDICTED: cortactin-binding protein 2, p...    40   0.22 
+UniRef90_L8G983 Uncharacterized protein n=6 Tax=Pseudogymnoascus...    40   0.22 
+UniRef90_UPI00038EE3AB PREDICTED: LOW QUALITY PROTEIN: cortactin...    40   0.22 
+UniRef90_F7GUX6 Uncharacterized protein n=5 Tax=Callithrix jacch...    40   0.23 
+UniRef90_UPI00057B3B81 PREDICTED: cortactin-binding protein 2 n=...    40   0.25 
+UniRef90_T1F136 Uncharacterized protein n=1 Tax=Helobdella robus...    40   0.26 
+UniRef90_T1L4C8 Uncharacterized protein n=1 Tax=Tetranychus urti...    40   0.27 
+UniRef90_F6Q620 Cortactin-binding protein 2 (Fragment) n=4 Tax=L...    40   0.27 
+UniRef90_A2Q436 Protein kinase n=1 Tax=Medicago truncatula RepID...    40   0.30 
+UniRef90_Q09YI1 Cortactin-binding protein 2 n=18 Tax=Cetartiodac...    39   0.33 
+UniRef90_S7V252 Cyclic nucleotide-binding domain-containing prot...    39   0.34 
+UniRef90_V5AYN9 Cyclic nucleotide-binding domain-containing prot...    39   0.34 
+UniRef90_A0A090L8V6 Rho-associated protein kinase n=1 Tax=Strong...    39   0.35 
+UniRef90_A2DLE3 Kinesin-like protein n=1 Tax=Trichomonas vaginal...    39   0.38 
+UniRef90_UPI00046BBCCE PREDICTED: LOW QUALITY PROTEIN: cortactin...    39   0.38 
+UniRef90_Q4RF27 Chromosome 14 SCAF15120, whole genome shotgun se...    39   0.40 
+UniRef90_L8HZ32 Cortactin-binding protein 2 (Fragment) n=2 Tax=B...    39   0.40 
+UniRef90_UPI00051BDBB5 PREDICTED: serine/threonine-protein kinas...    39   0.41 
+UniRef90_A0A089VIF0 Chaperone protein DnaK n=1 Tax=Cerataulina d...    39   0.44 
+UniRef90_Q6C3L5 YALI0E33825p n=1 Tax=Yarrowia lipolytica (strain...    39   0.47 
+UniRef90_UPI000334452F PREDICTED: cortactin-binding protein 2 n=...    39   0.54 
+UniRef90_UPI00027FA858 PREDICTED: SH3 domain-containing protein ...    39   0.55 
+UniRef90_I1L6T0 Uncharacterized protein n=6 Tax=Soja RepID=I1L6T...    39   0.57 
+UniRef90_F2TY82 Putative uncharacterized protein n=1 Tax=Salping...    39   0.58 
+UniRef90_F4KAF2 Histidine kinase-, DNA gyrase B-, and HSP90-like...    39   0.59 
+UniRef90_G6CSY7 Dab2-interacting protein n=1 Tax=Danaus plexippu...    39   0.60 
+UniRef90_A8Q694 Uncharacterized protein n=1 Tax=Malassezia globo...    39   0.67 
+UniRef90_A0A0B0MK15 Acyl-CoA-binding domain-containing 4-like pr...    38   0.75 
+UniRef90_A0A074TDY8 Cyclic nucleotide-binding domain-containing ...    38   0.81 
+UniRef90_S7N4M7 Cortactin-binding protein 2 n=1 Tax=Myotis brand...    38   0.84 
+UniRef90_M7AHT2 Butyrophilin subfamily 2 member A1 n=1 Tax=Chelo...    38   0.85 
+UniRef90_UPI0002C36A95 PREDICTED: cortactin-binding protein 2-li...    38   0.88 
+UniRef90_UPI0003F0F7DF PREDICTED: SH3 domain-containing protein ...    38   0.89 
+UniRef90_UPI0002C327A7 PREDICTED: uncharacterized protein LOC101...    38   0.92 
+UniRef90_K1QVA2 Rho guanine nucleotide exchange factor 7 n=1 Tax...    38   0.93 
+UniRef90_A0A0B1PCW0 Putative mutator-like element protein n=1 Ta...    38   0.95 
+UniRef90_UPI00027403B2 PREDICTED: SH3 domain-containing protein ...    38   1.00 
+UniRef90_H2W811 Uncharacterized protein n=2 Tax=Caenorhabditis j...    38   1.0  
+UniRef90_S9YR43 Cortactin-binding protein 2 (Fragment) n=1 Tax=C...    38   1.1  
+UniRef90_S7Q4M5 TRIO and F-actin-binding protein n=1 Tax=Myotis ...    38   1.1  
+UniRef90_G4ZHB1 Putative uncharacterized protein n=1 Tax=Phytoph...    38   1.1  
+UniRef90_G0S3U9 Putative uncharacterized protein n=1 Tax=Chaetom...    38   1.1  
+UniRef90_D0MV43 Glycoside hydrolase, putative n=1 Tax=Phytophtho...    38   1.1  
+UniRef90_A0A075A0Y8 Uncharacterized protein n=2 Tax=Opisthorchii...    38   1.1  
+UniRef90_UPI0003BBAE6D PREDICTED: LOW QUALITY PROTEIN: cortactin...    38   1.1  
+UniRef90_UPI000185EDB7 cAMP-dependent protein kinase regulatory ...    38   1.2  
+UniRef90_UPI000462A127 PREDICTED: testis-specific protein TEX28 ...    38   1.2  
+UniRef90_F6CNF6 Lipopolysaccharide biosynthesis protein n=1 Tax=...    37   1.2  
+UniRef90_A0A022QY88 Uncharacterized protein n=1 Tax=Erythranthe ...    37   1.2  
+UniRef90_A4FU49-6 Isoform 5 of SH3 domain-containing protein 21 ...    37   1.3  
+UniRef90_UPI00053F3A41 PREDICTED: cortactin-binding protein 2 is...    37   1.3  
+UniRef90_UPI0003F142CF PREDICTED: SH3 domain-containing protein ...    37   1.3  
+UniRef90_Q4SE24 Chromosome 3 SCAF14626, whole genome shotgun seq...    37   1.3  
+UniRef90_H3D4Y5 Uncharacterized protein (Fragment) n=2 Tax=Tetra...    37   1.3  
+UniRef90_UPI00046980B2 hypothetical protein n=1 Tax=Sulfitobacte...    37   1.4  
+UniRef90_A7BSK6 Histidine kinase n=1 Tax=Beggiatoa sp. PS RepID=...    37   1.5  
+UniRef90_A0A068S1I1 Uncharacterized protein n=2 Tax=Mucorales Re...    37   1.6  
+UniRef90_Q234S1 Chromosome condensation regulator RCC1 repeat pr...    37   1.6  
+UniRef90_H9IYX1 Uncharacterized protein n=1 Tax=Bombyx mori RepI...    37   1.7  
+UniRef90_J9HKH4 Uncharacterized protein n=1 Tax=Oxytricha trifal...    37   1.7  
+UniRef90_UPI00052397C1 PREDICTED: hepatocyte growth factor-regul...    37   1.7  
+UniRef90_H2RBB4 Uncharacterized protein (Fragment) n=7 Tax=Homin...    37   1.8  
+UniRef90_UPI00031CE328 hypothetical protein n=1 Tax=Ruminococcus...    37   1.9  
+UniRef90_A4FU49 SH3 domain-containing protein 21 n=3 Tax=Hominoi...    37   2.1  
+UniRef90_UPI00006CE121 regulator of chromosome condensation (RCC...    37   2.1  
+UniRef90_R7T4Y6 Uncharacterized protein n=1 Tax=Capitella teleta...    37   2.1  
+UniRef90_Q4R729 SH3 domain-containing protein 21 n=9 Tax=Cercopi...    37   2.2  
+UniRef90_D9T1S0 ATP-dependent chaperone ClpB n=1 Tax=Micromonosp...    37   2.2  
+UniRef90_UPI0004F1F742 PREDICTED: SH3 domain-containing protein ...    37   2.4  
+UniRef90_F5SB94 M23/M37 family peptidase n=2 Tax=Desmospora sp. ...    37   2.4  
+UniRef90_G7WNT4 Uncharacterized protein n=1 Tax=Methanosaeta har...    37   2.6  
+UniRef90_UPI0000055FB4 Protein C09E7.9 n=1 Tax=Caenorhabditis el...    36   2.8  
+UniRef90_UPI000387D6FC PREDICTED: SH3 domain-containing protein ...    36   2.8  
+UniRef90_H2YDA3 Uncharacterized protein n=1 Tax=Ciona savignyi R...    36   3.2  
+UniRef90_UPI00034FA7C5 PREDICTED: SH3 domain-containing kinase-b...    36   3.3  
+UniRef90_M7SV74 Putative cell polarity protein n=1 Tax=Eutypa la...    36   3.3  
+UniRef90_A0A067CKI3 Uncharacterized protein n=1 Tax=Saprolegnia ...    36   3.4  
+UniRef90_H0XZC4 Uncharacterized protein n=1 Tax=Otolemur garnett...    36   3.7  
+UniRef90_E4U6U9 ATP-dependent chaperone ClpB n=1 Tax=Oceanitherm...    36   3.8  
+UniRef90_A0A078A9V4 Uncharacterized protein n=1 Tax=Stylonychia ...    36   3.8  
+UniRef90_UPI0004444C41 PREDICTED: SH3 domain-containing protein ...    36   3.9  
+UniRef90_K8F106 Uncharacterized protein n=1 Tax=Bathycoccus pras...    36   4.0  
+UniRef90_L5JU20 Uncharacterized protein n=1 Tax=Pteropus alecto ...    36   4.0  
+UniRef90_A0A078AW67 Uncharacterized protein n=1 Tax=Stylonychia ...    36   4.0  
+UniRef90_UPI00033461F9 PREDICTED: SH3 domain-containing protein ...    36   4.1  
+UniRef90_C5C826 ATPase with chaperone activity, ATP-binding subu...    36   4.2  
+UniRef90_UPI0003289B3A PREDICTED: LOW QUALITY PROTEIN: SH3 domai...    36   4.3  
+UniRef90_J9EYL0 Uncharacterized protein n=1 Tax=Oxytricha trifal...    36   4.6  
+UniRef90_UPI0003ABADFF PREDICTED: SH3 domain-containing protein ...    36   4.6  
+UniRef90_F6ZTK9 Uncharacterized protein (Fragment) n=3 Tax=Xenop...    36   5.1  
+UniRef90_UPI0003C3AAEE PREDICTED: RB1-inducible coiled-coil prot...    36   5.2  
+UniRef90_C6TF79 Putative uncharacterized protein n=1 Tax=Glycine...    36   5.2  
+UniRef90_UPI00055C3B73 hypothetical protein n=1 Tax=Mycoplasma c...    36   5.3  
+UniRef90_S4RJK8 Uncharacterized protein (Fragment) n=1 Tax=Petro...    36   5.4  
+UniRef90_R9PCF4 Kinesin-like protein n=1 Tax=Pseudozyma hubeiens...    36   5.7  
+UniRef90_UPI0004A2D5F4 PREDICTED: serine/threonine-protein kinas...    36   5.8  
+UniRef90_T0Q5W1 Uncharacterized protein n=1 Tax=Saprolegnia dicl...    35   6.2  
+UniRef90_UPI0002C45FE5 PREDICTED: LOW QUALITY PROTEIN: SH3 domai...    35   6.3  
+UniRef90_L1J0Y6 Uncharacterized protein n=1 Tax=Guillardia theta...    35   6.3  
+UniRef90_UPI000365529C hypothetical protein n=1 Tax=Echinicola p...    35   6.5  
+UniRef90_W7MXM9 Uncharacterized protein n=25 Tax=Fusarium RepID=...    35   6.5  
+UniRef90_UPI0003B50794 PREDICTED: serine/threonine-protein kinas...    35   6.5  
+UniRef90_B1P5D7 SiM protein n=7 Tax=Streptococcus iniae RepID=B1...    35   6.5  
+UniRef90_UPI0002C6267D PREDICTED: SH3 domain-containing protein ...    35   6.6  
+UniRef90_K2MWS5 Uncharacterized protein n=1 Tax=Trypanosoma cruz...    35   6.7  
+UniRef90_X6P1C5 Kinesin-like protein n=1 Tax=Reticulomyxa filosa...    35   6.8  
+UniRef90_UPI0004572C8A PREDICTED: CTTNBP2 N-terminal-like protei...    35   6.9  
+UniRef90_Q4DS05 Uncharacterized protein n=4 Tax=Trypanosoma cruz...    35   7.0  
+UniRef90_A0A064ATV4 Uncharacterized protein n=1 Tax=Aspergillus ...    35   7.1  
+UniRef90_A0A034VM30 Transcription factor AP-4 n=4 Tax=Bactrocera...    35   7.3  
+UniRef90_UPI000393FEBE PREDICTED: complement C1q tumor necrosis ...    35   7.5  
+UniRef90_W8BWD3 Transcription factor AP-4 n=1 Tax=Ceratitis capi...    35   7.6  
+UniRef90_UPI0005770E5F PREDICTED: inner centromere protein A-lik...    35   7.6  
+UniRef90_A0A087XDX0 Non-specific serine/threonine protein kinase...    35   8.0  
+UniRef90_UPI000443C92F PREDICTED: huntingtin-interacting protein...    35   8.0  
+UniRef90_A0A090KR13 Kinesin, motor domain and P-loop containing ...    35   8.4  
+UniRef90_D2VC59 Predicted protein n=1 Tax=Naegleria gruberi RepI...    35   9.1  
+UniRef90_Q86ZA9 Kinesin-like protein (Fragment) n=6 Tax=Pleospor...    35   9.1  
+UniRef90_G4UTQ8 Uncharacterized protein n=3 Tax=Neurospora RepID...    35   9.2  
+UniRef90_M7P285 Chaperone protein ClpB n=2 Tax=Bhargavaea cecemb...    35   9.4  
+UniRef90_A7S4P6 Predicted protein n=1 Tax=Nematostella vectensis...    35   9.9  
+
+  Database: uniref90.fasta
+    Posted date:  Mar 27, 2015  9:24 AM
+  Number of letters in database: 999,999,973
+  Number of sequences in database:  2,537,128
+  
+  Database: /home/bjornw/nsc/apps/proteus/programs/DB/uniref90.fasta.0
+  1
+    Posted date:  Mar 27, 2015  9:26 AM
+  Number of letters in database: 999,999,914
+  Number of sequences in database:  2,388,097
+  
+  Database: /home/bjornw/nsc/apps/proteus/programs/DB/uniref90.fasta.0
+  2
+    Posted date:  Mar 27, 2015  9:29 AM
+  Number of letters in database: 999,999,986
+  Number of sequences in database:  2,714,537
+  
+  Database: /home/bjornw/nsc/apps/proteus/programs/DB/uniref90.fasta.0
+  3
+    Posted date:  Mar 27, 2015  9:32 AM
+  Number of letters in database: 999,999,793
+  Number of sequences in database:  3,549,348
+  
+  Database: /home/bjornw/nsc/apps/proteus/programs/DB/uniref90.fasta.0
+  4
+    Posted date:  Mar 27, 2015  9:35 AM
+  Number of letters in database: 999,999,588
+  Number of sequences in database:  3,482,487
+  
+  Database: /home/bjornw/nsc/apps/proteus/programs/DB/uniref90.fasta.0
+  5
+    Posted date:  Mar 27, 2015  9:38 AM
+  Number of letters in database: 999,999,673
+  Number of sequences in database:  3,290,109
+  
+  Database: /home/bjornw/nsc/apps/proteus/programs/DB/uniref90.fasta.0
+  6
+    Posted date:  Mar 27, 2015  9:41 AM
+  Number of letters in database: 999,999,826
+  Number of sequences in database:  3,370,744
+  
+  Database: /home/bjornw/nsc/apps/proteus/programs/DB/uniref90.fasta.0
+  7
+    Posted date:  Mar 27, 2015  9:43 AM
+  Number of letters in database: 999,999,643
+  Number of sequences in database:  2,692,928
+  
+  Database: /home/bjornw/nsc/apps/proteus/programs/DB/uniref90.fasta.0
+  8
+    Posted date:  Mar 27, 2015  9:46 AM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,794,385
+  
+  Database: /home/bjornw/nsc/apps/proteus/programs/DB/uniref90.fasta.0
+  9
+    Posted date:  Mar 27, 2015  9:49 AM
+  Number of letters in database: 999,999,787
+  Number of sequences in database:  2,994,654
+  
+  Database: /home/bjornw/nsc/apps/proteus/programs/DB/uniref90.fasta.1
+  0
+    Posted date:  Mar 27, 2015  9:50 AM
+  Number of letters in database: 480,660,081
+  Number of sequences in database:  1,605,973
+  
+Lambda     K      H
+   0.310    0.162    0.442 
+
+Lambda     K      H
+   0.267   0.0494    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 4,606,014,636
+Number of Sequences: 31420390
+Number of extensions: 187665224
+Number of successful extensions: 2045102
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 3237
+Number of HSP's successfully gapped in prelim test: 8375
+Number of HSP's that attempted gapping in prelim test: 1992953
+Number of HSP's gapped (non-prelim): 59898
+length of query: 75
+length of database: 10,480,658,066
+effective HSP length: 46
+effective length of query: 29
+effective length of database: 9,035,320,126
+effective search space: 262024283654
+effective search space used: 262024283654
+T: 11
+A: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.4 bits)
+S2: 79 (34.8 bits)
