@@ -56,7 +56,7 @@ $ cat basename.seq.csv
 
 and a graphical representation (.png) of the same (Protean segment prediction score vs. Residue)
 
-![Example output graph] (https://github.com/bjornwallner/proteus/H-bond-triple.png)
+![Example output graph] (https://github.com/bjornwallner/proteus/vis_T0865.seq.png)
 
 
 
