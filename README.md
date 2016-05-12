@@ -40,7 +40,7 @@ $ chmod +x proteus/run_proteus.py
 
 ##### Run Step: 
 ```sh
-$ ./proteus/run_proteus.py <fulllength.fasta>
+$ ./proteus/run_proteus.py <basename.fasta>
 ```
 
 > EXAMPLE OUTPUT: 
