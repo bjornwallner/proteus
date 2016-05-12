@@ -56,8 +56,6 @@ $ cat basename.seq.csv
 
 and a graphical representation (.png) of the same (Protean segment prediction score vs. Residue)
 
-![test image] (https://octodex.github.com/images/yaktocat.png)
-
 ![Example output graph] (https://octodex.github.com/bjornwallner/proteus/test/H-bond-triple.png)
 
 
