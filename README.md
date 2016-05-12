@@ -57,26 +57,6 @@ $ cat basename.seq.csv
 and a graphical representation (.png) of the same (Protean segment prediction score vs. Residue)
 
 
-![alt tag](https://github.com/bjornwallner/proteus/test/vis_T0865.seq.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![ScreenShot](https://github.com/bjornwallner/proteus/test/vis_T0865.seq.png)
 
 
