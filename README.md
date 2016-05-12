@@ -29,7 +29,7 @@ pip install --user --install-option="--prefix=" -U scikit-learn
 ### Installing Proteus
 
 ```sh
-$ git clone https://github.com/nemo8130/ProQDock
+$ git clone https://github.com/bjornwallner/proteus
 $ cd Proteus
 $ chmod +x proteus/run_proteus.py
 ```
