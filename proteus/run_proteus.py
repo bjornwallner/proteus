@@ -48,7 +48,7 @@ if job_folder != "":
 
 # Generate files (from Disopred and such)
 #disopred_file = "/local/www/services/proteus/programs/DISOPRED/run_disopred.pl"
-disopred_file = install_path + "/DISOPRED/run_disopred.pl"
+disopred_file = install_path + "DISOPRED/run_disopred.pl"
 cmd = disopred_file + " " + fasta_file
 print cmd
 #exit(1)
