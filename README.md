@@ -58,7 +58,7 @@ and a graphical representation (.png) of the same (Protean segment prediction sc
 
 ![test image] (https://octodex.github.com/images/yaktocat.png)
 
-![Example output graph] (https://octodex.github.com/bjornwallner/proteus/test/vis_T0865.seq.png)
+![Example output graph] (https://octodex.github.com/bjornwallner/proteus/test/H-bond-triple.png)
 
 
 
