@@ -15,7 +15,7 @@ This tutorial requires the following packages:
 - `numpy` version 1.5 or later: http://www.numpy.org/
 - `scipy` version 0.10 or later: http://www.scipy.org/
 - `matplotlib` version 1.3 or later: http://matplotlib.org/
-- `scikit-learn` version 0.14 or later: http://scikit-learn.org
+- `scikit-learn` version 0.17: http://scikit-learn.org
 - `ipython` version 2.0 or later, with notebook support: http://ipython.org
 - `seaborn` version 0.5 or later
 
@@ -30,7 +30,7 @@ pip install --user --install-option="--prefix=" -U scikit-learn
 
 ```sh
 $ git clone https://github.com/bjornwallner/proteus
-$ cd Proteus
+$ cd proteus
 $ chmod +x proteus/run_proteus.py
 ```
 
@@ -56,7 +56,7 @@ $ cat basename.seq.csv
 
 and a graphical representation (.png) of the same (Protean segment prediction score vs. Residue)
 
-![Example output graph] (https://github.com/bjornwallner/proteus/test/H-bond-triple.png)
+![Example output graph] (https://github.com/bjornwallner/proteus/vis_T0865.seq.png)
 
 
 

@@ -54,7 +54,7 @@ if(defined($ARGV[1])) {
 
 ## IMPORTANT: Changing these flags will alter the behaviour of blastpgp
 ## You may want to use -a n to speed-up the search using n processors, if available
-my $PSIBLAST_PAR = "-a 8 -b 0 -j 3 -h 0.001";
+my $PSIBLAST_PAR = "-a 4 -b 0 -j 3 -h 0.001";
 
 ## IMPORTANT: Moving the bin/, data, or dso_lib directories to a different location will cause the programs
 ## to crash, unless you change the variables below accordingly
@@ -82,7 +82,7 @@ my ($out_dir, $base) = (dirname($fasta_fn), basename($fasta_fn));
 my $run_only_blast=0;
 $run_only_blast=1 if(defined($ARGV[2]));
 
-$base =~ s/\.fa(sta)?$//;
+#$base =~ s/\.fa(sta)?$//;
 #my $host_id = `hostid`;
 #chomp $host_id;
 #my $tmp_base = join '_', $base , $$, $host_id;
