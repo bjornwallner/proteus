@@ -45,7 +45,8 @@ $ ./proteus/run_proteus.py <basename.fasta>
 > EXAMPLE OUTPUT: 
 ```sh 
 $ cat basename.seq.proteus
-
+#Proteus v1.1
+#pos res pred prob
 1 M 1 0.518
 2 R 1 0.561
 3 V 0 0.439

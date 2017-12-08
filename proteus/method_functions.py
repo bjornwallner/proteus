@@ -69,6 +69,8 @@ def make_csv(name, sequence, prediction, probabilities):
         csv_writer.writerow(probabilities)
     f=open(name + '.proteus', 'wb')
     pos=1
+    f.write('#Proteus v1.1\n')
+    f.write('#pos res pred prob\n')
     for (s,pred,prob) in zip(sequence,prediction,probabilities):
         f.write("{} {} {} {}\n".format(pos,s,pred,prob))
         pos=pos+1
