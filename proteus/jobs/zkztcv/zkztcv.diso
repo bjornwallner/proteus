@@ -1,9 +1,0 @@
-#         ----- DISOPRED version 3.1 -----
-# Disordered residues are marked with asterisks (*)
-#    Ordered residues are marked with dots (.)
-    1 A * -nan
-    2 S * -nan
-    3 A * -nan
-    4 S * -nan
-    5 A * -nan
-    6 S * -nan
