@@ -45,8 +45,6 @@ $ ./proteus/run_proteus.py <basename.fasta>
 > EXAMPLE OUTPUT: 
 ```sh 
 $ cat basename.seq.proteus
-```
-> 
 
 1 M 1 0.518
 2 R 1 0.561
@@ -59,7 +57,8 @@ $ cat basename.seq.proteus
 9 N 0 0.405
 10 Y 0 0.400
 
-> 
+
+```
 
 and a graphical representation (.png) of the same (Protean segment prediction score vs. Residue)
 
