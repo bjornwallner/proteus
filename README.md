@@ -63,9 +63,9 @@ $ cat basename.seq.proteus
 
 and a graphical representation (.png) of the same (Protean segment prediction score vs. Residue)
 
-![Example output graph] (vis_T0865.seq.png)
+![Example output graph](vis_T0865.seq.png)
 
 
-![Example output graph] (https://github.com/bjornwallner/proteus/blob/master/vis_T0865.seq.png)
+![Example output graph](https://github.com/bjornwallner/proteus/blob/master/vis_T0865.seq.png)
 
 
