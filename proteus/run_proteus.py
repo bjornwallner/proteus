@@ -22,7 +22,8 @@ from method_functions import vis_prediction
 from method_functions import make_csv
 from method_functions import send_mail
 import commands
-
+import cPickle as pickle
+import gzip
 
 #Modify
 install_path=dirname(dirname(abspath(argv[0]))) + "/"
@@ -34,6 +35,10 @@ if len(argv) != 2:
 fasta_file = abspath(argv[1])
 job_folder = dirname(fasta_file)
 name = basename(fasta_file)
+
+if exists(name + '.proteus'):
+    print fasta_file + ' is done ' + name + '.proteus exists.'
+    exit(1)
 
 sequence=""
 for line in file(fasta_file):
@@ -64,7 +69,13 @@ X = make_features([name], window_size)
 # THIS PATH MIGHT BE WRONG!
 #clf = joblib.load("/local/www/services/proteus/programs/classifier/classifier.pkl")
 # COMPARE TO THE ONE BELOW!
-clf = joblib.load(install_path + "/proteus/classifier/classifier.pkl")
+#clf = joblib.load(install_path + "/proteus/classifier/classifier.pkl")
+#with open(install_path + "/proteus/classifier/classifier.updated.pkl", 'rb') as handle:
+#    clf = pickle.load(handle)
+
+clf=pickle.load(gzip.open(install_path + "/proteus/classifier/classifier.cpickled.pkl.gz", 'r'))
+
+    
 prediction = clf.predict(X)
 probabilities = clf.predict_proba(X)
 probabilities = [prob[1] for prob in probabilities]
