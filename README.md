@@ -16,7 +16,6 @@ This tutorial requires the following packages:
 - `scipy` version 0.10 or later: http://www.scipy.org/
 - `matplotlib` version 1.3 or later: http://matplotlib.org/
 - `scikit-learn` version 0.17: http://scikit-learn.org
-- `ipython` version 2.0 or later, with notebook support: http://ipython.org
 - `seaborn` version 0.5 or later
 
 ### Installation of scikit-learn in Ubuntu 14.04
@@ -45,18 +44,27 @@ $ ./proteus/run_proteus.py <basename.fasta>
 
 > EXAMPLE OUTPUT: 
 ```sh 
-$ cat basename.seq.csv
+$ cat basename.seq.proteus
 ```
 > 
-          G H M E G K P K M E P A A S S Q A A V E E L R T Q V
-          0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 0 0
-          0.415 0.458 0.480 0.487 0.510 0.530 0.560 0.555 0.566 0.565 0.552 0.503 0.522 0.549 0.491 0.581 0.616 0.634 
-          0.645 0.604 0.559 0.520 0.527 0.459 0.435 0.379
+
+1 M 1 0.518
+2 R 1 0.561
+3 V 0 0.439
+4 K 0 0.416
+5 E 0 0.438
+6 I 0 0.439
+7 R 0 0.392
+8 K 0 0.427
+9 N 0 0.405
+10 Y 0 0.400
+
 > 
 
 and a graphical representation (.png) of the same (Protean segment prediction score vs. Residue)
 
-![Example output graph] (https://github.com/bjornwallner/proteus/vis_T0865.seq.png)
+![Example output graph] (vis_T0865.seq.png)
+
 
 
 
